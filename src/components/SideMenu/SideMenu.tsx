@@ -1,8 +1,8 @@
 import "./SideMenu.css";
-import logo from "../../assets/hero.png";
+import logo from "../../assets/logo.svg";
 import menuLogo from "../../assets/menu.svg";
 import { useReportContext } from "../../context/ReportContext";
-import { getColor } from "../../utils/colors";
+// import { getColor } from "../../utils/colors";
 
 interface SideMenuProps {
   isCollapsed: boolean;
