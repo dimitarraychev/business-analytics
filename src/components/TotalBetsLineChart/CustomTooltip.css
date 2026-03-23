@@ -1,0 +1,48 @@
+.custom-tooltip {
+  background: rgba(20, 20, 20, 0.6);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.custom-tooltip .time-label {
+  color: var(--text-secondary);
+}
+
+.custom-tooltip .payload-value {
+  color: var(--text-primary);
+}
+
+.custom-tooltip .endpoints-wrapper {
+  margin-top: 0.5rem;
+}
+
+.custom-tooltip .endpoints-list {
+  max-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.2rem;
+  column-gap: 1rem;
+  overflow-y: auto;
+  pointer-events: auto;
+}
+
+.custom-tooltip .endpoint-name {
+  color: var(--text-secondary);
+}
+
+.custom-tooltip .endpoint-count {
+  color: var(--text-primary);
+  margin-left: 0.25rem;
+}
+
+.recharts-wrapper:focus,
+.recharts-wrapper:focus-visible {
+  outline: none;
+}
+
+.recharts-surface:focus {
+  outline: none;
+}
