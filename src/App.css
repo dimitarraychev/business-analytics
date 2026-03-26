@@ -54,26 +54,3 @@ select {
   border: var(--card-border);
   width: 100%;
 }
-
-.tabs-menu {
-  display: flex;
-  gap: 0.5rem;
-  margin: 0.5rem 0 -1.8rem 3.8rem;
-  z-index: 2;
-}
-
-.tabs-menu .times-wrapper {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  justify-content: flex-end;
-}
-
-.tabs-menu .time-label {
-  font-size: 0.75rem;
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}

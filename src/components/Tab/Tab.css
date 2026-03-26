@@ -1,0 +1,33 @@
+.tab {
+  font-size: var(--label-font-size);
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+  padding: var(--element-padding);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  transition: var(--transition);
+  box-shadow: var(--box-shadow);
+  background: var(--card-bg);
+  position: relative;
+  top: 2px;
+  z-index: 1;
+  color: var(--text-primary);
+  user-select: none;
+}
+
+.tab:hover {
+  filter: brightness(1.2);
+  transform: var(--transform);
+  transition: var(--transition);
+}
+
+.tab:active {
+  transform: scale(1);
+}
+
+.tab-ghost {
+  background: transparent;
+  color: var(--text-secondary);
+}

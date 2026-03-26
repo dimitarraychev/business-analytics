@@ -4,11 +4,14 @@ import SideMenu from "./components/SideMenu/SideMenu";
 import CustomLineChart from "./components/CustomLineChart/CustomLineChart";
 import { useReportContext } from "./context/ReportContext";
 import Loader from "./components/Loader/Loader";
-import { formatDate } from "./utils/date";
+import TabsMenu from "./components/TabsMenu/TabsMenu";
+import { useTabs } from "./hooks/useTabs";
 
 function App() {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
-  const { loading, timePeriodStart, timePeriodEnd } = useReportContext();
+  const { loading } = useReportContext();
+  const tabs = ["1h", "2h", "3h", "6h", "12h", "1d", "3d", "7d", "14d", "1m"];
+  const { selectedTab, changeSelectedTab } = useTabs();
 
   return (
     <div className="app">
@@ -27,18 +30,11 @@ function App() {
             isSidebarCollapsed ? "chart-wrapper expanded" : "chart-wrapper"
           }
         >
-          <div className="tabs-menu">
-            <div className="times-wrapper">
-              <p>
-                <span className="time-label">From:</span>{" "}
-                <span>{formatDate(timePeriodStart)}</span>
-              </p>
-              <p>
-                <span className="time-label">To:</span>{" "}
-                <span>{formatDate(timePeriodEnd)}</span>
-              </p>
-            </div>
-          </div>
+          <TabsMenu
+            tabs={tabs}
+            selectedTab={selectedTab}
+            changeSelectedTab={changeSelectedTab}
+          />
           <CustomLineChart />
         </div>
       </div>
