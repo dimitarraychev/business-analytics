@@ -27,8 +27,8 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
         label="Time Range:"
         value={timeRange}
         options={[
-          { label: "Fifteen Minutes", value: "day" },
-          { label: "Day", value: "fifteenMin" },
+          { label: "Fifteen Minutes", value: "fifteenMin" },
+          { label: "Day", value: "day" },
         ]}
         onChange={(value) => setTimeRange(value)}
       />
