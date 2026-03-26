@@ -10,6 +10,6 @@ export type MetricType =
 
 export type GroupByType = "endpoint" | "platform";
 
-export type TimeRangeType = "day" | "week" | "month";
+export type TimeRangeType = "day" | "fifteenMin";
 
 export type AggregationMode = "period" | "cumulative";

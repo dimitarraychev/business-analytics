@@ -28,7 +28,7 @@ export const useConfig = () => {
 export const ConfigProvider = ({ children }: { children: ReactNode }) => {
   const [metric, setMetric] = useState<MetricType>("totalBet");
   const [groupBy, setGroupBy] = useState<GroupByType>("endpoint");
-  const [timeRange, setTimeRange] = useState<TimeRangeType>("day");
+  const [timeRange, setTimeRange] = useState<TimeRangeType>("fifteenMin");
   const [aggregation, setAggregation] = useState<AggregationMode>("period");
 
   return (
