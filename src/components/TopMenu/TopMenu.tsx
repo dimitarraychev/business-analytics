@@ -3,6 +3,7 @@ import prevArrow from "../../assets/prev-arrow.svg";
 import nextArrow from "../../assets/next-arrow.svg";
 import { useReportContext } from "../../context/ReportContext";
 import { formatDate } from "../../utils/date";
+import { useConfig } from "../../context/ConfigContext";
 
 const TopMenu = () => {
   const {
@@ -11,6 +12,7 @@ const TopMenu = () => {
     setTimePeriodStart,
     setTimePeriodEnd,
   } = useReportContext();
+  const { timeRange } = useConfig();
 
   const start = timePeriodStart ? new Date(timePeriodStart) : null;
   const end = timePeriodEnd ? new Date(timePeriodEnd) : null;
@@ -23,10 +25,30 @@ const TopMenu = () => {
   const handlePrev = () => {
     if (!start || !end) return;
 
-    const duration = getDuration();
+    const now = new Date();
+    const isToday = end.toDateString() === now.toDateString();
 
-    const newStart = new Date(start.getTime() - duration);
-    const newEnd = new Date(end.getTime() - duration);
+    let newStart: Date;
+    let newEnd: Date;
+
+    if (isToday) {
+      const duration = end.getTime() - start.getTime();
+      newStart = new Date(start.getTime() - duration);
+      newEnd = new Date(end.getTime() - duration);
+    } else {
+      switch (timeRange) {
+        case "day":
+          newEnd = new Date(start);
+          newEnd.setHours(0, 0, 0, 0);
+          newStart = new Date(newEnd);
+          newStart.setDate(newEnd.getDate() - 1);
+          break;
+        default:
+          const dur = end.getTime() - start.getTime();
+          newStart = new Date(start.getTime() - dur);
+          newEnd = new Date(end.getTime() - dur);
+      }
+    }
 
     setTimePeriodStart(newStart.toISOString());
     setTimePeriodEnd(newEnd.toISOString());
