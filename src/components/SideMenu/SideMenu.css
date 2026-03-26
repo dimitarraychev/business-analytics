@@ -47,13 +47,24 @@
   transition-delay: 0.1s;
 }
 
-.collapse-toggle {
-  background: transparent;
-  border: none;
-  color: var(--text-primary);
-  cursor: pointer;
+.side-menu .btns-wrapper {
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.collapse-toggle {
+  cursor: pointer;
   height: 1.6rem;
+  aspect-ratio: 1/1;
+  user-select: none;
+}
+
+.back-icon {
+  cursor: pointer;
+  height: 1.4rem;
   aspect-ratio: 1/1;
   user-select: none;
 }

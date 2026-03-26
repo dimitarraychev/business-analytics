@@ -1,8 +1,10 @@
 import "./SideMenu.css";
 import logo from "../../assets/logo.svg";
 import menuLogo from "../../assets/menu.svg";
+import prevIcon from "../../assets/prev-icon.svg";
 import ItemsList from "../ItemsList/ItemsList";
 import ConfigurationForm from "../ConfigurationForm/ConfigurationForm";
+import { useState } from "react";
 
 interface SideMenuProps {
   isCollapsed: boolean;
@@ -10,21 +12,39 @@ interface SideMenuProps {
 }
 
 const SideMenu = ({ isCollapsed, onCollapseToggle }: SideMenuProps) => {
+  const [isConfigOpen, setIsConfigOpen] = useState(true);
+
   return (
     <div className={`side-menu ${isCollapsed ? "collapsed" : ""}`}>
       <div className="logo-wrapper">
         <img src={logo} alt="Logo" className="logo" />
         <h1 className="logo-text">Accounting Inspector</h1>
-        <img
-          src={menuLogo}
-          alt="Menu"
-          className="collapse-toggle"
-          onClick={onCollapseToggle}
-        />
+
+        <div className="btns-wrapper">
+          {!isCollapsed && !isConfigOpen && (
+            <img
+              src={prevIcon}
+              alt="Back"
+              className="back-icon"
+              onClick={() => setIsConfigOpen(true)}
+              title="Back"
+            />
+          )}
+          <img
+            src={menuLogo}
+            alt="Menu"
+            className="collapse-toggle"
+            onClick={onCollapseToggle}
+            title="Menu"
+          />
+        </div>
       </div>
 
-      <ConfigurationForm />
-      {/* <ItemsList /> */}
+      {isConfigOpen ? (
+        <ConfigurationForm setIsConfigOpen={setIsConfigOpen} />
+      ) : (
+        <ItemsList />
+      )}
     </div>
   );
 };

@@ -4,7 +4,11 @@ import CustomRadio from "../CustomRadio/CustomRadio";
 import { useConfig } from "../../context/ConfigContext";
 import nextIcon from "../../assets/next-icon.svg";
 
-const ConfigurationForm = () => {
+interface ConfigurationFormProps {
+  setIsConfigOpen: (value: boolean) => void;
+}
+
+const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
   const {
     metric,
     setMetric,
@@ -15,8 +19,6 @@ const ConfigurationForm = () => {
     aggregation,
     setAggregation,
   } = useConfig();
-
-  const handleNext = () => {};
 
   return (
     <form className="configuration-form">
@@ -67,7 +69,12 @@ const ConfigurationForm = () => {
         onChange={(value) => setAggregation(value)}
       />
 
-      <Button title="Next" text="Next" onClick={handleNext} icon={nextIcon} />
+      <Button
+        title="Next"
+        text="Next"
+        onClick={() => setIsConfigOpen(false)}
+        icon={nextIcon}
+      />
     </form>
   );
 };
