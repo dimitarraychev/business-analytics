@@ -4,6 +4,7 @@ import type {
   GroupByType,
   MetricType,
   TimeRangeType,
+  ViewByType,
 } from "../types/ConfigTypes";
 
 interface ConfigContextType {
@@ -15,6 +16,8 @@ interface ConfigContextType {
   setTimeRange: (timeRange: TimeRangeType) => void;
   aggregation: AggregationMode;
   setAggregation: (aggregation: AggregationMode) => void;
+  viewBy: ViewByType;
+  setViewBy: (viewBy: ViewByType) => void;
 }
 
 const ConfigContext = createContext<ConfigContextType | undefined>(undefined);
@@ -30,6 +33,7 @@ export const ConfigProvider = ({ children }: { children: ReactNode }) => {
   const [groupBy, setGroupBy] = useState<GroupByType>("endpoint");
   const [timeRange, setTimeRange] = useState<TimeRangeType>("day");
   const [aggregation, setAggregation] = useState<AggregationMode>("period");
+  const [viewBy, setViewBy] = useState<ViewByType>("group");
 
   return (
     <ConfigContext.Provider
@@ -42,6 +46,8 @@ export const ConfigProvider = ({ children }: { children: ReactNode }) => {
         setTimeRange,
         aggregation,
         setAggregation,
+        viewBy,
+        setViewBy,
       }}
     >
       {children}

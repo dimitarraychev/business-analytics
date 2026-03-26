@@ -18,6 +18,8 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
     setTimeRange,
     aggregation,
     setAggregation,
+    viewBy,
+    setViewBy,
   } = useConfig();
 
   return (
@@ -74,6 +76,17 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
           { label: "Cumulative", value: "cumulative" },
         ]}
         onChange={(value) => setAggregation(value)}
+      />
+
+      <CustomRadio
+        name="viewBy"
+        label="View By:"
+        value={viewBy}
+        options={[
+          { label: "Group", value: "group" },
+          { label: "Period", value: "period" },
+        ]}
+        onChange={(value) => setViewBy(value)}
       />
 
       <Button
