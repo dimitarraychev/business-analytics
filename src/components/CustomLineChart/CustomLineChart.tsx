@@ -65,7 +65,7 @@ const CustomLineChart = () => {
         interval="preserveStartEnd"
         angle={-90}
         textAnchor="end"
-        dy={16}
+        dy={5}
         dx={-5}
         tickFormatter={(time) => shortFormatDate(time)}
         tick={{ fill: "var(--text-secondary)", fontSize: 12 }}
