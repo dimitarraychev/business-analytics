@@ -7,7 +7,7 @@ import {
 } from "react";
 import type { AccountingReport } from "../types/ReportTypes";
 import { getDefaultRange, parsePeriodToHours } from "../utils/date";
-// import { reportsExample } from "./reportsExample";
+import { reportsExample } from "./reportsExample";
 
 interface ReportContextType {
   data: AccountingReport;
@@ -84,7 +84,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   };
 
   useEffect(() => {
-    // return setData(reportsExample as unknown as AccountingReport);
+    return setData(reportsExample as unknown as AccountingReport);
     getReport();
     const interval = setInterval(getReport, 5 * 60 * 1000); // refresh every 5 mins
     return () => clearInterval(interval);

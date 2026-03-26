@@ -31,3 +31,26 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 10;
 }
+
+.form-field-wrapper {
+  width: 100%;
+}
+
+label {
+  margin-left: 0.2rem;
+  font-size: var(--label-font-size);
+  color: var(--text-secondary);
+  display: flex;
+  z-index: 2;
+}
+
+input,
+select {
+  border-radius: var(--border-radius);
+  padding: var(--element-padding);
+  background-color: var(--card-bg);
+  color: var(--text-primary) !important;
+  box-shadow: var(--box-shadow);
+  border: var(--card-border);
+  width: 100%;
+}

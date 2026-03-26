@@ -1,0 +1,75 @@
+import "./ConfigurationForm.css";
+import Button from "../Button/Button";
+import CustomRadio from "../CustomRadio/CustomRadio";
+import { useConfig } from "../../context/ConfigContext";
+import nextIcon from "../../assets/next-icon.svg";
+
+const ConfigurationForm = () => {
+  const {
+    metric,
+    setMetric,
+    groupBy,
+    setGroupBy,
+    timeRange,
+    setTimeRange,
+    aggregation,
+    setAggregation,
+  } = useConfig();
+
+  const handleNext = () => {};
+
+  return (
+    <form className="configuration-form">
+      <CustomRadio
+        name="metric"
+        label="Metric:"
+        value={metric}
+        options={[
+          { label: "Total Bet", value: "totalBet" },
+          { label: "Total Lost", value: "totalLost" },
+          { label: "Total Win", value: "totalWin" },
+          { label: "Rounds", value: "rounds" },
+        ]}
+        onChange={(value) => setMetric(value)}
+      />
+
+      <CustomRadio
+        name="groupBy"
+        label="Group By:"
+        value={groupBy}
+        options={[
+          { label: "Endpoint", value: "endpoint" },
+          { label: "Platform", value: "platform" },
+        ]}
+        onChange={(value) => setGroupBy(value)}
+      />
+
+      <CustomRadio
+        name="timeRange"
+        label="Time Range:"
+        value={timeRange}
+        options={[
+          { label: "Day", value: "day" },
+          { label: "Week", value: "week" },
+          { label: "Month", value: "month" },
+        ]}
+        onChange={(value) => setTimeRange(value)}
+      />
+
+      <CustomRadio
+        name="aggregation"
+        label="Aggregation:"
+        value={aggregation}
+        options={[
+          { label: "Period", value: "period" },
+          { label: "Cumulative", value: "cumulative" },
+        ]}
+        onChange={(value) => setAggregation(value)}
+      />
+
+      <Button title="Next" text="Next" onClick={handleNext} icon={nextIcon} />
+    </form>
+  );
+};
+
+export default ConfigurationForm;

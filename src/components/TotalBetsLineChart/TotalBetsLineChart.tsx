@@ -17,7 +17,6 @@ const TotalBetsLineChart = () => {
   const { data, selectedEndpoints } = useReportContext();
   const { tooltipTrigger, handleChartClick } = useHoverClickTooltip();
 
-  // Map colors for selected endpoints
   const endpointColors = useMemo(() => {
     const map: Record<string, string> = {};
     selectedEndpoints.forEach((ep) => {
@@ -26,7 +25,6 @@ const TotalBetsLineChart = () => {
     return map;
   }, [selectedEndpoints]);
 
-  // Transform periods into chart-friendly data
   const chartData = useMemo(() => {
     return data.periods.map((bucket) => {
       const endpointBets: Record<string, number> = {};
@@ -50,6 +48,7 @@ const TotalBetsLineChart = () => {
       height="97%"
       data={chartData}
       margin={{ bottom: 80, right: 30, top: 30 }}
+      responsive={true}
       onClick={handleChartClick}
     >
       <CartesianGrid

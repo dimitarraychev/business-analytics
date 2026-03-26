@@ -1,0 +1,78 @@
+.customCheckBoxHolder {
+  margin: 5px 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.customCheckBox {
+  width: fit-content;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  padding: var(--element-padding);
+  border-radius: var(--border-radius);
+  color: var(--text-secondary);
+  background-color: var(--sidebar-bg);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 200ms;
+  transition-property: color, background-color, box-shadow;
+  display: flex;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border: var(--card-border);
+  justify-content: center;
+  min-width: 55px;
+}
+
+.customCheckBox:hover {
+  background: var(--hover-bg);
+  color: var(--text-primary);
+  cursor: pointer;
+}
+
+.customCheckBox .inner {
+  font-size: 1rem;
+  font-weight: 500;
+  pointer-events: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 200ms;
+  transition-property: transform;
+  transform: translateY(0px);
+}
+
+.customCheckBox:hover .inner {
+  transform: var(--transform);
+  transition: var(--transition);
+}
+
+.customCheckBoxWrapper {
+  margin: 0;
+}
+
+.customCheckBoxInput {
+  display: none;
+}
+
+.customCheckBoxInput:checked + .customCheckBoxWrapper .customCheckBox {
+  background: var(--active-bg);
+  color: var(--accent);
+
+  box-shadow: var(--box-shadow);
+}
+
+.customCheckBoxInput:checked + .customCheckBoxWrapper .customCheckBox .inner {
+  transform: var(--transform);
+  transition: var(--transition);
+}
+
+.customCheckBoxInput:checked + .customCheckBoxWrapper .customCheckBox:hover {
+  cursor: default;
+}
+
+.customCheckBoxWrapper .customCheckBox:hover .inner {
+  transform: var(--transform);
+  transition: var(--transition);
+}

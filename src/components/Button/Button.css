@@ -1,0 +1,61 @@
+.btn {
+  all: unset;
+  height: fit-content;
+  width: fit-content;
+  box-sizing: border-box;
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  border: var(--card-border);
+  padding: var(--element-padding);
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
+  box-shadow: var(--box-shadow);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 200ms;
+  transition-property: transform, filter;
+  color: var(--text-primary);
+}
+
+.btn:hover {
+  filter: brightness(1.2);
+  transform: var(--transform);
+  transition: var(--transition);
+}
+
+.btn:active {
+  transform: scale(1);
+}
+
+.btn-ghost {
+  background: transparent;
+  outline: 1px solid var(--sidebar-border);
+  box-shadow: none;
+}
+
+.btn-ghost:hover {
+  filter: brightness(0.8);
+}
+
+.btn .btn-icon {
+  height: 1.25rem;
+  aspect-ratio: 1/1;
+}
+
+.btn-disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.btn-disabled:hover {
+  filter: brightness(1);
+  transform: scale(1);
+}
+
+.btn-delete {
+  background-color: var(--red);
+}
