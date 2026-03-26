@@ -10,9 +10,7 @@ export const formatDate = (isoString: string) => {
   return `${hours}:${minutes} ${day}.${month}.${year}`;
 };
 
-export const shortFormatDate = (
-  isoString: string,
-) => {
+export const shortFormatDate = (isoString: string) => {
   const d = new Date(isoString);
   const day = String(d.getDate()).padStart(2, "0");
   const month = String(d.getMonth() + 1).padStart(2, "0");
@@ -41,10 +39,11 @@ export const parsePeriodToHours = (period: string): number => {
   }
 };
 
-export const getDefaultRange = (period: string) => {
+export const getDefaultRange = () => {
   const now = new Date();
-  const hours = parsePeriodToHours(period);
-  const start = new Date(now.getTime() - hours * 60 * 60 * 1000);
+
+  const start = new Date(now);
+  start.setHours(0, 0, 0, 0);
 
   return {
     start: start.toISOString(),

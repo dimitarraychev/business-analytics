@@ -46,7 +46,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const defaultRange = getDefaultRange("6h");
+  const defaultRange = getDefaultRange();
   const [timePeriodStart, setTimePeriodStart] = useState(defaultRange.start);
   const [timePeriodEnd, setTimePeriodEnd] = useState(defaultRange.end);
 
