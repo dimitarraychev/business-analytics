@@ -18,7 +18,7 @@ const SideMenu = ({ isCollapsed, onCollapseToggle }: SideMenuProps) => {
     <div className={`side-menu ${isCollapsed ? "collapsed" : ""}`}>
       <div className="logo-wrapper">
         <img src={logo} alt="Logo" className="logo" />
-        <h1 className="logo-text">Accounting Inspector</h1>
+        <h1 className="logo-text">Business Analytics</h1>
 
         <div className="btns-wrapper">
           {!isCollapsed && !isConfigOpen && (
