@@ -1,64 +1,62 @@
 import { useConfig } from "../../context/ConfigContext";
 import { useReportContext } from "../../context/ReportContext";
-// import { getColor } from "../../utils/colors";
+import { getColor } from "../../utils/colors";
 
 const ItemsList = () => {
-  const { data, selectedEndpoints, setSelectedEndpoints } = useReportContext();
+  const { data, selectedGroups, setSelectedGroups } = useReportContext();
   const { groupBy, metric } = useConfig();
-  const endpointTotals = data.endpoints;
 
-  const sortedEndpoints = Object.entries(endpointTotals)
-    .map(([endpoint, info]) => ({
-      endpoint,
-      totalBet: info.totalBet,
-      totalWin: info.totalWin,
+  const groupTotals = data.groups;
+
+  const sortedGroups = Object.entries(groupTotals)
+    .map(([groupName, value]) => ({
+      groupName,
+      value,
     }))
-    .sort((a, b) => b.totalBet - a.totalBet);
+    .sort((a, b) => b.value - a.value);
 
-  const toggleEndpoint = (endpoint: string) => {
-    setSelectedEndpoints((prev) =>
-      prev.includes(endpoint)
-        ? prev.filter((e) => e !== endpoint)
-        : [...prev, endpoint],
+  const toggleGroup = (groupName: string) => {
+    setSelectedGroups((prev: string[]) =>
+      prev.includes(groupName)
+        ? prev.filter((g) => g !== groupName)
+        : [...prev, groupName],
     );
   };
 
   return (
     <ul>
-      <li className="report-code-nav-header">
+      <li className="items-list-header">
         <span>{groupBy}</span>
         <span>{metric}</span>
       </li>
 
       <li
-        className={`report-code-nav ${selectedEndpoints.length === 0 ? "active" : ""}`}
-        onClick={() => setSelectedEndpoints([])}
+        className={`items-list-item ${selectedGroups.length === 0 ? "active" : ""}`}
+        onClick={() => setSelectedGroups([])}
       >
-        {/* <span
-            className="code-color"
-            style={{ backgroundColor: "var(--orange)" }}
-          /> */}
         <span>All</span>
-        <span>{data.totalBet.toFixed(2)}</span>
+        <span>{data.total.toFixed(2)}</span>
       </li>
 
-      {sortedEndpoints.map((report) => (
+      {sortedGroups.map((report) => (
         <li
-          key={report.endpoint}
-          className={`report-code-nav ${
-            selectedEndpoints.includes(report.endpoint) ? "active" : ""
+          key={report.groupName}
+          className={`items-list-item ${
+            selectedGroups.includes(report.groupName) ? "active" : ""
           }`}
-          onClick={() => toggleEndpoint(report.endpoint)}
+          onClick={() => toggleGroup(report.groupName)}
         >
-          {/* <span
-              className="code-color"
-              style={{
-                backgroundColor: getColor(report.endpoint),
-                visibility: selectedEndpoints.includes(report.endpoint) ? "visible" : "hidden",
-              }}
-            /> */}
-          <span>{report.endpoint}</span>
-          <span>{report.totalBet.toFixed(2)}</span>
+          <span
+            className="code-color"
+            style={{
+              backgroundColor: getColor(report.groupName),
+              visibility: selectedGroups.includes(report.groupName)
+                ? "visible"
+                : "hidden",
+            }}
+          />
+          <span>{report.groupName}</span>
+          <span>{report.value.toFixed(2)}</span>
         </li>
       ))}
     </ul>

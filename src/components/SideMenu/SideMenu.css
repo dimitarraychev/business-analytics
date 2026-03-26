@@ -90,7 +90,7 @@ img#logo.selector-logo {
   );
 }
 
-.side-menu .report-code-nav-header {
+.side-menu .items-list-header {
   display: flex;
   justify-content: space-between;
   font-size: 0.75rem;
@@ -125,7 +125,7 @@ img#logo.selector-logo {
     inset 0 0 6px rgba(10, 132, 255, 0.15);
 }
 
-.side-menu ul li:not(.active):not(.report-code-nav-header):hover {
+.side-menu ul li:not(.active):not(.items-list-header):hover {
   background: var(--hover-bg);
   color: var(--text-primary);
   transform: var(--transform);
