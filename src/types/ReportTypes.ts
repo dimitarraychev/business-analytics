@@ -1,4 +1,3 @@
-// Totals per group (endpoint or platform)
 export interface GroupTotals {
   [groupName: string]: number;
 }

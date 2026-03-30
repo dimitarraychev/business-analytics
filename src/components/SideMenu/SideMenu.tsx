@@ -5,6 +5,8 @@ import prevIcon from "../../assets/prev-icon.svg";
 import ItemsList from "../ItemsList/ItemsList";
 import ConfigurationForm from "../ConfigurationForm/ConfigurationForm";
 import { useState } from "react";
+import { useConfig } from "../../context/ConfigContext";
+import PeriodItemsList from "../PeriodsItemsList/PeriodsItemsList";
 
 interface SideMenuProps {
   isCollapsed: boolean;
@@ -13,6 +15,7 @@ interface SideMenuProps {
 
 const SideMenu = ({ isCollapsed, onCollapseToggle }: SideMenuProps) => {
   const [isConfigOpen, setIsConfigOpen] = useState(true);
+  const { groupBy } = useConfig();
 
   return (
     <div className={`side-menu ${isCollapsed ? "collapsed" : ""}`}>
@@ -40,11 +43,9 @@ const SideMenu = ({ isCollapsed, onCollapseToggle }: SideMenuProps) => {
         </div>
       </div>
 
-      {isConfigOpen ? (
-        <ConfigurationForm setIsConfigOpen={setIsConfigOpen} />
-      ) : (
-        <ItemsList />
-      )}
+      {isConfigOpen && <ConfigurationForm setIsConfigOpen={setIsConfigOpen} />}
+      {!isConfigOpen && groupBy !== "period" && <ItemsList />}
+      {!isConfigOpen && groupBy === "period" && <PeriodItemsList />}
     </div>
   );
 };

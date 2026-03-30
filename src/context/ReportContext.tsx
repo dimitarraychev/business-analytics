@@ -9,6 +9,7 @@ import type { AccountingReport } from "../types/ReportTypes";
 import { getDefaultRange } from "../utils/date";
 import { useConfig } from "./ConfigContext";
 // import { reportsExample } from "./reportsExample";
+// import { reportsExampleCopy } from "./reportsExampleCopy";
 
 interface ReportContextType {
   data: AccountingReport;
@@ -20,6 +21,11 @@ interface ReportContextType {
   setTimePeriodStart: React.Dispatch<React.SetStateAction<string>>;
   timePeriodEnd: string;
   setTimePeriodEnd: React.Dispatch<React.SetStateAction<string>>;
+  previousPeriods: Record<string, AccountingReport>;
+  loadingPeriods: string[];
+  selectedPeriods: string[];
+  setSelectedPeriods: React.Dispatch<React.SetStateAction<string[]>>;
+  getPreviousPeriod: (start: string, end: string, key: string) => Promise<void>;
 }
 
 interface ReportContextProviderProps {
@@ -45,6 +51,12 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  const [previousPeriods, setPreviousPeriods] = useState<
+    Record<string, AccountingReport>
+  >({});
+  const [selectedPeriods, setSelectedPeriods] = useState<string[]>([]);
+  const [loadingPeriods, setLoadingPeriods] = useState<string[]>([]);
 
   const defaultRange = getDefaultRange();
   const [timePeriodStart, setTimePeriodStart] = useState(defaultRange.start);
@@ -87,6 +99,42 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     }
   };
 
+  const getPreviousPeriod = async (start: string, end: string, key: string) => {
+    // return setPreviousPeriods((prev) => ({
+    //   ...prev,
+    //   [key]: reportsExampleCopy as unknown as AccountingReport,
+    // }));
+
+    if (previousPeriods[key]) return;
+    if (loadingPeriods.includes(key)) return;
+
+    setLoadingPeriods((prev) => [...prev, key]);
+
+    try {
+      const params = new URLSearchParams();
+      params.append("start", start);
+      params.append("end", end);
+      params.append("groupBy", groupBy);
+      params.append("metric", metric);
+      params.append("mode", mode);
+
+      const BASE_URL = "/api/accounting-report";
+      const res = await fetch(`${BASE_URL}?${params.toString()}`);
+      if (!res.ok) throw new Error("Failed to fetch period report");
+
+      const reportData: AccountingReport = await res.json();
+
+      setPreviousPeriods((prev) => ({
+        ...prev,
+        [key]: reportData,
+      }));
+    } catch (err) {
+      console.error("Failed loading period", err);
+    } finally {
+      setLoadingPeriods((prev) => prev.filter((k) => k !== key));
+    }
+  };
+
   useEffect(() => {
     // return setData(reportsExample as unknown as AccountingReport);
     getReport();
@@ -104,6 +152,11 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     setTimePeriodStart,
     timePeriodEnd,
     setTimePeriodEnd,
+    previousPeriods,
+    loadingPeriods,
+    selectedPeriods,
+    setSelectedPeriods,
+    getPreviousPeriod,
   };
 
   return (

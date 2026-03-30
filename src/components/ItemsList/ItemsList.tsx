@@ -39,27 +39,28 @@ const ItemsList = () => {
         <span>{data.total.toFixed(2)}</span>
       </li>
 
-      {sortedGroups.map((report) => (
-        <li
-          key={report.groupName}
-          className={`items-list-item ${
-            selectedGroups.includes(report.groupName) ? "active" : ""
-          }`}
-          onClick={() => toggleGroup(report.groupName)}
-        >
-          <span
-            className="code-color"
+      {sortedGroups.map((report, index) => {
+        const isCurrent = index === 0;
+        const isSelected = selectedGroups.includes(report.groupName);
+
+        return (
+          <li
+            key={report.groupName}
+            className={`items-list-item ${isSelected ? "active" : ""}`}
+            onClick={() => toggleGroup(report.groupName)}
             style={{
-              backgroundColor: getColor(report.groupName),
-              visibility: selectedGroups.includes(report.groupName)
-                ? "visible"
-                : "hidden",
+              color: isCurrent
+                ? "var(--orange)"
+                : isSelected
+                  ? getColor(report.groupName)
+                  : "var(--text-primary)",
             }}
-          />
-          <span>{report.groupName}</span>
-          <span>{report.value.toFixed(2)}</span>
-        </li>
-      ))}
+          >
+            <span>{report.groupName}</span>
+            <span>{report.value.toFixed(2)}</span>
+          </li>
+        );
+      })}
     </ul>
   );
 };
