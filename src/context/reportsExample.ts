@@ -1,7603 +1,19380 @@
 export const reportsExample = {
-  start: "2026-03-26T03:00:36.662Z",
-  end: "2026-03-26T09:00:36.662Z",
+  label: "02 April 26",
+  key: "02 April 26",
+  start: "2026-04-01T21:00:00.000Z",
+  end: "2026-04-02T20:59:59.999Z",
   groupBy: "platform",
-  metric: "totalLost",
+  metric: "totalWin",
   mode: "period",
-  total: 17502.99868361697,
+  total: 2105435.711492599,
   groups: {
-    iSOFTBET: 4718.311337486626,
-    "Baby Leopard": 4183.300000000001,
-    "EGT New Platform": 2486.7850638072114,
-    Reevo: 1775.1999194235007,
-    Intralot: 1606.442225820197,
-    ORYX: 1583.0629317545151,
-    MrSlotty: 1051.220353590555,
-    Virtualsoft: 939.2125983510311,
-    BlueOcean: 567.9688801755502,
-    Asvla: 483.45085940121123,
-    Efbet: 385.79,
-    Evoplay: 355.8996212138032,
-    BtoBet: 294.43446935606306,
-    Easit: 256.9960346172559,
-    Gaming1: 241.79999999999998,
-    Leopard: 215.25546616688473,
-    Optimus: 157.85938929949506,
-    Crystalbet: 157.49887365856432,
-    BetConstruct: 114.5495110701771,
-    Avento: 107.0526031018728,
-    Betmexico: 80.26034547308734,
-    SoftSwiss: 78.53343180589128,
-    TopSport: 71.05000000000001,
-    Everymatrix: 68.34004499020247,
-    Newton: 60.87160086840006,
-    Admiralbet: 49.11641146321037,
-    Peppermill: 38.49000000000001,
-    Leris: 26.066351568050067,
-    TGLab: 25.332710975757248,
-    Pariplay: 16.20720091724622,
-    Dench: 12.45,
-    Digitain: 4.16169479834737,
-    "universal-casinotech": 0.5798372366697612,
-    Goldrush: 0,
-    Comtrade: -28.610359030626825,
-    Ondiss: -31.545039769820356,
-    WeAreCasino: -47.32053975849814,
-    Skywind360: -48.486079087166786,
-    Slotegrator: -245.54167427363407,
-    BetB2B: -800.9840124409816,
-    "Calimaco Apuesta": -3508.063380413677,
+    "Baby Leopard": 668809.7600000001,
+    "Calimaco Apuesta": 319635.06728161196,
+    iSOFTBET: 252037.53721936556,
+    "EGT New Platform": 143394.15542937416,
+    Evoplay: 116654.18831505952,
+    Reevo: 105079.13615447874,
+    ORYX: 105057.58936325737,
+    Intralot: 103942.34894754343,
+    BetB2B: 59329.32427999885,
+    MrSlotty: 43753.37772214537,
+    BlueOcean: 23124.778045751613,
+    Slotegrator: 22120.9884346688,
+    Virtualsoft: 17326.373897147452,
+    Optimus: 16686.101166900007,
+    TopSport: 12797.41,
+    Leopard: 9481.199516131968,
+    Crystalbet: 9356.828747998657,
+    Easit: 8107.0534814935345,
+    BetConstruct: 7576.57785421583,
+    TGLab: 7569.270504843247,
+    Skywind360: 6580.150609194627,
+    Ondiss: 6061.340844929865,
+    Asvla: 4501.921767819516,
+    Gaming1: 4181.170000000002,
+    Efbet: 4074.8600000000006,
+    Everymatrix: 3950.1218279491904,
+    Pariplay: 3248.6992742860903,
+    Peppermill: 3041.1299999999997,
+    BtoBet: 2793.047236182795,
+    SoftSwiss: 2279.777668186115,
+    Admiralbet: 2148.713869493571,
+    Leris: 2040.463027690907,
+    Comtrade: 1648.2935174824495,
+    Goldrush: 1331.8,
+    Dench: 1281.61,
+    "The Ear": 1273.1999999999998,
+    "universal-casinotech": 1254.087704580585,
+    Avento: 740.6715898980929,
+    Digitain: 659.2855055848217,
+    WeAreCasino: 183.1424630162401,
+    Betmexico: 179.8315084710981,
+    Newton: 143.32671584677658,
   },
   periods: [
     {
       items: [
         {
-          name: "WeAreCasino",
-          value: -9.106358166583835,
+          name: "Efbet",
+          value: 16.25,
+        },
+        {
+          name: "Pariplay",
+          value: 3.2656553750214816,
+        },
+        {
+          name: "TopSport",
+          value: 71.6,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1250.0234688444284,
+        },
+        {
+          name: "BlueOcean",
+          value: 46.911474252970976,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5552.54,
+        },
+        {
+          name: "BetConstruct",
+          value: 10.929858316303687,
+        },
+        {
+          name: "TGLab",
+          value: 11.25718684147023,
+        },
+        {
+          name: "Optimus",
+          value: 17.16943053230991,
         },
         {
           name: "Evoplay",
-          value: 37.8,
+          value: 492.66428339584616,
+        },
+        {
+          name: "Comtrade",
+          value: 2.5301602934292418,
         },
         {
           name: "Easit",
-          value: -27.41,
+          value: 114.3,
+        },
+        {
+          name: "ORYX",
+          value: 551.6483731756273,
+        },
+        {
+          name: "Avento",
+          value: 0,
+        },
+        {
+          name: "Crystalbet",
+          value: 138.9351650376953,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1182.7258651837926,
+        },
+        {
+          name: "Gaming1",
+          value: 75.66,
+        },
+        {
+          name: "Peppermill",
+          value: 111.45,
         },
         {
           name: "BetB2B",
-          value: 693.2921948847059,
+          value: 572.840459750335,
+        },
+        {
+          name: "Goldrush",
+          value: 79.1,
+        },
+        {
+          name: "Leopard",
+          value: 27.142049332848995,
+        },
+        {
+          name: "Reevo",
+          value: 906.8665606756877,
+        },
+        {
+          name: "Virtualsoft",
+          value: 73.25214932978851,
+        },
+        {
+          name: "Intralot",
+          value: 594.0876881773065,
+        },
+        {
+          name: "Ondiss",
+          value: 43.32889963092032,
+        },
+        {
+          name: "Leris",
+          value: 15.6,
+        },
+        {
+          name: "Slotegrator",
+          value: 78.04885915658703,
         },
         {
           name: "MrSlotty",
-          value: 36.990770664080976,
+          value: 184.69921272883667,
+        },
+        {
+          name: "Everymatrix",
+          value: 131.52911666059862,
+        },
+        {
+          name: "Asvla",
+          value: 8.274549827282094,
+        },
+        {
+          name: "Skywind360",
+          value: 134.44369571581458,
+        },
+        {
+          name: "iSOFTBET",
+          value: 916.1439353465125,
+        },
+      ],
+      total: 13415.218097581414,
+      period: "2026-04-01T21:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 77.15084539050092,
+        },
+        {
+          name: "BetConstruct",
+          value: 10.35992905712021,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1108.7941422093886,
+        },
+        {
+          name: "BlueOcean",
+          value: 113.95393425916741,
+        },
+        {
+          name: "Everymatrix",
+          value: 193.6606190824209,
+        },
+        {
+          name: "Peppermill",
+          value: 34,
+        },
+        {
+          name: "Leopard",
+          value: 34.153312463766326,
+        },
+        {
+          name: "Intralot",
+          value: 772.3939958489599,
+        },
+        {
+          name: "Efbet",
+          value: 58.97,
+        },
+        {
+          name: "TopSport",
+          value: 29.68,
+        },
+        {
+          name: "ORYX",
+          value: 565.873220515605,
+        },
+        {
+          name: "Admiralbet",
+          value: 2.978333895497606,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1328.029864363469,
+        },
+        {
+          name: "Avento",
+          value: 33.93160703591153,
+        },
+        {
+          name: "Gaming1",
+          value: 49.2,
+        },
+        {
+          name: "Evoplay",
+          value: 285.2089974055241,
+        },
+        {
+          name: "Ondiss",
+          value: 39.127802650594106,
+        },
+        {
+          name: "MrSlotty",
+          value: 173.63152371798265,
+        },
+        {
+          name: "Easit",
+          value: 219.74452437006278,
+        },
+        {
+          name: "BetB2B",
+          value: 883.7437756653774,
+        },
+        {
+          name: "Baby Leopard",
+          value: 8423.880000000001,
+        },
+        {
+          name: "Reevo",
+          value: 383.0166071711002,
+        },
+        {
+          name: "Slotegrator",
+          value: 190.86826923186473,
+        },
+        {
+          name: "Skywind360",
+          value: 173.6180302434597,
+        },
+        {
+          name: "TGLab",
+          value: 3.668916289822889,
+        },
+        {
+          name: "Leris",
+          value: 21,
+        },
+        {
+          name: "Comtrade",
+          value: 50.40706941172985,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1583.1198065577353,
+        },
+        {
+          name: "Crystalbet",
+          value: 296.09687737976566,
+        },
+        {
+          name: "Optimus",
+          value: 20.459825720778525,
+        },
+        {
+          name: "Goldrush",
+          value: 48.9,
+        },
+      ],
+      total: 17209.621829937605,
+      period: "2026-04-01T21:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Asvla",
+          value: 0,
+        },
+        {
+          name: "Efbet",
+          value: 138.66,
+        },
+        {
+          name: "Betmexico",
+          value: 0.2922976053948523,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1209.4580448390795,
+        },
+        {
+          name: "ORYX",
+          value: 909.9107904808873,
+        },
+        {
+          name: "BetB2B",
+          value: 1449.6957158908335,
+        },
+        {
+          name: "SoftSwiss",
+          value: 2.1,
+        },
+        {
+          name: "Leopard",
+          value: 20.521675254396357,
+        },
+        {
+          name: "Easit",
+          value: 287.1538901968131,
+        },
+        {
+          name: "MrSlotty",
+          value: 301.66120682248476,
+        },
+        {
+          name: "Avento",
+          value: 7.413958069118244,
+        },
+        {
+          name: "Reevo",
+          value: 334.71999999999997,
+        },
+        {
+          name: "Slotegrator",
+          value: 243.73081479344302,
+        },
+        {
+          name: "BlueOcean",
+          value: 256.4132165974225,
+        },
+        {
+          name: "Goldrush",
+          value: 98,
+        },
+        {
+          name: "Comtrade",
+          value: 57.49740232703738,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1135.455363748226,
+        },
+        {
+          name: "Baby Leopard",
+          value: 9893.71,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1057.2509744890995,
+        },
+        {
+          name: "Crystalbet",
+          value: 384.44781971846135,
+        },
+        {
+          name: "Leris",
+          value: 40.4,
+        },
+        {
+          name: "Virtualsoft",
+          value: 91.06363928093933,
+        },
+        {
+          name: "Gaming1",
+          value: 79.14,
+        },
+        {
+          name: "Optimus",
+          value: 63.012304849846316,
+        },
+        {
+          name: "Everymatrix",
+          value: 121.70508240857818,
+        },
+        {
+          name: "BetConstruct",
+          value: 22.237893991504823,
+        },
+        {
+          name: "Ondiss",
+          value: 38.536142941740415,
+        },
+        {
+          name: "Skywind360",
+          value: 72.02130695714865,
+        },
+        {
+          name: "Intralot",
+          value: 643.4369452390059,
+        },
+        {
+          name: "TopSport",
+          value: 158.64000000000001,
+        },
+        {
+          name: "TGLab",
+          value: 1.4024526432087494,
+        },
+        {
+          name: "Peppermill",
+          value: 186.5,
+        },
+        {
+          name: "Evoplay",
+          value: 366.25009102181724,
+        },
+      ],
+      total: 19672.439030166486,
+      period: "2026-04-01T21:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Easit",
+          value: 174.4,
+        },
+        {
+          name: "Peppermill",
+          value: 445.1,
+        },
+        {
+          name: "Leris",
+          value: 57.5,
+        },
+        {
+          name: "Asvla",
+          value: 12.231523266087422,
+        },
+        {
+          name: "MrSlotty",
+          value: 396.31214038142684,
+        },
+        {
+          name: "Comtrade",
+          value: 21.290612391608075,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1507.4239124880235,
+        },
+        {
+          name: "Slotegrator",
+          value: 123.52641174610602,
+        },
+        {
+          name: "TGLab",
+          value: 2.113070388763183,
+        },
+        {
+          name: "Reevo",
+          value: 192.51644420498332,
+        },
+        {
+          name: "BlueOcean",
+          value: 852.9802186717507,
+        },
+        {
+          name: "Efbet",
+          value: 10.64,
+        },
+        {
+          name: "Leopard",
+          value: 31.11278939111375,
+        },
+        {
+          name: "Optimus",
+          value: 67.78708884514288,
+        },
+        {
+          name: "Everymatrix",
+          value: 6.776538988509633,
+        },
+        {
+          name: "Intralot",
+          value: 801.8790398811818,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3677.68,
+        },
+        {
+          name: "TopSport",
+          value: 141.01,
+        },
+        {
+          name: "EGT New Platform",
+          value: 868.22,
+        },
+        {
+          name: "Virtualsoft",
+          value: 127.61284866195845,
+        },
+        {
+          name: "BetConstruct",
+          value: 6.258568967669021,
+        },
+        {
+          name: "Gaming1",
+          value: 112.32,
+        },
+        {
+          name: "BetB2B",
+          value: 862.0477188289537,
+        },
+        {
+          name: "Skywind360",
+          value: 23.967875027678552,
+        },
+        {
+          name: "iSOFTBET",
+          value: 993.7993063724347,
+        },
+        {
+          name: "Evoplay",
+          value: 559.1247408026269,
+        },
+        {
+          name: "ORYX",
+          value: 972.8284070883394,
+        },
+        {
+          name: "Crystalbet",
+          value: 303.34435273432285,
+        },
+        {
+          name: "Ondiss",
+          value: 31.630315863797332,
+        },
+      ],
+      total: 13383.433924992478,
+      period: "2026-04-01T21:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Gaming1",
+          value: 134.24,
+        },
+        {
+          name: "iSOFTBET",
+          value: 743.0885575432222,
+        },
+        {
+          name: "Evoplay",
+          value: 687.4235674635033,
+        },
+        {
+          name: "Dench",
+          value: 6.1,
+        },
+        {
+          name: "Skywind360",
+          value: 91.0347750846704,
+        },
+        {
+          name: "BetConstruct",
+          value: 54.47775655230971,
+        },
+        {
+          name: "EGT New Platform",
+          value: 909.73,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1617.4756402628877,
+        },
+        {
+          name: "Virtualsoft",
+          value: 121.31235198517273,
+        },
+        {
+          name: "Betmexico",
+          value: 1.3362176246621817,
+        },
+        {
+          name: "Crystalbet",
+          value: 222.28596111889328,
+        },
+        {
+          name: "Pariplay",
+          value: 5.801486253352556,
+        },
+        {
+          name: "Leopard",
+          value: 19.111505887909807,
+        },
+        {
+          name: "MrSlotty",
+          value: 532.1410880815552,
+        },
+        {
+          name: "Leris",
+          value: 73.7,
+        },
+        {
+          name: "Ondiss",
+          value: 28.894281019680264,
+        },
+        {
+          name: "TGLab",
+          value: 3.819179073023827,
+        },
+        {
+          name: "Intralot",
+          value: 668.224433628112,
+        },
+        {
+          name: "BetB2B",
+          value: 645.5576944030701,
+        },
+        {
+          name: "BtoBet",
+          value: 0,
+        },
+        {
+          name: "Easit",
+          value: 176.65,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5340.8099999999995,
+        },
+        {
+          name: "ORYX",
+          value: 541.4277315329247,
+        },
+        {
+          name: "Everymatrix",
+          value: 0,
+        },
+        {
+          name: "Peppermill",
+          value: 647,
+        },
+        {
+          name: "Asvla",
+          value: 9.369237353070385,
+        },
+        {
+          name: "Comtrade",
+          value: 43.85611175277352,
+        },
+        {
+          name: "Reevo",
+          value: 420.74068971841064,
+        },
+        {
+          name: "TopSport",
+          value: 179.85,
+        },
+        {
+          name: "BlueOcean",
+          value: 595.4529780191059,
+        },
+        {
+          name: "Slotegrator",
+          value: 55.70624282770788,
+        },
+        {
+          name: "Efbet",
+          value: 12.84,
+        },
+        {
+          name: "Optimus",
+          value: 126.5812555022531,
+        },
+      ],
+      total: 14716.038742688272,
+      period: "2026-04-01T21:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "MrSlotty",
+          value: 791.7994800791932,
+        },
+        {
+          name: "Dench",
+          value: 64.4,
+        },
+        {
+          name: "Slotegrator",
+          value: 105.56451143409244,
+        },
+        {
+          name: "BlueOcean",
+          value: 799.2501899926322,
+        },
+        {
+          name: "Ondiss",
+          value: 33.96878042736192,
+        },
+        {
+          name: "Pariplay",
+          value: 7.430279299824669,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1316.742668868794,
+        },
+        {
+          name: "Intralot",
+          value: 814.3580546270949,
+        },
+        {
+          name: "Leopard",
+          value: 2.9192979867616273,
+        },
+        {
+          name: "Easit",
+          value: 229.95,
+        },
+        {
+          name: "TGLab",
+          value: 9.979953184262262,
+        },
+        {
+          name: "Everymatrix",
+          value: 20.942036940208865,
+        },
+        {
+          name: "BtoBet",
+          value: 12.355681785727663,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1027.65,
+        },
+        {
+          name: "BetB2B",
+          value: 770.9572280237026,
+        },
+        {
+          name: "Virtualsoft",
+          value: 53.7860813214939,
+        },
+        {
+          name: "Avento",
+          value: 0,
+        },
+        {
+          name: "Crystalbet",
+          value: 256.33718250929616,
+        },
+        {
+          name: "Optimus",
+          value: 105.11946733686571,
+        },
+        {
+          name: "Comtrade",
+          value: 78.23883263945152,
+        },
+        {
+          name: "Betmexico",
+          value: 5.845952107897046,
+        },
+        {
+          name: "BetConstruct",
+          value: 26.46083050192923,
+        },
+        {
+          name: "Leris",
+          value: 19.599999999999998,
+        },
+        {
+          name: "Gaming1",
+          value: 110.88,
+        },
+        {
+          name: "TopSport",
+          value: 265.79999999999995,
+        },
+        {
+          name: "Asvla",
+          value: 52.06849019720079,
+        },
+        {
+          name: "Evoplay",
+          value: 778.5947559256495,
+        },
+        {
+          name: "ORYX",
+          value: 717.8834994799256,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5484.95,
+        },
+        {
+          name: "Skywind360",
+          value: 31.14646934857082,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1275.8606237508072,
+        },
+        {
+          name: "Efbet",
+          value: 13.84,
+        },
+        {
+          name: "Peppermill",
+          value: 248.45000000000002,
+        },
+        {
+          name: "Reevo",
+          value: 244.35,
+        },
+      ],
+      total: 15777.480347768744,
+      period: "2026-04-01T21:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 20.735905716730127,
+        },
+        {
+          name: "BlueOcean",
+          value: 63.1891209520587,
+        },
+        {
+          name: "Betmexico",
+          value: 7.683251341807545,
+        },
+        {
+          name: "Reevo",
+          value: 81.35,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4789.95,
+        },
+        {
+          name: "Slotegrator",
+          value: 221.48470524270084,
+        },
+        {
+          name: "The Ear",
+          value: 2.5,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1577.9153839307278,
+        },
+        {
+          name: "Skywind360",
+          value: 33.951220681597036,
+        },
+        {
+          name: "Intralot",
+          value: 643.232737012329,
+        },
+        {
+          name: "MrSlotty",
+          value: 486.18631495413837,
+        },
+        {
+          name: "Asvla",
+          value: 89.41987251093602,
+        },
+        {
+          name: "BetB2B",
+          value: 754.5255586538681,
+        },
+        {
+          name: "Evoplay",
+          value: 1053.5142652908592,
+        },
+        {
+          name: "Pariplay",
+          value: 0.4156288659118249,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2487.47638268665,
+        },
+        {
+          name: "Optimus",
+          value: 94.11025035289178,
+        },
+        {
+          name: "Ondiss",
+          value: 89.07452569165572,
+        },
+        {
+          name: "Easit",
+          value: 133.79299706456013,
+        },
+        {
+          name: "Efbet",
+          value: 36.93,
+        },
+        {
+          name: "Leopard",
+          value: 12.416912369115769,
+        },
+        {
+          name: "Gaming1",
+          value: 89.86,
+        },
+        {
+          name: "SoftSwiss",
+          value: 14.8,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1133.66,
+        },
+        {
+          name: "Everymatrix",
+          value: 24.820294036247027,
+        },
+        {
+          name: "Crystalbet",
+          value: 206.52890008592885,
+        },
+        {
+          name: "TopSport",
+          value: 187.44,
+        },
+        {
+          name: "Comtrade",
+          value: 0.39227291370996,
+        },
+        {
+          name: "TGLab",
+          value: 20.85522211843011,
+        },
+        {
+          name: "BetConstruct",
+          value: 17.630521942965498,
+        },
+        {
+          name: "BtoBet",
+          value: 1.4093199536845615,
+        },
+        {
+          name: "ORYX",
+          value: 623.4900868839252,
+        },
+        {
+          name: "Peppermill",
+          value: 356.9,
+        },
+        {
+          name: "Dench",
+          value: 74,
+        },
+      ],
+      total: 15431.641651253429,
+      period: "2026-04-01T21:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Skywind360",
+          value: 85.80185441577954,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3768.96,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1283.2409898627839,
+        },
+        {
+          name: "TopSport",
+          value: 301.55,
+        },
+        {
+          name: "BetConstruct",
+          value: 14.967301105659534,
+        },
+        {
+          name: "The Ear",
+          value: 10.4,
+        },
+        {
+          name: "ORYX",
+          value: 646.5138323869073,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1670.06,
+        },
+        {
+          name: "Optimus",
+          value: 37.18393961104005,
+        },
+        {
+          name: "Newton",
+          value: 2.15750102540478,
+        },
+        {
+          name: "Comtrade",
+          value: 15.337870926059434,
+        },
+        {
+          name: "Leopard",
+          value: 10.316502207454226,
+        },
+        {
+          name: "Virtualsoft",
+          value: 21.997300897648454,
+        },
+        {
+          name: "Crystalbet",
+          value: 141.77813293555135,
+        },
+        {
+          name: "BtoBet",
+          value: 1.2548739313629658,
+        },
+        {
+          name: "BetB2B",
+          value: 573.3239438951758,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1420.6795273701043,
+        },
+        {
+          name: "Betmexico",
+          value: 6.7646017248522945,
+        },
+        {
+          name: "Efbet",
+          value: 7.87,
+        },
+        {
+          name: "Reevo",
+          value: 48.9,
+        },
+        {
+          name: "Avento",
+          value: 0.15690916548398398,
+        },
+        {
+          name: "Dench",
+          value: 35.8,
+        },
+        {
+          name: "Slotegrator",
+          value: 221.5768414379659,
+        },
+        {
+          name: "TGLab",
+          value: 29.927337654186708,
+        },
+        {
+          name: "Gaming1",
+          value: 50.24,
+        },
+        {
+          name: "Evoplay",
+          value: 1438.4931281801412,
+        },
+        {
+          name: "Easit",
+          value: 240.6,
+        },
+        {
+          name: "Peppermill",
+          value: 155.3,
+        },
+        {
+          name: "Asvla",
+          value: 79.63529783190478,
+        },
+        {
+          name: "MrSlotty",
+          value: 356.36193323653004,
+        },
+        {
+          name: "Everymatrix",
+          value: 5.308115523263558,
+        },
+        {
+          name: "Ondiss",
+          value: 20.348085225126944,
+        },
+        {
+          name: "Intralot",
+          value: 774.1780640549795,
+        },
+        {
+          name: "Pariplay",
+          value: 3.124855895908731,
+        },
+        {
+          name: "BlueOcean",
+          value: 296.8102643694857,
+        },
+      ],
+      total: 13776.91900487076,
+      period: "2026-04-01T21:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Intralot",
+          value: 779.4923609556765,
+        },
+        {
+          name: "Ondiss",
+          value: 8.627588135453825,
+        },
+        {
+          name: "Dench",
+          value: 27.6,
+        },
+        {
+          name: "Pariplay",
+          value: 0.36614923901756,
+        },
+        {
+          name: "BetB2B",
+          value: 827.0902065172831,
+        },
+        {
+          name: "ORYX",
+          value: 449.590681277808,
+        },
+        {
+          name: "BlueOcean",
+          value: 1465.4688228064392,
+        },
+        {
+          name: "Virtualsoft",
+          value: 117.60051248824043,
+        },
+        {
+          name: "Evoplay",
+          value: 1268.5711862189855,
+        },
+        {
+          name: "Slotegrator",
+          value: 98.34949625459524,
+        },
+        {
+          name: "Reevo",
+          value: 111.45,
+        },
+        {
+          name: "Betmexico",
+          value: 2.5054080462415906,
+        },
+        {
+          name: "Easit",
+          value: 203.3537103641719,
+        },
+        {
+          name: "The Ear",
+          value: 30.25,
+        },
+        {
+          name: "Comtrade",
+          value: 4.707274964519519,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1121.5619597843113,
+        },
+        {
+          name: "TGLab",
+          value: 11.612182666782445,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1569.2384937375064,
+        },
+        {
+          name: "Optimus",
+          value: 50.54343887249156,
+        },
+        {
+          name: "Skywind360",
+          value: 111.7389394702821,
+        },
+        {
+          name: "TopSport",
+          value: 440.56,
+        },
+        {
+          name: "Leopard",
+          value: 25.264297492211643,
+        },
+        {
+          name: "MrSlotty",
+          value: 721.6541402529955,
+        },
+        {
+          name: "BetConstruct",
+          value: 11.13226309993894,
+        },
+        {
+          name: "Peppermill",
+          value: 1.58,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4831.77,
+        },
+        {
+          name: "Asvla",
+          value: 124.99077776066855,
+        },
+        {
+          name: "BtoBet",
+          value: 1.9305752790199473,
+        },
+        {
+          name: "EGT New Platform",
+          value: 853.88,
+        },
+        {
+          name: "Crystalbet",
+          value: 157.93765261770267,
+        },
+      ],
+      total: 15430.418118302345,
+      period: "2026-04-01T21:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetB2B",
+          value: 721.3876099598137,
+        },
+        {
+          name: "BlueOcean",
+          value: 1794.2179233897516,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3952.3599999999997,
+        },
+        {
+          name: "Easit",
+          value: 197.2,
+        },
+        {
+          name: "Optimus",
+          value: 32.21123710816643,
+        },
+        {
+          name: "Betmexico",
+          value: 0.08351360154138636,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1434.9104237128543,
+        },
+        {
+          name: "Asvla",
+          value: 304.1460503635031,
+        },
+        {
+          name: "Slotegrator",
+          value: 97.95754244399987,
+        },
+        {
+          name: "Evoplay",
+          value: 978.0938470462811,
+        },
+        {
+          name: "TGLab",
+          value: 5.437634467083924,
+        },
+        {
+          name: "Virtualsoft",
+          value: 206.47132636083091,
+        },
+        {
+          name: "SoftSwiss",
+          value: 3.5304562233896397,
+        },
+        {
+          name: "The Ear",
+          value: 8,
+        },
+        {
+          name: "Intralot",
+          value: 808.3927029202115,
+        },
+        {
+          name: "MrSlotty",
+          value: 329.27760735636514,
+        },
+        {
+          name: "TopSport",
+          value: 97.34,
+        },
+        {
+          name: "ORYX",
+          value: 661.772564193258,
+        },
+        {
+          name: "BtoBet",
+          value: 3.8611505580398946,
+        },
+        {
+          name: "Comtrade",
+          value: 2.687069458913226,
+        },
+        {
+          name: "Ondiss",
+          value: 10.959165654788372,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1514.1273644040584,
+        },
+        {
+          name: "Pariplay",
+          value: 2.602628374638332,
+        },
+        {
+          name: "Everymatrix",
+          value: 23.289484569705518,
+        },
+        {
+          name: "Skywind360",
+          value: 75.81262466815541,
+        },
+        {
+          name: "Leopard",
+          value: 31.572949921230414,
+        },
+        {
+          name: "Peppermill",
+          value: 18.14,
+        },
+        {
+          name: "Avento",
+          value: 5.236843398027966,
+        },
+        {
+          name: "Crystalbet",
+          value: 217.16668710123628,
+        },
+        {
+          name: "EGT New Platform",
+          value: 900.69,
+        },
+        {
+          name: "BetConstruct",
+          value: 18.70646316123711,
+        },
+        {
+          name: "Reevo",
+          value: 181.45,
+        },
+      ],
+      total: 14639.092870417082,
+      period: "2026-04-01T21:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leris",
+          value: 0,
+        },
+        {
+          name: "Evoplay",
+          value: 881.2287482543788,
+        },
+        {
+          name: "Asvla",
+          value: 100.69837369574894,
+        },
+        {
+          name: "Optimus",
+          value: 40.2764162919316,
+        },
+        {
+          name: "Slotegrator",
+          value: 63.34957009807385,
+        },
+        {
+          name: "Digitain",
+          value: 4.552125674272368,
+        },
+        {
+          name: "BlueOcean",
+          value: 1890.990708587377,
+        },
+        {
+          name: "The Ear",
+          value: 1,
+        },
+        {
+          name: "ORYX",
+          value: 1639.0682912572859,
+        },
+        {
+          name: "SoftSwiss",
+          value: 102.38323047829955,
+        },
+        {
+          name: "Gaming1",
+          value: 19.14,
+        },
+        {
+          name: "Skywind360",
+          value: 148.76950252450231,
+        },
+        {
+          name: "BetB2B",
+          value: 646.9740608847537,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1710.7816167025358,
+        },
+        {
+          name: "MrSlotty",
+          value: 506.83365437385544,
+        },
+        {
+          name: "Everymatrix",
+          value: 13.338877031980168,
+        },
+        {
+          name: "Pariplay",
+          value: 9.148783012749574,
+        },
+        {
+          name: "BetConstruct",
+          value: 29.748176752707646,
+        },
+        {
+          name: "Peppermill",
+          value: 30.2,
+        },
+        {
+          name: "Virtualsoft",
+          value: 53.33720440074127,
+        },
+        {
+          name: "Efbet",
+          value: 1.1,
+        },
+        {
+          name: "TopSport",
+          value: 106.10000000000001,
+        },
+        {
+          name: "Comtrade",
+          value: 29.538150402359985,
+        },
+        {
+          name: "Crystalbet",
+          value: 151.1892259881372,
+        },
+        {
+          name: "EGT New Platform",
+          value: 785.29,
+        },
+        {
+          name: "Avento",
+          value: 3.3833538807484045,
+        },
+        {
+          name: "Easit",
+          value: 58.45,
+        },
+        {
+          name: "TGLab",
+          value: 7.037307013243904,
+        },
+        {
+          name: "BtoBet",
+          value: 0,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4842.38,
+        },
+        {
+          name: "iSOFTBET",
+          value: 862.1427407410401,
+        },
+        {
+          name: "Leopard",
+          value: 76.37427809264254,
+        },
+        {
+          name: "Reevo",
+          value: 281.62,
+        },
+        {
+          name: "Ondiss",
+          value: 13.983204166707237,
+        },
+        {
+          name: "Intralot",
+          value: 546.4161854379447,
+        },
+      ],
+      total: 15656.823785744018,
+      period: "2026-04-01T21:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Baby Leopard",
+          value: 3653.2,
+        },
+        {
+          name: "Crystalbet",
+          value: 58.80725781918578,
+        },
+        {
+          name: "BetB2B",
+          value: 678.0718717820392,
+        },
+        {
+          name: "Asvla",
+          value: 224.25317899611872,
+        },
+        {
+          name: "Virtualsoft",
+          value: 29.036857377527372,
+        },
+        {
+          name: "Digitain",
+          value: 0.25976804119489055,
+        },
+        {
+          name: "Pariplay",
+          value: 0.9401129109910326,
+        },
+        {
+          name: "EGT New Platform",
+          value: 875.88,
+        },
+        {
+          name: "Ondiss",
+          value: 3.0553432584190614,
+        },
+        {
+          name: "Easit",
+          value: 77.37,
+        },
+        {
+          name: "SoftSwiss",
+          value: 47.680476731485236,
+        },
+        {
+          name: "BlueOcean",
+          value: 1022.508536355586,
+        },
+        {
+          name: "TopSport",
+          value: 189.2,
+        },
+        {
+          name: "Peppermill",
+          value: 20.85,
+        },
+        {
+          name: "iSOFTBET",
+          value: 970.8248941111282,
+        },
+        {
+          name: "BtoBet",
+          value: 0,
+        },
+        {
+          name: "Leopard",
+          value: 54.34100023662639,
+        },
+        {
+          name: "Comtrade",
+          value: 8.002367439683184,
+        },
+        {
+          name: "ORYX",
+          value: 1158.2500231299182,
+        },
+        {
+          name: "Gaming1",
+          value: 14.239999999999998,
+        },
+        {
+          name: "Skywind360",
+          value: 155.49698299462813,
+        },
+        {
+          name: "Reevo",
+          value: 221.72,
+        },
+        {
+          name: "Slotegrator",
+          value: 99.03237495584722,
+        },
+        {
+          name: "Everymatrix",
+          value: 31.51285357788833,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1647.7459764549224,
+        },
+        {
+          name: "Evoplay",
+          value: 1160.8827771968722,
+        },
+        {
+          name: "MrSlotty",
+          value: 356.26141278221,
+        },
+        {
+          name: "Intralot",
+          value: 648.3218064775617,
+        },
+        {
+          name: "BetConstruct",
+          value: 11.611642850654015,
+        },
+        {
+          name: "TGLab",
+          value: 13.974438837687183,
+        },
+        {
+          name: "The Ear",
+          value: 515.5,
+        },
+        {
+          name: "Optimus",
+          value: 42.354560621490734,
+        },
+        {
+          name: "Leris",
+          value: 306.6,
+        },
+        {
+          name: "Efbet",
+          value: 14.330000000000002,
+        },
+        {
+          name: "Avento",
+          value: 12.591960530089715,
+        },
+      ],
+      total: 14324.708475469755,
+      period: "2026-04-01T21:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Efbet",
+          value: 5.640000000000001,
+        },
+        {
+          name: "Easit",
+          value: 181.32,
+        },
+        {
+          name: "BetConstruct",
+          value: 22.98359582595049,
+        },
+        {
+          name: "BetB2B",
+          value: 652.658252533163,
+        },
+        {
+          name: "Optimus",
+          value: 66.500618545892,
+        },
+        {
+          name: "Asvla",
+          value: 658.8280283881033,
+        },
+        {
+          name: "TopSport",
+          value: 39.3,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4123.99,
+        },
+        {
+          name: "ORYX",
+          value: 835.8898097829408,
+        },
+        {
+          name: "TGLab",
+          value: 17.727877943060598,
+        },
+        {
+          name: "Leopard",
+          value: 51.688892235093796,
+        },
+        {
+          name: "Evoplay",
+          value: 1528.2564251715435,
+        },
+        {
+          name: "SoftSwiss",
+          value: 15.298643634688439,
+        },
+        {
+          name: "Intralot",
+          value: 470.2852039005157,
+        },
+        {
+          name: "Leris",
+          value: 98.4,
+        },
+        {
+          name: "Virtualsoft",
+          value: 18.003162245478272,
+        },
+        {
+          name: "Everymatrix",
+          value: 20.592499943531426,
+        },
+        {
+          name: "Gaming1",
+          value: 54.94,
+        },
+        {
+          name: "EGT New Platform",
+          value: 897.61,
+        },
+        {
+          name: "Avento",
+          value: 9.855856956962745,
+        },
+        {
+          name: "iSOFTBET",
+          value: 931.2227054177346,
+        },
+        {
+          name: "Slotegrator",
+          value: 95.6555846051962,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1465.7344411455479,
+        },
+        {
+          name: "Reevo",
+          value: 371.94000000000005,
+        },
+        {
+          name: "Skywind360",
+          value: 171.71746797653498,
+        },
+        {
+          name: "BlueOcean",
+          value: 910.7326610329965,
+        },
+        {
+          name: "Ondiss",
+          value: 26.446249843364992,
+        },
+        {
+          name: "The Ear",
+          value: 266.5,
+        },
+        {
+          name: "MrSlotty",
+          value: 274.68430442160957,
+        },
+        {
+          name: "Pariplay",
+          value: 10.489510711478877,
+        },
+        {
+          name: "Peppermill",
+          value: 11.15,
+        },
+        {
+          name: "Crystalbet",
+          value: 52.03307383607234,
+        },
+        {
+          name: "Comtrade",
+          value: 41.67899708168324,
+        },
+      ],
+      total: 14399.753863179143,
+      period: "2026-04-01T22:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Efbet",
+          value: 5.1,
+        },
+        {
+          name: "Reevo",
+          value: 733.0500000000001,
+        },
+        {
+          name: "Leris",
+          value: 117,
+        },
+        {
+          name: "Ondiss",
+          value: 8.777850918654762,
+        },
+        {
+          name: "The Ear",
+          value: 31.25,
+        },
+        {
+          name: "Skywind360",
+          value: 26.4705762171481,
+        },
+        {
+          name: "Everymatrix",
+          value: 32.95773631624297,
+        },
+        {
+          name: "BlueOcean",
+          value: 369.99815592926507,
+        },
+        {
+          name: "Optimus",
+          value: 151.9519341922874,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1830.551581462838,
+        },
+        {
+          name: "EGT New Platform",
+          value: 685.54,
+        },
+        {
+          name: "Easit",
+          value: 61.1,
+        },
+        {
+          name: "Leopard",
+          value: 40.96418310576189,
+        },
+        {
+          name: "TopSport",
+          value: 22.9,
+        },
+        {
+          name: "Slotegrator",
+          value: 204.3533892021237,
+        },
+        {
+          name: "Admiralbet",
+          value: 5.131243825671589,
+        },
+        {
+          name: "Pariplay",
+          value: 2.345334314788155,
+        },
+        {
+          name: "Peppermill",
+          value: 1.7999999999999998,
+        },
+        {
+          name: "Avento",
+          value: 3.5794903376033846,
+        },
+        {
+          name: "Virtualsoft",
+          value: 32.882818814386724,
+        },
+        {
+          name: "TGLab",
+          value: 8.007754154749957,
+        },
+        {
+          name: "BetConstruct",
+          value: 6.4975530818100315,
+        },
+        {
+          name: "ORYX",
+          value: 733.5431510386956,
+        },
+        {
+          name: "Evoplay",
+          value: 2128.3206748974926,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3139.76,
+        },
+        {
+          name: "BetB2B",
+          value: 719.678944973471,
+        },
+        {
+          name: "SoftSwiss",
+          value: 49.42638712745496,
+        },
+        {
+          name: "Asvla",
+          value: 362.57982655624346,
+        },
+        {
+          name: "Crystalbet",
+          value: 37.296647937445826,
+        },
+        {
+          name: "Dench",
+          value: 4,
+        },
+        {
+          name: "Gaming1",
+          value: 65.62,
+        },
+        {
+          name: "iSOFTBET",
+          value: 910.5738206150769,
+        },
+        {
+          name: "Intralot",
+          value: 638.9662559368965,
+        },
+        {
+          name: "MrSlotty",
+          value: 308.3574992691569,
+        },
+        {
+          name: "Comtrade",
+          value: 55.60468551838682,
+        },
+      ],
+      total: 13535.937495743652,
+      period: "2026-04-01T22:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "ORYX",
+          value: 1118.1078265745969,
+        },
+        {
+          name: "MrSlotty",
+          value: 108.93615614918465,
+        },
+        {
+          name: "Gaming1",
+          value: 95.48,
+        },
+        {
+          name: "Admiralbet",
+          value: 1.5997907781529999,
+        },
+        {
+          name: "BetConstruct",
+          value: 5.305135907913486,
+        },
+        {
+          name: "Leopard",
+          value: 36.3526818792164,
+        },
+        {
+          name: "Intralot",
+          value: 595.8089272472905,
+        },
+        {
+          name: "Asvla",
+          value: 346.0403859092597,
+        },
+        {
+          name: "EGT New Platform",
+          value: 791.97,
+        },
+        {
+          name: "Easit",
+          value: 96.71000000000001,
+        },
+        {
+          name: "Everymatrix",
+          value: 17.17502122949855,
+        },
+        {
+          name: "BetB2B",
+          value: 770.8601058408187,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1467.546328506224,
+        },
+        {
+          name: "SoftSwiss",
+          value: 165.93144249931305,
+        },
+        {
+          name: "Evoplay",
+          value: 1933.6393606651834,
+        },
+        {
+          name: "BtoBet",
+          value: 2.8717307275421717,
+        },
+        {
+          name: "Slotegrator",
+          value: 182.94325916600673,
+        },
+        {
+          name: "Ondiss",
+          value: 10.59352621566609,
+        },
+        {
+          name: "Reevo",
+          value: 753.49,
+        },
+        {
+          name: "Pariplay",
+          value: 6.066377481906746,
+        },
+        {
+          name: "Optimus",
+          value: 96.03995580176812,
+        },
+        {
+          name: "BlueOcean",
+          value: 59.39809929296085,
+        },
+        {
+          name: "Virtualsoft",
+          value: 43.46009497769212,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3581.08,
+        },
+        {
+          name: "Comtrade",
+          value: 18.829099858078077,
+        },
+        {
+          name: "TopSport",
+          value: 27.46,
+        },
+        {
+          name: "Skywind360",
+          value: 26.466653488010998,
+        },
+        {
+          name: "Leris",
+          value: 71.7,
+        },
+        {
+          name: "TGLab",
+          value: 16.882649787555327,
+        },
+        {
+          name: "Crystalbet",
+          value: 73.5372443794253,
+        },
+        {
+          name: "iSOFTBET",
+          value: 815.3871584794924,
+        },
+      ],
+      total: 13337.669012842758,
+      period: "2026-04-01T22:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 22.172055716522735,
+        },
+        {
+          name: "MrSlotty",
+          value: 76.00341892181636,
+        },
+        {
+          name: "Newton",
+          value: 0.039227291370995995,
+        },
+        {
+          name: "ORYX",
+          value: 1518.4287574080595,
+        },
+        {
+          name: "Intralot",
+          value: 606.6325956304108,
+        },
+        {
+          name: "BlueOcean",
+          value: 28.69508913599948,
+        },
+        {
+          name: "BetB2B",
+          value: 661.996806077046,
+        },
+        {
+          name: "Evoplay",
+          value: 1206.4943702251821,
+        },
+        {
+          name: "Comtrade",
+          value: 0,
+        },
+        {
+          name: "Skywind360",
+          value: 54.337644007103655,
+        },
+        {
+          name: "BetConstruct",
+          value: 26.50437377286898,
+        },
+        {
+          name: "Reevo",
+          value: 1063.85,
+        },
+        {
+          name: "Ondiss",
+          value: 88.95181108537494,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3122.28,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1535.2133544662654,
+        },
+        {
+          name: "TGLab",
+          value: 53.828511607085815,
+        },
+        {
+          name: "TopSport",
+          value: 25.6,
+        },
+        {
+          name: "Easit",
+          value: 253.5,
+        },
+        {
+          name: "Everymatrix",
+          value: 22.393735163178384,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "EGT New Platform",
+          value: 525.98,
+        },
+        {
+          name: "Slotegrator",
+          value: 220.32359111500966,
+        },
+        {
+          name: "Optimus",
+          value: 236.80949431595167,
+        },
+        {
+          name: "Gaming1",
+          value: 75.1,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1095.6600962994612,
+        },
+        {
+          name: "Efbet",
+          value: 9.6,
+        },
+        {
+          name: "SoftSwiss",
+          value: 112.58232623475851,
+        },
+        {
+          name: "Pariplay",
+          value: 0,
+        },
+        {
+          name: "Crystalbet",
+          value: 260.72559162002983,
+        },
+        {
+          name: "Asvla",
+          value: 39.17049540805991,
+        },
+        {
+          name: "Leopard",
+          value: 28.732819337499613,
+        },
+      ],
+      total: 12971.606164839055,
+      period: "2026-04-01T22:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Reevo",
+          value: 900.63,
+        },
+        {
+          name: "MrSlotty",
+          value: 154.61875748208905,
+        },
+        {
+          name: "SoftSwiss",
+          value: 47.85729547261512,
+        },
+        {
+          name: "Easit",
+          value: 275.45943775980686,
+        },
+        {
+          name: "Gaming1",
+          value: 59.9,
+        },
+        {
+          name: "Evoplay",
+          value: 1760.8411699176502,
+        },
+        {
+          name: "BlueOcean",
+          value: 78.36873445753696,
+        },
+        {
+          name: "ORYX",
+          value: 2021.0739465649474,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1356.9992753562829,
+        },
+        {
+          name: "Skywind360",
+          value: 67.4944775329357,
+        },
+        {
+          name: "BetB2B",
+          value: 525.1511157246025,
+        },
+        {
+          name: "Everymatrix",
+          value: 29.267638217614877,
+        },
+        {
+          name: "Goldrush",
+          value: 38.88,
+        },
+        {
+          name: "Intralot",
+          value: 987.3140010668166,
+        },
+        {
+          name: "Virtualsoft",
+          value: 3.463573882598541,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2909.57,
+        },
+        {
+          name: "Pariplay",
+          value: 15.819081702297481,
+        },
+        {
+          name: "Ondiss",
+          value: 118.76081679779091,
+        },
+        {
+          name: "BtoBet",
+          value: 0,
+        },
+        {
+          name: "Asvla",
+          value: 39.74681619369551,
+        },
+        {
+          name: "BetConstruct",
+          value: 17.918149793394544,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1334.9160279590878,
+        },
+        {
+          name: "Optimus",
+          value: 172.63441823409013,
+        },
+        {
+          name: "Crystalbet",
+          value: 227.17341895461868,
+        },
+        {
+          name: "EGT New Platform",
+          value: 699.9100000000001,
+        },
+        {
+          name: "TGLab",
+          value: 86.5263193265398,
+        },
+        {
+          name: "Peppermill",
+          value: 57.7,
+        },
+        {
+          name: "TopSport",
+          value: 6.5,
+        },
+        {
+          name: "Leopard",
+          value: 79.64488143035345,
+        },
+        {
+          name: "Slotegrator",
+          value: 383.58534935493304,
+        },
+      ],
+      total: 14457.724703182299,
+      period: "2026-04-01T22:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "ORYX",
+          value: 1030.4465004485646,
+        },
+        {
+          name: "Crystalbet",
+          value: 104.81633059422902,
+        },
+        {
+          name: "Everymatrix",
+          value: 35.362628744636474,
+        },
+        {
+          name: "Skywind360",
+          value: 57.02667483058543,
+        },
+        {
+          name: "Intralot",
+          value: 778.9552922150672,
+        },
+        {
+          name: "Virtualsoft",
+          value: 5.274434322922376,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1940.1000000000001,
+        },
+        {
+          name: "Evoplay",
+          value: 422.8336731766599,
+        },
+        {
+          name: "Asvla",
+          value: 29.949362837890288,
+        },
+        {
+          name: "MrSlotty",
+          value: 107.22489761326347,
+        },
+        {
+          name: "Leopard",
+          value: 48.38612713990162,
+        },
+        {
+          name: "Betmexico",
+          value: 2.137948199459491,
+        },
+        {
+          name: "Avento",
+          value: 7.06091244677928,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2229.24,
+        },
+        {
+          name: "TopSport",
+          value: 8.2,
+        },
+        {
+          name: "Peppermill",
+          value: 22.8,
+        },
+        {
+          name: "Slotegrator",
+          value: 350.86985990790777,
+        },
+        {
+          name: "TGLab",
+          value: 52.31023140182635,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1293.7521436519155,
+        },
+        {
+          name: "Easit",
+          value: 154.44481210228878,
+        },
+        {
+          name: "BlueOcean",
+          value: 150.5039495371392,
+        },
+        {
+          name: "Gaming1",
+          value: 80.68,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1477.3490539869347,
+        },
+        {
+          name: "BetConstruct",
+          value: 101.10917908832103,
+        },
+        {
+          name: "SoftSwiss",
+          value: 129.05778861057684,
+        },
+        {
+          name: "Pariplay",
+          value: 0,
+        },
+        {
+          name: "Optimus",
+          value: 392.2744820177319,
+        },
+        {
+          name: "BetB2B",
+          value: 554.7221084836297,
+        },
+        {
+          name: "Ondiss",
+          value: 78.71265460009107,
+        },
+        {
+          name: "Reevo",
+          value: 1552.83,
+        },
+      ],
+      total: 13198.431045958321,
+      period: "2026-04-01T22:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BlueOcean",
+          value: 25.90450890361913,
+        },
+        {
+          name: "Virtualsoft",
+          value: 3.53755860952014,
+        },
+        {
+          name: "Easit",
+          value: 101.8353024094254,
+        },
+        {
+          name: "BetConstruct",
+          value: 49.0085898481044,
+        },
+        {
+          name: "Reevo",
+          value: 1264.93,
+        },
+        {
+          name: "Optimus",
+          value: 233.37066024680027,
+        },
+        {
+          name: "ORYX",
+          value: 1087.1408063267786,
+        },
+        {
+          name: "Efbet",
+          value: 0.2,
+        },
+        {
+          name: "Gaming1",
+          value: 114.14,
+        },
+        {
+          name: "Skywind360",
+          value: 3.452001640647648,
+        },
+        {
+          name: "Leopard",
+          value: 40.82069218776852,
+        },
+        {
+          name: "Crystalbet",
+          value: 63.6013452482998,
+        },
+        {
+          name: "Comtrade",
+          value: 10.414845858999437,
+        },
+        {
+          name: "Everymatrix",
+          value: 19.891855029905546,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "Intralot",
+          value: 829.8896201400235,
+        },
+        {
+          name: "BetB2B",
+          value: 549.1406678746771,
+        },
+        {
+          name: "TGLab",
+          value: 9.713236744080598,
+        },
+        {
+          name: "Leris",
+          value: 1.409675720069535,
+        },
+        {
+          name: "Betmexico",
+          value: 2.405191724391927,
+        },
+        {
+          name: "Pariplay",
+          value: 19.09913598118624,
+        },
+        {
+          name: "Asvla",
+          value: 36.543245346168,
+        },
+        {
+          name: "MrSlotty",
+          value: 149.2978916630023,
+        },
+        {
+          name: "SoftSwiss",
+          value: 101.99095756458958,
+        },
+        {
+          name: "Evoplay",
+          value: 2055.524421092932,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2012.4473389120342,
+        },
+        {
+          name: "EGT New Platform",
+          value: 2106.6,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3148.77,
+        },
+        {
+          name: "iSOFTBET",
+          value: 874.1553149757567,
+        },
+        {
+          name: "Slotegrator",
+          value: 239.70422444970308,
+        },
+        {
+          name: "Ondiss",
+          value: 28.725235388579208,
+        },
+        {
+          name: "TopSport",
+          value: 53.05,
+        },
+      ],
+      total: 15236.714323887063,
+      period: "2026-04-01T22:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Ondiss",
+          value: 28.04905286417499,
+        },
+        {
+          name: "Intralot",
+          value: 532.1904969679894,
+        },
+        {
+          name: "Everymatrix",
+          value: 99.26099057956479,
+        },
+        {
+          name: "Peppermill",
+          value: 2.1,
+        },
+        {
+          name: "Gaming1",
+          value: 35.66,
+        },
+        {
+          name: "Asvla",
+          value: 24.56929561556018,
+        },
+        {
+          name: "TGLab",
+          value: 7.228265966895095,
+        },
+        {
+          name: "BetB2B",
+          value: 1001.2779689128597,
+        },
+        {
+          name: "Evoplay",
+          value: 1522.2587081687943,
+        },
+        {
+          name: "Comtrade",
+          value: 36.58925602629651,
+        },
+        {
+          name: "BlueOcean",
+          value: 23.575550826198615,
+        },
+        {
+          name: "Crystalbet",
+          value: 81.10668665333199,
+        },
+        {
+          name: "Easit",
+          value: 10,
+        },
+        {
+          name: "ORYX",
+          value: 1139.7947196907573,
+        },
+        {
+          name: "Leopard",
+          value: 25.58096710433494,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1309.5154354768906,
+        },
+        {
+          name: "Reevo",
+          value: 1206.74,
+        },
+        {
+          name: "BtoBet",
+          value: 1.0232048978805721,
+        },
+        {
+          name: "Pariplay",
+          value: 26.75234336156623,
+        },
+        {
+          name: "MrSlotty",
+          value: 454.9167853947941,
+        },
+        {
+          name: "Slotegrator",
+          value: 95.91245914246946,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1019.0397194463134,
+        },
+        {
+          name: "Virtualsoft",
+          value: 19.673099653159714,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3206.95,
+        },
+        {
+          name: "TopSport",
+          value: 113.67999999999999,
+        },
+        {
+          name: "EGT New Platform",
+          value: 2783.98,
+        },
+        {
+          name: "Optimus",
+          value: 133.37233429349095,
+        },
+        {
+          name: "BetConstruct",
+          value: 35.825646703439865,
+        },
+      ],
+      total: 14976.622987746763,
+      period: "2026-04-01T22:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Skywind360",
+          value: 7.610094525973223,
+        },
+        {
+          name: "Pariplay",
+          value: 27.792813547781325,
+        },
+        {
+          name: "Crystalbet",
+          value: 63.30835535169176,
+        },
+        {
+          name: "Virtualsoft",
+          value: 2.4121318110954126,
+        },
+        {
+          name: "BetConstruct",
+          value: 29.31673497706408,
+        },
+        {
+          name: "Optimus",
+          value: 105.54004416546697,
+        },
+        {
+          name: "EGT New Platform",
+          value: 2026.07,
+        },
+        {
+          name: "Comtrade",
+          value: 18.152429081928396,
+        },
+        {
+          name: "Evoplay",
+          value: 3321.459989449739,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1254.079031818629,
+        },
+        {
+          name: "BetB2B",
+          value: 391.40145840336197,
+        },
+        {
+          name: "Gaming1",
+          value: 62.92,
+        },
+        {
+          name: "MrSlotty",
+          value: 444.61888804574244,
+        },
+        {
+          name: "Everymatrix",
+          value: 6.581810856655908,
+        },
+        {
+          name: "iSOFTBET",
+          value: 982.158513001484,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2125.41,
+        },
+        {
+          name: "Reevo",
+          value: 2327.59,
+        },
+        {
+          name: "Asvla",
+          value: 52.98931558654035,
+        },
+        {
+          name: "Leopard",
+          value: 9.54956799059312,
+        },
+        {
+          name: "Peppermill",
+          value: 59.01,
+        },
+        {
+          name: "BlueOcean",
+          value: 57.140542851829835,
+        },
+        {
+          name: "Intralot",
+          value: 516.7751192090811,
+        },
+        {
+          name: "TopSport",
+          value: 35.5,
+        },
+        {
+          name: "TGLab",
+          value: 3.559349677072206,
+        },
+        {
+          name: "Ondiss",
+          value: 60.71555583712879,
+        },
+        {
+          name: "Slotegrator",
+          value: 181.89842782190624,
+        },
+        {
+          name: "SoftSwiss",
+          value: 462.4897652640428,
+        },
+        {
+          name: "Leris",
+          value: 4,
+        },
+        {
+          name: "ORYX",
+          value: 954.1542849812231,
+        },
+      ],
+      total: 15594.204224256031,
+      period: "2026-04-01T22:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Ondiss",
+          value: 8.020276053350036,
+        },
+        {
+          name: "Leopard",
+          value: 25.976804119489056,
+        },
+        {
+          name: "Easit",
+          value: 0,
+        },
+        {
+          name: "Optimus",
+          value: 132.34563203543496,
+        },
+        {
+          name: "Pariplay",
+          value: 46.541091679501584,
+        },
+        {
+          name: "Gaming1",
+          value: 47.760000000000005,
+        },
+        {
+          name: "Virtualsoft",
+          value: 7.582752821546091,
+        },
+        {
+          name: "Crystalbet",
+          value: 33.97394932975901,
+        },
+        {
+          name: "Peppermill",
+          value: 2.15,
+        },
+        {
+          name: "Comtrade",
+          value: 5.952741465548643,
+        },
+        {
+          name: "Slotegrator",
+          value: 163.63080642190545,
+        },
+        {
+          name: "The Ear",
+          value: 7.8,
+        },
+        {
+          name: "Evoplay",
+          value: 1215.3175574693616,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1412.0003596918327,
+        },
+        {
+          name: "ORYX",
+          value: 563.1594077786023,
+        },
+        {
+          name: "Asvla",
+          value: 35.94760654537143,
+        },
+        {
+          name: "BetConstruct",
+          value: 39.420994833802915,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1299.147937887749,
+        },
+        {
+          name: "Skywind360",
+          value: 55.67333327828607,
+        },
+        {
+          name: "SoftSwiss",
+          value: 102.77550339200951,
+        },
+        {
+          name: "TopSport",
+          value: 46.25,
+        },
+        {
+          name: "MrSlotty",
+          value: 403.31065523975496,
+        },
+        {
+          name: "Reevo",
+          value: 894.89,
+        },
+        {
+          name: "Leris",
+          value: 20.8,
+        },
+        {
+          name: "BetB2B",
+          value: 375.48290533015677,
+        },
+        {
+          name: "TGLab",
+          value: 9.153507876657105,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1999.27,
+        },
+        {
+          name: "Intralot",
+          value: 574.4584682424152,
+        },
+        {
+          name: "Avento",
+          value: 0.14710234264123498,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1848.16,
+        },
+        {
+          name: "BlueOcean",
+          value: 145.7360024119696,
+        },
+      ],
+      total: 11522.835396247145,
+      period: "2026-04-01T22:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Admiralbet",
+          value: 2.5358385738808185,
+        },
+        {
+          name: "BetB2B",
+          value: 369.09485798491244,
+        },
+        {
+          name: "The Ear",
+          value: 73,
+        },
+        {
+          name: "BetConstruct",
+          value: 48.12440053011882,
+        },
+        {
+          name: "Intralot",
+          value: 481.54562486036457,
+        },
+        {
+          name: "Asvla",
+          value: 224.5300705467593,
+        },
+        {
+          name: "ORYX",
+          value: 502.9781352911078,
+        },
+        {
+          name: "Crystalbet",
+          value: 104.03395098020974,
+        },
+        {
+          name: "Ondiss",
+          value: 5.033803237231404,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1512.68,
+        },
+        {
+          name: "Leopard",
+          value: 23.55230240167008,
+        },
+        {
+          name: "Slotegrator",
+          value: 126.25337423687235,
+        },
+        {
+          name: "Easit",
+          value: 9.070424986209565,
+        },
+        {
+          name: "TGLab",
+          value: 13.88428116776662,
+        },
+        {
+          name: "Avento",
+          value: 3.8246609086721093,
+        },
+        {
+          name: "Goldrush",
+          value: 4.2,
+        },
+        {
+          name: "Virtualsoft",
+          value: 138.09524287888212,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1131.6982959688662,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1423.7308362727995,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1569.44,
+        },
+        {
+          name: "BlueOcean",
+          value: 687.7195222534147,
+        },
+        {
+          name: "Evoplay",
+          value: 1104.445161820512,
+        },
+        {
+          name: "Everymatrix",
+          value: 27.411741468997022,
+        },
+        {
+          name: "Peppermill",
+          value: 62,
+        },
+        {
+          name: "TopSport",
+          value: 48.849999999999994,
+        },
+        {
+          name: "Pariplay",
+          value: 20.804589026966475,
+        },
+        {
+          name: "Skywind360",
+          value: 7.1099465609930235,
+        },
+        {
+          name: "Comtrade",
+          value: 9.218413472184059,
+        },
+        {
+          name: "Optimus",
+          value: 149.5026926610213,
+        },
+        {
+          name: "Gaming1",
+          value: 16.4,
+        },
+        {
+          name: "SoftSwiss",
+          value: 143.96415933155532,
+        },
+        {
+          name: "MrSlotty",
+          value: 536.1471552431021,
+        },
+        {
+          name: "Reevo",
+          value: 671.45,
+        },
+      ],
+      total: 11252.329482665069,
+      period: "2026-04-01T22:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Comtrade",
+          value: 76.51675454826479,
+        },
+        {
+          name: "ORYX",
+          value: 501.65171901155145,
+        },
+        {
+          name: "Leopard",
+          value: 18.713194891410975,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2450.25,
+        },
+        {
+          name: "Ondiss",
+          value: 3.377782147371073,
+        },
+        {
+          name: "BetConstruct",
+          value: 43.76204479861164,
+        },
+        {
+          name: "Skywind360",
+          value: 138.82538416195484,
+        },
+        {
+          name: "Newton",
+          value: 10.885573355451388,
+        },
+        {
+          name: "MrSlotty",
+          value: 392.2683922384965,
+        },
+        {
+          name: "TGLab",
+          value: 10.080128373062887,
+        },
+        {
+          name: "Avento",
+          value: 5.884093705649399,
+        },
+        {
+          name: "iSOFTBET",
+          value: 772.5850363396329,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1268.7641389906478,
+        },
+        {
+          name: "Pariplay",
+          value: 15.411951998970125,
+        },
+        {
+          name: "Intralot",
+          value: 434.14166831431413,
+        },
+        {
+          name: "Crystalbet",
+          value: 56.30557485584018,
+        },
+        {
+          name: "Peppermill",
+          value: 94,
+        },
+        {
+          name: "Asvla",
+          value: 62.91233604089187,
+        },
+        {
+          name: "Evoplay",
+          value: 2156.136712656603,
+        },
+        {
+          name: "Digitain",
+          value: 0.09895925378852974,
+        },
+        {
+          name: "Everymatrix",
+          value: 156.218591584321,
+        },
+        {
+          name: "Easit",
+          value: 9.546451485205226,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1524.98,
+        },
+        {
+          name: "BlueOcean",
+          value: 202.98480251573343,
+        },
+        {
+          name: "BetB2B",
+          value: 434.8131447148432,
+        },
+        {
+          name: "Optimus",
+          value: 113.18464652063089,
+        },
+        {
+          name: "SoftSwiss",
+          value: 344.0233453236349,
+        },
+        {
+          name: "TopSport",
+          value: 103.95,
+        },
+        {
+          name: "Gaming1",
+          value: 11.68,
+        },
+        {
+          name: "Reevo",
+          value: 898.9100000000001,
+        },
+        {
+          name: "Dench",
+          value: 2.3000000000000003,
+        },
+        {
+          name: "Slotegrator",
+          value: 67.60421091438474,
+        },
+        {
+          name: "The Ear",
+          value: 59,
+        },
+        {
+          name: "Virtualsoft",
+          value: 200.09324966105214,
+        },
+      ],
+      total: 12641.85988840232,
+      period: "2026-04-01T22:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BlueOcean",
+          value: 1044.0342611551705,
+        },
+        {
+          name: "TopSport",
+          value: 18.2,
+        },
+        {
+          name: "Reevo",
+          value: 444.97,
+        },
+        {
+          name: "EGT New Platform",
+          value: 975.74,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2029.42,
+        },
+        {
+          name: "iSOFTBET",
+          value: 634.8006836059257,
+        },
+        {
+          name: "Peppermill",
+          value: 29,
+        },
+        {
+          name: "Gaming1",
+          value: 0.1,
+        },
+        {
+          name: "Intralot",
+          value: 487.92849672972477,
+        },
+        {
+          name: "Crystalbet",
+          value: 80.38548075398911,
+        },
+        {
+          name: "Virtualsoft",
+          value: 46.68084115655302,
+        },
+        {
+          name: "BetConstruct",
+          value: 50.90480308426625,
+        },
+        {
+          name: "Asvla",
+          value: 76.09366171906031,
+        },
+        {
+          name: "Pariplay",
+          value: 21.869995087265075,
+        },
+        {
+          name: "Slotegrator",
+          value: 170.2327327538232,
+        },
+        {
+          name: "MrSlotty",
+          value: 569.9826891441417,
+        },
+        {
+          name: "Easit",
+          value: 19.022424034408512,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1602.5465987584594,
+        },
+        {
+          name: "SoftSwiss",
+          value: 18.04455403065816,
+        },
+        {
+          name: "Admiralbet",
+          value: 3.6500000000000004,
+        },
+        {
+          name: "Dench",
+          value: 10.9,
+        },
+        {
+          name: "TGLab",
+          value: 7.830569289558853,
+        },
+        {
+          name: "Everymatrix",
+          value: 117.4648773374633,
+        },
+        {
+          name: "Evoplay",
+          value: 1446.6552795927878,
+        },
+        {
+          name: "BetB2B",
+          value: 498.6396834410228,
+        },
+        {
+          name: "Ondiss",
+          value: 10.881529883467886,
+        },
+        {
+          name: "Optimus",
+          value: 72.19077563873245,
+        },
+        {
+          name: "Goldrush",
+          value: 14,
+        },
+        {
+          name: "Leopard",
+          value: 43.39115880492558,
+        },
+        {
+          name: "Skywind360",
+          value: 56.19505625352031,
+        },
+        {
+          name: "Digitain",
+          value: 0.14843888068279462,
+        },
+        {
+          name: "ORYX",
+          value: 379.18019807133925,
+        },
+      ],
+      total: 10981.084789206947,
+      period: "2026-04-01T23:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 15.944021776898179,
+        },
+        {
+          name: "Intralot",
+          value: 463.8146005628048,
+        },
+        {
+          name: "Gaming1",
+          value: 6.9,
+        },
+        {
+          name: "Leopard",
+          value: 34.50709179606032,
+        },
+        {
+          name: "Efbet",
+          value: 0,
+        },
+        {
+          name: "MrSlotty",
+          value: 205.41083618721285,
+        },
+        {
+          name: "TopSport",
+          value: 10.1,
+        },
+        {
+          name: "Evoplay",
+          value: 1100.7522953920331,
+        },
+        {
+          name: "EGT New Platform",
+          value: 841.65,
+        },
+        {
+          name: "Optimus",
+          value: 44.581143831732646,
+        },
+        {
+          name: "BlueOcean",
+          value: 604.9629096441668,
+        },
+        {
+          name: "The Ear",
+          value: 3,
+        },
+        {
+          name: "Goldrush",
+          value: 134.4,
+        },
+        {
+          name: "Asvla",
+          value: 37.882627730661916,
+        },
+        {
+          name: "BetB2B",
+          value: 403.7013385021556,
+        },
+        {
+          name: "ORYX",
+          value: 544.597233894234,
+        },
+        {
+          name: "Reevo",
+          value: 578.21,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1340.99,
+        },
+        {
+          name: "Avento",
+          value: 0.23536374822597597,
+        },
+        {
+          name: "Crystalbet",
+          value: 27.180447331484604,
+        },
+        {
+          name: "Comtrade",
+          value: 0.78454582741992,
+        },
+        {
+          name: "Everymatrix",
+          value: 42.54809681003893,
+        },
+        {
+          name: "iSOFTBET",
+          value: 991.4025284662334,
+        },
+        {
+          name: "BetConstruct",
+          value: 44.51074194876241,
+        },
+        {
+          name: "Ondiss",
+          value: 40.603508400613315,
+        },
+        {
+          name: "Easit",
+          value: 406.3391362985427,
+        },
+        {
+          name: "Skywind360",
+          value: 71.75652274039443,
+        },
+        {
+          name: "TGLab",
+          value: 35.990440956344536,
+        },
+        {
+          name: "Slotegrator",
+          value: 146.73462235697363,
+        },
+        {
+          name: "Pariplay",
+          value: 22.948650953560048,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1499.8022208270766,
+        },
+      ],
+      total: 9702.240925983631,
+      period: "2026-04-01T23:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "TGLab",
+          value: 30.428213598189835,
+        },
+        {
+          name: "Asvla",
+          value: 5.714912818453587,
+        },
+        {
+          name: "BlueOcean",
+          value: 705.1224372862167,
+        },
+        {
+          name: "Comtrade",
+          value: 3.8246609086721097,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1018.7417955459259,
+        },
+        {
+          name: "Skywind360",
+          value: 24.81126179215497,
+        },
+        {
+          name: "Gaming1",
+          value: 15.2,
+        },
+        {
+          name: "The Ear",
+          value: 143.5,
+        },
+        {
+          name: "Virtualsoft",
+          value: 11.971515253894884,
+        },
+        {
+          name: "Evoplay",
+          value: 439.9328292043454,
+        },
+        {
+          name: "Intralot",
+          value: 214.4545988851228,
+        },
+        {
+          name: "Crystalbet",
+          value: 38.925800549354285,
+        },
+        {
+          name: "Pariplay",
+          value: 20.177791847481213,
+        },
+        {
+          name: "BetB2B",
+          value: 459.01153366006565,
+        },
+        {
+          name: "Ondiss",
+          value: 5.259197412032811,
+        },
+        {
+          name: "SoftSwiss",
+          value: 9.414549929039039,
+        },
+        {
+          name: "Goldrush",
+          value: 82,
+        },
+        {
+          name: "Everymatrix",
+          value: 3.232486988771836,
+        },
+        {
+          name: "Reevo",
+          value: 260.8,
+        },
+        {
+          name: "Optimus",
+          value: 71.55248845179644,
+        },
+        {
+          name: "Leopard",
+          value: 30.590779327379256,
+        },
+        {
+          name: "MrSlotty",
+          value: 77.71284208775891,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1384.13,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1405.8481135636878,
         },
         {
           name: "Efbet",
           value: 0.45,
         },
         {
-          name: "EGT New Platform",
-          value: -82.18,
-        },
-        {
-          name: "iSOFTBET",
-          value: -19.83382431446142,
-        },
-        {
-          name: "Optimus",
-          value: 15.738773055568235,
-        },
-        {
-          name: "Intralot",
-          value: 24.9298129617366,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 18.30584995556909,
-        },
-        {
-          name: "Virtualsoft",
-          value: 66.44396534345782,
-        },
-        {
-          name: "Leopard",
-          value: -2.2321817554772254,
-        },
-        {
-          name: "Everymatrix",
-          value: -1.8360118117305437,
-        },
-        {
-          name: "Asvla",
-          value: 2.472310755759312,
-        },
-        {
-          name: "TopSport",
-          value: -2.8,
-        },
-        {
-          name: "TGLab",
-          value: -3.2443004988137005,
-        },
-        {
-          name: "Pariplay",
-          value: 5.317640526936806,
-        },
-        {
-          name: "Newton",
-          value: -13.445455499437003,
-        },
-        {
-          name: "Avento",
-          value: 6.98771117926945,
-        },
-        {
-          name: "Reevo",
-          value: 89.44000000000001,
-        },
-        {
-          name: "Ondiss",
-          value: 14.299021328758041,
-        },
-        {
           name: "Baby Leopard",
-          value: -80.93,
-        },
-        {
-          name: "ORYX",
-          value: 15.59929324697854,
-        },
-      ],
-      total: 785.049211856317,
-      period: "2026-03-26T03:00:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Everymatrix",
-          value: 3.410011444662185,
-        },
-        {
-          name: "TGLab",
-          value: -5.561571497126513,
-        },
-        {
-          name: "Leopard",
-          value: 11.03731905307157,
-        },
-        {
-          name: "TopSport",
-          value: 6.2,
-        },
-        {
-          name: "Evoplay",
-          value: 18.992112194379803,
-        },
-        {
-          name: "ORYX",
-          value: 78.24124694663314,
-        },
-        {
-          name: "EGT New Platform",
-          value: -149.87,
-        },
-        {
-          name: "Easit",
-          value: 117.04,
+          value: 2049.94,
         },
         {
           name: "BetConstruct",
-          value: 6.179538584157043,
+          value: 93.45390359000466,
         },
-        {
-          name: "Reevo",
-          value: 152.81,
-        },
-        {
-          name: "Ondiss",
-          value: 4.026614094272326,
-        },
-        {
-          name: "Intralot",
-          value: -38.99381914087899,
-        },
-        {
-          name: "Betmexico",
-          value: -0.06598322513459035,
-        },
-        {
-          name: "Optimus",
-          value: 7.617162600611549,
-        },
-        {
-          name: "Pariplay",
-          value: 6.51953934812756,
-        },
-        {
-          name: "MrSlotty",
-          value: -20.69867385903732,
-        },
-        {
-          name: "Virtualsoft",
-          value: 125.53768342272367,
-        },
-        {
-          name: "iSOFTBET",
-          value: 180.24442136842072,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 76.64875130335217,
-        },
-        {
-          name: "Avento",
-          value: -10.756364399549604,
-        },
-        {
-          name: "Baby Leopard",
-          value: 283.13,
-        },
-        {
-          name: "BetB2B",
-          value: 1014.9660061385532,
-        },
-        {
-          name: "Skywind360",
-          value: -4.141592861870376,
-        },
-        {
-          name: "Newton",
-          value: 10.010485116369155,
-        },
-        {
-          name: "Admiralbet",
-          value: 1.9499999999999997,
-        },
-        {
-          name: "Slotegrator",
-          value: 10,
-        },
-      ],
-      total: 1884.4728866317366,
-      period: "2026-03-26T03:05:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Avento",
-          value: 1.9628402188959129,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -132.51509594846908,
-        },
-        {
-          name: "Leopard",
-          value: 2.1640812951406323,
-        },
-        {
-          name: "MrSlotty",
-          value: 23.414264998662063,
-        },
-        {
-          name: "Easit",
-          value: 33.06,
-        },
-        {
-          name: "Crystalbet",
-          value: -2.7575773814238476,
-        },
-        {
-          name: "TopSport",
-          value: 0.3,
-        },
-        {
-          name: "iSOFTBET",
-          value: 56.012181087706736,
-        },
-        {
-          name: "BetConstruct",
-          value: -5.173241795214194,
-        },
-        {
-          name: "Skywind360",
-          value: 2.6890910998874014,
-        },
-        {
-          name: "ORYX",
-          value: 142.09248391646605,
-        },
-        {
-          name: "Virtualsoft",
-          value: 24.75861241957144,
-        },
-        {
-          name: "TGLab",
-          value: 11.297528687358355,
-        },
-        {
-          name: "Everymatrix",
-          value: 5.945299105847282,
-        },
-        {
-          name: "Evoplay",
-          value: 25.016014111590806,
-        },
-        {
-          name: "BetB2B",
-          value: -121.27829273761654,
-        },
-        {
-          name: "Optimus",
-          value: 11.53924466814498,
-        },
-        {
-          name: "Reevo",
-          value: -126,
-        },
-        {
-          name: "Intralot",
-          value: -143.13960090970397,
-        },
-        {
-          name: "Baby Leopard",
-          value: -552.98,
-        },
-        {
-          name: "WeAreCasino",
-          value: -11.1506426529598,
-        },
-        {
-          name: "Ondiss",
-          value: -1.6348658728624483,
-        },
-        {
-          name: "EGT New Platform",
-          value: 120.42959526129087,
-        },
-        {
-          name: "Admiralbet",
-          value: 6.05,
-        },
-        {
-          name: "Pariplay",
-          value: 2.925797555201787,
-        },
-      ],
-      total: -626.9722828724856,
-      period: "2026-03-26T03:10:00.000Z",
-    },
-    {
-      items: [
         {
           name: "Peppermill",
-          value: 0.5,
-        },
-        {
-          name: "Easit",
-          value: 1.44,
-        },
-        {
-          name: "Ondiss",
-          value: 4.553404208861338,
-        },
-        {
-          name: "Slotegrator",
-          value: -5.583383851806299,
-        },
-        {
-          name: "Everymatrix",
-          value: -4.185370049396232,
-        },
-        {
-          name: "WeAreCasino",
-          value: -10.964798608743802,
-        },
-        {
-          name: "Virtualsoft",
-          value: -12.815499920396467,
-        },
-        {
-          name: "Crystalbet",
-          value: -1.6799034622467115,
-        },
-        {
-          name: "Baby Leopard",
-          value: 292.52,
-        },
-        {
-          name: "Optimus",
-          value: 17.204194072440856,
-        },
-        {
-          name: "TGLab",
-          value: 5.521608109123209,
-        },
-        {
-          name: "Reevo",
-          value: 78.5,
-        },
-        {
-          name: "TopSport",
-          value: 3.9000000000000004,
-        },
-        {
-          name: "Pariplay",
-          value: 1.6712081021599219,
-        },
-        {
-          name: "Intralot",
-          value: 363.8103147929836,
-        },
-        {
-          name: "MrSlotty",
-          value: 8.652585202531546,
-        },
-        {
-          name: "Leopard",
-          value: 11.007052181810863,
-        },
-        {
-          name: "EGT New Platform",
-          value: 55.250404738709136,
-        },
-        {
-          name: "ORYX",
-          value: -280.7152307579348,
-        },
-        {
-          name: "BetB2B",
-          value: 730.204575128734,
-        },
-        {
-          name: "BetConstruct",
-          value: -2.8217682519350147,
-        },
-        {
-          name: "Evoplay",
-          value: -5.48314174023607,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 22.26624502865654,
-        },
-        {
-          name: "Goldrush",
           value: 0,
         },
         {
+          name: "ORYX",
+          value: 617.9670107867454,
+        },
+        {
+          name: "Easit",
+          value: 28.099999999999998,
+        },
+        {
+          name: "TopSport",
+          value: 38.1,
+        },
+        {
+          name: "Slotegrator",
+          value: 530.0763795064499,
+        },
+      ],
+      total: 9820.445102993544,
+      period: "2026-04-01T23:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Reevo",
+          value: 429.85,
+        },
+        {
+          name: "BetConstruct",
+          value: 95.77750667860855,
+        },
+        {
+          name: "TopSport",
+          value: 21.2,
+        },
+        {
+          name: "BetB2B",
+          value: 556.598930248803,
+        },
+        {
+          name: "Goldrush",
+          value: 74.8,
+        },
+        {
+          name: "BlueOcean",
+          value: 601.3770519621088,
+        },
+        {
+          name: "Virtualsoft",
+          value: 16.397521528368543,
+        },
+        {
+          name: "Crystalbet",
+          value: 74.79291536488834,
+        },
+        {
+          name: "Leopard",
+          value: 15.586082471693436,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2363.33,
+        },
+        {
+          name: "Everymatrix",
+          value: 2.3406321448817753,
+        },
+        {
+          name: "EGT New Platform",
+          value: 887.72,
+        },
+        {
+          name: "Intralot",
+          value: 361.2829177125091,
+        },
+        {
           name: "iSOFTBET",
-          value: 166.5568699139215,
+          value: 904.0113119201366,
+        },
+        {
+          name: "Easit",
+          value: 24.007420728343796,
+        },
+        {
+          name: "Pariplay",
+          value: 35.62533136387071,
+        },
+        {
+          name: "Optimus",
+          value: 56.92631074185174,
+        },
+        {
+          name: "Slotegrator",
+          value: 389.43946496125653,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1888.0562661556964,
+        },
+        {
+          name: "Avento",
+          value: 2.432092065001752,
+        },
+        {
+          name: "MrSlotty",
+          value: 174.4281224569915,
+        },
+        {
+          name: "SoftSwiss",
+          value: 63.30639122907407,
         },
         {
           name: "Skywind360",
-          value: -109.25168658374652,
+          value: 3.8933086685713527,
+        },
+        {
+          name: "ORYX",
+          value: 417.259082545709,
+        },
+        {
+          name: "Ondiss",
+          value: 21.712972172535462,
+        },
+        {
+          name: "Evoplay",
+          value: 325.8969426834955,
+        },
+        {
+          name: "The Ear",
+          value: 92.5,
+        },
+        {
+          name: "Asvla",
+          value: 41.17956898480077,
+        },
+        {
+          name: "TGLab",
+          value: 60.45948301075718,
         },
       ],
-      total: 1330.0576782534906,
-      period: "2026-03-26T03:15:00.000Z",
+      total: 10002.187627799954,
+      period: "2026-04-01T23:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Evoplay",
+          value: 453.3505358476774,
+        },
+        {
+          name: "Reevo",
+          value: 561.28,
+        },
+        {
+          name: "Slotegrator",
+          value: 964.0027919259201,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1089.3105370890928,
+        },
+        {
+          name: "BetB2B",
+          value: 457.60076674435754,
+        },
+        {
+          name: "SoftSwiss",
+          value: 47.072749645195195,
+        },
+        {
+          name: "Pariplay",
+          value: 3.4267711202604065,
+        },
+        {
+          name: "ORYX",
+          value: 242.31801768477453,
+        },
+        {
+          name: "BlueOcean",
+          value: 2480.6299772428665,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.062313002193192024,
+        },
+        {
+          name: "MrSlotty",
+          value: 169.78638230581325,
+        },
+        {
+          name: "Easit",
+          value: 60.099999999999994,
+        },
+        {
+          name: "Crystalbet",
+          value: 145.09439220485118,
+        },
+        {
+          name: "TGLab",
+          value: 42.22634645918344,
+        },
+        {
+          name: "Intralot",
+          value: 522.69535656698,
+        },
+        {
+          name: "Asvla",
+          value: 53.449728281210135,
+        },
+        {
+          name: "Virtualsoft",
+          value: 10.46494108813702,
+        },
+        {
+          name: "Leopard",
+          value: 18.14665316347164,
+        },
+        {
+          name: "Digitain",
+          value: 2.276062837136184,
+        },
+        {
+          name: "TopSport",
+          value: 58.72,
+        },
+        {
+          name: "Ondiss",
+          value: 22.774203078892082,
+        },
+        {
+          name: "The Ear",
+          value: 29,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1346.47,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1743.4532734676018,
+        },
+        {
+          name: "Goldrush",
+          value: 2,
+        },
+        {
+          name: "EGT New Platform",
+          value: 402.14,
+        },
+        {
+          name: "BetConstruct",
+          value: 57.475842629035185,
+        },
+        {
+          name: "Dench",
+          value: 4.2,
+        },
+        {
+          name: "Skywind360",
+          value: 23.438306594170108,
+        },
+        {
+          name: "Optimus",
+          value: 62.665947461586455,
+        },
+      ],
+      total: 11075.631896440405,
+      period: "2026-04-01T23:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetConstruct",
+          value: 175.07899195040383,
+        },
+        {
+          name: "Leopard",
+          value: 10.143323513324297,
+        },
+        {
+          name: "EGT New Platform",
+          value: 256.26,
+        },
+        {
+          name: "SoftSwiss",
+          value: 29.420468528246996,
+        },
+        {
+          name: "Virtualsoft",
+          value: 37.71434947177547,
+        },
+        {
+          name: "Dench",
+          value: 0.7,
+        },
+        {
+          name: "BlueOcean",
+          value: 634.7945721300777,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1852.2568908203707,
+        },
+        {
+          name: "Optimus",
+          value: 47.69836032607134,
+        },
+        {
+          name: "Easit",
+          value: 38.96,
+        },
+        {
+          name: "Gaming1",
+          value: 4.4,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.21120898013017,
+        },
+        {
+          name: "Ondiss",
+          value: 54.83339396974209,
+        },
+        {
+          name: "Slotegrator",
+          value: 632.1529018646083,
+        },
+        {
+          name: "TopSport",
+          value: 6.050000000000001,
+        },
+        {
+          name: "Asvla",
+          value: 25.667202810541966,
+        },
+        {
+          name: "Digitain",
+          value: 22.66166911757331,
+        },
+        {
+          name: "ORYX",
+          value: 537.5082725561963,
+        },
+        {
+          name: "MrSlotty",
+          value: 60.62371805229144,
+        },
+        {
+          name: "BetB2B",
+          value: 299.01083901072997,
+        },
+        {
+          name: "Pariplay",
+          value: 5.453875163231352,
+        },
+        {
+          name: "Skywind360",
+          value: 7.453185360489239,
+        },
+        {
+          name: "TGLab",
+          value: 15.66489514869773,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1577.85,
+        },
+        {
+          name: "Crystalbet",
+          value: 157.49011859980686,
+        },
+        {
+          name: "Evoplay",
+          value: 606.3949734879066,
+        },
+        {
+          name: "Reevo",
+          value: 1085.8600000000001,
+        },
+        {
+          name: "iSOFTBET",
+          value: 963.8658104991684,
+        },
+        {
+          name: "Intralot",
+          value: 484.96219309741355,
+        },
+      ],
+      total: 9632.141214458798,
+      period: "2026-04-01T23:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "TopSport",
+          value: 23.01,
+        },
+        {
+          name: "Skywind360",
+          value: 6.815741875710554,
+        },
+        {
+          name: "Reevo",
+          value: 417.3631396693114,
+        },
+        {
+          name: "BetConstruct",
+          value: 113.08264289410313,
+        },
+        {
+          name: "Easit",
+          value: 84.91,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2772.5512237671774,
+        },
+        {
+          name: "BetB2B",
+          value: 456.31961823823536,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2299.05,
+        },
+        {
+          name: "EGT New Platform",
+          value: 402.25,
+        },
+        {
+          name: "Slotegrator",
+          value: 362.0880630913631,
+        },
+        {
+          name: "Intralot",
+          value: 419.29283228334526,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1780.7858400522052,
+        },
+        {
+          name: "MrSlotty",
+          value: 101.21278924604144,
+        },
+        {
+          name: "Leopard",
+          value: 21.065951150233268,
+        },
+        {
+          name: "Asvla",
+          value: 11.709936856741235,
+        },
+        {
+          name: "TGLab",
+          value: 24.089002431900283,
+        },
+        {
+          name: "Crystalbet",
+          value: 61.7435961236532,
+        },
+        {
+          name: "Digitain",
+          value: 16.031399113741816,
+        },
+        {
+          name: "Efbet",
+          value: 0.6,
+        },
+        {
+          name: "Optimus",
+          value: 72.6113524673337,
+        },
+        {
+          name: "SoftSwiss",
+          value: 60.41002871133384,
+        },
+        {
+          name: "ORYX",
+          value: 495.1586952743432,
+        },
+        {
+          name: "Virtualsoft",
+          value: 26.835422895899274,
+        },
+        {
+          name: "BlueOcean",
+          value: 333.48967730554676,
+        },
+        {
+          name: "Ondiss",
+          value: 16.78560507340472,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.17681314372318238,
+        },
+        {
+          name: "Evoplay",
+          value: 478.7010182410375,
+        },
+        {
+          name: "Comtrade",
+          value: 3.9815700741560938,
+        },
+        {
+          name: "Pariplay",
+          value: 19.305752790199474,
+        },
+        {
+          name: "Gaming1",
+          value: 0,
+        },
+      ],
+      total: 10881.427712770741,
+      period: "2026-04-01T23:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 26.852219740684866,
+        },
+        {
+          name: "TopSport",
+          value: 51.75,
+        },
+        {
+          name: "Evoplay",
+          value: 281.1018391916657,
+        },
+        {
+          name: "Reevo",
+          value: 614.35,
+        },
+        {
+          name: "MrSlotty",
+          value: 70.11085734766358,
+        },
+        {
+          name: "ORYX",
+          value: 586.8015211181527,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1065.5181719244804,
+        },
+        {
+          name: "Crystalbet",
+          value: 101.98302170395343,
+        },
+        {
+          name: "Asvla",
+          value: 16.21425405844071,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1670.68,
+        },
+        {
+          name: "Slotegrator",
+          value: 512.9836600852797,
+        },
+        {
+          name: "BetConstruct",
+          value: 373.9694699745038,
+        },
+        {
+          name: "Digitain",
+          value: 7.570382914822526,
+        },
+        {
+          name: "Easit",
+          value: 141.29000000000002,
+        },
+        {
+          name: "Efbet",
+          value: 21.5,
+        },
+        {
+          name: "Comtrade",
+          value: 5.68795724879442,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1304.04,
+        },
+        {
+          name: "Skywind360",
+          value: 42.41450879488942,
+        },
+        {
+          name: "BlueOcean",
+          value: 71.30426120798026,
+        },
+        {
+          name: "Leopard",
+          value: 455.1729837257214,
+        },
+        {
+          name: "BetB2B",
+          value: 324.453982274357,
+        },
+        {
+          name: "Intralot",
+          value: 604.6360926852273,
+        },
+        {
+          name: "Leris",
+          value: 12.1,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1883.3772942872615,
+        },
+        {
+          name: "Ondiss",
+          value: 7.0686117597440985,
+        },
+        {
+          name: "TGLab",
+          value: 25.39816693053845,
+        },
+        {
+          name: "Avento",
+          value: 0,
+        },
+        {
+          name: "Pariplay",
+          value: 14.6241077385761,
+        },
+        {
+          name: "SoftSwiss",
+          value: 3.5304562233896397,
+        },
+        {
+          name: "Optimus",
+          value: 71.8444182504726,
+        },
+      ],
+      total: 10368.3282391866,
+      period: "2026-04-01T23:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetB2B",
+          value: 500.79972863882944,
+        },
+        {
+          name: "Digitain",
+          value: 38.5941089775266,
+        },
+        {
+          name: "MrSlotty",
+          value: 870.0430805921567,
+        },
+        {
+          name: "Virtualsoft",
+          value: 27.105090698744217,
+        },
+        {
+          name: "Comtrade",
+          value: 5.021093295487487,
+        },
+        {
+          name: "ORYX",
+          value: 701.7748060463267,
+        },
+        {
+          name: "BlueOcean",
+          value: 630.567061243301,
+        },
+        {
+          name: "Avento",
+          value: 8.590776810248123,
+        },
+        {
+          name: "Ondiss",
+          value: 18.432234739314993,
+        },
+        {
+          name: "Betmexico",
+          value: 12.025958621959635,
+        },
+        {
+          name: "Slotegrator",
+          value: 331.41152486342884,
+        },
+        {
+          name: "Optimus",
+          value: 66.69853705346905,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1002.3493949328495,
+        },
+        {
+          name: "EGT New Platform",
+          value: 518.5600000000001,
+        },
+        {
+          name: "Crystalbet",
+          value: 46.78179338148203,
+        },
+        {
+          name: "Leopard",
+          value: 15.722151445652663,
+        },
+        {
+          name: "Skywind360",
+          value: 18.387792830154375,
+        },
+        {
+          name: "Gaming1",
+          value: 1,
+        },
+        {
+          name: "Intralot",
+          value: 414.4487768103967,
+        },
+        {
+          name: "Reevo",
+          value: 608.0999999999999,
+        },
+        {
+          name: "TopSport",
+          value: 19.200000000000003,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.6153408966577713,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1886.9441397771382,
+        },
+        {
+          name: "Pariplay",
+          value: 18.31633295970175,
+        },
+        {
+          name: "Evoplay",
+          value: 311.7354019996292,
+        },
+        {
+          name: "Easit",
+          value: 434.8,
+        },
+        {
+          name: "Efbet",
+          value: 14.5,
+        },
+        {
+          name: "TGLab",
+          value: 47.735981843217814,
+        },
+        {
+          name: "BetConstruct",
+          value: 183.51264114577464,
+        },
+        {
+          name: "Asvla",
+          value: 25.161714747163256,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1815.9299999999998,
+        },
+      ],
+      total: 10594.86546435061,
+      period: "2026-04-01T23:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "TGLab",
+          value: 83.94743430985372,
+        },
+        {
+          name: "Goldrush",
+          value: 2.4000000000000004,
+        },
+        {
+          name: "MrSlotty",
+          value: 3321.847306767607,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1547.53,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1337.4072169739022,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.5361001011895691,
+        },
+        {
+          name: "EGT New Platform",
+          value: 327.48,
+        },
+        {
+          name: "Virtualsoft",
+          value: 10.340571411130504,
+        },
+        {
+          name: "Digitain",
+          value: 15.734521352376229,
+        },
+        {
+          name: "Slotegrator",
+          value: 447.7849292121126,
+        },
+        {
+          name: "Leopard",
+          value: 21.122852721161674,
+        },
+        {
+          name: "TopSport",
+          value: 94,
+        },
+        {
+          name: "Asvla",
+          value: 16.3494801645675,
+        },
+        {
+          name: "Optimus",
+          value: 45.39755767548802,
+        },
+        {
+          name: "Avento",
+          value: 33.343197665346594,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1868.4719366133324,
+        },
+        {
+          name: "Intralot",
+          value: 467.99562903537014,
+        },
+        {
+          name: "Easit",
+          value: 289.6,
+        },
+        {
+          name: "Pariplay",
+          value: 7.746778721842688,
+        },
+        {
+          name: "Crystalbet",
+          value: 37.78603765485706,
+        },
+        {
+          name: "BetB2B",
+          value: 1203.4796799194621,
+        },
+        {
+          name: "Skywind360",
+          value: 0.07845458274199199,
+        },
+        {
+          name: "Reevo",
+          value: 1114.2,
+        },
+        {
+          name: "ORYX",
+          value: 558.6437309009481,
+        },
+        {
+          name: "Gaming1",
+          value: 245,
+        },
+        {
+          name: "BetConstruct",
+          value: 180.54781389446399,
+        },
+        {
+          name: "Everymatrix",
+          value: 6.225458375363591,
+        },
+        {
+          name: "Comtrade",
+          value: 43.46383883906356,
+        },
+        {
+          name: "Efbet",
+          value: 17.4,
+        },
+        {
+          name: "Evoplay",
+          value: 164.29843631161268,
+        },
+        {
+          name: "Ondiss",
+          value: 19.44650852592132,
+        },
+      ],
+      total: 13529.605471729716,
+      period: "2026-04-01T23:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: 90.81985516442317,
+        },
+        {
+          name: "Evoplay",
+          value: 153.88875791131602,
+        },
+        {
+          name: "Easit",
+          value: 483.37,
+        },
+        {
+          name: "Efbet",
+          value: 27.9,
+        },
+        {
+          name: "Everymatrix",
+          value: 8.68264375395214,
+        },
+        {
+          name: "Virtualsoft",
+          value: 13.630832477644947,
+        },
+        {
+          name: "Skywind360",
+          value: 3.3343197665346596,
+        },
+        {
+          name: "Reevo",
+          value: 784.7,
+        },
+        {
+          name: "Comtrade",
+          value: 2.5890012304857355,
+        },
+        {
+          name: "Intralot",
+          value: 371.52272649827717,
+        },
+        {
+          name: "Crystalbet",
+          value: 25.934435353602048,
+        },
+        {
+          name: "Avento",
+          value: 0,
+        },
+        {
+          name: "TopSport",
+          value: 33.5,
+        },
+        {
+          name: "Dench",
+          value: 1.57,
+        },
+        {
+          name: "Leopard",
+          value: 17.933890767826302,
+        },
+        {
+          name: "Baby Leopard",
+          value: 861.3199999999999,
+        },
+        {
+          name: "BlueOcean",
+          value: 1.2509002361089945,
+        },
+        {
+          name: "Slotegrator",
+          value: 309.6971450289429,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1854.4343517984257,
+        },
+        {
+          name: "BetConstruct",
+          value: 215.08171482082986,
+        },
+        {
+          name: "BetB2B",
+          value: 753.3476148689641,
+        },
+        {
+          name: "Ondiss",
+          value: 41.0655664589562,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1269.8385745930284,
+        },
+        {
+          name: "TGLab",
+          value: 77.12112128802113,
+        },
+        {
+          name: "Digitain",
+          value: 3.90269818418325,
+        },
+        {
+          name: "EGT New Platform",
+          value: 208.4,
+        },
+        {
+          name: "Asvla",
+          value: 17.79833130164024,
+        },
+        {
+          name: "Pariplay",
+          value: 3.5956964571746517,
+        },
+        {
+          name: "ORYX",
+          value: 505.7989080993077,
+        },
+        {
+          name: "MrSlotty",
+          value: 114.55466572588749,
+        },
+      ],
+      total: 8256.583751785533,
+      period: "2026-04-01T23:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Calimaco Apuesta",
+          value: 1901.8280590746836,
+        },
+        {
+          name: "Intralot",
+          value: 263.189557394629,
+        },
+        {
+          name: "Easit",
+          value: 159.4,
+        },
+        {
+          name: "Crystalbet",
+          value: 43.24015726863755,
+        },
+        {
+          name: "BetB2B",
+          value: 391.0759170398662,
+        },
+        {
+          name: "Baby Leopard",
+          value: 876.35,
+        },
+        {
+          name: "ORYX",
+          value: 575.2068375938175,
+        },
+        {
+          name: "BetConstruct",
+          value: 193.42972941353236,
+        },
+        {
+          name: "EGT New Platform",
+          value: 361.94,
+        },
+        {
+          name: "Everymatrix",
+          value: 27.641309195149933,
+        },
+        {
+          name: "Efbet",
+          value: 16.6,
+        },
+        {
+          name: "Slotegrator",
+          value: 141.6134883527022,
+        },
+        {
+          name: "Digitain",
+          value: 18.646198833041097,
+        },
+        {
+          name: "Gaming1",
+          value: 7,
+        },
+        {
+          name: "BlueOcean",
+          value: 10.847280789903078,
+        },
+        {
+          name: "Leopard",
+          value: 48.6632130505095,
+        },
+        {
+          name: "MrSlotty",
+          value: 133.30702792675805,
+        },
+        {
+          name: "Evoplay",
+          value: 162.8546925752787,
+        },
+        {
+          name: "Reevo",
+          value: 527.3,
+        },
+        {
+          name: "Skywind360",
+          value: 4.540558976192787,
+        },
+        {
+          name: "TGLab",
+          value: 15.765070337498354,
+        },
+        {
+          name: "Pariplay",
+          value: 5.333297415383519,
+        },
+        {
+          name: "Virtualsoft",
+          value: 6.926477155426229,
+        },
+        {
+          name: "iSOFTBET",
+          value: 946.2957729905777,
+        },
+        {
+          name: "Asvla",
+          value: 19.768768848059167,
+        },
+        {
+          name: "Optimus",
+          value: 107.96454588328595,
+        },
+        {
+          name: "Ondiss",
+          value: 445.1497386631971,
+        },
+      ],
+      total: 7411.877698778129,
+      period: "2026-04-01T23:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: 55.714059882942244,
+        },
+        {
+          name: "Leopard",
+          value: 33.153824000502176,
+        },
+        {
+          name: "Baby Leopard",
+          value: 796.77,
+        },
+        {
+          name: "Everymatrix",
+          value: 140.2467204468231,
+        },
+        {
+          name: "EGT New Platform",
+          value: 411.95,
+        },
+        {
+          name: "BetB2B",
+          value: 438.00451933456964,
+        },
+        {
+          name: "Easit",
+          value: 44.68,
+        },
+        {
+          name: "BtoBet",
+          value: 21.71897188897441,
+        },
+        {
+          name: "Skywind360",
+          value: 22.869510869290664,
+        },
+        {
+          name: "Evoplay",
+          value: 347.5066708147732,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1568.7194859403937,
+        },
+        {
+          name: "Virtualsoft",
+          value: 6.353049971269439,
+        },
+        {
+          name: "Crystalbet",
+          value: 19.478998620644617,
+        },
+        {
+          name: "Pariplay",
+          value: 0,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1866.6623109900286,
+        },
+        {
+          name: "Intralot",
+          value: 313.72557432308645,
+        },
+        {
+          name: "Efbet",
+          value: 3.2,
+        },
+        {
+          name: "Comtrade",
+          value: 2.0594327969772896,
+        },
+        {
+          name: "BlueOcean",
+          value: 7.0132743348735005,
+        },
+        {
+          name: "BetConstruct",
+          value: 195.57362218756364,
+        },
+        {
+          name: "MrSlotty",
+          value: 75.74561511695185,
+        },
+        {
+          name: "Slotegrator",
+          value: 235.9303902130136,
+        },
+        {
+          name: "Digitain",
+          value: 10.34348146693031,
+        },
+        {
+          name: "Reevo",
+          value: 321.71944228880795,
+        },
+        {
+          name: "Betmexico",
+          value: 3.8416256709037726,
+        },
+        {
+          name: "ORYX",
+          value: 663.5068427418366,
+        },
+        {
+          name: "Asvla",
+          value: 10.125859613541706,
+        },
+        {
+          name: "Ondiss",
+          value: 317.7995255206826,
+        },
+        {
+          name: "TGLab",
+          value: 49.199791789566945,
+        },
+      ],
+      total: 7983.6126008249485,
+      period: "2026-04-02T00:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Ondiss",
+          value: 386.0282205178583,
+        },
+        {
+          name: "Slotegrator",
+          value: 224.26200115377142,
+        },
+        {
+          name: "Asvla",
+          value: 8.081369675672395,
+        },
+        {
+          name: "Crystalbet",
+          value: 15.711985664255494,
+        },
+        {
+          name: "MrSlotty",
+          value: 142.70320899980462,
+        },
+        {
+          name: "Everymatrix",
+          value: 29.448422489386072,
+        },
+        {
+          name: "Gaming1",
+          value: 13.8,
+        },
+        {
+          name: "Virtualsoft",
+          value: 32.282881975697485,
+        },
+        {
+          name: "TGLab",
+          value: 42.61828188536588,
+        },
+        {
+          name: "Optimus",
+          value: 67.2304430425824,
+        },
+        {
+          name: "EGT New Platform",
+          value: 740.4,
+        },
+        {
+          name: "TopSport",
+          value: 1.6,
+        },
+        {
+          name: "Reevo",
+          value: 432.45,
+        },
+        {
+          name: "BetConstruct",
+          value: 164.45388670364343,
+        },
+        {
+          name: "Avento",
+          value: 1.2552733238718718,
+        },
+        {
+          name: "Comtrade",
+          value: 0.009806822842748999,
+        },
+        {
+          name: "Pariplay",
+          value: 0.5937555227311785,
+        },
+        {
+          name: "Baby Leopard",
+          value: 837.57,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1803.8315436560383,
+        },
+        {
+          name: "BetB2B",
+          value: 293.1237056001024,
+        },
+        {
+          name: "BlueOcean",
+          value: 29.847187543543555,
+        },
+        {
+          name: "Intralot",
+          value: 341.21150706285056,
+        },
+        {
+          name: "Betmexico",
+          value: 34.35749567412635,
+        },
+        {
+          name: "Digitain",
+          value: 6.899872897243277,
+        },
+        {
+          name: "Leopard",
+          value: 52.15152674655518,
+        },
+        {
+          name: "ORYX",
+          value: 624.5255041690326,
+        },
+        {
+          name: "BtoBet",
+          value: 5.188421062366109,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1953.3126217745926,
+        },
+        {
+          name: "Evoplay",
+          value: 559.5780669427394,
+        },
+        {
+          name: "Skywind360",
+          value: 29.763707327743212,
+        },
+      ],
+      total: 8874.290698234418,
+      period: "2026-04-02T00:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Everymatrix",
+          value: 155.76193846738883,
+        },
+        {
+          name: "BetConstruct",
+          value: 51.3735299516321,
+        },
+        {
+          name: "Optimus",
+          value: 33.609036567929415,
+        },
+        {
+          name: "Leopard",
+          value: 30.551195625863844,
+        },
+        {
+          name: "Skywind360",
+          value: 1.0297163984886448,
+        },
+        {
+          name: "Ondiss",
+          value: 395.64816911736835,
+        },
+        {
+          name: "ORYX",
+          value: 445.9129814008446,
+        },
+        {
+          name: "BetB2B",
+          value: 337.58330328599214,
+        },
+        {
+          name: "Digitain",
+          value: 31.088086948526783,
+        },
+        {
+          name: "BlueOcean",
+          value: 88.83493427057662,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1653.6926449636742,
+        },
+        {
+          name: "Baby Leopard",
+          value: 929.87,
+        },
+        {
+          name: "Intralot",
+          value: 358.89799969620555,
+        },
+        {
+          name: "Virtualsoft",
+          value: 38.5198895371852,
+        },
+        {
+          name: "TopSport",
+          value: 10.04,
+        },
+        {
+          name: "Betmexico",
+          value: 3.875031111520327,
+        },
+        {
+          name: "Evoplay",
+          value: 221.3097520178022,
+        },
+        {
+          name: "Reevo",
+          value: 390.0956983465569,
+        },
+        {
+          name: "Crystalbet",
+          value: 16.584516015692632,
+        },
+        {
+          name: "Slotegrator",
+          value: 181.7011026347277,
+        },
+        {
+          name: "Gaming1",
+          value: 93,
+        },
+        {
+          name: "Asvla",
+          value: 6.941606781175173,
+        },
+        {
+          name: "BtoBet",
+          value: 4.947099152488615,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1574.9055791973642,
+        },
+        {
+          name: "Pariplay",
+          value: 32.7665397085689,
+        },
+        {
+          name: "EGT New Platform",
+          value: 155.23,
+        },
+        {
+          name: "TGLab",
+          value: 30.3906479023896,
+        },
+        {
+          name: "Avento",
+          value: 5.491820791939439,
+        },
+        {
+          name: "Easit",
+          value: 0.35,
+        },
+        {
+          name: "MrSlotty",
+          value: 209.80569663000477,
+        },
+      ],
+      total: 7489.808516521906,
+      period: "2026-04-02T00:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BtoBet",
+          value: 1.4479314592649606,
+        },
+        {
+          name: "Evoplay",
+          value: 391.9091550158789,
+        },
+        {
+          name: "BlueOcean",
+          value: 51.68540420717785,
+        },
+        {
+          name: "Admiralbet",
+          value: 9.200000000000001,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1504.6935752567063,
+        },
+        {
+          name: "Ondiss",
+          value: 514.687598159011,
+        },
+        {
+          name: "Gaming1",
+          value: 46.660000000000004,
+        },
+        {
+          name: "Efbet",
+          value: 0.4,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1575.1999999999998,
+        },
+        {
+          name: "Digitain",
+          value: 34.97220028886641,
+        },
+        {
+          name: "Intralot",
+          value: 487.50049795708935,
+        },
+        {
+          name: "Virtualsoft",
+          value: 84.03890587456449,
+        },
+        {
+          name: "Reevo",
+          value: 407.2544228880798,
+        },
+        {
+          name: "Leopard",
+          value: 59.452245694803956,
+        },
+        {
+          name: "EGT New Platform",
+          value: 110.19,
+        },
+        {
+          name: "Crystalbet",
+          value: 48.8552603420928,
+        },
+        {
+          name: "TGLab",
+          value: 53.494803009393735,
+        },
+        {
+          name: "BetB2B",
+          value: 342.8183531113125,
+        },
+        {
+          name: "Slotegrator",
+          value: 187.04232763002932,
+        },
+        {
+          name: "BetConstruct",
+          value: 52.51871491167366,
+        },
+        {
+          name: "Pariplay",
+          value: 5.060986760077488,
+        },
+        {
+          name: "MrSlotty",
+          value: 276.0712066594231,
+        },
+        {
+          name: "ORYX",
+          value: 583.7335425842248,
+        },
+        {
+          name: "Asvla",
+          value: 5.772866863936496,
+        },
+        {
+          name: "Easit",
+          value: 21.18393277547083,
+        },
+        {
+          name: "Optimus",
+          value: 10.650489688990515,
+        },
+        {
+          name: "Avento",
+          value: 0.06864775989924299,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1466.9868220492333,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.036927302121086,
+        },
+      ],
+      total: 8334.586818249321,
+      period: "2026-04-02T00:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: 6.531310750042963,
+        },
+        {
+          name: "ORYX",
+          value: 724.7881857637974,
+        },
+        {
+          name: "Leopard",
+          value: 52.46077441464433,
+        },
+        {
+          name: "EGT New Platform",
+          value: 123.21,
+        },
+        {
+          name: "Ondiss",
+          value: 190.49814778270846,
+        },
+        {
+          name: "MrSlotty",
+          value: 269.24780565364205,
+        },
+        {
+          name: "Easit",
+          value: 9.287103641718982,
+        },
+        {
+          name: "Everymatrix",
+          value: 13.032602721810926,
+        },
+        {
+          name: "Slotegrator",
+          value: 179.42821898865844,
+        },
+        {
+          name: "BlueOcean",
+          value: 40.95898908459735,
+        },
+        {
+          name: "Crystalbet",
+          value: 34.58568647652305,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1432.5734211097483,
+        },
+        {
+          name: "Skywind360",
+          value: 5.09954787822948,
+        },
+        {
+          name: "BetConstruct",
+          value: 50.4840141919719,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1866.674229033484,
+        },
+        {
+          name: "Peppermill",
+          value: 0.58,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1179.35,
+        },
+        {
+          name: "Gaming1",
+          value: 53.92,
+        },
+        {
+          name: "Efbet",
+          value: 45.099999999999994,
+        },
+        {
+          name: "Evoplay",
+          value: 501.68594777343975,
+        },
+        {
+          name: "Intralot",
+          value: 452.64210081007974,
+        },
+        {
+          name: "BetB2B",
+          value: 412.2745838546541,
+        },
+        {
+          name: "Asvla",
+          value: 6.555246477955776,
+        },
+        {
+          name: "Virtualsoft",
+          value: 15.58188502323763,
+        },
+        {
+          name: "Pariplay",
+          value: 14.461731998270078,
+        },
+        {
+          name: "TGLab",
+          value: 45.529623309884045,
+        },
+        {
+          name: "Digitain",
+          value: 2.671899852290303,
+        },
+        {
+          name: "BtoBet",
+          value: 0.4826438197549868,
+        },
+        {
+          name: "Reevo",
+          value: 420.8925586772455,
+        },
+      ],
+      total: 8150.588259088389,
+      period: "2026-04-02T00:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Asvla",
+          value: 9.337040661135436,
+        },
+        {
+          name: "Efbet",
+          value: 24.6,
+        },
+        {
+          name: "Reevo",
+          value: 149.32,
+        },
+        {
+          name: "Digitain",
+          value: 1.484388806827946,
+        },
+        {
+          name: "Evoplay",
+          value: 1476.0745393265374,
+        },
+        {
+          name: "Ondiss",
+          value: 234.94212248396573,
+        },
+        {
+          name: "Leopard",
+          value: 43.91316886866007,
+        },
+        {
+          name: "EGT New Platform",
+          value: 155.95,
+        },
+        {
+          name: "Slotegrator",
+          value: 120.73727272063196,
+        },
+        {
+          name: "Skywind360",
+          value: 3.775626794458365,
+        },
+        {
+          name: "Virtualsoft",
+          value: 15.620945649131777,
+        },
+        {
+          name: "BetConstruct",
+          value: 21.233859735840472,
+        },
+        {
+          name: "BlueOcean",
+          value: 38.50964161714613,
+        },
+        {
+          name: "Peppermill",
+          value: 15.25,
+        },
+        {
+          name: "BtoBet",
+          value: 3.8611505580398946,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1136.711546556283,
+        },
+        {
+          name: "MrSlotty",
+          value: 205.43754799926623,
+        },
+        {
+          name: "Crystalbet",
+          value: 96.26166954711286,
+        },
+        {
+          name: "BetB2B",
+          value: 389.1262427041258,
+        },
+        {
+          name: "Gaming1",
+          value: 0,
+        },
+        {
+          name: "TopSport",
+          value: 0,
+        },
+        {
+          name: "Intralot",
+          value: 376.47068918770367,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1483.1599999999999,
+        },
+        {
+          name: "ORYX",
+          value: 562.0581762831237,
+        },
+        {
+          name: "Everymatrix",
+          value: 31.07374164055818,
+        },
+        {
+          name: "TGLab",
+          value: 19.621815106322416,
+        },
+        {
+          name: "Pariplay",
+          value: 30.570190086731543,
+        },
+        {
+          name: "Optimus",
+          value: 2.5234609716075083,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1999.2626561993031,
+        },
+        {
+          name: "Easit",
+          value: 13.65,
+        },
+      ],
+      total: 8660.537493504513,
+      period: "2026-04-02T00:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Calimaco Apuesta",
+          value: 2279.2538044474045,
+        },
+        {
+          name: "Digitain",
+          value: 37.10972017069865,
+        },
+        {
+          name: "Evoplay",
+          value: 542.5117535956723,
+        },
+        {
+          name: "ORYX",
+          value: 680.6506323036488,
+        },
+        {
+          name: "Asvla",
+          value: 11.011268641752824,
+        },
+        {
+          name: "BlueOcean",
+          value: 29.611855367134886,
+        },
+        {
+          name: "Pariplay",
+          value: 98.2386701905531,
+        },
+        {
+          name: "BetConstruct",
+          value: 23.52689287676091,
+        },
+        {
+          name: "Peppermill",
+          value: 8.719999999999999,
+        },
+        {
+          name: "Crystalbet",
+          value: 126.26576676129255,
+        },
+        {
+          name: "Leopard",
+          value: 61.018275886007444,
+        },
+        {
+          name: "MrSlotty",
+          value: 205.60489250842028,
+        },
+        {
+          name: "Intralot",
+          value: 448.60951121819716,
+        },
+        {
+          name: "Ondiss",
+          value: 367.8151190040447,
+        },
+        {
+          name: "TopSport",
+          value: 121.86999999999999,
+        },
+        {
+          name: "Skywind360",
+          value: 5.8350595914356544,
+        },
+        {
+          name: "TGLab",
+          value: 22.02226306795739,
+        },
+        {
+          name: "Efbet",
+          value: 5.1,
+        },
+        {
+          name: "Easit",
+          value: 16,
+        },
+        {
+          name: "BtoBet",
+          value: 6.419162802741325,
+        },
+        {
+          name: "iSOFTBET",
+          value: 5128.185583556235,
+        },
+        {
+          name: "Slotegrator",
+          value: 305.86504513201953,
+        },
+        {
+          name: "Everymatrix",
+          value: 8.512923485674687,
+        },
+        {
+          name: "EGT New Platform",
+          value: 439.22,
+        },
+        {
+          name: "Reevo",
+          value: 80.08,
+        },
+        {
+          name: "Goldrush",
+          value: 2.4,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1128.81,
+        },
+        {
+          name: "BetB2B",
+          value: 466.3842373517238,
+        },
+        {
+          name: "Optimus",
+          value: 14.497530680019608,
+        },
+        {
+          name: "Virtualsoft",
+          value: 25.30856091250814,
+        },
+      ],
+      total: 12696.458529551903,
+      period: "2026-04-02T00:30:00.000Z",
     },
     {
       items: [
         {
           name: "Slotegrator",
-          value: -52.38527790371204,
-        },
-        {
-          name: "Optimus",
-          value: 20.039191013860517,
-        },
-        {
-          name: "BetB2B",
-          value: -8407.475812888413,
-        },
-        {
-          name: "TGLab",
-          value: 7.530676615107507,
-        },
-        {
-          name: "Skywind360",
-          value: -7.242880407725922,
-        },
-        {
-          name: "Ondiss",
-          value: 3.100190099650272,
-        },
-        {
-          name: "Reevo",
-          value: 230.5,
-        },
-        {
-          name: "Everymatrix",
-          value: -0.09335631580160841,
-        },
-        {
-          name: "Leopard",
-          value: 9.957800644772979,
-        },
-        {
-          name: "MrSlotty",
-          value: 16.205301612378975,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -351.7197106620417,
+          value: 97.60124370789032,
         },
         {
           name: "TopSport",
-          value: 9.65,
+          value: 71.55,
         },
         {
-          name: "Baby Leopard",
-          value: -547.63,
+          name: "iSOFTBET",
+          value: 1152.4513891833412,
         },
         {
           name: "BlueOcean",
-          value: 2.6270804425254672,
+          value: 14.904156031882032,
         },
         {
-          name: "ORYX",
-          value: 163.0879347956976,
-        },
-        {
-          name: "Pariplay",
-          value: -11.79583587429345,
-        },
-        {
-          name: "Virtualsoft",
-          value: 6.047081792729733,
-        },
-        {
-          name: "BetConstruct",
-          value: -1.9987525117873024,
-        },
-        {
-          name: "iSOFTBET",
-          value: 10.617436073275378,
-        },
-        {
-          name: "WeAreCasino",
-          value: 6.8762296359918755,
+          name: "Digitain",
+          value: 5.442758958369136,
         },
         {
           name: "Peppermill",
-          value: 6,
+          value: 12.23,
         },
         {
-          name: "BtoBet",
-          value: 0.2948324932219126,
+          name: "Asvla",
+          value: 12.621103238500314,
         },
         {
-          name: "Easit",
-          value: 4.04,
-        },
-        {
-          name: "Crystalbet",
-          value: 5.6799754798983155,
-        },
-        {
-          name: "Intralot",
-          value: 61.95880770994128,
-        },
-        {
-          name: "EGT New Platform",
-          value: 44.645136087558356,
-        },
-      ],
-      total: -8771.483952067165,
-      period: "2026-03-26T03:20:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "iSOFTBET",
-          value: 9.266718463236124,
-        },
-        {
-          name: "Ondiss",
-          value: 1.5379849322483772,
-        },
-        {
-          name: "Pariplay",
-          value: 14.366308541462722,
-        },
-        {
-          name: "Easit",
-          value: 3.5650105419932205,
-        },
-        {
-          name: "Skywind360",
-          value: 4.3575052859489265,
+          name: "ORYX",
+          value: 642.9968573808646,
         },
         {
           name: "TGLab",
-          value: 23.285334076591965,
+          value: 34.6387020024661,
         },
         {
-          name: "Virtualsoft",
-          value: -40.92717564610502,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 37.9196410744256,
+          name: "MrSlotty",
+          value: 239.4439303210113,
         },
         {
           name: "Crystalbet",
-          value: -19.379112770144143,
+          value: 48.072880728073514,
+        },
+        {
+          name: "Virtualsoft",
+          value: 22.770443823568193,
+        },
+        {
+          name: "Easit",
+          value: 56.55,
         },
         {
           name: "Intralot",
-          value: 407.13229652414384,
+          value: 501.540342088337,
         },
         {
           name: "Optimus",
-          value: -10.157057547239308,
+          value: 44.43270495104986,
+        },
+        {
+          name: "Leopard",
+          value: 88.73923685351933,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1948.1070142822127,
+        },
+        {
+          name: "BetConstruct",
+          value: 28.6562562094122,
         },
         {
           name: "Everymatrix",
-          value: 1.8407136208127355,
+          value: 28.611970261508638,
         },
         {
-          name: "TopSport",
-          value: -4.950000000000001,
+          name: "BetB2B",
+          value: 340.0929339700657,
         },
         {
-          name: "Gaming1",
+          name: "Reevo",
+          value: 299.36,
+        },
+        {
+          name: "Comtrade",
+          value: 4.177706531011073,
+        },
+        {
+          name: "EGT New Platform",
+          value: 589,
+        },
+        {
+          name: "Pariplay",
+          value: 29.4412730050542,
+        },
+        {
+          name: "Ondiss",
+          value: 243.37875166576836,
+        },
+        {
+          name: "Efbet",
           value: 9.6,
         },
         {
           name: "Evoplay",
-          value: -10.76,
-        },
-        {
-          name: "BetB2B",
-          value: 56.37114740343138,
-        },
-        {
-          name: "Betmexico",
-          value: -16.322600317669284,
-        },
-        {
-          name: "Reevo",
-          value: 75,
-        },
-        {
-          name: "MrSlotty",
-          value: 23.168276306446195,
-        },
-        {
-          name: "WeAreCasino",
-          value: 1.11506426529598,
-        },
-        {
-          name: "Baby Leopard",
-          value: -177.57,
+          value: 331.8190480972678,
         },
         {
           name: "BtoBet",
-          value: 2.3586599457753006,
+          value: 28.065738118752485,
         },
         {
-          name: "Slotegrator",
-          value: 24.683486176680464,
-        },
-        {
-          name: "BetConstruct",
-          value: 4.702947086558359,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "Leopard",
-          value: 3.2536886605261257,
-        },
-        {
-          name: "EGT New Platform",
-          value: 35.12,
-        },
-        {
-          name: "BlueOcean",
-          value: 0.5416062899313111,
-        },
-        {
-          name: "ORYX",
-          value: 80.3131160182835,
-        },
-        {
-          name: "Peppermill",
-          value: 3,
+          name: "Baby Leopard",
+          value: 1299.93,
         },
       ],
-      total: 542.4335589326344,
-      period: "2026-03-26T03:25:00.000Z",
+      total: 8226.226441409926,
+      period: "2026-04-02T00:35:00.000Z",
     },
     {
       items: [
         {
-          name: "Crystalbet",
-          value: 2.0158841546960544,
+          name: "Calimaco Apuesta",
+          value: 1655.3846944732968,
         },
         {
-          name: "Betmexico",
-          value: 46.73261920157361,
+          name: "Reevo",
+          value: 212.32,
         },
         {
-          name: "TopSport",
-          value: 23.4,
+          name: "iSOFTBET",
+          value: 865.0925729060998,
         },
         {
-          name: "Easit",
-          value: 11.188129561439373,
+          name: "Slotegrator",
+          value: 88.01179431598845,
+        },
+        {
+          name: "Leopard",
+          value: 53.67302527355382,
+        },
+        {
+          name: "Comtrade",
+          value: 34.52001640647647,
+        },
+        {
+          name: "EGT New Platform",
+          value: 535.7,
+        },
+        {
+          name: "BetB2B",
+          value: 468.8985442430429,
+        },
+        {
+          name: "Everymatrix",
+          value: 3.19586500476716,
         },
         {
           name: "BtoBet",
-          value: 2.137535575858866,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 162.51661443655004,
-        },
-        {
-          name: "Intralot",
-          value: -127.83465300887258,
-        },
-        {
-          name: "Everymatrix",
-          value: 7.0998953945634105,
-        },
-        {
-          name: "ORYX",
-          value: -159.07758801155637,
-        },
-        {
-          name: "Virtualsoft",
-          value: -21.391907568480725,
-        },
-        {
-          name: "BetConstruct",
-          value: 9.758615204608594,
-        },
-        {
-          name: "EGT New Platform",
-          value: 106.39,
-        },
-        {
-          name: "BetB2B",
-          value: 43.36503148067325,
-        },
-        {
-          name: "Peppermill",
-          value: 18.95,
-        },
-        {
-          name: "TGLab",
-          value: 15.900936418917773,
-        },
-        {
-          name: "Skywind360",
-          value: 9.48051825726726,
-        },
-        {
-          name: "Reevo",
-          value: -67,
-        },
-        {
-          name: "Leopard",
-          value: 1.9925690246632857,
-        },
-        {
-          name: "Slotegrator",
-          value: 48.0486008057355,
+          value: 6.2019730838515805,
         },
         {
           name: "BlueOcean",
-          value: -1.320465045767078,
-        },
-        {
-          name: "Ondiss",
-          value: 1.8286277540905902,
-        },
-        {
-          name: "Pariplay",
-          value: 3.685406165273907,
-        },
-        {
-          name: "Optimus",
-          value: -125.00470054599637,
-        },
-        {
-          name: "Gaming1",
-          value: 24.7,
-        },
-        {
-          name: "MrSlotty",
-          value: 13.242849169055694,
-        },
-        {
-          name: "iSOFTBET",
-          value: 141.5167489290507,
-        },
-        {
-          name: "Baby Leopard",
-          value: -29.93000000000002,
-        },
-      ],
-      total: 162.39126735334474,
-      period: "2026-03-26T03:30:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Slotegrator",
-          value: 35.50257625712038,
-        },
-        {
-          name: "TopSport",
-          value: 4.95,
-        },
-        {
-          name: "Peppermill",
-          value: -25.659999999999997,
-        },
-        {
-          name: "Easit",
-          value: 1.1,
-        },
-        {
-          name: "BetConstruct",
-          value: 5.996257535361907,
-        },
-        {
-          name: "BetB2B",
-          value: 80.27575700669396,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -215.8233326415686,
-        },
-        {
-          name: "Intralot",
-          value: 134.55642066802153,
-        },
-        {
-          name: "MrSlotty",
-          value: 86.96765776746795,
-        },
-        {
-          name: "EGT New Platform",
-          value: 147.75,
-        },
-        {
-          name: "Ondiss",
-          value: 3.2455115105713785,
-        },
-        {
-          name: "BlueOcean",
-          value: 3.324438265684675,
-        },
-        {
-          name: "Leopard",
-          value: -23.159200992985184,
-        },
-        {
-          name: "Virtualsoft",
-          value: -10.883833896732698,
-        },
-        {
-          name: "Pariplay",
-          value: 4.619042393809964,
-        },
-        {
-          name: "iSOFTBET",
-          value: 170.17612458614846,
-        },
-        {
-          name: "Baby Leopard",
-          value: -602.8299999999999,
-        },
-        {
-          name: "Optimus",
-          value: 15.44367106077633,
-        },
-        {
-          name: "Reevo",
-          value: -48,
-        },
-        {
-          name: "Betmexico",
-          value: 16.495806283647585,
-        },
-        {
-          name: "Skywind360",
-          value: -0.8832780985031609,
-        },
-        {
-          name: "ORYX",
-          value: 164.74260910224467,
-        },
-        {
-          name: "Crystalbet",
-          value: -8.317106952708249,
-        },
-        {
-          name: "TGLab",
-          value: 2.379638103833119,
-        },
-      ],
-      total: -58.0312420411159,
-      period: "2026-03-26T03:35:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Pariplay",
-          value: 5.700094868956976,
-        },
-        {
-          name: "BetB2B",
-          value: 43.780615037985235,
-        },
-        {
-          name: "Virtualsoft",
-          value: 28.006180057639526,
-        },
-        {
-          name: "BetConstruct",
-          value: -6.936846952673578,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 195.23773500236817,
-        },
-        {
-          name: "Easit",
-          value: 14.2,
-        },
-        {
-          name: "Crystalbet",
-          value: 4.031768309392108,
-        },
-        {
-          name: "TopSport",
-          value: -50.5,
-        },
-        {
-          name: "Reevo",
-          value: 22.5,
-        },
-        {
-          name: "Everymatrix",
-          value: 0.29442603283438695,
+          value: 43.371659976874525,
         },
         {
           name: "Evoplay",
-          value: 1,
-        },
-        {
-          name: "Baby Leopard",
-          value: 852.29,
-        },
-        {
-          name: "TGLab",
-          value: 15.124931347492998,
-        },
-        {
-          name: "Peppermill",
-          value: 41.2,
-        },
-        {
-          name: "Intralot",
-          value: -0.23709049154221873,
+          value: 321.98776857090127,
         },
         {
           name: "ORYX",
-          value: -179.97403981490277,
+          value: 453.87474838601923,
         },
         {
-          name: "Optimus",
-          value: 38.943374355444476,
-        },
-        {
-          name: "Slotegrator",
-          value: 42.52143952263335,
-        },
-        {
-          name: "MrSlotty",
-          value: 43.203669838950226,
-        },
-        {
-          name: "BlueOcean",
-          value: -2.289675137009217,
-        },
-        {
-          name: "Leopard",
-          value: 12.792797586192641,
-        },
-        {
-          name: "Ondiss",
-          value: 3.5785397439322475,
-        },
-        {
-          name: "iSOFTBET",
-          value: 108.79923252983787,
-        },
-        {
-          name: "EGT New Platform",
-          value: 206.7,
-        },
-      ],
-      total: 1439.9671518375324,
-      period: "2026-03-26T03:40:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Efbet",
-          value: 0.5,
-        },
-        {
-          name: "Pariplay",
-          value: 2.309521196904982,
+          name: "Easit",
+          value: 56.5,
         },
         {
           name: "Intralot",
-          value: 64.2086451403206,
+          value: 412.0267490739224,
         },
         {
-          name: "Optimus",
-          value: -8.121610454956688,
+          name: "TGLab",
+          value: 80.66168811719322,
         },
         {
-          name: "BetB2B",
-          value: 43.03876687102084,
+          name: "Virtualsoft",
+          value: 30.22149890944155,
         },
         {
           name: "Crystalbet",
-          value: 0.22821330053162878,
-        },
-        {
-          name: "BlueOcean",
-          value: 0.38081692260795297,
-        },
-        {
-          name: "Everymatrix",
-          value: -0.21192161520499456,
+          value: 91.69295896154348,
         },
         {
           name: "Ondiss",
-          value: -8.810110537092083,
-        },
-        {
-          name: "Slotegrator",
-          value: 27.22615247764351,
-        },
-        {
-          name: "universal-casinotech",
-          value: 0.27517699367378506,
-        },
-        {
-          name: "TGLab",
-          value: -45.86101526318586,
-        },
-        {
-          name: "Evoplay",
-          value: 1.70375015549571,
-        },
-        {
-          name: "BetConstruct",
-          value: 3.7623576692466867,
-        },
-        {
-          name: "Leopard",
-          value: 12.89368715706167,
-        },
-        {
-          name: "TopSport",
-          value: -9.8,
-        },
-        {
-          name: "iSOFTBET",
-          value: -78.73739693463355,
-        },
-        {
-          name: "MrSlotty",
-          value: 10.070074967280696,
-        },
-        {
-          name: "EGT New Platform",
-          value: 110.85000000000001,
-        },
-        {
-          name: "Comtrade",
-          value: -88.13152582842649,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 301.3110809907677,
-        },
-        {
-          name: "ORYX",
-          value: 110.27529428273938,
-        },
-        {
-          name: "Virtualsoft",
-          value: 78.35895763835347,
-        },
-        {
-          name: "Easit",
-          value: 5.2812502027306385,
-        },
-        {
-          name: "Baby Leopard",
-          value: 525.99,
-        },
-        {
-          name: "Reevo",
-          value: -48.657077977892,
-        },
-      ],
-      total: 1010.3330873549876,
-      period: "2026-03-26T03:45:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Comtrade",
-          value: 177.44075578819053,
-        },
-        {
-          name: "Reevo",
-          value: 98.38275921002598,
-        },
-        {
-          name: "Leopard",
-          value: 3.5967132014808176,
+          value: 53.866077302886055,
         },
         {
           name: "Pariplay",
-          value: 1.8509055287339136,
-        },
-        {
-          name: "BetConstruct",
-          value: 3.797748531060614,
-        },
-        {
-          name: "ORYX",
-          value: 39.13478918167716,
-        },
-        {
-          name: "BetB2B",
-          value: -10.968068244949862,
-        },
-        {
-          name: "TopSport",
-          value: -0.8999999999999999,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 121.01705073108388,
-        },
-        {
-          name: "Easit",
-          value: 9.950000000000001,
+          value: 40.721764400008716,
         },
         {
           name: "Baby Leopard",
-          value: 254.07,
-        },
-        {
-          name: "MrSlotty",
-          value: 5.361351869675013,
-        },
-        {
-          name: "iSOFTBET",
-          value: 46.016659511938,
-        },
-        {
-          name: "Everymatrix",
-          value: -0.6985757326196531,
-        },
-        {
-          name: "Ondiss",
-          value: -8.17130183491805,
-        },
-        {
-          name: "BlueOcean",
-          value: 2.172001475627444,
-        },
-        {
-          name: "Optimus",
-          value: -33.9947409043187,
-        },
-        {
-          name: "Evoplay",
-          value: 4.2263592411111155,
-        },
-        {
-          name: "Intralot",
-          value: 49.20636595209626,
-        },
-        {
-          name: "Virtualsoft",
-          value: 12.558273403508657,
-        },
-        {
-          name: "EGT New Platform",
-          value: -122.6,
-        },
-        {
-          name: "TGLab",
-          value: 6.675096808309492,
-        },
-      ],
-      total: 658.1241437177126,
-      period: "2026-03-26T03:50:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "MrSlotty",
-          value: 0.18254258468022933,
-        },
-        {
-          name: "Intralot",
-          value: 95.86527023974959,
-        },
-        {
-          name: "BetConstruct",
-          value: 7.99501004714921,
-        },
-        {
-          name: "iSOFTBET",
-          value: -136.34287586407416,
-        },
-        {
-          name: "ORYX",
-          value: 92.36399140976033,
-        },
-        {
-          name: "Ondiss",
-          value: 2.022389635318733,
-        },
-        {
-          name: "Easit",
-          value: 0.75,
-        },
-        {
-          name: "Comtrade",
-          value: -86.56125365330976,
-        },
-        {
-          name: "Optimus",
-          value: 0.5750705539534557,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "EGT New Platform",
-          value: 76.19999999999999,
-        },
-        {
-          name: "Reevo",
-          value: 86.15,
-        },
-        {
-          name: "BlueOcean",
-          value: 4.320206196357554,
-        },
-        {
-          name: "Crystalbet",
-          value: 0.34231995079744315,
-        },
-        {
-          name: "Baby Leopard",
-          value: 43.13000000000001,
-        },
-        {
-          name: "Everymatrix",
-          value: -5.028591663336079,
-        },
-        {
-          name: "Pariplay",
-          value: -20.29430328344165,
-        },
-        {
-          name: "Peppermill",
-          value: -9.15,
-        },
-        {
-          name: "BetB2B",
-          value: -9.649277223297982,
-        },
-        {
-          name: "Leopard",
-          value: -21.035475526192158,
-        },
-        {
-          name: "TGLab",
-          value: -13.58634090936578,
-        },
-        {
-          name: "Virtualsoft",
-          value: 6.7514282467685645,
-        },
-        {
-          name: "Evoplay",
-          value: 8.033102368669025,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -104.09050092386585,
-        },
-        {
-          name: "TopSport",
-          value: 2.3,
-        },
-      ],
-      total: 21.242712186320723,
-      period: "2026-03-26T03:55:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Peppermill",
-          value: 18.15,
-        },
-        {
-          name: "EGT New Platform",
-          value: -306.59999999999997,
-        },
-        {
-          name: "Evoplay",
-          value: 0.31845797298985234,
-        },
-        {
-          name: "ORYX",
-          value: -152.981664855568,
-        },
-        {
-          name: "iSOFTBET",
-          value: 131.69606526111906,
-        },
-        {
-          name: "Easit",
-          value: -26.95,
-        },
-        {
-          name: "Pariplay",
-          value: 7.1773600487640135,
-        },
-        {
-          name: "Skywind360",
-          value: 0.08832780985031613,
-        },
-        {
-          name: "Everymatrix",
-          value: 3.0824962211635567,
-        },
-        {
-          name: "BetB2B",
-          value: -1.5262619878152934,
-        },
-        {
-          name: "Reevo",
-          value: 114,
-        },
-        {
-          name: "MrSlotty",
-          value: 25.771492360319463,
-        },
-        {
-          name: "Comtrade",
-          value: 7.066224788025287,
-        },
-        {
-          name: "Ondiss",
-          value: -27.33556290013897,
-        },
-        {
-          name: "Baby Leopard",
-          value: 280.28999999999996,
-        },
-        {
-          name: "Optimus",
-          value: -0.8121610454956691,
-        },
-        {
-          name: "TopSport",
-          value: 1.7,
-        },
-        {
-          name: "Leopard",
-          value: 34.37307679507755,
-        },
-        {
-          name: "Intralot",
-          value: 80.31818736883251,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 24.150441026773382,
-        },
-        {
-          name: "BlueOcean",
-          value: 1.1847637592247429,
-        },
-        {
-          name: "TGLab",
-          value: 7.080785747130914,
-        },
-        {
-          name: "Virtualsoft",
-          value: 4.623163783054749,
-        },
-        {
-          name: "Crystalbet",
-          value: 0.12678516696201597,
-        },
-      ],
-      total: 224.99197732026948,
-      period: "2026-03-26T04:00:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Optimus",
-          value: -49.057553835064446,
-        },
-        {
-          name: "Intralot",
-          value: 94.29643741273622,
-        },
-        {
-          name: "TopSport",
-          value: 2.0999999999999996,
-        },
-        {
-          name: "ORYX",
-          value: 176.32243005900162,
-        },
-        {
-          name: "EGT New Platform",
-          value: 54.980000000000004,
-        },
-        {
-          name: "Everymatrix",
-          value: 4.546681926216247,
-        },
-        {
-          name: "Peppermill",
-          value: 9.600000000000001,
-        },
-        {
-          name: "TGLab",
-          value: 1.2697458279231677,
-        },
-        {
-          name: "Easit",
-          value: -17.3,
-        },
-        {
-          name: "Comtrade",
-          value: -0.23554082626750955,
-        },
-        {
-          name: "iSOFTBET",
-          value: 28.0445349991867,
-        },
-        {
-          name: "MrSlotty",
-          value: 35.71357307380535,
-        },
-        {
-          name: "Skywind360",
-          value: -2.3554082626750956,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 308.71704238067963,
-        },
-        {
-          name: "BetB2B",
-          value: 2.283115972658692,
-        },
-        {
-          name: "Reevo",
-          value: 118,
-        },
-        {
-          name: "Baby Leopard",
-          value: 52.42,
-        },
-        {
-          name: "Leopard",
-          value: 5.49848161236198,
-        },
-        {
-          name: "Ondiss",
-          value: -2.434133632928532,
-        },
-        {
-          name: "Evoplay",
-          value: 1.4356750735374861,
-        },
-        {
-          name: "Pariplay",
-          value: -0.12537600273265825,
-        },
-        {
-          name: "Virtualsoft",
-          value: 27.17134666998493,
-        },
-      ],
-      total: 850.8910524484238,
-      period: "2026-03-26T04:05:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "MrSlotty",
-          value: 42.93275141583095,
-        },
-        {
-          name: "iSOFTBET",
-          value: 39.85795343675522,
-        },
-        {
-          name: "Everymatrix",
-          value: 1.4256545022881453,
-        },
-        {
-          name: "Evoplay",
-          value: 4.919891598808338,
-        },
-        {
-          name: "TopSport",
-          value: 2.5,
-        },
-        {
-          name: "Baby Leopard",
-          value: -222.93,
-        },
-        {
-          name: "Peppermill",
-          value: -71.2,
-        },
-        {
-          name: "Efbet",
-          value: 0.25,
-        },
-        {
-          name: "Optimus",
-          value: -16.626601279215674,
-        },
-        {
-          name: "Reevo",
-          value: 7.9,
-        },
-        {
-          name: "Crystalbet",
-          value: 0.570533251329072,
-        },
-        {
-          name: "Virtualsoft",
-          value: -7.44939002241387,
-        },
-        {
-          name: "Ondiss",
-          value: 8.913046536494532,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "BlueOcean",
-          value: 2.1918129545657745,
-        },
-        {
-          name: "Easit",
-          value: 7.55,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -213.85866692157,
-        },
-        {
-          name: "EGT New Platform",
-          value: 23.849999999999998,
-        },
-        {
-          name: "Pariplay",
-          value: 14.835659293717654,
-        },
-        {
-          name: "Intralot",
-          value: 63.613396672193346,
-        },
-        {
-          name: "Leopard",
-          value: -1.8437569076314717,
-        },
-        {
-          name: "ORYX",
-          value: -50.837858237130476,
-        },
-        {
-          name: "BetB2B",
-          value: 48.46825294400581,
-        },
-        {
-          name: "Comtrade",
-          value: 4.102336057492458,
-        },
-        {
-          name: "TGLab",
-          value: 56.829754258335214,
-        },
-      ],
-      total: -254.035230446145,
-      period: "2026-03-26T04:10:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "TopSport",
-          value: 0.3999999999999999,
-        },
-        {
-          name: "BetConstruct",
-          value: -7.218160140739934,
-        },
-        {
-          name: "Virtualsoft",
-          value: -7.2132015033843935,
-        },
-        {
-          name: "Optimus",
-          value: 61.59308301554107,
-        },
-        {
-          name: "Baby Leopard",
-          value: 118.38,
-        },
-        {
-          name: "BtoBet",
-          value: 1.1989854724357778,
-        },
-        {
-          name: "Leopard",
-          value: 3.745525318512633,
-        },
-        {
-          name: "TGLab",
-          value: -3.6027599790857643,
-        },
-        {
-          name: "Efbet",
-          value: 101.75999999999999,
-        },
-        {
-          name: "Ondiss",
-          value: -1.344223051020235,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -308.3309625104698,
-        },
-        {
-          name: "Easit",
-          value: -19.5,
-        },
-        {
-          name: "ORYX",
-          value: -130.24196519267224,
-        },
-        {
-          name: "BetB2B",
-          value: -58.048830639469244,
-        },
-        {
-          name: "Peppermill",
-          value: 25.8,
-        },
-        {
-          name: "Pariplay",
-          value: 2.4422462858837686,
-        },
-        {
-          name: "BlueOcean",
-          value: 0.3808169226079531,
-        },
-        {
-          name: "EGT New Platform",
-          value: -47.379999999999995,
-        },
-        {
-          name: "Reevo",
-          value: 7.05,
-        },
-        {
-          name: "MrSlotty",
-          value: -4.129493584401767,
-        },
-        {
-          name: "Intralot",
-          value: 21.133842857789464,
-        },
-        {
-          name: "Everymatrix",
-          value: -3.055524379228376,
-        },
-        {
-          name: "iSOFTBET",
-          value: 251.48465440995332,
-        },
-      ],
-      total: 5.304033302252208,
-      period: "2026-03-26T04:15:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "TGLab",
-          value: 45.82468491045559,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -140.23046353854764,
-        },
-        {
-          name: "Easit",
-          value: 21.1,
-        },
-        {
-          name: "MrSlotty",
-          value: 28.74950319926849,
-        },
-        {
-          name: "Ondiss",
-          value: 4.408082797940231,
-        },
-        {
-          name: "EGT New Platform",
-          value: -39.27000000000001,
-        },
-        {
-          name: "BetConstruct",
-          value: 3.3516237447896935,
-        },
-        {
-          name: "Baby Leopard",
-          value: -38.00999999999999,
-        },
-        {
-          name: "Skywind360",
-          value: 0.31405443502334607,
-        },
-        {
-          name: "BtoBet",
-          value: 1.7198562104611566,
-        },
-        {
-          name: "Virtualsoft",
-          value: -5.309796328355759,
-        },
-        {
-          name: "ORYX",
-          value: 71.72095623423591,
-        },
-        {
-          name: "TopSport",
-          value: 2.1,
-        },
-        {
-          name: "Optimus",
-          value: -5.675038361382778,
-        },
-        {
-          name: "Leopard",
-          value: 8.610924873671467,
-        },
-        {
-          name: "Everymatrix",
-          value: 3.0497446988136945,
-        },
-        {
-          name: "Peppermill",
-          value: 2.6,
-        },
-        {
-          name: "BetB2B",
-          value: 86.18279951931906,
-        },
-        {
-          name: "Dench",
-          value: 1.55,
-        },
-        {
-          name: "iSOFTBET",
-          value: -179.75140290737932,
-        },
-        {
-          name: "Pariplay",
-          value: 4.690138443987053,
-        },
-        {
-          name: "Intralot",
-          value: 34.63791191860875,
-        },
-      ],
-      total: -87.63642014909104,
-      period: "2026-03-26T04:20:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Ondiss",
-          value: -32.334013929946195,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 394.31112931258025,
-        },
-        {
-          name: "EGT New Platform",
-          value: -441.5,
-        },
-        {
-          name: "Virtualsoft",
-          value: 32.77977189544579,
-        },
-        {
-          name: "Betmexico",
-          value: -0.38765144766571824,
-        },
-        {
-          name: "TGLab",
-          value: 19.987749060440525,
-        },
-        {
-          name: "ORYX",
-          value: 36.93516944641713,
-        },
-        {
-          name: "Intralot",
-          value: 136.7558133129663,
-        },
-        {
-          name: "Pariplay",
-          value: -25.686916498962365,
-        },
-        {
-          name: "Avento",
-          value: 0.16291573816836075,
-        },
-        {
-          name: "iSOFTBET",
-          value: -17.37344121305856,
-        },
-        {
-          name: "TopSport",
-          value: -2.6,
-        },
-        {
-          name: "BlueOcean",
-          value: 0.7492758946428772,
-        },
-        {
-          name: "Slotegrator",
-          value: 0.9853030326716998,
-        },
-        {
-          name: "universal-casinotech",
-          value: 0.1867272457072113,
-        },
-        {
-          name: "BetConstruct",
-          value: -8.136890016252435,
-        },
-        {
-          name: "MrSlotty",
-          value: 39.44340356050329,
-        },
-        {
-          name: "Everymatrix",
-          value: -4.781722263079968,
-        },
-        {
-          name: "Easit",
-          value: 10.7,
-        },
-        {
-          name: "BetB2B",
-          value: 6.351597177789698,
-        },
-        {
-          name: "Optimus",
-          value: -11.85452457711069,
-        },
-        {
-          name: "Baby Leopard",
-          value: 103.82000000000001,
-        },
-        {
-          name: "Leopard",
-          value: 15.80687351590483,
-        },
-        {
-          name: "Dench",
-          value: -3.6,
-        },
-        {
-          name: "Comtrade",
-          value: 5.8885206566877395,
-        },
-      ],
-      total: 256.6090899038498,
-      period: "2026-03-26T04:25:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "BetB2B",
-          value: 43.208489580487935,
-        },
-        {
-          name: "TopSport",
-          value: 2.9,
-        },
-        {
-          name: "Virtualsoft",
-          value: -39.035760886433486,
-        },
-        {
-          name: "Leopard",
-          value: 11.677967828089892,
-        },
-        {
-          name: "Betmexico",
-          value: 0.15671015969465207,
-        },
-        {
-          name: "Pariplay",
-          value: -4.083906187636294,
-        },
-        {
-          name: "BetConstruct",
-          value: 5.5629329430512096,
-        },
-        {
-          name: "Skywind360",
-          value: 8.715010571897853,
-        },
-        {
-          name: "Comtrade",
-          value: -17.469277948173627,
-        },
-        {
-          name: "Everymatrix",
-          value: 3.3522146405153688,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -122.44192792061286,
-        },
-        {
-          name: "Intralot",
-          value: -156.49233561421974,
-        },
-        {
-          name: "iSOFTBET",
-          value: 150.03873033602113,
-        },
-        {
-          name: "EGT New Platform",
-          value: 69.93,
-        },
-        {
-          name: "TGLab",
-          value: 20.236969225111434,
-        },
-        {
-          name: "WeAreCasino",
-          value: 0.9756812321339825,
-        },
-        {
-          name: "Easit",
-          value: 22.15,
-        },
-        {
-          name: "Dench",
-          value: 1.9000000000000001,
-        },
-        {
-          name: "Crystalbet",
-          value: 0.9825850439556238,
-        },
-        {
-          name: "MrSlotty",
-          value: 26.59244841668719,
-        },
-        {
-          name: "Optimus",
-          value: -1.816012275642489,
-        },
-        {
-          name: "Ondiss",
-          value: 12.909385336824961,
-        },
-        {
-          name: "Baby Leopard",
-          value: 226.14,
-        },
-        {
-          name: "ORYX",
-          value: 46.73532693759634,
-        },
-        {
-          name: "Slotegrator",
-          value: 10.335769118877367,
-        },
-      ],
-      total: 323.16100053822646,
-      period: "2026-03-26T04:30:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "WeAreCasino",
-          value: -26.622159333941518,
-        },
-        {
-          name: "iSOFTBET",
-          value: 30.88728266697859,
-        },
-        {
-          name: "MrSlotty",
-          value: 9.372745676336951,
-        },
-        {
-          name: "Slotegrator",
-          value: 16.94377587379698,
-        },
-        {
-          name: "Intralot",
-          value: 119.02447123273477,
-        },
-        {
-          name: "Crystalbet",
-          value: 0.6814702724208359,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "BetConstruct",
-          value: 2.2473315282982913,
-        },
-        {
-          name: "BetB2B",
-          value: 5.601875593746016,
-        },
-        {
-          name: "TGLab",
-          value: 20.219657812035457,
-        },
-        {
-          name: "Comtrade",
-          value: 3.5331123940126434,
-        },
-        {
-          name: "Everymatrix",
-          value: 2.7896590801530197,
-        },
-        {
-          name: "Peppermill",
-          value: 1.2,
-        },
-        {
-          name: "Virtualsoft",
-          value: 4.2418252686656315,
-        },
-        {
-          name: "Skywind360",
-          value: 1.3151029466602617,
-        },
-        {
-          name: "Efbet",
-          value: -0.63,
-        },
-        {
-          name: "Pariplay",
-          value: 4.77201104953377,
-        },
-        {
-          name: "Ondiss",
-          value: 5.434415262570545,
-        },
-        {
-          name: "TopSport",
-          value: 5.699999999999999,
-        },
-        {
-          name: "Betmexico",
-          value: 0,
-        },
-        {
-          name: "Leopard",
-          value: 7.940009227392436,
-        },
-        {
-          name: "ORYX",
-          value: 167.94545281735992,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 134.1502047783812,
-        },
-        {
-          name: "Reevo",
-          value: 2.66,
-        },
-        {
-          name: "EGT New Platform",
-          value: -6.150000000000005,
-        },
-        {
-          name: "Baby Leopard",
-          value: -566.09,
-        },
-        {
-          name: "Optimus",
-          value: 45.47597406921399,
-        },
-      ],
-      total: -7.355781783650237,
-      period: "2026-03-26T04:35:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "EGT New Platform",
-          value: 235.87,
-        },
-        {
-          name: "iSOFTBET",
-          value: -12.142478214732753,
-        },
-        {
-          name: "BetConstruct",
-          value: 1.8598605751434136,
-        },
-        {
-          name: "Virtualsoft",
-          value: -5.920611099572312,
-        },
-        {
-          name: "Ondiss",
-          value: 4.0932197409445,
-        },
-        {
-          name: "Comtrade",
-          value: -18.45069805762158,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "Intralot",
-          value: 95.07076486915601,
-        },
-        {
-          name: "Easit",
-          value: 1,
-        },
-        {
-          name: "Baby Leopard",
-          value: 387.42,
-        },
-        {
-          name: "MrSlotty",
-          value: -8.706481899646537,
-        },
-        {
-          name: "Betmexico",
-          value: 0.09897483770188552,
-        },
-        {
-          name: "Everymatrix",
-          value: 1.1713485640421517,
-        },
-        {
-          name: "TopSport",
-          value: 37.65,
-        },
-        {
-          name: "Peppermill",
-          value: -2.2,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -381.0972578443959,
-        },
-        {
-          name: "Pariplay",
-          value: -2.9308420337452388,
-        },
-        {
-          name: "Optimus",
-          value: 51.756349855810925,
-        },
-        {
-          name: "TGLab",
-          value: -29.215658653930788,
-        },
-        {
-          name: "Efbet",
-          value: 5.380000000000001,
-        },
-        {
-          name: "Skywind360",
-          value: 12.16960935715466,
-        },
-        {
-          name: "Slotegrator",
-          value: 5.478245425678976,
-        },
-        {
-          name: "BetB2B",
-          value: 50.100068103922425,
-        },
-        {
-          name: "Reevo",
-          value: 5.359999999999999,
-        },
-        {
-          name: "WeAreCasino",
-          value: -7.20145671336987,
-        },
-        {
-          name: "Crystalbet",
-          value: 2.805121819034604,
-        },
-        {
-          name: "ORYX",
-          value: -335.18585239718203,
-        },
-        {
-          name: "Leopard",
-          value: 19.9786572713391,
-        },
-      ],
-      total: 114.21088350573163,
-      period: "2026-03-26T04:40:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "WeAreCasino",
-          value: 4.739023127507915,
-        },
-        {
-          name: "Virtualsoft",
-          value: 15.929529586928416,
-        },
-        {
-          name: "iSOFTBET",
-          value: -111.48481411810255,
-        },
-        {
-          name: "MrSlotty",
-          value: -36.242376082922945,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "TGLab",
-          value: -45.633950558621635,
-        },
-        {
-          name: "BetConstruct",
-          value: 4.223433389388169,
-        },
-        {
-          name: "Everymatrix",
-          value: 0.2793512200429473,
-        },
-        {
-          name: "Intralot",
-          value: 78.34327401907132,
-        },
-        {
-          name: "Crystalbet",
-          value: 0.6783006432467855,
-        },
-        {
-          name: "Comtrade",
-          value: 13.425827097248044,
-        },
-        {
-          name: "Slotegrator",
-          value: -6.0864155441431,
-        },
-        {
-          name: "Pariplay",
-          value: -42.73177774157645,
-        },
-        {
-          name: "Baby Leopard",
-          value: 391.58,
-        },
-        {
-          name: "Reevo",
-          value: 2.113976002956962,
-        },
-        {
-          name: "ORYX",
-          value: -28.480174068353772,
-        },
-        {
-          name: "EGT New Platform",
-          value: 61.71000000000001,
-        },
-        {
-          name: "TopSport",
-          value: -0.7200000000000002,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 170.46301004133988,
-        },
-        {
-          name: "Optimus",
-          value: 25.827730142470948,
-        },
-        {
-          name: "BetB2B",
-          value: 36.90123649721241,
-        },
-        {
-          name: "Ondiss",
-          value: 2.349362809891222,
-        },
-        {
-          name: "Leopard",
-          value: 17.60270787737351,
-        },
-        {
-          name: "Betmexico",
-          value: -0.2309412879710662,
-        },
-      ],
-      total: 554.556313052987,
-      period: "2026-03-26T04:45:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "BetB2B",
-          value: 31.125907756071868,
-        },
-        {
-          name: "Virtualsoft",
-          value: -1.3988097480782626,
-        },
-        {
-          name: "Crystalbet",
-          value: 0.7163361933353902,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 818.6571391124012,
-        },
-        {
-          name: "Slotegrator",
-          value: 2.5545256481638554,
-        },
-        {
-          name: "Skywind360",
-          value: 1.244440698780009,
-        },
-        {
-          name: "Optimus",
-          value: 57.507055395345475,
-        },
-        {
-          name: "Pariplay",
-          value: -3.7632328634156567,
-        },
-        {
-          name: "Comtrade",
-          value: -1.2562177400933843,
-        },
-        {
-          name: "Leopard",
-          value: 5.039434064907906,
-        },
-        {
-          name: "ORYX",
-          value: 20.979788278188853,
-        },
-        {
-          name: "Intralot",
-          value: 76.70886297099307,
-        },
-        {
-          name: "BtoBet",
-          value: 14.704770599442888,
-        },
-        {
-          name: "BlueOcean",
-          value: -5.627627856317528,
-        },
-        {
-          name: "Peppermill",
-          value: 7.09,
-        },
-        {
-          name: "Reevo",
-          value: 9.563701801028015,
-        },
-        {
-          name: "EGT New Platform",
-          value: 46.01,
-        },
-        {
-          name: "TopSport",
-          value: 8.7,
-        },
-        {
-          name: "TGLab",
-          value: 18.74212489801234,
-        },
-        {
-          name: "Baby Leopard",
-          value: -442.16,
-        },
-        {
-          name: "Betmexico",
-          value: 0.28042870682200893,
-        },
-        {
-          name: "Evoplay",
-          value: 2.8,
-        },
-        {
-          name: "Ondiss",
-          value: 5.5948743204626,
-        },
-        {
-          name: "MrSlotty",
-          value: -7.5591009618845195,
-        },
-        {
-          name: "iSOFTBET",
-          value: 218.32941223005759,
-        },
-      ],
-      total: 884.5838135042236,
-      period: "2026-03-26T04:50:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Comtrade",
-          value: 18.058130013842398,
-        },
-        {
-          name: "Intralot",
-          value: 61.204658167695314,
-        },
-        {
-          name: "Easit",
-          value: 1.6500000000000001,
-        },
-        {
-          name: "TopSport",
-          value: 6,
-        },
-        {
-          name: "TGLab",
-          value: -7.52401605044029,
-        },
-        {
-          name: "iSOFTBET",
-          value: 199.7725340398435,
-        },
-        {
-          name: "Betmexico",
-          value: 0.16495806283647585,
-        },
-        {
-          name: "Leopard",
-          value: 17.89528763289369,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "WeAreCasino",
-          value: -1.3938303316199745,
-        },
-        {
-          name: "BetB2B",
-          value: -14.427436732393984,
-        },
-        {
-          name: "BtoBet",
-          value: 18.033920835406988,
-        },
-        {
-          name: "Skywind360",
-          value: 1.4721301641719347,
-        },
-        {
-          name: "EGT New Platform",
-          value: 202.7,
-        },
-        {
-          name: "Slotegrator",
-          value: 6.361039887615614,
-        },
-        {
-          name: "Ondiss",
-          value: -0.2603675279003159,
+          value: 1090.66,
         },
         {
           name: "Asvla",
-          value: 0.2535703339240323,
+          value: 19.994145691603812,
+        },
+        {
+          name: "Peppermill",
+          value: 16.99,
         },
         {
           name: "Optimus",
-          value: -4.0128826813155545,
-        },
-        {
-          name: "Crystalbet",
-          value: 0.63392583481008,
-        },
-        {
-          name: "MrSlotty",
-          value: 163.80170894599343,
-        },
-        {
-          name: "Baby Leopard",
-          value: 150.35,
-        },
-        {
-          name: "Efbet",
-          value: 1.0499999999999998,
-        },
-        {
-          name: "Reevo",
-          value: 30.43149099485992,
-        },
-        {
-          name: "BlueOcean",
-          value: 0.9308858108194409,
-        },
-        {
-          name: "ORYX",
-          value: -21.362312673763217,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -355.2973068970772,
-        },
-        {
-          name: "Pariplay",
-          value: -5.852673116683542,
-        },
-        {
-          name: "Virtualsoft",
-          value: 16.57001410468902,
-        },
-      ],
-      total: 487.2034288182077,
-      period: "2026-03-26T04:55:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Leopard",
-          value: -14.174984707098314,
-        },
-        {
-          name: "Virtualsoft",
-          value: -2.1945841556715764,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -567.8383118226777,
-        },
-        {
-          name: "Pariplay",
-          value: 2.8087449049933384,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
+          value: 23.15646538651596,
         },
         {
           name: "Digitain",
-          value: 0.7566717815177036,
+          value: 10.885517916738271,
         },
         {
-          name: "Dench",
-          value: 6,
-        },
-        {
-          name: "Asvla",
-          value: -9.128532021265151,
-        },
-        {
-          name: "Easit",
-          value: 2.8999999999999995,
+          name: "BetConstruct",
+          value: 46.467877169314505,
         },
         {
           name: "MrSlotty",
-          value: 8.049270523341999,
-        },
-        {
-          name: "Efbet",
-          value: 0.05,
-        },
-        {
-          name: "Slotegrator",
-          value: 11.887940311430034,
-        },
-        {
-          name: "Baby Leopard",
-          value: -107.87,
-        },
-        {
-          name: "Betmexico",
-          value: -0.008247903141823776,
-        },
-        {
-          name: "ORYX",
-          value: 173.15088518019166,
+          value: 344.5130819833969,
         },
         {
           name: "TopSport",
-          value: 1.4000000000000001,
-        },
-        {
-          name: "BetB2B",
-          value: 30.467166325613814,
-        },
-        {
-          name: "Comtrade",
-          value: 17.07670990439444,
-        },
-        {
-          name: "BlueOcean",
-          value: 0.5692519656035347,
-        },
-        {
-          name: "Intralot",
-          value: -234.0940712874037,
-        },
-        {
-          name: "TGLab",
-          value: 26.945617114167334,
-        },
-        {
-          name: "Optimus",
-          value: -4.918366579865076,
-        },
-        {
-          name: "Reevo",
-          value: -4.22,
-        },
-        {
-          name: "Crystalbet",
-          value: -2.2567759719238847,
-        },
-        {
-          name: "EGT New Platform",
-          value: 174.5,
-        },
-        {
-          name: "BtoBet",
-          value: 10.72453194094707,
-        },
-        {
-          name: "iSOFTBET",
-          value: 277.3524824570373,
+          value: 9.4,
         },
         {
           name: "Skywind360",
-          value: 0.3434970383067847,
-        },
-        {
-          name: "Ondiss",
-          value: -6.515243256296276,
+          value: 0.225556925383227,
         },
       ],
-      total: -208.2363482577985,
-      period: "2026-03-26T05:00:00.000Z",
+      total: 7070.216044478821,
+      period: "2026-04-02T00:40:00.000Z",
     },
     {
       items: [
         {
-          name: "Intralot",
-          value: 85.92008079133524,
-        },
-        {
-          name: "EGT New Platform",
-          value: -349.65999999999997,
-        },
-        {
-          name: "Betmexico",
-          value: 0.10722274084370931,
-        },
-        {
-          name: "BtoBet",
-          value: -13.316600943856384,
-        },
-        {
-          name: "Reevo",
-          value: -17.32,
-        },
-        {
-          name: "BetConstruct",
-          value: 17.557669123151204,
-        },
-        {
-          name: "Leopard",
-          value: -5.725483146817291,
-        },
-        {
-          name: "Slotegrator",
-          value: 13.600000000000001,
-        },
-        {
-          name: "Efbet",
-          value: 3,
-        },
-        {
           name: "MrSlotty",
-          value: -22.56446236635356,
-        },
-        {
-          name: "TGLab",
-          value: 11.20185875850196,
-        },
-        {
-          name: "Pariplay",
-          value: -5.555211260332925,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 184.5384881801431,
-        },
-        {
-          name: "Dench",
-          value: 2,
-        },
-        {
-          name: "Asvla",
-          value: 13.946368365821758,
+          value: 256.7307007291099,
         },
         {
           name: "Digitain",
-          value: 0.5044478543451357,
-        },
-        {
-          name: "Crystalbet",
-          value: 5.496136987803393,
-        },
-        {
-          name: "BetB2B",
-          value: -8.68318309333564,
-        },
-        {
-          name: "Evoplay",
-          value: 0.47361656583772604,
-        },
-        {
-          name: "Ondiss",
-          value: 16.40012672832571,
-        },
-        {
-          name: "WeAreCasino",
-          value: 1.4402913426739739,
-        },
-        {
-          name: "iSOFTBET",
-          value: 50.997688002883244,
-        },
-        {
-          name: "Virtualsoft",
-          value: 10.695669046925651,
-        },
-        {
-          name: "Baby Leopard",
-          value: -217.11999999999998,
-        },
-        {
-          name: "Skywind360",
-          value: -0.34349703830678485,
-        },
-        {
-          name: "ORYX",
-          value: 224.8674467533243,
-        },
-        {
-          name: "Optimus",
-          value: -130.50065991908662,
-        },
-      ],
-      total: -128.04198652617305,
-      period: "2026-03-26T05:05:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Crystalbet",
-          value: -12.6975344712459,
-        },
-        {
-          name: "TopSport",
-          value: 14.399999999999999,
-        },
-        {
-          name: "iSOFTBET",
-          value: 185.86295147876132,
-        },
-        {
-          name: "Leopard",
-          value: 23.250001606767306,
-        },
-        {
-          name: "Ondiss",
-          value: -12.494613809820969,
-        },
-        {
-          name: "Skywind360",
-          value: -10.251914463293353,
-        },
-        {
-          name: "Evoplay",
-          value: -98.37055337366492,
-        },
-        {
-          name: "Virtualsoft",
-          value: -0.7524514514267395,
-        },
-        {
-          name: "WeAreCasino",
-          value: -0.06969151658099904,
-        },
-        {
-          name: "Intralot",
-          value: 65.93890128072442,
-        },
-        {
-          name: "Asvla",
-          value: 5.467610325236939,
-        },
-        {
-          name: "ORYX",
-          value: 35.20333957760208,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 368.5607735004176,
-        },
-        {
-          name: "Pariplay",
-          value: 5.742475404722094,
-        },
-        {
-          name: "Optimus",
-          value: 15.763995448285492,
-        },
-        {
-          name: "BtoBet",
-          value: 22.22299917660166,
-        },
-        {
-          name: "Reevo",
-          value: -13.259999999999998,
-        },
-        {
-          name: "TGLab",
-          value: -74.89017810643456,
-        },
-        {
-          name: "MrSlotty",
-          value: 29.573942561518923,
-        },
-        {
-          name: "BetB2B",
-          value: 429.12382532616834,
-        },
-        {
-          name: "BetConstruct",
-          value: 23.518777634100758,
-        },
-        {
-          name: "EGT New Platform",
-          value: -214.66000000000003,
-        },
-        {
-          name: "Baby Leopard",
-          value: -930.82,
-        },
-      ],
-      total: -143.63734387156057,
-      period: "2026-03-26T05:10:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Leopard",
-          value: 18.891572145225332,
-        },
-        {
-          name: "Baby Leopard",
-          value: 489.48,
-        },
-        {
-          name: "Skywind360",
-          value: 4.865880902642968,
-        },
-        {
-          name: "BetB2B",
-          value: 403.6846648928423,
-        },
-        {
-          name: "Optimus",
-          value: 103.5379221043391,
-        },
-        {
-          name: "WeAreCasino",
-          value: -9.617429288177826,
-        },
-        {
-          name: "iSOFTBET",
-          value: 192.85799343589795,
-        },
-        {
-          name: "Comtrade",
-          value: 1.0795621203927521,
-        },
-        {
-          name: "Pariplay",
-          value: -1.7403450974907178,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 440.21565442792274,
-        },
-        {
-          name: "MrSlotty",
-          value: 2.1910651298787442,
-        },
-        {
-          name: "Crystalbet",
-          value: 5.334485899926823,
-        },
-        {
-          name: "Reevo",
-          value: -12.899999999999999,
-        },
-        {
-          name: "ORYX",
-          value: -9.231994381038664,
-        },
-        {
-          name: "Evoplay",
-          value: 40.10527668683246,
-        },
-        {
-          name: "Virtualsoft",
-          value: 27.75891229704997,
-        },
-        {
-          name: "EGT New Platform",
-          value: 49.400000000000006,
-        },
-        {
-          name: "BetConstruct",
-          value: -10.346483590428388,
-        },
-        {
-          name: "Intralot",
-          value: -48.949097546380244,
-        },
-        {
-          name: "Ondiss",
-          value: -10.251214528726386,
-        },
-        {
-          name: "TGLab",
-          value: 12.909990842703799,
-        },
-        {
-          name: "TopSport",
-          value: 4.8,
-        },
-        {
-          name: "Asvla",
-          value: -5.499306616977443,
-        },
-        {
-          name: "Easit",
-          value: -3.6,
-        },
-      ],
-      total: 1684.9771098364354,
-      period: "2026-03-26T05:15:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Optimus",
-          value: 62.85420265140392,
-        },
-        {
-          name: "EGT New Platform",
-          value: 319.15999999999997,
-        },
-        {
-          name: "MrSlotty",
-          value: 10.761011985997172,
-        },
-        {
-          name: "Asvla",
-          value: 22.900570782514137,
-        },
-        {
-          name: "Crystalbet",
-          value: 1.0174509648701782,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "Easit",
-          value: 0,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 51.31925204786492,
+          value: 27.70859106078833,
         },
         {
           name: "Peppermill",
-          value: 2.9,
+          value: 5.1899999999999995,
         },
         {
-          name: "ORYX",
-          value: -193.74517421573682,
-        },
-        {
-          name: "TGLab",
-          value: -74.61247621176156,
-        },
-        {
-          name: "BetB2B",
-          value: -173.8621531461299,
-        },
-        {
-          name: "universal-casinotech",
-          value: -0.09827749774063753,
+          name: "Slotegrator",
+          value: 127.39342040408556,
         },
         {
           name: "Baby Leopard",
-          value: 699.31,
-        },
-        {
-          name: "Leopard",
-          value: 0.3026687126070815,
-        },
-        {
-          name: "Evoplay",
-          value: 48.112707636605556,
-        },
-        {
-          name: "Virtualsoft",
-          value: 0.9373484989654521,
-        },
-        {
-          name: "WeAreCasino",
-          value: 0.8362981989719849,
-        },
-        {
-          name: "TopSport",
-          value: -189.65,
-        },
-        {
-          name: "Intralot",
-          value: -173.33584947080382,
-        },
-        {
-          name: "Skywind360",
-          value: 1.2051838944020905,
-        },
-        {
-          name: "BetConstruct",
-          value: 21.57085063701434,
-        },
-        {
-          name: "iSOFTBET",
-          value: -56.15731993558899,
-        },
-        {
-          name: "BtoBet",
-          value: -4.74188926598576,
-        },
-        {
-          name: "Ondiss",
-          value: -23.60261915710305,
-        },
-        {
-          name: "Pariplay",
-          value: -4.136472405630113,
-        },
-        {
-          name: "Reevo",
-          value: 64.18,
-        },
-      ],
-      total: 413.4253147047361,
-      period: "2026-03-26T05:20:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Asvla",
-          value: -7.2584508085754145,
-        },
-        {
-          name: "Crystalbet",
-          value: 1.5689664411549478,
-        },
-        {
-          name: "TopSport",
-          value: 1.65,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -74.7450516107669,
-        },
-        {
-          name: "Comtrade",
-          value: 0.608480467857733,
-        },
-        {
-          name: "TGLab",
-          value: -12.917558256823574,
-        },
-        {
-          name: "BlueOcean",
-          value: 4.7390550368989715,
-        },
-        {
-          name: "Skywind360",
-          value: 1.12863312586515,
-        },
-        {
-          name: "Ondiss",
-          value: 6.805886078138488,
-        },
-        {
-          name: "ORYX",
-          value: -3.718047522011613,
-        },
-        {
-          name: "Reevo",
-          value: 31.159999999999997,
-        },
-        {
-          name: "Betmexico",
-          value: 0.19794967540377104,
-        },
-        {
-          name: "EGT New Platform",
-          value: -13.430000000000003,
-        },
-        {
-          name: "iSOFTBET",
-          value: 181.03860254699975,
-        },
-        {
-          name: "WeAreCasino",
-          value: 1.3009083095119764,
-        },
-        {
-          name: "Optimus",
-          value: 23.910828295959433,
-        },
-        {
-          name: "BetConstruct",
-          value: 38.6582250515097,
-        },
-        {
-          name: "MrSlotty",
-          value: 6.5935360677236075,
-        },
-        {
-          name: "universal-casinotech",
-          value: 0.45207648960693264,
-        },
-        {
-          name: "Leopard",
-          value: -3.7833589075885183,
-        },
-        {
-          name: "BtoBet",
-          value: 10.589400381553693,
-        },
-        {
-          name: "Intralot",
-          value: 25.391382748462412,
-        },
-        {
-          name: "Pariplay",
-          value: 5.246257685189411,
-        },
-        {
-          name: "Virtualsoft",
-          value: 18.718656980923985,
-        },
-        {
-          name: "Evoplay",
-          value: -24.45560695609239,
-        },
-        {
-          name: "Easit",
-          value: 2.5,
-        },
-        {
-          name: "Baby Leopard",
-          value: -843.1600000000001,
-        },
-        {
-          name: "Peppermill",
-          value: 6.9,
-        },
-        {
-          name: "BetB2B",
-          value: 897.7523498763397,
-        },
-      ],
-      total: 283.4431211972412,
-      period: "2026-03-26T05:25:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Newton",
-          value: 0.8243928919362834,
-        },
-        {
-          name: "Baby Leopard",
-          value: 1154.85,
-        },
-        {
-          name: "Evoplay",
-          value: -221.69991446863952,
-        },
-        {
-          name: "Leopard",
-          value: -2.3709049154221375,
-        },
-        {
-          name: "MrSlotty",
-          value: -3.5452196175405115,
-        },
-        {
-          name: "TopSport",
-          value: -6.35,
-        },
-        {
-          name: "Optimus",
-          value: -153.5741047768331,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -279.5347340068135,
-        },
-        {
-          name: "TGLab",
-          value: -1.1359290286999821,
-        },
-        {
-          name: "universal-casinotech",
-          value: -0.2358659945775302,
-        },
-        {
-          name: "Skywind360",
-          value: 2.2670804528247794,
-        },
-        {
-          name: "Pariplay",
-          value: 3.1477546111136467,
-        },
-        {
-          name: "Crystalbet",
-          value: 1.0269598523923293,
-        },
-        {
-          name: "Ondiss",
-          value: 2.7732169250777825,
-        },
-        {
-          name: "Virtualsoft",
-          value: 17.411594997253076,
-        },
-        {
-          name: "EGT New Platform",
-          value: 159.70999999999998,
-        },
-        {
-          name: "iSOFTBET",
-          value: 30.516596105734113,
+          value: 1345.3700000000001,
         },
         {
           name: "Everymatrix",
-          value: 0.1888028935462679,
-        },
-        {
-          name: "Reevo",
-          value: 205.99,
-        },
-        {
-          name: "BetB2B",
-          value: -71.74588531396748,
-        },
-        {
-          name: "Efbet",
-          value: 2.45,
-        },
-        {
-          name: "BtoBet",
-          value: 8.402726056824509,
-        },
-        {
-          name: "Asvla",
-          value: 4.405784551930058,
-        },
-        {
-          name: "Intralot",
-          value: 116.46187613266149,
-        },
-        {
-          name: "ORYX",
-          value: 8.544907756068058,
-        },
-        {
-          name: "Easit",
-          value: 3.9,
-        },
-      ],
-      total: 982.6791351048686,
-      period: "2026-03-26T05:30:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Ondiss",
-          value: 4.365697386421575,
-        },
-        {
-          name: "Intralot",
-          value: -69.43220267206448,
-        },
-        {
-          name: "TGLab",
-          value: -0.3754136448795251,
-        },
-        {
-          name: "Crystalbet",
-          value: -21.059016232390853,
-        },
-        {
-          name: "Skywind360",
-          value: 2.8755609206825135,
-        },
-        {
-          name: "Easit",
-          value: 0.76,
-        },
-        {
-          name: "Reevo",
-          value: 211.07999999999998,
-        },
-        {
-          name: "Slotegrator",
-          value: -3.6018299749887692,
-        },
-        {
-          name: "BlueOcean",
-          value: 1.0408995884617385,
-        },
-        {
-          name: "EGT New Platform",
-          value: -365.36,
-        },
-        {
-          name: "Optimus",
-          value: -79.90706236754123,
-        },
-        {
-          name: "BetB2B",
-          value: 1875.2745728814134,
-        },
-        {
-          name: "ORYX",
-          value: -196.85016481290086,
-        },
-        {
-          name: "iSOFTBET",
-          value: 84.39009293444303,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 326.7964534804093,
-        },
-        {
-          name: "Asvla",
-          value: -92.7750459244552,
+          value: 7.8258446285137016,
         },
         {
           name: "Virtualsoft",
-          value: 38.8736138400132,
+          value: 44.352217948995886,
         },
         {
-          name: "Everymatrix",
-          value: 0.06935616497618004,
-        },
-        {
-          name: "MrSlotty",
-          value: -4.258940414619289,
-        },
-        {
-          name: "Pariplay",
-          value: -2.1866743247291853,
-        },
-        {
-          name: "Leopard",
-          value: 0.8197277633108455,
-        },
-        {
-          name: "BtoBet",
-          value: 8.501003554565147,
+          name: "Leris",
+          value: 4.726080448788036,
         },
         {
           name: "Evoplay",
-          value: 82.40928245576431,
+          value: 691.4181128847448,
         },
         {
-          name: "Baby Leopard",
-          value: 876,
+          name: "Leopard",
+          value: 39.34867328766414,
         },
         {
-          name: "TopSport",
-          value: 3.6,
-        },
-      ],
-      total: 2681.049910601892,
-      period: "2026-03-26T05:35:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "BlueOcean",
-          value: -1.9812319853687088,
-        },
-        {
-          name: "WeAreCasino",
-          value: -0.18584404421599665,
-        },
-        {
-          name: "ORYX",
-          value: 283.8093270883115,
-        },
-        {
-          name: "BetB2B",
-          value: 675.9549283358818,
-        },
-        {
-          name: "Baby Leopard",
-          value: 581.07,
-        },
-        {
-          name: "MrSlotty",
-          value: 5.010319480723377,
-        },
-        {
-          name: "Crystalbet",
-          value: -38.16233525556681,
-        },
-        {
-          name: "TopSport",
-          value: -8.399999999999999,
-        },
-        {
-          name: "Ondiss",
-          value: 1.3321129334434763,
-        },
-        {
-          name: "Skywind360",
-          value: 5.260411786641047,
-        },
-        {
-          name: "TGLab",
-          value: 3.9902837415420493,
-        },
-        {
-          name: "Intralot",
-          value: 69.60119270327012,
-        },
-        {
-          name: "Pariplay",
-          value: 3.8355968627262667,
-        },
-        {
-          name: "Reevo",
-          value: 56.400000000000006,
+          name: "Calimaco Apuesta",
+          value: 1796.9956666048138,
         },
         {
           name: "Efbet",
-          value: 0.6000000000000001,
-        },
-        {
-          name: "Asvla",
-          value: 33.02753599360516,
-        },
-        {
-          name: "EGT New Platform",
-          value: 200.28,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 162.73992229028423,
-        },
-        {
-          name: "Slotegrator",
-          value: 2.935471390995253,
-        },
-        {
-          name: "iSOFTBET",
-          value: 312.60131022885486,
-        },
-        {
-          name: "Evoplay",
-          value: -116.4623135394968,
-        },
-        {
-          name: "Leopard",
-          value: 3.266299856884754,
+          value: 0.1,
         },
         {
           name: "Easit",
-          value: 0.09999999999999999,
+          value: 14.95,
         },
         {
-          name: "Everymatrix",
-          value: -1.4132449576050572,
+          name: "BetB2B",
+          value: 361.08176178180406,
         },
         {
-          name: "Virtualsoft",
-          value: -35.79252880859123,
+          name: "Crystalbet",
+          value: 85.35343031955188,
         },
-        {
-          name: "BtoBet",
-          value: -21.71932700068089,
-        },
-        {
-          name: "Optimus",
-          value: 13.362823661602645,
-        },
-      ],
-      total: 2191.0607107632413,
-      period: "2026-03-26T05:40:00.000Z",
-    },
-    {
-      items: [
         {
           name: "Pariplay",
-          value: -4.998850206276067,
-        },
-        {
-          name: "EGT New Platform",
-          value: 225.56,
-        },
-        {
-          name: "BtoBet",
-          value: 10.884232874775606,
-        },
-        {
-          name: "Leopard",
-          value: 3.9851380493265722,
+          value: 25.517965955563906,
         },
         {
           name: "ORYX",
-          value: 108.70313886425822,
+          value: 585.1530422227506,
         },
         {
-          name: "MrSlotty",
-          value: 9.164550180093366,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -53.68573774180001,
+          name: "TGLab",
+          value: 48.6638545294836,
         },
         {
           name: "Asvla",
-          value: -44.406504728446095,
-        },
-        {
-          name: "Virtualsoft",
-          value: 3.850767428232136,
+          value: 19.511195312579567,
         },
         {
           name: "BlueOcean",
-          value: 3.743778354797823,
+          value: 33.319075654680546,
         },
         {
-          name: "Baby Leopard",
-          value: 404.64,
-        },
-        {
-          name: "Intralot",
-          value: -284.59686822516693,
-        },
-        {
-          name: "Crystalbet",
-          value: 1.6640553163764593,
-        },
-        {
-          name: "Skywind360",
-          value: 2.1100532353131065,
-        },
-        {
-          name: "TopSport",
-          value: 13.7,
-        },
-        {
-          name: "Ondiss",
-          value: -10.778004643315398,
+          name: "Optimus",
+          value: 22.970916785662467,
         },
         {
           name: "iSOFTBET",
-          value: -59.6316148687346,
-        },
-        {
-          name: "Everymatrix",
-          value: -1.2562177400933838,
-        },
-        {
-          name: "BetB2B",
-          value: 56.363708354151434,
-        },
-        {
-          name: "Reevo",
-          value: 51.35,
-        },
-        {
-          name: "TGLab",
-          value: -36.47374497170441,
-        },
-        {
-          name: "Betmexico",
-          value: -0.5773532199276655,
-        },
-        {
-          name: "Evoplay",
-          value: 67.96397719771367,
-        },
-        {
-          name: "Efbet",
-          value: 2.8,
-        },
-        {
-          name: "Optimus",
-          value: 37.06682833728057,
-        },
-      ],
-      total: 507.1453318468544,
-      period: "2026-03-26T05:45:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Baby Leopard",
-          value: 130.82,
-        },
-        {
-          name: "BlueOcean",
-          value: 3.63045466219582,
-        },
-        {
-          name: "Everymatrix",
-          value: 1.9235834145179946,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -154.89047383659766,
-        },
-        {
-          name: "Comtrade",
-          value: 2.9364089674682856,
-        },
-        {
-          name: "Crystalbet",
-          value: -41.99758655616779,
-        },
-        {
-          name: "BtoBet",
-          value: 2.948324932219126,
-        },
-        {
-          name: "TGLab",
-          value: -8.206533827747457,
-        },
-        {
-          name: "Optimus",
-          value: 28.713171869325127,
+          value: 1360.331864051339,
         },
         {
           name: "EGT New Platform",
-          value: -99.98000000000002,
-        },
-        {
-          name: "Virtualsoft",
-          value: 57.13589456236548,
-        },
-        {
-          name: "Leopard",
-          value: 5.624593575948263,
-        },
-        {
-          name: "Pariplay",
-          value: 3.000566394786918,
-        },
-        {
-          name: "Betmexico",
-          value: 0.8247903141823792,
-        },
-        {
-          name: "Ondiss",
-          value: -3.499823979683315,
-        },
-        {
-          name: "Intralot",
-          value: 48.73218496901184,
-        },
-        {
-          name: "Evoplay",
-          value: 124.08754024948419,
-        },
-        {
-          name: "TopSport",
-          value: 5.5,
-        },
-        {
-          name: "iSOFTBET",
-          value: 95.71003105730391,
-        },
-        {
-          name: "Easit",
-          value: 15.350000000000001,
-        },
-        {
-          name: "ORYX",
-          value: 44.55300901276374,
-        },
-        {
-          name: "Asvla",
-          value: 55.341725378919975,
-        },
-        {
-          name: "MrSlotty",
-          value: -16.319897159601766,
-        },
-        {
-          name: "Efbet",
-          value: -0.2999999999999998,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "Slotegrator",
-          value: -45.17898212944177,
-        },
-        {
-          name: "Skywind360",
-          value: -3.1209159480445017,
-        },
-        {
-          name: "BetB2B",
-          value: -198.66770181515702,
-        },
-        {
-          name: "Reevo",
-          value: 8.899999999999999,
-        },
-      ],
-      total: 63.57036410805174,
-      period: "2026-03-26T05:50:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Calimaco Apuesta",
-          value: -50.92674155443198,
-        },
-        {
-          name: "Comtrade",
-          value: 3.855018189911573,
-        },
-        {
-          name: "Leopard",
-          value: 3.1906326787329835,
-        },
-        {
-          name: "MrSlotty",
-          value: -11.140578905088063,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "Ondiss",
-          value: 15.561501086135156,
-        },
-        {
-          name: "Skywind360",
-          value: 2.5026212790922893,
-        },
-        {
-          name: "Asvla",
-          value: -17.21108641509367,
-        },
-        {
-          name: "ORYX",
-          value: 107.74632360059792,
-        },
-        {
-          name: "BetConstruct",
-          value: 3.1352980577055725,
-        },
-        {
-          name: "Optimus",
-          value: 49.092865184868614,
-        },
-        {
-          name: "Intralot",
-          value: -85.00198569642708,
-        },
-        {
-          name: "Baby Leopard",
-          value: 349.36,
-        },
-        {
-          name: "Easit",
-          value: -35.7,
-        },
-        {
-          name: "SoftSwiss",
-          value: -7.5,
-        },
-        {
-          name: "TopSport",
-          value: 5.8,
-        },
-        {
-          name: "Newton",
-          value: -0.35331123940126435,
-        },
-        {
-          name: "Slotegrator",
-          value: 10.890722321880114,
-        },
-        {
-          name: "iSOFTBET",
-          value: 183.32159540146154,
-        },
-        {
-          name: "Efbet",
-          value: 0.71,
-        },
-        {
-          name: "Evoplay",
-          value: 126.92923964451055,
-        },
-        {
-          name: "TGLab",
-          value: -33.644934157630345,
-        },
-        {
-          name: "Virtualsoft",
-          value: 35.01409357473561,
-        },
-        {
-          name: "EGT New Platform",
-          value: -182.96,
-        },
-        {
-          name: "Pariplay",
-          value: -5.383021790288032,
-        },
-        {
-          name: "Reevo",
-          value: 80.27076263817499,
-        },
-        {
-          name: "BlueOcean",
-          value: 10.908289183147811,
-        },
-        {
-          name: "Crystalbet",
-          value: -6.206133922790681,
-        },
-        {
-          name: "BetB2B",
-          value: 3.1511493845406697,
-        },
-      ],
-      total: 555.4123185443443,
-      period: "2026-03-26T05:55:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Comtrade",
-          value: -0.473044492753915,
-        },
-        {
-          name: "Virtualsoft",
-          value: 54.41727966655053,
-        },
-        {
-          name: "BlueOcean",
-          value: 2.2826459246271558,
-        },
-        {
-          name: "BetConstruct",
-          value: 0.38747095315487784,
-        },
-        {
-          name: "Slotegrator",
-          value: 11.706465122645824,
-        },
-        {
-          name: "ORYX",
-          value: 40.98021462846518,
-        },
-        {
-          name: "Easit",
-          value: 57.870000000000005,
-        },
-        {
-          name: "Skywind360",
-          value: -1.5212011696443326,
-        },
-        {
-          name: "Leopard",
-          value: 0.40355828347610856,
-        },
-        {
-          name: "Asvla",
-          value: 57.68725096771727,
-        },
-        {
-          name: "Digitain",
-          value: 2.9005751624845306,
-        },
-        {
-          name: "MrSlotty",
-          value: -2.972157262571317,
-        },
-        {
-          name: "TopSport",
-          value: 2.07,
-        },
-        {
-          name: "Ondiss",
-          value: -7.811025837009474,
-        },
-        {
-          name: "Newton",
-          value: 0.7380279223048634,
-        },
-        {
-          name: "Pariplay",
-          value: 8.504182319549013,
-        },
-        {
-          name: "iSOFTBET",
-          value: 0.18687421262674064,
-        },
-        {
-          name: "Intralot",
-          value: 69.86098334825785,
-        },
-        {
-          name: "Reevo",
-          value: -53.854610110539994,
-        },
-        {
-          name: "Crystalbet",
-          value: 3.0428440070883838,
-        },
-        {
-          name: "WeAreCasino",
-          value: -0.1393830331619975,
-        },
-        {
-          name: "SoftSwiss",
-          value: -23.9,
-        },
-        {
-          name: "BetB2B",
-          value: 11.344595102556664,
-        },
-        {
-          name: "TGLab",
-          value: 37.63461239329356,
-        },
-        {
-          name: "Efbet",
-          value: 12.9,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "Baby Leopard",
-          value: 380.73,
-        },
-        {
-          name: "Optimus",
-          value: 0.4540030689106227,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -162.30861937481916,
-        },
-        {
-          name: "EGT New Platform",
-          value: -19.77,
-        },
-      ],
-      total: 483.351541803209,
-      period: "2026-03-26T06:00:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Slotegrator",
-          value: -5.901721481699037,
-        },
-        {
-          name: "Pariplay",
-          value: -7.043038747795634,
-        },
-        {
-          name: "iSOFTBET",
-          value: 216.49265316381693,
-        },
-        {
-          name: "BetB2B",
-          value: 65.20138720465913,
-        },
-        {
-          name: "BetConstruct",
-          value: -3.292062960590851,
-        },
-        {
-          name: "TopSport",
-          value: -1.8,
-        },
-        {
-          name: "Ondiss",
-          value: 6.2215729050598725,
-        },
-        {
-          name: "Comtrade",
-          value: 2.905003523965951,
-        },
-        {
-          name: "Crystalbet",
-          value: 2.149008580006171,
-        },
-        {
-          name: "EGT New Platform",
-          value: -52.28000000000001,
-        },
-        {
-          name: "Baby Leopard",
-          value: 69.28,
-        },
-        {
-          name: "Newton",
-          value: -0.24535502736198916,
-        },
-        {
-          name: "TGLab",
-          value: 1.9345912828872303,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 238.10525519551135,
-        },
-        {
-          name: "Asvla",
-          value: 31.58535471941223,
-        },
-        {
-          name: "Intralot",
-          value: -28.052345180132995,
-        },
-        {
-          name: "Optimus",
-          value: -1.1097852795592988,
-        },
-        {
-          name: "Reevo",
-          value: 21.35,
-        },
-        {
-          name: "ORYX",
-          value: 94.0277069594373,
-        },
-        {
-          name: "Easit",
-          value: 30.45,
-        },
-        {
-          name: "Leopard",
-          value: 2.3204601299876244,
-        },
-        {
-          name: "Virtualsoft",
-          value: 44.8517708849367,
-        },
-        {
-          name: "Skywind360",
-          value: 0.1962840218895913,
-        },
-        {
-          name: "MrSlotty",
-          value: 18.091535426272934,
-        },
-        {
-          name: "SoftSwiss",
-          value: 34.099999999999994,
-        },
-        {
-          name: "Efbet",
-          value: 0.3,
-        },
-      ],
-      total: 779.8382753207031,
-      period: "2026-03-26T06:05:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Skywind360",
-          value: -31.425071904523566,
-        },
-        {
-          name: "Efbet",
-          value: 1,
-        },
-        {
-          name: "Optimus",
-          value: 9.73584358886112,
-        },
-        {
-          name: "Intralot",
-          value: 112.38593746955279,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 408.1237138195678,
-        },
-        {
-          name: "Slotegrator",
-          value: -3.5000144944247515,
-        },
-        {
-          name: "EGT New Platform",
-          value: 285.42,
-        },
-        {
-          name: "TopSport",
-          value: 13.08,
-        },
-        {
-          name: "Avento",
-          value: 4.651931318783314,
-        },
-        {
-          name: "Virtualsoft",
-          value: 5.856833798361859,
-        },
-        {
-          name: "Baby Leopard",
-          value: 332.24,
-        },
-        {
-          name: "Comtrade",
-          value: 0.029442603283438694,
-        },
-        {
-          name: "TGLab",
-          value: 0.27247764547707476,
-        },
-        {
-          name: "ORYX",
-          value: -41.11557839139357,
-        },
-        {
-          name: "Ondiss",
-          value: -6.972400194818922,
-        },
-        {
-          name: "Crystalbet",
-          value: 1.7115997539872159,
-        },
-        {
-          name: "Easit",
-          value: 8.076257501033638,
-        },
-        {
-          name: "SoftSwiss",
-          value: 19.3,
-        },
-        {
-          name: "BetB2B",
-          value: -12.487700698896692,
-        },
-        {
-          name: "Pariplay",
-          value: -2.294944054414926,
-        },
-        {
-          name: "BetConstruct",
-          value: -2.5866208976070966,
-        },
-        {
-          name: "Asvla",
-          value: -31.062365905693916,
-        },
-        {
-          name: "MrSlotty",
-          value: 37.54451433904522,
-        },
-        {
-          name: "Reevo",
-          value: 5.705317908329192,
-        },
-        {
-          name: "iSOFTBET",
-          value: 174.46758399225632,
-        },
-        {
-          name: "Leopard",
-          value: 1.311564421297353,
-        },
-        {
-          name: "Newton",
-          value: 2.453550273619891,
-        },
-      ],
-      total: 1291.9218718916827,
-      period: "2026-03-26T06:10:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "iSOFTBET",
-          value: 53.92303917347673,
-        },
-        {
-          name: "MrSlotty",
-          value: 8.533005814378964,
-        },
-        {
-          name: "Skywind360",
-          value: 6.8895691683246545,
-        },
-        {
-          name: "Slotegrator",
-          value: -6.5703450834605075,
-        },
-        {
-          name: "TGLab",
-          value: 0.7078504545598281,
-        },
-        {
-          name: "Crystalbet",
-          value: -10.589731070502385,
-        },
-        {
-          name: "Intralot",
-          value: 41.20834522145414,
-        },
-        {
-          name: "Leopard",
-          value: -0.23709049154221395,
-        },
-        {
-          name: "Asvla",
-          value: 12.884542592514874,
-        },
-        {
-          name: "Newton",
-          value: 0.7360650820859673,
-        },
-        {
-          name: "Virtualsoft",
-          value: 5.474895047364226,
-        },
-        {
-          name: "Avento",
-          value: 4.308434280476529,
-        },
-        {
-          name: "Baby Leopard",
-          value: -983.8199999999999,
-        },
-        {
-          name: "Optimus",
-          value: 7.213604317135441,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -73.9646666433555,
-        },
-        {
-          name: "Betmexico",
-          value: -3.703308510678883,
-        },
-        {
-          name: "Reevo",
-          value: 16.86425020488591,
-        },
-        {
-          name: "Ondiss",
-          value: -15.770400614334246,
-        },
-        {
-          name: "Easit",
-          value: 230.04125020273065,
+          value: 409.9,
         },
         {
           name: "TopSport",
           value: 12.8,
         },
         {
-          name: "SoftSwiss",
-          value: 2.9,
-        },
-        {
-          name: "ORYX",
-          value: 117.90051685345888,
-        },
-        {
-          name: "Pariplay",
-          value: 1.0849843674098687,
-        },
-        {
-          name: "EGT New Platform",
-          value: 110.44,
-        },
-        {
-          name: "BetB2B",
-          value: 10.680112694107011,
-        },
-      ],
-      total: -450.06507693951,
-      period: "2026-03-26T06:15:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "MrSlotty",
-          value: -1.9329814598526216,
-        },
-        {
-          name: "BetB2B",
-          value: -7.3783528148176485,
-        },
-        {
-          name: "ORYX",
-          value: 5.647232692191377,
-        },
-        {
-          name: "Virtualsoft",
-          value: -10.73919975750367,
-        },
-        {
-          name: "Asvla",
-          value: 24.42199278605833,
-        },
-        {
-          name: "Betmexico",
-          value: 0.18970177226194723,
-        },
-        {
-          name: "Leopard",
-          value: -2.2876710194551904,
-        },
-        {
-          name: "Efbet",
-          value: -6.55,
-        },
-        {
-          name: "Slotegrator",
-          value: 13.807741064684215,
-        },
-        {
-          name: "Everymatrix",
-          value: 0.905483264966795,
-        },
-        {
-          name: "Easit",
-          value: -514.3449975672323,
-        },
-        {
-          name: "Optimus",
-          value: -2.5474616644429355,
-        },
-        {
-          name: "Skywind360",
-          value: -17.066895703299963,
-        },
-        {
-          name: "Pariplay",
-          value: 7.591093739328596,
-        },
-        {
-          name: "Newton",
-          value: 6.0475107144183085,
-        },
-        {
-          name: "Admiralbet",
-          value: 6.279999999999999,
-        },
-        {
-          name: "Crystalbet",
-          value: 18.47893808471383,
-        },
-        {
-          name: "Comtrade",
-          value: 3.5331123940126434,
-        },
-        {
-          name: "EGT New Platform",
-          value: -369.24,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 109.9317986581637,
-        },
-        {
           name: "Reevo",
-          value: -52.10616966838002,
-        },
-        {
-          name: "Intralot",
-          value: 105.59606935006727,
-        },
-        {
-          name: "Baby Leopard",
-          value: -210.82000000000005,
-        },
-        {
-          name: "Ondiss",
-          value: 5.936985142006039,
-        },
-        {
-          name: "Peppermill",
-          value: -9,
-        },
-        {
-          name: "TopSport",
-          value: 1.7000000000000002,
-        },
-        {
-          name: "iSOFTBET",
-          value: 59.21732745664823,
-        },
-        {
-          name: "TGLab",
-          value: -12.352319928294053,
-        },
-      ],
-      total: -847.0810624637572,
-      period: "2026-03-26T06:20:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Ondiss",
-          value: 7.590016191233625,
-        },
-        {
-          name: "Skywind360",
-          value: 8.175229511701477,
-        },
-        {
-          name: "Pariplay",
-          value: 11.078130941987636,
-        },
-        {
-          name: "Efbet",
-          value: -3.65,
-        },
-        {
-          name: "Baby Leopard",
-          value: 460.90999999999997,
-        },
-        {
-          name: "Optimus",
-          value: 5.069700936168614,
-        },
-        {
-          name: "TGLab",
-          value: 1.792297401360313,
-        },
-        {
-          name: "ORYX",
-          value: 57.09737167731338,
-        },
-        {
-          name: "Avento",
-          value: 1.8607725275133253,
-        },
-        {
-          name: "Intralot",
-          value: 55.17398406899922,
-        },
-        {
-          name: "Leopard",
-          value: 2.106069791890942,
-        },
-        {
-          name: "TopSport",
-          value: -6.6,
-        },
-        {
-          name: "Virtualsoft",
-          value: 26.59701312034728,
-        },
-        {
-          name: "Reevo",
-          value: 92.8,
-        },
-        {
-          name: "BetB2B",
-          value: 19.686669438610625,
-        },
-        {
-          name: "Crystalbet",
-          value: 41.73450733472161,
-        },
-        {
-          name: "iSOFTBET",
-          value: 168.0842289920758,
-        },
-        {
-          name: "Slotegrator",
-          value: -2.08424092056097,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 168.92628215148747,
-        },
-        {
-          name: "Easit",
-          value: 425.1,
-        },
-        {
-          name: "Peppermill",
-          value: -39.46,
-        },
-        {
-          name: "MrSlotty",
-          value: -103.80558305432942,
-        },
-        {
-          name: "Admiralbet",
-          value: 0.23999999999999977,
-        },
-        {
-          name: "EGT New Platform",
-          value: 117.64000000000001,
-        },
-        {
-          name: "Asvla",
-          value: 4.43748084367056,
-        },
-      ],
-      total: 1520.4999309541915,
-      period: "2026-03-26T06:25:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Intralot",
-          value: -358.5867572612397,
-        },
-        {
-          name: "Easit",
-          value: -3.780001621845111,
-        },
-        {
-          name: "BtoBet",
-          value: -1.4053682176911166,
-        },
-        {
-          name: "Avento",
-          value: 32.327307489941006,
-        },
-        {
-          name: "Efbet",
-          value: 1.7,
-        },
-        {
-          name: "BetB2B",
-          value: 17.9328851360075,
-        },
-        {
-          name: "TopSport",
-          value: 3.5000000000000004,
-        },
-        {
-          name: "Baby Leopard",
-          value: 211.36,
-        },
-        {
-          name: "Reevo",
-          value: 7.6,
-        },
-        {
-          name: "Slotegrator",
-          value: 4.84081762194806,
-        },
-        {
-          name: "Peppermill",
-          value: -19.16,
-        },
-        {
-          name: "Crystalbet",
-          value: 15.78158365759694,
-        },
-        {
-          name: "Leopard",
-          value: 1.979957828304658,
-        },
-        {
-          name: "TGLab",
-          value: -16.227557552856894,
-        },
-        {
-          name: "Optimus",
-          value: -1.8412346683597454,
-        },
-        {
-          name: "ORYX",
-          value: -57.64980651753315,
-        },
-        {
-          name: "EGT New Platform",
-          value: 307.21000000000004,
-        },
-        {
-          name: "SoftSwiss",
-          value: -0.4999999999999999,
-        },
-        {
-          name: "iSOFTBET",
-          value: 120.91476937297045,
-        },
-        {
-          name: "Asvla",
-          value: 32.78981380555138,
-        },
-        {
-          name: "Everymatrix",
-          value: 2.096097430391219,
-        },
-        {
-          name: "MrSlotty",
-          value: 5.608093057130073,
-        },
-        {
-          name: "Virtualsoft",
-          value: 33.98717418650352,
-        },
-        {
-          name: "Admiralbet",
-          value: 5.35,
-        },
-        {
-          name: "Pariplay",
-          value: 1.1841049498611098,
-        },
-        {
-          name: "Ondiss",
-          value: 5.385974792263509,
-        },
-        {
-          name: "Skywind360",
-          value: 15.34941051176604,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -144.6529444727394,
-        },
-        {
-          name: "Comtrade",
-          value: 2.2180094473523817,
-        },
-      ],
-      total: 225.31232897532277,
-      period: "2026-03-26T06:30:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Efbet",
-          value: 0.2,
-        },
-        {
-          name: "Crystalbet",
-          value: 16.228501371138044,
-        },
-        {
-          name: "Slotegrator",
-          value: 3.8440067468971604,
-        },
-        {
-          name: "iSOFTBET",
-          value: 36.317568500221746,
-        },
-        {
-          name: "Peppermill",
-          value: -40.36,
-        },
-        {
-          name: "Skywind360",
-          value: -23.593339431128875,
-        },
-        {
-          name: "BetB2B",
-          value: 10.661780159497617,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 355.19259142070035,
-        },
-        {
-          name: "Virtualsoft",
-          value: 6.497924027330762,
-        },
-        {
-          name: "Reevo",
-          value: 45.45,
-        },
-        {
-          name: "Dench",
-          value: 1.85,
-        },
-        {
-          name: "Optimus",
-          value: 6.129041430293399,
-        },
-        {
-          name: "Easit",
-          value: 64.1740182126352,
-        },
-        {
-          name: "Avento",
-          value: -80.52551998020482,
-        },
-        {
-          name: "ORYX",
-          value: 166.02508687899146,
-        },
-        {
-          name: "Leopard",
-          value: 2.2775820623682876,
-        },
-        {
-          name: "SoftSwiss",
-          value: 2.25,
-        },
-        {
-          name: "Everymatrix",
-          value: 0.15412481105817788,
-        },
-        {
-          name: "EGT New Platform",
-          value: 47.379999999999995,
-        },
-        {
-          name: "TGLab",
-          value: 11.689290990966505,
-        },
-        {
-          name: "Baby Leopard",
-          value: 354.64,
-        },
-        {
-          name: "BtoBet",
-          value: -1.7886504588796028,
-        },
-        {
-          name: "TopSport",
-          value: 10.249999999999998,
-        },
-        {
-          name: "Intralot",
-          value: 10.076345890544086,
-        },
-        {
-          name: "Asvla",
-          value: 13.18565736404966,
-        },
-        {
-          name: "Comtrade",
-          value: 2.979591452283996,
-        },
-        {
-          name: "Pariplay",
-          value: 3.6169221882252085,
-        },
-        {
-          name: "MrSlotty",
-          value: -31.309667175571786,
-        },
-        {
-          name: "Ondiss",
-          value: 8.867633595581687,
-        },
-        {
-          name: "Evoplay",
-          value: 3.5826521961358386,
-        },
-      ],
-      total: 1005.943142253134,
-      period: "2026-03-26T06:35:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Newton",
-          value: 1.5702721751167303,
-        },
-        {
-          name: "Pariplay",
-          value: 0.8714371140237898,
-        },
-        {
-          name: "Intralot",
-          value: 151.76818145827752,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 226.8855114488117,
-        },
-        {
-          name: "Optimus",
-          value: 1.7655674902079754,
-        },
-        {
-          name: "EGT New Platform",
-          value: 364.42,
-        },
-        {
-          name: "BetB2B",
-          value: 33.4171909928295,
-        },
-        {
-          name: "Ondiss",
-          value: -6.045976200196868,
-        },
-        {
-          name: "Slotegrator",
-          value: 4.224022623016272,
-        },
-        {
-          name: "Dench",
-          value: 1.2,
-        },
-        {
-          name: "Comtrade",
-          value: 0.03925680437791823,
-        },
-        {
-          name: "Leopard",
-          value: -0.3783358907588519,
-        },
-        {
-          name: "SoftSwiss",
-          value: 3.25,
-        },
-        {
-          name: "ORYX",
-          value: 100.33357640994859,
-        },
-        {
-          name: "Asvla",
-          value: 12.963783321866133,
-        },
-        {
-          name: "TopSport",
-          value: -3.85,
-        },
-        {
-          name: "iSOFTBET",
-          value: 78.53668651536132,
-        },
-        {
-          name: "Evoplay",
-          value: 6.08584440279728,
-        },
-        {
-          name: "Easit",
-          value: -72.15,
-        },
-        {
-          name: "Skywind360",
-          value: 10.501195171093135,
-        },
-        {
-          name: "BtoBet",
-          value: 1.2284687217579688,
-        },
-        {
-          name: "Reevo",
-          value: 51.1,
-        },
-        {
-          name: "Baby Leopard",
-          value: 204.13,
-        },
-        {
-          name: "Leris",
-          value: 5.4,
-        },
-        {
-          name: "Crystalbet",
-          value: 3.695787616942766,
-        },
-        {
-          name: "TGLab",
-          value: 23.841793979244034,
-        },
-        {
-          name: "Virtualsoft",
-          value: 102.47757221788142,
-        },
-        {
-          name: "Peppermill",
-          value: 54.6,
-        },
-        {
-          name: "Avento",
-          value: 1.1934068530887152,
-        },
-        {
-          name: "MrSlotty",
-          value: 36.570083713930444,
-        },
-      ],
-      total: 1399.6453269396175,
-      period: "2026-03-26T06:40:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Optimus",
-          value: -5.6498159686655205,
-        },
-        {
-          name: "Avento",
-          value: 26.57685656385066,
-        },
-        {
-          name: "Gaming1",
-          value: 3.8,
-        },
-        {
-          name: "Intralot",
-          value: -109.58120739939383,
-        },
-        {
-          name: "iSOFTBET",
-          value: 49.168955698960644,
-        },
-        {
-          name: "Skywind360",
-          value: 12.564140241152739,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -34.991025416650345,
-        },
-        {
-          name: "Easit",
-          value: 12.931206412912648,
-        },
-        {
-          name: "TopSport",
-          value: 6.1,
-        },
-        {
-          name: "EGT New Platform",
-          value: 124.95643667989701,
-        },
-        {
-          name: "Reevo",
-          value: 27.250000000000007,
-        },
-        {
-          name: "Pariplay",
-          value: -5.560846612017303,
-        },
-        {
-          name: "Baby Leopard",
-          value: -981.9,
-        },
-        {
-          name: "Virtualsoft",
-          value: 58.86936831633065,
-        },
-        {
-          name: "MrSlotty",
-          value: 45.58459032908596,
-        },
-        {
-          name: "ORYX",
-          value: 104.83092064598863,
-        },
-        {
-          name: "Leopard",
-          value: -12.762530714931934,
-        },
-        {
-          name: "Asvla",
-          value: 87.6560948083638,
-        },
-        {
-          name: "Comtrade",
-          value: 1.778333238319697,
-        },
-        {
-          name: "Crystalbet",
-          value: 20.887856256992134,
-        },
-        {
-          name: "Slotegrator",
-          value: 4.679178040548168,
-        },
-        {
-          name: "Peppermill",
-          value: 9.96,
-        },
-        {
-          name: "BtoBet",
-          value: -0.12284687217579696,
-        },
-        {
-          name: "BetB2B",
-          value: -15.016735461038222,
-        },
-        {
-          name: "TGLab",
-          value: 4.4504682094588865,
-        },
-        {
-          name: "Evoplay",
-          value: 37.97805701586001,
-        },
-      ],
-      total: -525.5625459871512,
-      period: "2026-03-26T06:45:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "TGLab",
-          value: -1.4895444619413407,
-        },
-        {
-          name: "iSOFTBET",
-          value: -171.66987906831088,
-        },
-        {
-          name: "Asvla",
-          value: 13.027175905347141,
-        },
-        {
-          name: "Peppermill",
-          value: 19.060000000000002,
-        },
-        {
-          name: "Efbet",
-          value: 21,
-        },
-        {
-          name: "Comtrade",
-          value: -7.982871170249679,
-        },
-        {
-          name: "BlueOcean",
-          value: 2.045167524784874,
-        },
-        {
-          name: "Easit",
-          value: 11.349999999999998,
-        },
-        {
-          name: "Pariplay",
-          value: -0.07179743103008551,
-        },
-        {
-          name: "Baby Leopard",
-          value: 374.96999999999997,
-        },
-        {
-          name: "BetB2B",
-          value: 10.943445178547702,
-        },
-        {
-          name: "MrSlotty",
-          value: 40.8110046658093,
-        },
-        {
-          name: "ORYX",
-          value: 14.665047556564641,
-        },
-        {
-          name: "Betmexico",
-          value: 0.008247903141823793,
-        },
-        {
-          name: "Intralot",
-          value: -65.88341201674646,
-        },
-        {
-          name: "Admiralbet",
-          value: 2,
-        },
-        {
-          name: "Avento",
-          value: -5.358553797585842,
-        },
-        {
-          name: "Optimus",
-          value: 0.7566717815177036,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 276.97970562455544,
-        },
-        {
-          name: "BtoBet",
-          value: -0.4913874887031876,
-        },
-        {
-          name: "EGT New Platform",
-          value: -172.66481067712854,
-        },
-        {
-          name: "Crystalbet",
-          value: 3.4231995079744317,
-        },
-        {
-          name: "Slotegrator",
-          value: 0.883444984500497,
-        },
-        {
-          name: "TopSport",
-          value: 1.4,
-        },
-        {
-          name: "Leopard",
-          value: -4.893144187147817,
-        },
-        {
-          name: "Reevo",
-          value: -433.09000000000003,
-        },
-        {
-          name: "Virtualsoft",
-          value: 94.68879413871457,
-        },
-        {
-          name: "Evoplay",
-          value: 13.115265766328411,
-        },
-        {
-          name: "Skywind360",
-          value: -13.67707064526672,
-        },
-      ],
-      total: 23.854699593675917,
-      period: "2026-03-26T06:50:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Easit",
-          value: -18.150000000000002,
-        },
-        {
-          name: "Comtrade",
-          value: 3.817724225752551,
-        },
-        {
-          name: "Intralot",
-          value: 64.85181615461065,
-        },
-        {
-          name: "Ondiss",
-          value: 0.018165176365138314,
-        },
-        {
-          name: "Baby Leopard",
-          value: 997.76,
-        },
-        {
-          name: "Pariplay",
-          value: -15.360437164809383,
-        },
-        {
-          name: "iSOFTBET",
-          value: 58.22662124882299,
-        },
-        {
-          name: "Crystalbet",
-          value: 46.15930966169597,
-        },
-        {
-          name: "Virtualsoft",
-          value: -151.97752731783078,
-        },
-        {
-          name: "Leopard",
-          value: -12.207638075152284,
-        },
-        {
-          name: "Avento",
-          value: -65.95143135490268,
-        },
-        {
-          name: "TGLab",
-          value: 7.635429132146471,
-        },
-        {
-          name: "Reevo",
-          value: 8.399999999999999,
-        },
-        {
-          name: "Slotegrator",
-          value: -0.19000793805955563,
-        },
-        {
-          name: "Skywind360",
-          value: -13.955793956349941,
-        },
-        {
-          name: "EGT New Platform",
-          value: 366.08961535570586,
-        },
-        {
-          name: "BlueOcean",
-          value: -120.98023400523925,
-        },
-        {
-          name: "Asvla",
-          value: 8.050858102088014,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 396.6635027186074,
-        },
-        {
-          name: "BtoBet",
-          value: 2.8009086856081695,
-        },
-        {
-          name: "TopSport",
-          value: 4.8,
-        },
-        {
-          name: "BetB2B",
-          value: 75.97013600002214,
-        },
-        {
-          name: "Evoplay",
-          value: 9.700740112750461,
-        },
-        {
-          name: "ORYX",
-          value: -42.71144187026581,
-        },
-        {
-          name: "Optimus",
-          value: 2.1943481664013404,
-        },
-        {
-          name: "MrSlotty",
-          value: 22.992877366048575,
-        },
-      ],
-      total: 1634.647540424016,
-      period: "2026-03-26T06:55:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Leopard",
-          value: -1.2485084395042105,
-        },
-        {
-          name: "iSOFTBET",
-          value: -471.91196732642044,
-        },
-        {
-          name: "TGLab",
-          value: 1.7741322249951748,
-        },
-        {
-          name: "Slotegrator",
-          value: 2.959597185634632,
-        },
-        {
-          name: "Crystalbet",
-          value: 3.901813513256042,
-        },
-        {
-          name: "TopSport",
-          value: 1.45,
-        },
-        {
-          name: "Baby Leopard",
-          value: 504.63,
-        },
-        {
-          name: "Reevo",
-          value: 17.1,
-        },
-        {
-          name: "EGT New Platform",
-          value: 187.88451240904558,
-        },
-        {
-          name: "Betmexico",
-          value: 0.08247903141823792,
-        },
-        {
-          name: "Skywind360",
-          value: 7.88080347886709,
-        },
-        {
-          name: "Virtualsoft",
-          value: 45.17539359260653,
-        },
-        {
-          name: "Pariplay",
-          value: 9.634954017992092,
-        },
-        {
-          name: "Avento",
-          value: 0.3925680437791826,
-        },
-        {
-          name: "Easit",
-          value: -43.999991890774446,
-        },
-        {
-          name: "BetB2B",
-          value: 28.689872063666698,
-        },
-        {
-          name: "Evoplay",
-          value: -6.573091779208951,
-        },
-        {
-          name: "BlueOcean",
-          value: 44.511595530229535,
-        },
-        {
-          name: "Asvla",
-          value: 1.8669115835156853,
-        },
-        {
-          name: "Comtrade",
-          value: 1.6291573816836078,
-        },
-        {
-          name: "Intralot",
-          value: 270.6463628132522,
-        },
-        {
-          name: "Optimus",
-          value: 0.45400306891062214,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 353.9415827366646,
-        },
-        {
-          name: "ORYX",
-          value: 52.32698143030361,
-        },
-        {
-          name: "MrSlotty",
-          value: 25.015502317617383,
-        },
-      ],
-      total: 1038.2146629875306,
-      period: "2026-03-26T07:00:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Slotegrator",
-          value: 1.484985115911603,
-        },
-        {
-          name: "Evoplay",
-          value: 51.558080191425965,
-        },
-        {
-          name: "Leopard",
-          value: -2.421349700856652,
-        },
-        {
-          name: "TGLab",
-          value: 4.111384917309638,
-        },
-        {
-          name: "BetB2B",
-          value: 152.2028960672784,
-        },
-        {
-          name: "BlueOcean",
-          value: 0.9203253861531933,
-        },
-        {
-          name: "TopSport",
-          value: -20.750000000000004,
-        },
-        {
-          name: "iSOFTBET",
-          value: 19.78139521866356,
-        },
-        {
-          name: "Intralot",
-          value: -75.30397569664186,
-        },
-        {
-          name: "Asvla",
-          value: -33.30963299009565,
-        },
-        {
-          name: "Gaming1",
-          value: 4.1,
-        },
-        {
-          name: "Skywind360",
-          value: 10.171438014318621,
-        },
-        {
-          name: "Baby Leopard",
-          value: 106.62,
-        },
-        {
-          name: "Easit",
-          value: -34.35,
-        },
-        {
-          name: "Avento",
-          value: 63.2034550484484,
-        },
-        {
-          name: "ORYX",
-          value: 44.81566993643002,
-        },
-        {
-          name: "Ondiss",
-          value: 0.096880940614071,
-        },
-        {
-          name: "Comtrade",
-          value: -6.811055559568818,
-        },
-        {
-          name: "Pariplay",
-          value: 5.229237738569115,
-        },
-        {
-          name: "MrSlotty",
-          value: 20.836574856442425,
-        },
-        {
-          name: "EGT New Platform",
-          value: 2128.5216059083536,
-        },
-        {
-          name: "Crystalbet",
-          value: -6.26001761874954,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -152.7917626071775,
-        },
-        {
-          name: "Virtualsoft",
-          value: 65.82031679148979,
-        },
-        {
-          name: "Optimus",
-          value: 0.025222392717256785,
-        },
-      ],
-      total: 2347.5016743510355,
-      period: "2026-03-26T07:05:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Virtualsoft",
-          value: -4.726647015489586,
-        },
-        {
-          name: "Everymatrix",
-          value: 7.898896566731616,
-        },
-        {
-          name: "Comtrade",
-          value: 9.719984763972562,
-        },
-        {
-          name: "Leopard",
-          value: 6.658711677355791,
-        },
-        {
-          name: "Intralot",
-          value: -25.22239271725679,
-        },
-        {
-          name: "iSOFTBET",
-          value: 243.67133743453005,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -64.8806133553795,
-        },
-        {
-          name: "MrSlotty",
-          value: 30.628100525814013,
-        },
-        {
-          name: "Ondiss",
-          value: 2.90642821842213,
-        },
-        {
-          name: "Gaming1",
-          value: -12.3,
-        },
-        {
-          name: "BetB2B",
-          value: 9.983291373974787,
-        },
-        {
-          name: "Baby Leopard",
-          value: -615.0699999999999,
-        },
-        {
-          name: "TopSport",
-          value: -0.09999999999999964,
-        },
-        {
-          name: "Crystalbet",
-          value: 2.744898864727646,
-        },
-        {
-          name: "Easit",
-          value: 0.48,
-        },
-        {
-          name: "BtoBet",
-          value: 0.9827749774063752,
-        },
-        {
-          name: "Asvla",
-          value: 9.718083047638526,
-        },
-        {
-          name: "Avento",
-          value: 0.4907100547239782,
-        },
-        {
-          name: "ORYX",
-          value: 72.00104721604792,
-        },
-        {
-          name: "Reevo",
-          value: 105.469383033162,
-        },
-        {
-          name: "Skywind360",
-          value: 5.71971639786269,
-        },
-        {
-          name: "Pariplay",
-          value: 6.557822106486765,
-        },
-        {
-          name: "Optimus",
-          value: 2.724018413463733,
-        },
-        {
-          name: "TGLab",
-          value: 1.1383510522153344,
-        },
-        {
-          name: "Newton",
-          value: -0.25516922845646867,
-        },
-        {
-          name: "Admiralbet",
-          value: 0.3457674401514057,
-        },
-        {
-          name: "Slotegrator",
-          value: 8.64330711075479,
-        },
-        {
-          name: "EGT New Platform",
-          value: 143.34,
-        },
-        {
-          name: "Evoplay",
-          value: 52.12863620285354,
-        },
-      ],
-      total: 1.396444161713383,
-      period: "2026-03-26T07:10:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "EGT New Platform",
-          value: -227.44999999999993,
-        },
-        {
-          name: "Optimus",
-          value: 0.35311349804159503,
-        },
-        {
-          name: "Evoplay",
-          value: 15.129984549622694,
-        },
-        {
-          name: "Everymatrix",
-          value: 8.553927013728872,
-        },
-        {
-          name: "Easit",
-          value: -11.246242904427639,
-        },
-        {
-          name: "Efbet",
-          value: -11.700000000000003,
-        },
-        {
-          name: "Newton",
-          value: -3.0718449425721035,
-        },
-        {
-          name: "TGLab",
-          value: 0.8117439976098019,
-        },
-        {
-          name: "TopSport",
-          value: 24.3,
-        },
-        {
-          name: "Gaming1",
-          value: 7.4,
-        },
-        {
-          name: "Virtualsoft",
-          value: -2.7711551564327763,
-        },
-        {
-          name: "ORYX",
-          value: -2.4068501923766727,
-        },
-        {
-          name: "Avento",
-          value: 4.95,
-        },
-        {
-          name: "Skywind360",
-          value: 9.986931033742405,
-        },
-        {
-          name: "Baby Leopard",
-          value: 16.75999999999999,
-        },
-        {
-          name: "MrSlotty",
-          value: 20.29842426678152,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 275.7059331612651,
-        },
-        {
-          name: "BetB2B",
-          value: 125.27497790688585,
-        },
-        {
-          name: "Intralot",
-          value: 122.0511583588056,
-        },
-        {
-          name: "iSOFTBET",
-          value: -24.265646741079816,
-        },
-        {
-          name: "Reevo",
-          value: -9.810145671336985,
-        },
-        {
-          name: "Ondiss",
-          value: 3.3060620984551727,
-        },
-        {
-          name: "Crystalbet",
-          value: -7.198227854268458,
-        },
-        {
-          name: "Admiralbet",
-          value: 0.468404167692791,
-        },
-        {
-          name: "Comtrade",
-          value: 1.1777041313375478,
-        },
-        {
-          name: "Slotegrator",
-          value: -3.00730567610123,
-        },
-        {
-          name: "Leopard",
-          value: 1.9169018465115157,
-        },
-        {
-          name: "Asvla",
-          value: -29.540943902149728,
-        },
-      ],
-      total: 305.9769029897351,
-      period: "2026-03-26T07:15:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Baby Leopard",
-          value: -170.54999999999995,
-        },
-        {
-          name: "Avento",
-          value: 93.15687485723728,
-        },
-        {
-          name: "Ondiss",
-          value: -5.331479263168095,
-        },
-        {
-          name: "MrSlotty",
-          value: 52.27810923342744,
-        },
-        {
-          name: "ORYX",
-          value: 48.19253411238238,
-        },
-        {
-          name: "Newton",
-          value: 12.758461422823434,
-        },
-        {
-          name: "Slotegrator",
-          value: -1.5200635044764435,
-        },
-        {
-          name: "Skywind360",
-          value: -2.453550273619891,
-        },
-        {
-          name: "Gaming1",
-          value: -0.1499999999999999,
-        },
-        {
-          name: "Easit",
-          value: -47.4,
-        },
-        {
-          name: "Asvla",
-          value: 54.96453950720798,
-        },
-        {
-          name: "Comtrade",
-          value: -3.277943165556174,
-        },
-        {
-          name: "Efbet",
-          value: 46.25,
-        },
-        {
-          name: "EGT New Platform",
-          value: 25.689999999999994,
-        },
-        {
-          name: "TopSport",
-          value: 16.9,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 336.78803113131687,
-        },
-        {
-          name: "iSOFTBET",
-          value: -74.43071070459136,
-        },
-        {
-          name: "Crystalbet",
-          value: 8.58018617415443,
-        },
-        {
-          name: "Leopard",
-          value: 0.5044478543451357,
-        },
-        {
-          name: "BetB2B",
-          value: -310.69436532441716,
-        },
-        {
-          name: "Pariplay",
-          value: 6.003582484989213,
-        },
-        {
-          name: "Reevo",
-          value: -14.94,
-        },
-        {
-          name: "Intralot",
-          value: -119.8921215422084,
-        },
-        {
-          name: "TGLab",
-          value: 6.352671968927423,
-        },
-        {
-          name: "Virtualsoft",
-          value: -47.349114940205006,
-        },
-        {
-          name: "Evoplay",
-          value: 37.5,
-        },
-      ],
-      total: -52.069909971430896,
-      period: "2026-03-26T07:20:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Easit",
-          value: -38.449999999999996,
-        },
-        {
-          name: "TopSport",
-          value: 8.350000000000001,
-        },
-        {
-          name: "Leopard",
-          value: 3.026687126070814,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 8.339340477851847,
-        },
-        {
-          name: "Reevo",
-          value: 6.666152527634999,
-        },
-        {
-          name: "EGT New Platform",
-          value: 108.94,
-        },
-        {
-          name: "SoftSwiss",
-          value: 1.373988153227139,
-        },
-        {
-          name: "Evoplay",
-          value: 14.25,
-        },
-        {
-          name: "BetB2B",
-          value: 136.7002096145415,
-        },
-        {
-          name: "Slotegrator",
-          value: -31.71296500352677,
-        },
-        {
-          name: "Comtrade",
-          value: 17.420206942701228,
-        },
-        {
-          name: "Gaming1",
-          value: -0.5999999999999992,
-        },
-        {
-          name: "TGLab",
-          value: 1.503485179352886,
-        },
-        {
-          name: "Pariplay",
-          value: -0.38004962532060205,
-        },
-        {
-          name: "Baby Leopard",
-          value: 834.96,
-        },
-        {
-          name: "MrSlotty",
-          value: 14.809233410947762,
-        },
-        {
-          name: "BlueOcean",
-          value: 1.1820755463983459,
-        },
-        {
-          name: "Crystalbet",
-          value: 0.31379328823098995,
-        },
-        {
-          name: "BtoBet",
-          value: -3.1940186765707197,
-        },
-        {
-          name: "Optimus",
-          value: -1.387231599449123,
-        },
-        {
-          name: "ORYX",
-          value: 49.014166196864664,
-        },
-        {
-          name: "Intralot",
-          value: -208.03429513193396,
-        },
-        {
-          name: "Virtualsoft",
-          value: 49.2108188368608,
-        },
-        {
-          name: "Peppermill",
-          value: 11.2,
-        },
-        {
-          name: "Asvla",
-          value: 29.930808290557923,
-        },
-        {
-          name: "Efbet",
-          value: 2.85,
-        },
-        {
-          name: "Skywind360",
-          value: -3.5919976005795204,
-        },
-        {
-          name: "iSOFTBET",
-          value: -28.733109893872534,
-        },
-        {
-          name: "Ondiss",
-          value: 1.6518200374699106,
-        },
-      ],
-      total: 985.6091180974577,
-      period: "2026-03-26T07:25:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Reevo",
-          value: -25.6,
-        },
-        {
-          name: "Intralot",
-          value: 29.053674171008094,
-        },
-        {
-          name: "TGLab",
-          value: 3.7420263312184927,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 236.26439782885748,
-        },
-        {
-          name: "Efbet",
-          value: 2.9699999999999998,
-        },
-        {
-          name: "Evoplay",
-          value: 1.1500000000000004,
-        },
-        {
-          name: "Virtualsoft",
-          value: -69.64913105705378,
-        },
-        {
-          name: "Comtrade",
-          value: -29.05003523965951,
-        },
-        {
-          name: "Slotegrator",
-          value: -23.866229013603395,
-        },
-        {
-          name: "ORYX",
-          value: 28.003479144919535,
-        },
-        {
-          name: "EGT New Platform",
-          value: 97.42,
-        },
-        {
-          name: "BetB2B",
-          value: -33.647428551078846,
-        },
-        {
-          name: "Optimus",
-          value: 31.023543042225846,
-        },
-        {
-          name: "Peppermill",
-          value: 3.62,
-        },
-        {
-          name: "MrSlotty",
-          value: -32.49259304169008,
-        },
-        {
-          name: "WeAreCasino",
-          value: 11.847557818769786,
-        },
-        {
-          name: "Ondiss",
-          value: -2.918538335998889,
-        },
-        {
-          name: "Asvla",
-          value: -94.50249382431267,
-        },
-        {
-          name: "BtoBet",
-          value: -9.950596646239548,
-        },
-        {
-          name: "TopSport",
-          value: 4.1,
-        },
-        {
-          name: "SoftSwiss",
-          value: 14.819443652664143,
-        },
-        {
-          name: "Easit",
-          value: -6.580000000000001,
-        },
-        {
-          name: "Pariplay",
-          value: 10.71224725372949,
-        },
-        {
-          name: "BlueOcean",
-          value: -0.3546226639195037,
-        },
-        {
-          name: "Gaming1",
-          value: 11.45,
-        },
-        {
-          name: "Skywind360",
-          value: 1.4034307565105781,
-        },
-        {
-          name: "Newton",
-          value: 1.6193431805891283,
-        },
-        {
-          name: "Crystalbet",
-          value: 4.703729694290793,
-        },
-        {
-          name: "Leopard",
-          value: 6.318209375672825,
-        },
-        {
-          name: "Baby Leopard",
-          value: -240.26,
-        },
-        {
-          name: "iSOFTBET",
-          value: 1.9291892243104893,
-        },
-      ],
-      total: -66.72139689878952,
-      period: "2026-03-26T07:30:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "iSOFTBET",
-          value: 199.91045645128108,
-        },
-        {
-          name: "Comtrade",
-          value: 12.670133612973117,
-        },
-        {
-          name: "Asvla",
-          value: 41.19250074595899,
-        },
-        {
-          name: "Easit",
-          value: -2.9000000000000012,
-        },
-        {
-          name: "Pariplay",
-          value: 0.2948324932219126,
-        },
-        {
-          name: "TopSport",
-          value: 10.15,
-        },
-        {
-          name: "Leopard",
-          value: 11.93019175526246,
-        },
-        {
-          name: "Evoplay",
-          value: 26.77,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 239.50314890434908,
-        },
-        {
-          name: "Intralot",
-          value: 67.37657766560805,
-        },
-        {
-          name: "Optimus",
-          value: 1.6873780727844792,
-        },
-        {
-          name: "Betmexico",
-          value: 0.9485088613097361,
-        },
-        {
-          name: "Gaming1",
-          value: 17.05,
-        },
-        {
-          name: "Ondiss",
-          value: -8.5981834794988,
-        },
-        {
-          name: "BtoBet",
-          value: 8.107893563602595,
-        },
-        {
-          name: "Reevo",
-          value: -74.6,
-        },
-        {
-          name: "Virtualsoft",
-          value: 50.45360369032163,
-        },
-        {
-          name: "Baby Leopard",
-          value: -351.82000000000005,
-        },
-        {
-          name: "BetB2B",
-          value: 198.90555404157075,
-        },
-        {
-          name: "ORYX",
-          value: -23.738772149659322,
-        },
-        {
-          name: "Efbet",
-          value: 23.799999999999997,
-        },
-        {
-          name: "Slotegrator",
-          value: 10.256808066280243,
-        },
-        {
-          name: "EGT New Platform",
-          value: 45.36000000000001,
-        },
-        {
-          name: "BlueOcean",
-          value: 4.39383057362591,
-        },
-        {
-          name: "Everymatrix",
-          value: 4.789330134106027,
-        },
-        {
-          name: "MrSlotty",
-          value: -30.29335236762927,
-        },
-        {
-          name: "Crystalbet",
-          value: 3.2330217575314073,
-        },
-        {
-          name: "TGLab",
-          value: -0.5449552909541493,
-        },
-        {
-          name: "Skywind360",
-          value: 2.738162105359798,
-        },
-      ],
-      total: 489.0266692074057,
-      period: "2026-03-26T07:35:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Betmexico",
-          value: 0.37940354452389446,
-        },
-        {
-          name: "ORYX",
-          value: 8.809690655703818,
-        },
-        {
-          name: "TGLab",
-          value: 0.49999999999999994,
-        },
-        {
-          name: "EGT New Platform",
-          value: 71.94999999999999,
-        },
-        {
-          name: "Gaming1",
-          value: -55.4,
-        },
-        {
-          name: "Efbet",
-          value: 16.05,
-        },
-        {
-          name: "BetB2B",
-          value: 6.143356078816579,
-        },
-        {
-          name: "Crystalbet",
-          value: 5.3566733041451755,
-        },
-        {
-          name: "Evoplay",
-          value: 6.359999999999999,
-        },
-        {
-          name: "Comtrade",
-          value: -1.2267751368099455,
-        },
-        {
-          name: "Leopard",
-          value: 0.08827837451039873,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 268.9766404153698,
-        },
-        {
-          name: "Skywind360",
-          value: 0.3925680437791826,
-        },
-        {
-          name: "Asvla",
-          value: 33.99110326251648,
-        },
-        {
-          name: "Optimus",
-          value: -0.557414879051375,
-        },
-        {
-          name: "Ondiss",
-          value: 3.8510173894093223,
-        },
-        {
-          name: "BtoBet",
-          value: -3.931099909625501,
-        },
-        {
-          name: "Slotegrator",
-          value: -5.048544730758244,
-        },
-        {
-          name: "Easit",
-          value: -156.10000000000002,
-        },
-        {
-          name: "Pariplay",
-          value: 2.868618737947522,
-        },
-        {
-          name: "TopSport",
-          value: 12.77,
-        },
-        {
-          name: "Everymatrix",
-          value: -2.543059382459935,
-        },
-        {
-          name: "BlueOcean",
-          value: 2.423254870116609,
-        },
-        {
-          name: "Reevo",
-          value: 103.79999999999998,
-        },
-        {
-          name: "Baby Leopard",
-          value: 530.1700000000001,
-        },
-        {
-          name: "MrSlotty",
-          value: 8.276455641146153,
-        },
-        {
-          name: "iSOFTBET",
-          value: 17.5814880630855,
-        },
-        {
-          name: "Intralot",
-          value: -65.31338594133645,
-        },
-        {
-          name: "Virtualsoft",
-          value: -24.745200332184325,
-        },
-      ],
-      total: 785.8730680688446,
-      period: "2026-03-26T07:40:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "iSOFTBET",
-          value: 62.67648224276822,
-        },
-        {
-          name: "TopSport",
-          value: -1.9399999999999995,
-        },
-        {
-          name: "Ondiss",
-          value: 2.15560092866308,
-        },
-        {
-          name: "Evoplay",
-          value: 10.950000000000001,
-        },
-        {
-          name: "EGT New Platform",
-          value: 66.99000000000001,
-        },
-        {
-          name: "Optimus",
-          value: 1.4099317528946544,
-        },
-        {
-          name: "Slotegrator",
-          value: 3.1313196311237523,
-        },
-        {
-          name: "MrSlotty",
-          value: 7.581699159363818,
-        },
-        {
-          name: "Baby Leopard",
-          value: 967.4200000000001,
-        },
-        {
-          name: "BtoBet",
-          value: -7.51822857715877,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 361.52753193780774,
-        },
-        {
-          name: "Gaming1",
-          value: -2.8999999999999995,
-        },
-        {
-          name: "Virtualsoft",
-          value: 82.39910592758594,
-        },
-        {
-          name: "Pariplay",
-          value: 5.4732592196447225,
-        },
-        {
-          name: "Skywind360",
-          value: 1.3936165554160982,
-        },
-        {
-          name: "Intralot",
-          value: 151.74800354410374,
-        },
-        {
-          name: "Easit",
-          value: 43.68630129085163,
-        },
-        {
-          name: "Efbet",
-          value: 9.949999999999998,
-        },
-        {
-          name: "Crystalbet",
-          value: 23.093918162131214,
-        },
-        {
-          name: "Everymatrix",
-          value: 6.3345297344911105,
-        },
-        {
-          name: "BlueOcean",
-          value: 3.3098115299153683,
-        },
-        {
-          name: "Asvla",
-          value: 27.90224561916567,
-        },
-        {
-          name: "ORYX",
-          value: 19.47342077267441,
-        },
-        {
-          name: "Reevo",
-          value: 60.25,
-        },
-        {
-          name: "BetB2B",
-          value: 53.29090260541522,
-        },
-        {
-          name: "Comtrade",
-          value: 4.710816525350191,
-        },
-        {
-          name: "SoftSwiss",
-          value: 0.8,
-        },
-      ],
-      total: 1965.300268562208,
-      period: "2026-03-26T07:45:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Baby Leopard",
-          value: 159,
-        },
-        {
-          name: "Ondiss",
-          value: 6.551573609026551,
-        },
-        {
-          name: "Gaming1",
-          value: 48.7,
-        },
-        {
-          name: "Dench",
-          value: 1.35,
-        },
-        {
-          name: "Asvla",
-          value: 17.011399777128496,
-        },
-        {
-          name: "TopSport",
-          value: 12.780000000000001,
-        },
-        {
-          name: "Easit",
-          value: 52.71382521306701,
+          value: 135.4,
         },
         {
           name: "BetConstruct",
-          value: -4.2326523779025225,
-        },
-        {
-          name: "Reevo",
-          value: 66.31506426529597,
-        },
-        {
-          name: "Leopard",
-          value: 0.32789110532433824,
-        },
-        {
-          name: "Virtualsoft",
-          value: -48.17614748693312,
+          value: 53.90629170628529,
         },
         {
           name: "Comtrade",
-          value: 4.5145325034606,
+          value: 0,
         },
         {
           name: "Intralot",
-          value: 26.96186225428087,
+          value: 464.01994101441596,
         },
         {
-          name: "Optimus",
-          value: 1.0442070584944312,
-        },
-        {
-          name: "Efbet",
-          value: 12.44,
-        },
-        {
-          name: "EGT New Platform",
-          value: 140.07,
-        },
-        {
-          name: "Skywind360",
-          value: -8.94662571772757,
-        },
-        {
-          name: "Evoplay",
-          value: 20.4,
-        },
-        {
-          name: "ORYX",
-          value: -3.2843043919122987,
-        },
-        {
-          name: "BetB2B",
-          value: 24.93157489221413,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 260.9879584915516,
-        },
-        {
-          name: "Crystalbet",
-          value: 32.34606572118433,
-        },
-        {
-          name: "MrSlotty",
-          value: 10.666553223146035,
-        },
-        {
-          name: "Slotegrator",
-          value: 65.25708400360898,
-        },
-        {
-          name: "Pariplay",
-          value: 1.374620403090495,
-        },
-        {
-          name: "iSOFTBET",
-          value: 158.30421720910437,
-        },
-        {
-          name: "SoftSwiss",
-          value: 19.28,
-        },
-        {
-          name: "BtoBet",
-          value: 4.4224873983286885,
+          name: "Ondiss",
+          value: 9.410206797958708,
         },
       ],
-      total: 1083.1111871538315,
-      period: "2026-03-26T07:50:00.000Z",
+      total: 7989.44885412958,
+      period: "2026-04-02T00:45:00.000Z",
     },
     {
       items: [
         {
-          name: "Evoplay",
-          value: 8.55,
+          name: "SoftSwiss",
+          value: 2.2,
+        },
+        {
+          name: "Easit",
+          value: 23.6,
+        },
+        {
+          name: "Pariplay",
+          value: 18.33698583011503,
+        },
+        {
+          name: "Efbet",
+          value: 0,
         },
         {
           name: "Leopard",
-          value: -4.035582834761087,
-        },
-        {
-          name: "Dench",
-          value: 0.2,
-        },
-        {
-          name: "TopSport",
-          value: 34.29,
-        },
-        {
-          name: "ORYX",
-          value: 31.056821242581314,
-        },
-        {
-          name: "MrSlotty",
-          value: 25.58572781102678,
-        },
-        {
-          name: "Crystalbet",
-          value: 24.23498466478935,
-        },
-        {
-          name: "Newton",
-          value: 9.69643068134581,
+          value: 67.0448944417289,
         },
         {
           name: "BetConstruct",
-          value: 8.151774950034488,
+          value: 120.20185028807066,
         },
         {
-          name: "iSOFTBET",
-          value: -56.309416128052774,
-        },
-        {
-          name: "Optimus",
-          value: 2.721496174192007,
-        },
-        {
-          name: "Intralot",
-          value: -12.27321629621715,
-        },
-        {
-          name: "EGT New Platform",
-          value: -67.53,
-        },
-        {
-          name: "Efbet",
-          value: -11.700000000000001,
-        },
-        {
-          name: "Pariplay",
-          value: 3.2964596042884837,
-        },
-        {
-          name: "BlueOcean",
-          value: 8.074162822688077,
-        },
-        {
-          name: "Ondiss",
-          value: 0.24220235153517755,
-        },
-        {
-          name: "Leris",
-          value: 12.416311021922294,
-        },
-        {
-          name: "Baby Leopard",
-          value: 292.14000000000004,
-        },
-        {
-          name: "Skywind360",
-          value: -13.944016915036565,
+          name: "Virtualsoft",
+          value: 105.41523813770603,
         },
         {
           name: "Slotegrator",
-          value: -13.1052235731068,
-        },
-        {
-          name: "Virtualsoft",
-          value: 56.667411652258735,
-        },
-        {
-          name: "BetB2B",
-          value: 68.62265428035694,
-        },
-        {
-          name: "Comtrade",
-          value: 24.928070779978093,
-        },
-        {
-          name: "Everymatrix",
-          value: -3.61162600276848,
-        },
-        {
-          name: "Easit",
-          value: -70.36999999999999,
-        },
-        {
-          name: "Asvla",
-          value: 23.64226400924193,
-        },
-        {
-          name: "Reevo",
-          value: 32.793538988946004,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 426.8301876981269,
-        },
-        {
-          name: "Gaming1",
-          value: 26.75,
-        },
-        {
-          name: "BtoBet",
-          value: -11.056218495821721,
-        },
-      ],
-      total: 856.9551984875478,
-      period: "2026-03-26T07:55:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Easit",
-          value: -145.77,
-        },
-        {
-          name: "Slotegrator",
-          value: -124.51823832675699,
-        },
-        {
-          name: "TopSport",
-          value: -18.07,
-        },
-        {
-          name: "Intralot",
-          value: -74.61288213618903,
-        },
-        {
-          name: "Pariplay",
-          value: 8.63038411699196,
-        },
-        {
-          name: "Evoplay",
-          value: -28.1,
-        },
-        {
-          name: "Virtualsoft",
-          value: 6.903495371144935,
-        },
-        {
-          name: "Newton",
-          value: 9.421633050700382,
-        },
-        {
-          name: "Asvla",
-          value: 27.62331825184923,
-        },
-        {
-          name: "BlueOcean",
-          value: 15.867724253625639,
-        },
-        {
-          name: "BtoBet",
-          value: 4.250501777282574,
-        },
-        {
-          name: "Efbet",
-          value: 0.9499999999999993,
-        },
-        {
-          name: "EGT New Platform",
-          value: -506.92,
-        },
-        {
-          name: "Peppermill",
-          value: 0,
-        },
-        {
-          name: "Skywind360",
-          value: 16.92949688797725,
-        },
-        {
-          name: "MrSlotty",
-          value: 31.239455161967136,
-        },
-        {
-          name: "Comtrade",
-          value: -20.456720761333205,
-        },
-        {
-          name: "Optimus",
-          value: 5.13023467869003,
-        },
-        {
-          name: "BetB2B",
-          value: 4.421255938578656,
-        },
-        {
-          name: "Everymatrix",
-          value: 13.190286270980534,
-        },
-        {
-          name: "Baby Leopard",
-          value: -27.94999999999999,
-        },
-        {
-          name: "Gaming1",
-          value: 49.45,
-        },
-        {
-          name: "Avento",
-          value: 6.673656744246104,
-        },
-        {
-          name: "ORYX",
-          value: -21.165647236377822,
-        },
-        {
-          name: "iSOFTBET",
-          value: 50.74145051097212,
-        },
-        {
-          name: "Leopard",
-          value: 4.603086670899364,
-        },
-        {
-          name: "Ondiss",
-          value: -1.162571287368852,
-        },
-        {
-          name: "Crystalbet",
-          value: 10.285446669793547,
-        },
-        {
-          name: "Reevo",
-          value: 46.928766066323995,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 79.22353552490358,
-        },
-      ],
-      total: -576.2623318010989,
-      period: "2026-03-26T08:00:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Leopard",
-          value: 2.11868098824957,
-        },
-        {
-          name: "Optimus",
-          value: 8.610924873671467,
-        },
-        {
-          name: "Easit",
-          value: -134.3,
-        },
-        {
-          name: "EGT New Platform",
-          value: -1946.12,
-        },
-        {
-          name: "Comtrade",
-          value: 7.295877093636109,
-        },
-        {
-          name: "Gaming1",
-          value: -2.449999999999999,
-        },
-        {
-          name: "Slotegrator",
-          value: 78.82737038608896,
-        },
-        {
-          name: "MrSlotty",
-          value: 19.609830273142897,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 663.9870549996001,
-        },
-        {
-          name: "BetB2B",
-          value: -5.2681292008473415,
-        },
-        {
-          name: "TopSport",
-          value: 45.550000000000004,
-        },
-        {
-          name: "Asvla",
-          value: 22.963963365995145,
-        },
-        {
-          name: "BtoBet",
-          value: 20.078092788412242,
-        },
-        {
-          name: "Pariplay",
-          value: 1.1019490601741297,
-        },
-        {
-          name: "BlueOcean",
-          value: -18.636214909303654,
-        },
-        {
-          name: "Baby Leopard",
-          value: 357.29,
-        },
-        {
-          name: "Skywind360",
-          value: 11.816298117753396,
-        },
-        {
-          name: "iSOFTBET",
-          value: 79.71499712515795,
-        },
-        {
-          name: "Crystalbet",
-          value: 19.068489111087203,
-        },
-        {
-          name: "Intralot",
-          value: -22.480937683872618,
-        },
-        {
-          name: "ORYX",
-          value: 31.29832057262835,
-        },
-        {
-          name: "Virtualsoft",
-          value: 35.59575655822343,
-        },
-        {
-          name: "Peppermill",
-          value: 0.8,
-        },
-        {
-          name: "Evoplay",
-          value: -19.000000000000004,
-        },
-        {
-          name: "Efbet",
-          value: 57.5,
-        },
-        {
-          name: "Ondiss",
-          value: -1.4955995207297212,
-        },
-        {
-          name: "Reevo",
-          value: -5.129999999999999,
-        },
-        {
-          name: "Newton",
-          value: 0.4907100547239782,
-        },
-      ],
-      total: -691.1625659462082,
-      period: "2026-03-26T08:05:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Skywind360",
-          value: -0.8832780985031607,
-        },
-        {
-          name: "Efbet",
-          value: 5.77,
-        },
-        {
-          name: "Comtrade",
-          value: -189.688878754101,
-        },
-        {
-          name: "Evoplay",
-          value: 6,
-        },
-        {
-          name: "Newton",
-          value: -1.0795621203927521,
-        },
-        {
-          name: "Leopard",
-          value: 1.765567490207975,
-        },
-        {
-          name: "Admiralbet",
-          value: 4.9395348593057955,
-        },
-        {
-          name: "Asvla",
-          value: 15.46779036936595,
-        },
-        {
-          name: "MrSlotty",
-          value: 4.297581199515534,
-        },
-        {
-          name: "EGT New Platform",
-          value: -1003.25,
-        },
-        {
-          name: "TopSport",
-          value: -73.65,
-        },
-        {
-          name: "Leris",
-          value: 8.25004054612777,
-        },
-        {
-          name: "ORYX",
-          value: 37.78592191195864,
-        },
-        {
-          name: "Reevo",
-          value: 4.88,
-        },
-        {
-          name: "Intralot",
-          value: 23.86821906854484,
-        },
-        {
-          name: "Ondiss",
-          value: 6.757445607831452,
-        },
-        {
-          name: "BlueOcean",
-          value: 0.11820755463983458,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 252.36097250667652,
-        },
-        {
-          name: "Virtualsoft",
-          value: -41.47065810571361,
-        },
-        {
-          name: "BtoBet",
-          value: -2.992549806202412,
-        },
-        {
-          name: "Slotegrator",
-          value: -17.96093379760108,
-        },
-        {
-          name: "BetB2B",
-          value: 41.997704501268984,
-        },
-        {
-          name: "Peppermill",
-          value: -0.40000000000000013,
-        },
-        {
-          name: "Optimus",
-          value: -0.5876817503120831,
-        },
-        {
-          name: "Everymatrix",
-          value: 0.4710816525350191,
-        },
-        {
-          name: "Crystalbet",
-          value: -1.4073153532783775,
-        },
-        {
-          name: "Baby Leopard",
-          value: -452.74,
-        },
-        {
-          name: "Easit",
-          value: 134,
-        },
-        {
-          name: "Gaming1",
-          value: 8.4,
-        },
-        {
-          name: "Pariplay",
-          value: 3.30281011939613,
-        },
-        {
-          name: "iSOFTBET",
-          value: 18.57048396688023,
-        },
-      ],
-      total: -1207.1074964318498,
-      period: "2026-03-26T08:10:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Virtualsoft",
-          value: 3.2738665746999303,
-        },
-        {
-          name: "BtoBet",
-          value: -32.80011487093777,
-        },
-        {
-          name: "Avento",
-          value: -5.4,
-        },
-        {
-          name: "TopSport",
-          value: 20.16,
-        },
-        {
-          name: "Gaming1",
-          value: -1.0499999999999994,
-        },
-        {
-          name: "Ondiss",
-          value: -30.090614648851616,
-        },
-        {
-          name: "iSOFTBET",
-          value: 185.68875946958244,
-        },
-        {
-          name: "Admiralbet",
-          value: -47.89865252939218,
-        },
-        {
-          name: "Everymatrix",
-          value: -5.322034418129624,
-        },
-        {
-          name: "Reevo",
-          value: -134.87,
-        },
-        {
-          name: "Slotegrator",
-          value: -12.497555332730968,
-        },
-        {
-          name: "MrSlotty",
-          value: -55.46532471639485,
-        },
-        {
-          name: "Efbet",
-          value: 38.79,
-        },
-        {
-          name: "Baby Leopard",
-          value: -199.83,
-        },
-        {
-          name: "EGT New Platform",
-          value: 747.05,
-        },
-        {
-          name: "BetB2B",
-          value: -6.214853560560084,
-        },
-        {
-          name: "Pariplay",
-          value: 2.282488344484176,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 7.2971508416305895,
-        },
-        {
-          name: "Goldrush",
-          value: 0,
-        },
-        {
-          name: "Optimus",
-          value: 5.367325170232244,
-        },
-        {
-          name: "Newton",
-          value: 1.0795621203927521,
-        },
-        {
-          name: "Evoplay",
-          value: -7.446220533062052,
-        },
-        {
-          name: "ORYX",
-          value: 10.211354897379184,
-        },
-        {
-          name: "Leopard",
-          value: 8.777392665605362,
-        },
-        {
-          name: "Asvla",
-          value: 0.9508887522151221,
-        },
-        {
-          name: "Easit",
-          value: 318.6,
-        },
-        {
-          name: "Intralot",
-          value: 52.83596783455572,
-        },
-        {
-          name: "Skywind360",
-          value: 8.400956136874507,
-        },
-        {
-          name: "Crystalbet",
-          value: 13.461415102192047,
-        },
-        {
-          name: "Peppermill",
-          value: 2.7,
-        },
-        {
-          name: "Comtrade",
-          value: 7.553009162311473,
-        },
-      ],
-      total: 895.5947664620963,
-      period: "2026-03-26T08:15:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Easit",
-          value: 0.20000000000000007,
-        },
-        {
-          name: "Reevo",
-          value: 166.442759210026,
-        },
-        {
-          name: "Leopard",
-          value: 0.7062269960831893,
-        },
-        {
-          name: "SoftSwiss",
-          value: 12.36,
-        },
-        {
-          name: "TopSport",
-          value: 15.6,
-        },
-        {
-          name: "BlueOcean",
-          value: 204.67025905999438,
-        },
-        {
-          name: "Ondiss",
-          value: 5.2043230286121265,
-        },
-        {
-          name: "Efbet",
-          value: 25.299999999999997,
-        },
-        {
-          name: "Intralot",
-          value: 49.86961057892012,
-        },
-        {
-          name: "BetB2B",
-          value: 9.110744232896048,
-        },
-        {
-          name: "MrSlotty",
-          value: 27.22451398996456,
-        },
-        {
-          name: "Everymatrix",
-          value: 7.334414446231039,
-        },
-        {
-          name: "Asvla",
-          value: -5.610243638069207,
-        },
-        {
-          name: "Crystalbet",
-          value: 3.375655070363675,
-        },
-        {
-          name: "iSOFTBET",
-          value: 99.77406304644232,
-        },
-        {
-          name: "Admiralbet",
-          value: 29.86193248998901,
-        },
-        {
-          name: "Comtrade",
-          value: 22.973081921957764,
-        },
-        {
-          name: "BtoBet",
-          value: 127.88359393500457,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -9953.186009684512,
-        },
-        {
-          name: "EGT New Platform",
-          value: 268.3,
-        },
-        {
-          name: "Evoplay",
-          value: 24.827474753791197,
-        },
-        {
-          name: "Virtualsoft",
-          value: -28.26175876466931,
-        },
-        {
-          name: "Gaming1",
-          value: 15.45,
+          value: 123.9935474244316,
         },
         {
           name: "Betmexico",
-          value: 0.9897483770188551,
+          value: 0.34240576631968406,
         },
         {
-          name: "ORYX",
-          value: -15.900683640679688,
+          name: "iSOFTBET",
+          value: 1724.0254836808604,
         },
         {
-          name: "Newton",
-          value: -5.054313563656976,
+          name: "Reevo",
+          value: 96.46000000000001,
         },
         {
-          name: "Skywind360",
-          value: -1.9432118167069539,
+          name: "Leris",
+          value: 5.785374342481907,
         },
         {
-          name: "Slotegrator",
-          value: 26.460224697216063,
+          name: "Asvla",
+          value: 10.364115133860334,
         },
         {
           name: "Optimus",
-          value: 7.253960145483052,
+          value: 25.506747663993544,
+        },
+        {
+          name: "EGT New Platform",
+          value: 504.72,
+        },
+        {
+          name: "BlueOcean",
+          value: 25.918366019100624,
+        },
+        {
+          name: "TGLab",
+          value: 55.627282340987044,
+        },
+        {
+          name: "Everymatrix",
+          value: 18.064167676343658,
+        },
+        {
+          name: "Ondiss",
+          value: 7.769838081348474,
+        },
+        {
+          name: "ORYX",
+          value: 414.04633530569026,
+        },
+        {
+          name: "TopSport",
+          value: 25.200000000000003,
+        },
+        {
+          name: "Digitain",
+          value: 5.442758958369136,
         },
         {
           name: "Baby Leopard",
-          value: -91.5,
+          value: 1978.19,
         },
         {
-          name: "Avento",
-          value: 2.7872331108321964,
+          name: "Gaming1",
+          value: 0,
         },
         {
-          name: "Pariplay",
-          value: 4.959340846494153,
+          name: "MrSlotty",
+          value: 246.61895835273148,
+        },
+        {
+          name: "Skywind360",
+          value: 0.6668639533069319,
+        },
+        {
+          name: "BetB2B",
+          value: 299.70912024595975,
+        },
+        {
+          name: "Intralot",
+          value: 502.0945139095528,
+        },
+        {
+          name: "Evoplay",
+          value: 275.60290125853004,
+        },
+        {
+          name: "Crystalbet",
+          value: 58.50782858419075,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1860.6665777593362,
         },
       ],
-      total: -8942.537061170973,
-      period: "2026-03-26T08:20:00.000Z",
+      total: 8602.122155155015,
+      period: "2026-04-02T00:50:00.000Z",
     },
     {
       items: [
         {
-          name: "ORYX",
-          value: 9.39497098609785,
+          name: "Calimaco Apuesta",
+          value: 1643.1761310261718,
         },
         {
-          name: "Intralot",
-          value: 1.2816403923306794,
+          name: "EGT New Platform",
+          value: 851.75,
         },
         {
-          name: "Gaming1",
-          value: 13.700000000000001,
-        },
-        {
-          name: "Efbet",
-          value: 6.3,
-        },
-        {
-          name: "Asvla",
-          value: -0.6022295430695748,
-        },
-        {
-          name: "Betmexico",
-          value: 0.8000466047569077,
-        },
-        {
-          name: "Baby Leopard",
-          value: 685.78,
+          name: "Leopard",
+          value: 30.900026995468412,
         },
         {
           name: "Evoplay",
-          value: -20.887785962238155,
+          value: 182.61479085455395,
+        },
+        {
+          name: "Intralot",
+          value: 633.782066907294,
         },
         {
           name: "Easit",
           value: 11,
         },
         {
-          name: "TGLab",
-          value: 3.735971272430113,
+          name: "Pariplay",
+          value: 24.113610605986956,
         },
         {
           name: "BetB2B",
-          value: 49.816989960883326,
-        },
-        {
-          name: "Virtualsoft",
-          value: 21.171167267931686,
-        },
-        {
-          name: "EGT New Platform",
-          value: 156.33,
-        },
-        {
-          name: "MrSlotty",
-          value: 29.18167029060901,
-        },
-        {
-          name: "Everymatrix",
-          value: 2.835896523470473,
-        },
-        {
-          name: "Slotegrator",
-          value: 98.23450089246488,
-        },
-        {
-          name: "iSOFTBET",
-          value: 160.91660221553943,
-        },
-        {
-          name: "BlueOcean",
-          value: 29.674397020153016,
-        },
-        {
-          name: "Pariplay",
-          value: -1.71863311646849,
-        },
-        {
-          name: "Admiralbet",
-          value: 15.353793052765825,
+          value: 260.8831713694965,
         },
         {
           name: "Goldrush",
           value: 0,
         },
         {
-          name: "Comtrade",
-          value: 10.412867361242816,
+          name: "Leris",
+          value: 23.385949806933905,
         },
         {
-          name: "Calimaco Apuesta",
-          value: 34.327353122298035,
+          name: "Everymatrix",
+          value: 28.490914479199787,
+        },
+        {
+          name: "ORYX",
+          value: 578.2645768808178,
         },
         {
           name: "Ondiss",
-          value: -14.00535097752164,
+          value: 11.808150379873668,
+        },
+        {
+          name: "BetConstruct",
+          value: 53.280396071143166,
+        },
+        {
+          name: "TGLab",
+          value: 72.99640788915539,
+        },
+        {
+          name: "Gaming1",
+          value: 19.6,
         },
         {
           name: "Reevo",
-          value: -57.4,
+          value: 268.8604,
         },
         {
-          name: "BtoBet",
-          value: 88.06892266282881,
+          name: "SoftSwiss",
+          value: 12.6,
         },
         {
           name: "TopSport",
-          value: 3.8400000000000003,
+          value: 3.7,
         },
         {
-          name: "Leopard",
-          value: -2.471794486291165,
+          name: "BlueOcean",
+          value: 74.22243068927733,
+        },
+        {
+          name: "Slotegrator",
+          value: 179.22163830592683,
+        },
+        {
+          name: "MrSlotty",
+          value: 171.05969631309074,
+        },
+        {
+          name: "Asvla",
+          value: 37.2515725687369,
+        },
+        {
+          name: "Betmexico",
+          value: 0.33405440616554544,
+        },
+        {
+          name: "Virtualsoft",
+          value: 120.1899440262527,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1079.95,
         },
         {
           name: "Crystalbet",
-          value: 7.401084121407683,
+          value: 44.3026481024909,
         },
         {
-          name: "Skywind360",
-          value: 2.6105774911315645,
+          name: "iSOFTBET",
+          value: 835.9808249979947,
         },
         {
           name: "Optimus",
-          value: -6.3636096825638875,
+          value: 11.048800685489345,
+        },
+        {
+          name: "Skywind360",
+          value: 0.07845458274199199,
         },
       ],
-      total: 1338.7190474701893,
-      period: "2026-03-26T08:25:00.000Z",
+      total: 7264.846657944262,
+      period: "2026-04-02T00:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "iSOFTBET",
+          value: 1025.7741966367375,
+        },
+        {
+          name: "BetConstruct",
+          value: 77.15083424000073,
+        },
+        {
+          name: "Asvla",
+          value: 21.603980288351302,
+        },
+        {
+          name: "Intralot",
+          value: 479.28193192995195,
+        },
+        {
+          name: "Digitain",
+          value: 0.1484388806827946,
+        },
+        {
+          name: "EGT New Platform",
+          value: 504.81,
+        },
+        {
+          name: "MrSlotty",
+          value: 119.53235376136557,
+        },
+        {
+          name: "BetB2B",
+          value: 280.3633406262379,
+        },
+        {
+          name: "ORYX",
+          value: 579.3865756040349,
+        },
+        {
+          name: "Crystalbet",
+          value: 28.63895747613783,
+        },
+        {
+          name: "Pariplay",
+          value: 5.067760107427362,
+        },
+        {
+          name: "Reevo",
+          value: 362.88,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1950.3080365782375,
+        },
+        {
+          name: "Ondiss",
+          value: 59.241102276969585,
+        },
+        {
+          name: "Optimus",
+          value: 21.701764355824572,
+        },
+        {
+          name: "Easit",
+          value: 0,
+        },
+        {
+          name: "Everymatrix",
+          value: 22.55384259323917,
+        },
+        {
+          name: "TGLab",
+          value: 72.06810319738791,
+        },
+        {
+          name: "Betmexico",
+          value: 0.7098656131017841,
+        },
+        {
+          name: "Leris",
+          value: 0.6559473726335119,
+        },
+        {
+          name: "Leopard",
+          value: 30.133092778607306,
+        },
+        {
+          name: "Baby Leopard",
+          value: 805.72,
+        },
+        {
+          name: "BlueOcean",
+          value: 32.47345204953692,
+        },
+        {
+          name: "Virtualsoft",
+          value: 169.11279622135984,
+        },
+        {
+          name: "Evoplay",
+          value: 291.21573536818994,
+        },
+        {
+          name: "Slotegrator",
+          value: 710.2523392417099,
+        },
+      ],
+      total: 7650.784447197726,
+      period: "2026-04-02T01:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: 51.33511290279981,
+        },
+        {
+          name: "Intralot",
+          value: 629.7371074086878,
+        },
+        {
+          name: "Skywind360",
+          value: 0.49034114213744995,
+        },
+        {
+          name: "TopSport",
+          value: 25.400000000000002,
+        },
+        {
+          name: "MrSlotty",
+          value: 355.2383899870644,
+        },
+        {
+          name: "Optimus",
+          value: 29.65561437907765,
+        },
+        {
+          name: "BetConstruct",
+          value: 50.79827425077401,
+        },
+        {
+          name: "Asvla",
+          value: 6.526269455214321,
+        },
+        {
+          name: "BlueOcean",
+          value: 26.56783873971543,
+        },
+        {
+          name: "TGLab",
+          value: 142.60251173233968,
+        },
+        {
+          name: "iSOFTBET",
+          value: 858.0519095628439,
+        },
+        {
+          name: "Pariplay",
+          value: 8.435847763606096,
+        },
+        {
+          name: "Virtualsoft",
+          value: 97.3394390478428,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1823.6029898448433,
+        },
+        {
+          name: "Betmexico",
+          value: 0.08351360154138635,
+        },
+        {
+          name: "Easit",
+          value: 0.9370676751907313,
+        },
+        {
+          name: "Crystalbet",
+          value: 38.05005052872365,
+        },
+        {
+          name: "Ondiss",
+          value: 58.458483614464704,
+        },
+        {
+          name: "EGT New Platform",
+          value: 547.05,
+        },
+        {
+          name: "Evoplay",
+          value: 673.6403082939512,
+        },
+        {
+          name: "Everymatrix",
+          value: 9.97536232575939,
+        },
+        {
+          name: "ORYX",
+          value: 566.0720683558042,
+        },
+        {
+          name: "Slotegrator",
+          value: 167.08744282182977,
+        },
+        {
+          name: "BetB2B",
+          value: 384.16638275368143,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1476.94,
+        },
+        {
+          name: "Reevo",
+          value: 358.09999999999997,
+        },
+      ],
+      total: 8386.342326187892,
+      period: "2026-04-02T01:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Ondiss",
+          value: 83.18234630538895,
+        },
+        {
+          name: "BetConstruct",
+          value: 30.733568462510853,
+        },
+        {
+          name: "BlueOcean",
+          value: 4.65763640743914,
+        },
+        {
+          name: "Optimus",
+          value: 22.94122900952591,
+        },
+        {
+          name: "Everymatrix",
+          value: 13.660012352180187,
+        },
+        {
+          name: "BetB2B",
+          value: 188.6130997570923,
+        },
+        {
+          name: "EGT New Platform",
+          value: 401.65,
+        },
+        {
+          name: "Evoplay",
+          value: 275.10948598704437,
+        },
+        {
+          name: "Reevo",
+          value: 444.76000000000005,
+        },
+        {
+          name: "Pariplay",
+          value: 2.799334154578924,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1390.68,
+        },
+        {
+          name: "Easit",
+          value: 48.605292891414884,
+        },
+        {
+          name: "ORYX",
+          value: 565.7662932029529,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1413.8165288322607,
+        },
+        {
+          name: "Slotegrator",
+          value: 284.7508421754142,
+        },
+        {
+          name: "Virtualsoft",
+          value: 92.94160844183293,
+        },
+        {
+          name: "TGLab",
+          value: 75.37118595866022,
+        },
+        {
+          name: "BtoBet",
+          value: 0.5791725837059842,
+        },
+        {
+          name: "Digitain",
+          value: 1.3112101126980191,
+        },
+        {
+          name: "Leopard",
+          value: 36.12012763281336,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1747.63221860012,
+        },
+        {
+          name: "Betmexico",
+          value: 0.15032448277449545,
+        },
+        {
+          name: "Asvla",
+          value: 6.857895382144303,
+        },
+        {
+          name: "Intralot",
+          value: 536.0696997164997,
+        },
+        {
+          name: "Skywind360",
+          value: 10.454073150370434,
+        },
+        {
+          name: "Crystalbet",
+          value: 22.14488471285846,
+        },
+        {
+          name: "TopSport",
+          value: 51.1,
+        },
+        {
+          name: "MrSlotty",
+          value: 470.14379232121894,
+        },
+      ],
+      total: 8222.6018626335,
+      period: "2026-04-02T01:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Easit",
+          value: 4.95,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1307.72,
+        },
+        {
+          name: "BetConstruct",
+          value: 47.73557028787215,
+        },
+        {
+          name: "Leopard",
+          value: 22.627033378747328,
+        },
+        {
+          name: "Intralot",
+          value: 719.8087606005049,
+        },
+        {
+          name: "BetB2B",
+          value: 307.6903608089856,
+        },
+        {
+          name: "Ondiss",
+          value: 64.10585988309994,
+        },
+        {
+          name: "Reevo",
+          value: 339.44,
+        },
+        {
+          name: "MrSlotty",
+          value: 216.2647125464073,
+        },
+        {
+          name: "Goldrush",
+          value: 1.2,
+        },
+        {
+          name: "TGLab",
+          value: 107.16303431439856,
+        },
+        {
+          name: "Slotegrator",
+          value: 115.9189630752216,
+        },
+        {
+          name: "Crystalbet",
+          value: 187.7324713343052,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.34622326630568356,
+        },
+        {
+          name: "Optimus",
+          value: 32.61449606735469,
+        },
+        {
+          name: "Digitain",
+          value: 0.29192979867616276,
+        },
+        {
+          name: "Skywind360",
+          value: 4.020797365527089,
+        },
+        {
+          name: "Virtualsoft",
+          value: 85.91354494844563,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1560.7115057410413,
+        },
+        {
+          name: "Evoplay",
+          value: 717.6830312938076,
+        },
+        {
+          name: "TopSport",
+          value: 11.8,
+        },
+        {
+          name: "Betmexico",
+          value: 1.2376715748433458,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1842.77,
+        },
+        {
+          name: "BtoBet",
+          value: 0.917023257534475,
+        },
+        {
+          name: "ORYX",
+          value: 688.8959097507668,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.23536374822597597,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1403.9043558392102,
+        },
+      ],
+      total: 9793.69861888128,
+      period: "2026-04-02T01:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Baby Leopard",
+          value: 1302.51,
+        },
+        {
+          name: "Asvla",
+          value: 0.5151470709591965,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1128.8133811843034,
+        },
+        {
+          name: "BetConstruct",
+          value: 34.9740945685938,
+        },
+        {
+          name: "Betmexico",
+          value: 1.8205965136022226,
+        },
+        {
+          name: "Crystalbet",
+          value: 118.54178036609811,
+        },
+        {
+          name: "Everymatrix",
+          value: 5.51080613146042,
+        },
+        {
+          name: "Leopard",
+          value: 52.45830043329962,
+        },
+        {
+          name: "Intralot",
+          value: 826.7209260402437,
+        },
+        {
+          name: "Reevo",
+          value: 272.2,
+        },
+        {
+          name: "TGLab",
+          value: 92.31769742907593,
+        },
+        {
+          name: "Digitain",
+          value: 0,
+        },
+        {
+          name: "Optimus",
+          value: 32.13454368648032,
+        },
+        {
+          name: "TopSport",
+          value: 0.8,
+        },
+        {
+          name: "Ondiss",
+          value: 24.05456721075007,
+        },
+        {
+          name: "ORYX",
+          value: 549.1334113867622,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1018.11,
+        },
+        {
+          name: "BlueOcean",
+          value: 6.118625490521566,
+        },
+        {
+          name: "MrSlotty",
+          value: 219.47614684081475,
+        },
+        {
+          name: "Virtualsoft",
+          value: 99.85028659494036,
+        },
+        {
+          name: "Easit",
+          value: 1.65,
+        },
+        {
+          name: "BetB2B",
+          value: 319.0397052780136,
+        },
+        {
+          name: "Slotegrator",
+          value: 182.11006800791142,
+        },
+        {
+          name: "Evoplay",
+          value: 161.5940335257127,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1425.0392268751023,
+        },
+      ],
+      total: 7875.493344634646,
+      period: "2026-04-02T01:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "ORYX",
+          value: 519.7710226975266,
+        },
+        {
+          name: "Intralot",
+          value: 910.5251645021788,
+        },
+        {
+          name: "BetConstruct",
+          value: 44.25093292695211,
+        },
+        {
+          name: "Peppermill",
+          value: 5.4,
+        },
+        {
+          name: "Virtualsoft",
+          value: 72.08389455053116,
+        },
+        {
+          name: "BetB2B",
+          value: 201.09333403132788,
+        },
+        {
+          name: "Crystalbet",
+          value: 117.22815533515215,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2145.72,
+        },
+        {
+          name: "Easit",
+          value: 9.370676751907313,
+        },
+        {
+          name: "Ondiss",
+          value: 111.55822072302598,
+        },
+        {
+          name: "TopSport",
+          value: 5.55,
+        },
+        {
+          name: "BtoBet",
+          value: 37.40489603101148,
+        },
+        {
+          name: "Efbet",
+          value: 2.6,
+        },
+        {
+          name: "Optimus",
+          value: 24.292022823739337,
+        },
+        {
+          name: "Asvla",
+          value: 7.723986395194452,
+        },
+        {
+          name: "Betmexico",
+          value: 0.7850278544890317,
+        },
+        {
+          name: "Pariplay",
+          value: 0.4947962689426487,
+        },
+        {
+          name: "BlueOcean",
+          value: 3.5,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1728.33819666754,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1582.9099587607343,
+        },
+        {
+          name: "Reevo",
+          value: 322.9,
+        },
+        {
+          name: "MrSlotty",
+          value: 251.7106197397417,
+        },
+        {
+          name: "Leopard",
+          value: 91.96778250837012,
+        },
+        {
+          name: "Evoplay",
+          value: 319.27387683217376,
+        },
+        {
+          name: "EGT New Platform",
+          value: 516.87,
+        },
+        {
+          name: "TGLab",
+          value: 100.85011913516918,
+        },
+        {
+          name: "Slotegrator",
+          value: 120.1408040494608,
+        },
+      ],
+      total: 9254.313488585169,
+      period: "2026-04-02T01:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetB2B",
+          value: 243.90783262043345,
+        },
+        {
+          name: "BlueOcean",
+          value: 4.1,
+        },
+        {
+          name: "Skywind360",
+          value: 1.27488696955737,
+        },
+        {
+          name: "Crystalbet",
+          value: 205.2925471156268,
+        },
+        {
+          name: "TGLab",
+          value: 140.8794984849689,
+        },
+        {
+          name: "Intralot",
+          value: 766.5407638291097,
+        },
+        {
+          name: "Gaming1",
+          value: 58.96,
+        },
+        {
+          name: "BtoBet",
+          value: 37.88753985076647,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1528.9752680054992,
+        },
+        {
+          name: "Reevo",
+          value: 478.8,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1763.93,
+        },
+        {
+          name: "BetConstruct",
+          value: 23.542872201784746,
+        },
+        {
+          name: "Ondiss",
+          value: 72.06352644344959,
+        },
+        {
+          name: "Virtualsoft",
+          value: 105.14426568064394,
+        },
+        {
+          name: "Efbet",
+          value: 0.1,
+        },
+        {
+          name: "Easit",
+          value: 71.32226218503139,
+        },
+        {
+          name: "Optimus",
+          value: 9.45060873680459,
+        },
+        {
+          name: "TopSport",
+          value: 103.01,
+        },
+        {
+          name: "Betmexico",
+          value: 1.4865421074366771,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.2920921977805876,
+        },
+        {
+          name: "Evoplay",
+          value: 229.8749433661223,
+        },
+        {
+          name: "ORYX",
+          value: 504.92690499261636,
+        },
+        {
+          name: "universal-casinotech",
+          value: 14.517926098230005,
+        },
+        {
+          name: "Peppermill",
+          value: 0.2,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1798.7661037543476,
+        },
+        {
+          name: "EGT New Platform",
+          value: 274.87,
+        },
+        {
+          name: "Leopard",
+          value: 90.72584387332407,
+        },
+        {
+          name: "MrSlotty",
+          value: 377.8529849818925,
+        },
+        {
+          name: "Slotegrator",
+          value: 118.3223852954254,
+        },
+        {
+          name: "Asvla",
+          value: 2.8977022741454803,
+        },
+      ],
+      total: 9029.915301064997,
+      period: "2026-04-02T01:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Gaming1",
+          value: 28.2,
+        },
+        {
+          name: "Easit",
+          value: 4.85936582675037,
+        },
+        {
+          name: "Asvla",
+          value: 1.8223327635181577,
+        },
+        {
+          name: "ORYX",
+          value: 646.8042385224232,
+        },
+        {
+          name: "Ondiss",
+          value: 58.564919752565366,
+        },
+        {
+          name: "TopSport",
+          value: 44.040000000000006,
+        },
+        {
+          name: "universal-casinotech",
+          value: 0.32819779743339106,
+        },
+        {
+          name: "MrSlotty",
+          value: 714.8850145051808,
+        },
+        {
+          name: "BetConstruct",
+          value: 94.24872221142085,
+        },
+        {
+          name: "BetB2B",
+          value: 228.11517232757356,
+        },
+        {
+          name: "Reevo",
+          value: 221.6,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1540.73,
+        },
+        {
+          name: "TGLab",
+          value: 84.17533286437515,
+        },
+        {
+          name: "Evoplay",
+          value: 238.9609195005217,
+        },
+        {
+          name: "Comtrade",
+          value: 2.6478421675422297,
+        },
+        {
+          name: "Leopard",
+          value: 27.988150952740924,
+        },
+        {
+          name: "Slotegrator",
+          value: 208.9122484448975,
+        },
+        {
+          name: "EGT New Platform",
+          value: 147.35,
+        },
+        {
+          name: "Optimus",
+          value: 23.539932494946513,
+        },
+        {
+          name: "Betmexico",
+          value: 0.8969360805544895,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1231.6598481159958,
+        },
+        {
+          name: "Skywind360",
+          value: 11.473982726016327,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1365.765691408238,
+        },
+        {
+          name: "BlueOcean",
+          value: 32.7,
+        },
+        {
+          name: "BtoBet",
+          value: 61.58535140073632,
+        },
+        {
+          name: "Virtualsoft",
+          value: 48.46981831533703,
+        },
+        {
+          name: "Intralot",
+          value: 898.0929634116305,
+        },
+        {
+          name: "Digitain",
+          value: 1.138031418568092,
+        },
+        {
+          name: "Crystalbet",
+          value: 162.78647442310609,
+        },
+      ],
+      total: 8132.341487432072,
+      period: "2026-04-02T01:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 120.65265263888104,
+        },
+        {
+          name: "Betmexico",
+          value: 0.8484981916604853,
+        },
+        {
+          name: "Crystalbet",
+          value: 178.27630291301043,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1570.8661474413734,
+        },
+        {
+          name: "Asvla",
+          value: 2.060588283836786,
+        },
+        {
+          name: "Optimus",
+          value: 54.77394697195121,
+        },
+        {
+          name: "BlueOcean",
+          value: 51.806459406411285,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "Slotegrator",
+          value: 94.80693230224956,
+        },
+        {
+          name: "Digitain",
+          value: 2.246375060999625,
+        },
+        {
+          name: "Leopard",
+          value: 40.96418310576189,
+        },
+        {
+          name: "Reevo",
+          value: 183.6,
+        },
+        {
+          name: "Intralot",
+          value: 1179.6211076728127,
+        },
+        {
+          name: "Ondiss",
+          value: 99.4583101057705,
+        },
+        {
+          name: "Comtrade",
+          value: 4.060024656898086,
+        },
+        {
+          name: "ORYX",
+          value: 500.0426529538092,
+        },
+        {
+          name: "BetB2B",
+          value: 225.03823798468548,
+        },
+        {
+          name: "Everymatrix",
+          value: 4.498219845821049,
+        },
+        {
+          name: "BetConstruct",
+          value: 37.97486591914578,
+        },
+        {
+          name: "TGLab",
+          value: 118.15663519033714,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1283.488325427116,
+        },
+        {
+          name: "EGT New Platform",
+          value: 76.89,
+        },
+        {
+          name: "Evoplay",
+          value: 262.77725151958595,
+        },
+        {
+          name: "MrSlotty",
+          value: 511.15029383944886,
+        },
+        {
+          name: "BtoBet",
+          value: 5.164288871378359,
+        },
+        {
+          name: "TopSport",
+          value: 36.6,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1606.18,
+        },
+      ],
+      total: 8252.002300302946,
+      period: "2026-04-02T01:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Goldrush",
+          value: 22,
+        },
+        {
+          name: "Intralot",
+          value: 1166.110037761686,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1782.98,
+        },
+        {
+          name: "Everymatrix",
+          value: 9.726670186093568,
+        },
+        {
+          name: "Evoplay",
+          value: 55.530507613250236,
+        },
+        {
+          name: "BetB2B",
+          value: 226.04583597487664,
+        },
+        {
+          name: "Crystalbet",
+          value: 158.97438609800804,
+        },
+        {
+          name: "ORYX",
+          value: 455.5058020716321,
+        },
+        {
+          name: "BetConstruct",
+          value: 104.96818608157737,
+        },
+        {
+          name: "BlueOcean",
+          value: 18.176721481048386,
+        },
+        {
+          name: "Gaming1",
+          value: 15,
+        },
+        {
+          name: "Admiralbet",
+          value: 24.6,
+        },
+        {
+          name: "BtoBet",
+          value: 64.96868457721878,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1415.6770096511814,
+        },
+        {
+          name: "Reevo",
+          value: 144.6,
+        },
+        {
+          name: "EGT New Platform",
+          value: 45.58,
+        },
+        {
+          name: "Ondiss",
+          value: 46.02423830458713,
+        },
+        {
+          name: "Slotegrator",
+          value: 75.44806850404086,
+        },
+        {
+          name: "Betmexico",
+          value: 0.7432710537183386,
+        },
+        {
+          name: "Peppermill",
+          value: 9.549999999999999,
+        },
+        {
+          name: "Virtualsoft",
+          value: 147.99684738585955,
+        },
+        {
+          name: "Digitain",
+          value: 1.125661511844526,
+        },
+        {
+          name: "TGLab",
+          value: 109.18469484338117,
+        },
+        {
+          name: "TopSport",
+          value: 82.3,
+        },
+        {
+          name: "Optimus",
+          value: 104.30305349311035,
+        },
+        {
+          name: "Leopard",
+          value: 32.3547280261598,
+        },
+        {
+          name: "MrSlotty",
+          value: 412.95700050952803,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1051.7591975992618,
+        },
+      ],
+      total: 7784.190602728064,
+      period: "2026-04-02T01:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Betmexico",
+          value: 0.4760275287859022,
+        },
+        {
+          name: "Peppermill",
+          value: 27.2,
+        },
+        {
+          name: "Slotegrator",
+          value: 13.767278922058363,
+        },
+        {
+          name: "Leopard",
+          value: 16.69690009546968,
+        },
+        {
+          name: "Admiralbet",
+          value: 47.4,
+        },
+        {
+          name: "BtoBet",
+          value: 64.14577686453653,
+        },
+        {
+          name: "Digitain",
+          value: 4.502646047378104,
+        },
+        {
+          name: "Virtualsoft",
+          value: 119.49804447356928,
+        },
+        {
+          name: "BetConstruct",
+          value: 134.95072626796795,
+        },
+        {
+          name: "Intralot",
+          value: 881.4247566024926,
+        },
+        {
+          name: "Evoplay",
+          value: 107.44,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1936.73,
+        },
+        {
+          name: "ORYX",
+          value: 818.9464302312836,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1241.0807364348161,
+        },
+        {
+          name: "Everymatrix",
+          value: 10.967088386001796,
+        },
+        {
+          name: "Goldrush",
+          value: 4,
+        },
+        {
+          name: "EGT New Platform",
+          value: 22.35,
+        },
+        {
+          name: "MrSlotty",
+          value: 406.78557301469533,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1470.1438040148548,
+        },
+        {
+          name: "Crystalbet",
+          value: 40.490559777392846,
+        },
+        {
+          name: "BetB2B",
+          value: 1300.4439858083085,
+        },
+        {
+          name: "Reevo",
+          value: 173.01999999999998,
+        },
+        {
+          name: "Skywind360",
+          value: 0.05491820791939439,
+        },
+        {
+          name: "TGLab",
+          value: 132.1178284504605,
+        },
+        {
+          name: "Gaming1",
+          value: 21.599999999999998,
+        },
+        {
+          name: "Optimus",
+          value: 212.6634363915504,
+        },
+        {
+          name: "Ondiss",
+          value: 65.05752417670587,
+        },
+      ],
+      total: 9273.954041696248,
+      period: "2026-04-02T01:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Pariplay",
+          value: 5.249788413481503,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1240.5680227975226,
+        },
+        {
+          name: "BetConstruct",
+          value: 54.036750788938065,
+        },
+        {
+          name: "BetB2B",
+          value: 285.4915839201889,
+        },
+        {
+          name: "Skywind360",
+          value: 85.89207718593283,
+        },
+        {
+          name: "Ondiss",
+          value: 83.18923334961899,
+        },
+        {
+          name: "Evoplay",
+          value: 117.88567766463757,
+        },
+        {
+          name: "Everymatrix",
+          value: 32.77663915361901,
+        },
+        {
+          name: "Comtrade",
+          value: 0.411886559395458,
+        },
+        {
+          name: "BlueOcean",
+          value: 0,
+        },
+        {
+          name: "Reevo",
+          value: 139.7,
+        },
+        {
+          name: "TGLab",
+          value: 161.0276243008235,
+        },
+        {
+          name: "Leopard",
+          value: 17.35992709585283,
+        },
+        {
+          name: "Slotegrator",
+          value: 36.076163644701154,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1658.49,
+        },
+        {
+          name: "Admiralbet",
+          value: 122.4,
+        },
+        {
+          name: "Crystalbet",
+          value: 2.105663652545716,
+        },
+        {
+          name: "EGT New Platform",
+          value: 23.131381833096796,
+        },
+        {
+          name: "Virtualsoft",
+          value: 67.48967175241194,
+        },
+        {
+          name: "Intralot",
+          value: 1064.888141252217,
+        },
+        {
+          name: "Goldrush",
+          value: 8,
+        },
+        {
+          name: "Digitain",
+          value: 2.399761904371846,
+        },
+        {
+          name: "MrSlotty",
+          value: 1838.351964133611,
+        },
+        {
+          name: "Easit",
+          value: 4.7,
+        },
+        {
+          name: "BtoBet",
+          value: 40.324891140529154,
+        },
+        {
+          name: "Peppermill",
+          value: 14.5,
+        },
+        {
+          name: "ORYX",
+          value: 3112.9050753340903,
+        },
+        {
+          name: "Betmexico",
+          value: 2.1045427588429364,
+        },
+        {
+          name: "Optimus",
+          value: 184.90536570386783,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1112.5490122602498,
+        },
+      ],
+      total: 11518.910846600547,
+      period: "2026-04-02T01:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Intralot",
+          value: 864.5206015554918,
+        },
+        {
+          name: "Virtualsoft",
+          value: 56.36689361480843,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1545.82,
+        },
+        {
+          name: "Pariplay",
+          value: 21.287484985276503,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "Slotegrator",
+          value: 31.553126078840712,
+        },
+        {
+          name: "MrSlotty",
+          value: 1011.6738353233364,
+        },
+        {
+          name: "Evoplay",
+          value: 1376.265337561863,
+        },
+        {
+          name: "Admiralbet",
+          value: 117.6,
+        },
+        {
+          name: "Everymatrix",
+          value: 20.73854604242172,
+        },
+        {
+          name: "Crystalbet",
+          value: 10.36733480305383,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1479.512070704914,
+        },
+        {
+          name: "Comtrade",
+          value: 2.0790464426627877,
+        },
+        {
+          name: "TGLab",
+          value: 119.77125935454472,
+        },
+        {
+          name: "TopSport",
+          value: 0.4,
+        },
+        {
+          name: "EGT New Platform",
+          value: 103.44999999999999,
+        },
+        {
+          name: "ORYX",
+          value: 828.4203267980613,
+        },
+        {
+          name: "BetB2B",
+          value: 189.20927562224156,
+        },
+        {
+          name: "Digitain",
+          value: 2.5234609716075083,
+        },
+        {
+          name: "Gaming1",
+          value: 13.5,
+        },
+        {
+          name: "Leopard",
+          value: 15.756787184478648,
+        },
+        {
+          name: "Goldrush",
+          value: 69.02,
+        },
+        {
+          name: "Reevo",
+          value: 129.6,
+        },
+        {
+          name: "Peppermill",
+          value: 1.1,
+        },
+        {
+          name: "BtoBet",
+          value: 36.39134400952601,
+        },
+        {
+          name: "Optimus",
+          value: 277.9023244516386,
+        },
+        {
+          name: "Ondiss",
+          value: 90.4675869109144,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1199.9478701923385,
+        },
+        {
+          name: "BetConstruct",
+          value: 115.27485072195145,
+        },
+        {
+          name: "Skywind360",
+          value: 5.436902584020045,
+        },
+      ],
+      total: 9735.956265913992,
+      period: "2026-04-02T02:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "iSOFTBET",
+          value: 1384.6301818095633,
+        },
+        {
+          name: "Leopard",
+          value: 13.396608981622213,
+        },
+        {
+          name: "Evoplay",
+          value: 2043.5149121555671,
+        },
+        {
+          name: "Comtrade",
+          value: 2.9518536756674485,
+        },
+        {
+          name: "Slotegrator",
+          value: 39.68802686596099,
+        },
+        {
+          name: "BetConstruct",
+          value: 123.46159157583,
+        },
+        {
+          name: "ORYX",
+          value: 888.0302359564974,
+        },
+        {
+          name: "TGLab",
+          value: 124.17027699302466,
+        },
+        {
+          name: "Crystalbet",
+          value: 14.102151067508004,
+        },
+        {
+          name: "MrSlotty",
+          value: 549.9123528507607,
+        },
+        {
+          name: "Skywind360",
+          value: 6.570571304641829,
+        },
+        {
+          name: "EGT New Platform",
+          value: 93.23,
+        },
+        {
+          name: "Virtualsoft",
+          value: 14.704272137342155,
+        },
+        {
+          name: "Reevo",
+          value: 192.48000000000002,
+        },
+        {
+          name: "BtoBet",
+          value: 5.912386791998589,
+        },
+        {
+          name: "Dench",
+          value: 0,
+        },
+        {
+          name: "BetB2B",
+          value: 195.02221774749924,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Ondiss",
+          value: 83.90924251912348,
+        },
+        {
+          name: "Intralot",
+          value: 1637.5437481957686,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3201.44,
+        },
+        {
+          name: "Gaming1",
+          value: 2.5,
+        },
+        {
+          name: "Admiralbet",
+          value: 111.60000000000001,
+        },
+        {
+          name: "Pariplay",
+          value: 25.362434183287185,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.0652883349223867,
+        },
+        {
+          name: "Optimus",
+          value: 218.20515460370808,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 930.3648206584069,
+        },
+      ],
+      total: 11903.7683284087,
+      period: "2026-04-02T02:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Baby Leopard",
+          value: 1297.2,
+        },
+        {
+          name: "Ondiss",
+          value: 130.46566151421393,
+        },
+        {
+          name: "BetB2B",
+          value: 151.54878454507647,
+        },
+        {
+          name: "BlueOcean",
+          value: 80.94545262298911,
+        },
+        {
+          name: "Evoplay",
+          value: 1861.8503188950106,
+        },
+        {
+          name: "ORYX",
+          value: 965.41495370295,
+        },
+        {
+          name: "Reevo",
+          value: 465.41999999999996,
+        },
+        {
+          name: "Crystalbet",
+          value: 26.014927083439424,
+        },
+        {
+          name: "BetConstruct",
+          value: 57.97831762815089,
+        },
+        {
+          name: "Pariplay",
+          value: 7.583753126211251,
+        },
+        {
+          name: "Skywind360",
+          value: 0,
+        },
+        {
+          name: "Gaming1",
+          value: 0.6,
+        },
+        {
+          name: "Leopard",
+          value: 30.833229499161156,
+        },
+        {
+          name: "TGLab",
+          value: 77.57767088877775,
+        },
+        {
+          name: "EGT New Platform",
+          value: 201.22,
+        },
+        {
+          name: "MrSlotty",
+          value: 376.507758602801,
+        },
+        {
+          name: "Digitain",
+          value: 3.7109720170698655,
+        },
+        {
+          name: "Comtrade",
+          value: 0.40207973655270896,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1105.6981780351311,
+        },
+        {
+          name: "Optimus",
+          value: 224.909644047881,
+        },
+        {
+          name: "Slotegrator",
+          value: 551.9215048472107,
+        },
+        {
+          name: "Goldrush",
+          value: 2.4,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2423.0655910238747,
+        },
+        {
+          name: "Virtualsoft",
+          value: 73.35625101583432,
+        },
+        {
+          name: "Intralot",
+          value: 835.4029497051058,
+        },
+        {
+          name: "TopSport",
+          value: 19.2,
+        },
+      ],
+      total: 10971.227998537443,
+      period: "2026-04-02T02:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: 90.49823758961045,
+        },
+        {
+          name: "Digitain",
+          value: 5.541718212157665,
+        },
+        {
+          name: "Intralot",
+          value: 961.7503518318946,
+        },
+        {
+          name: "Crystalbet",
+          value: 10.592711646598477,
+        },
+        {
+          name: "Pariplay",
+          value: 15.308996561085552,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "Ondiss",
+          value: 55.08508413160366,
+        },
+        {
+          name: "ORYX",
+          value: 1567.669274211877,
+        },
+        {
+          name: "MrSlotty",
+          value: 111.15783530993306,
+        },
+        {
+          name: "TopSport",
+          value: 0,
+        },
+        {
+          name: "BetConstruct",
+          value: 18.717116044586334,
+        },
+        {
+          name: "Efbet",
+          value: 4.95,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1001.6291953056752,
+        },
+        {
+          name: "Skywind360",
+          value: 0.35304562233896397,
+        },
+        {
+          name: "BetB2B",
+          value: 79.20553725204425,
+        },
+        {
+          name: "Leopard",
+          value: 50.33562443953565,
+        },
+        {
+          name: "Slotegrator",
+          value: 29.77363240256492,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4532.63,
+        },
+        {
+          name: "Virtualsoft",
+          value: 105.76814572892732,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2947.6043108881345,
+        },
+        {
+          name: "Reevo",
+          value: 348.14,
+        },
+        {
+          name: "TGLab",
+          value: 37.425450535913484,
+        },
+        {
+          name: "Everymatrix",
+          value: 14.780875647048115,
+        },
+        {
+          name: "BlueOcean",
+          value: 27.4088059147548,
+        },
+        {
+          name: "EGT New Platform",
+          value: 213.76999999999998,
+        },
+        {
+          name: "Easit",
+          value: 25.474207283437963,
+        },
+        {
+          name: "Evoplay",
+          value: 885.6055346449642,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+      ],
+      total: 13141.175691204686,
+      period: "2026-04-02T02:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "ORYX",
+          value: 692.8221212114847,
+        },
+        {
+          name: "Easit",
+          value: 20.957420728343795,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1250.481292629343,
+        },
+        {
+          name: "BetConstruct",
+          value: 64.82812162170184,
+        },
+        {
+          name: "Pariplay",
+          value: 7.778197347778438,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3145.77,
+        },
+        {
+          name: "Everymatrix",
+          value: 16.51196919129699,
+        },
+        {
+          name: "TopSport",
+          value: 1.8,
+        },
+        {
+          name: "Slotegrator",
+          value: 29.1673291359799,
+        },
+        {
+          name: "Crystalbet",
+          value: 18.674081322270872,
+        },
+        {
+          name: "TGLab",
+          value: 121.29650126430673,
+        },
+        {
+          name: "Goldrush",
+          value: 8.8,
+        },
+        {
+          name: "EGT New Platform",
+          value: 306.04,
+        },
+        {
+          name: "Optimus",
+          value: 91.88366714264987,
+        },
+        {
+          name: "Ondiss",
+          value: 34.24113172191362,
+        },
+        {
+          name: "Digitain",
+          value: 6.316074373052911,
+        },
+        {
+          name: "BlueOcean",
+          value: 64.25953553466435,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1718.5266206202357,
+        },
+        {
+          name: "Betmexico",
+          value: 0.16702720308277272,
+        },
+        {
+          name: "Reevo",
+          value: 208.25461396533797,
+        },
+        {
+          name: "Leopard",
+          value: 315.56621644355306,
+        },
+        {
+          name: "MrSlotty",
+          value: 2262.6268067640863,
+        },
+        {
+          name: "Intralot",
+          value: 640.1352510005177,
+        },
+        {
+          name: "BetB2B",
+          value: 68.57475323881641,
+        },
+        {
+          name: "Evoplay",
+          value: 875.7648161337704,
+        },
+        {
+          name: "Efbet",
+          value: 4,
+        },
+        {
+          name: "Virtualsoft",
+          value: 52.32022934560998,
+        },
+      ],
+      total: 12027.563777939797,
+      period: "2026-04-02T02:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Easit",
+          value: 0.4074207283437962,
+        },
+        {
+          name: "Evoplay",
+          value: 303.43222904285875,
+        },
+        {
+          name: "Leopard",
+          value: 287.37767300189034,
+        },
+        {
+          name: "TGLab",
+          value: 113.20422429400625,
+        },
+        {
+          name: "BetConstruct",
+          value: 56.30847816316005,
+        },
+        {
+          name: "Crystalbet",
+          value: 4.668520330567718,
+        },
+        {
+          name: "SoftSwiss",
+          value: 0,
+        },
+        {
+          name: "EGT New Platform",
+          value: 325.25,
+        },
+        {
+          name: "BetB2B",
+          value: 95.05096915304401,
+        },
+        {
+          name: "Slotegrator",
+          value: 13.902213163490433,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1238.0518289122274,
+        },
+        {
+          name: "BtoBet",
+          value: 53.090820173048556,
+        },
+        {
+          name: "Ondiss",
+          value: 69.2774040049322,
+        },
+        {
+          name: "ORYX",
+          value: 620.9843953991747,
+        },
+        {
+          name: "MrSlotty",
+          value: 124.2709525775815,
+        },
+        {
+          name: "BlueOcean",
+          value: 37.67238641340531,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1843.87,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1995.325640696019,
+        },
+        {
+          name: "Optimus",
+          value: 80.39449777780156,
+        },
+        {
+          name: "Pariplay",
+          value: 7.679238093989908,
+        },
+        {
+          name: "Digitain",
+          value: 6.779185777598408,
+        },
+        {
+          name: "Everymatrix",
+          value: 10.519722307358569,
+        },
+        {
+          name: "Intralot",
+          value: 1662.9360404759009,
+        },
+        {
+          name: "Reevo",
+          value: 98.77761394940632,
+        },
+        {
+          name: "Comtrade",
+          value: 0.05884093705649399,
+        },
+        {
+          name: "Virtualsoft",
+          value: 73.38078208718788,
+        },
+        {
+          name: "Efbet",
+          value: 2.7,
+        },
+      ],
+      total: 9125.37107746005,
+      period: "2026-04-02T02:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Asvla",
+          value: 0.28977022741454805,
+        },
+        {
+          name: "Everymatrix",
+          value: 71.9069626072611,
+        },
+        {
+          name: "Reevo",
+          value: 250.7776915523191,
+        },
+        {
+          name: "Virtualsoft",
+          value: 56.54782860106939,
+        },
+        {
+          name: "BetB2B",
+          value: 124.80801509462377,
+        },
+        {
+          name: "Optimus",
+          value: 30.083613151713042,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4614.48,
+        },
+        {
+          name: "Slotegrator",
+          value: 5.593638142338916,
+        },
+        {
+          name: "TGLab",
+          value: 129.0193822259049,
+        },
+        {
+          name: "EGT New Platform",
+          value: 465.71000000000004,
+        },
+        {
+          name: "Pariplay",
+          value: 9.524828177145988,
+        },
+        {
+          name: "Ondiss",
+          value: 17.756052214910774,
+        },
+        {
+          name: "MrSlotty",
+          value: 1211.9350454807764,
+        },
+        {
+          name: "ORYX",
+          value: 683.5689263705028,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1771.1706395796955,
+        },
+        {
+          name: "Evoplay",
+          value: 283.10110280896384,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1528.6718016684822,
+        },
+        {
+          name: "BlueOcean",
+          value: 11.001526328002718,
+        },
+        {
+          name: "Intralot",
+          value: 696.2550438239929,
+        },
+        {
+          name: "BetConstruct",
+          value: 11.201506841708895,
+        },
+        {
+          name: "Leopard",
+          value: 143.29052550444635,
+        },
+        {
+          name: "Digitain",
+          value: 2.6110556970819534,
+        },
+      ],
+      total: 12119.304956098355,
+      period: "2026-04-02T02:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: 34.61099901253828,
+        },
+        {
+          name: "Virtualsoft",
+          value: 140.50590593616027,
+        },
+        {
+          name: "Digitain",
+          value: 8.03316050042924,
+        },
+        {
+          name: "Evoplay",
+          value: 356.90855089653536,
+        },
+        {
+          name: "BetConstruct",
+          value: 13.316104186529834,
+        },
+        {
+          name: "Slotegrator",
+          value: 21.572550790204637,
+        },
+        {
+          name: "Ondiss",
+          value: 25.669892130160147,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1461.9479031556066,
+        },
+        {
+          name: "ORYX",
+          value: 1214.3146084226328,
+        },
+        {
+          name: "Pariplay",
+          value: 6.761391015101295,
+        },
+        {
+          name: "MrSlotty",
+          value: 137.14632233820976,
+        },
+        {
+          name: "Everymatrix",
+          value: 29.915701037161003,
+        },
+        {
+          name: "BetB2B",
+          value: 127.44517426937654,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3075.67,
+        },
+        {
+          name: "Leopard",
+          value: 339.3510730916262,
+        },
+        {
+          name: "Skywind360",
+          value: 0.17652281116948199,
+        },
+        {
+          name: "Asvla",
+          value: 0.37026195725192246,
+        },
+        {
+          name: "Reevo",
+          value: 183.35,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1794.869007334506,
+        },
+        {
+          name: "EGT New Platform",
+          value: 579.48,
+        },
+        {
+          name: "Intralot",
+          value: 1351.1871772472405,
+        },
+        {
+          name: "TGLab",
+          value: 101.27210711799181,
+        },
+        {
+          name: "BlueOcean",
+          value: 40.279346111051105,
+        },
+      ],
+      total: 11044.153759361483,
+      period: "2026-04-02T02:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Everymatrix",
+          value: 37.28509172228353,
+        },
+        {
+          name: "Reevo",
+          value: 223.42769155231912,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "Intralot",
+          value: 983.7588898744636,
+        },
+        {
+          name: "Evoplay",
+          value: 446.695383336594,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2935.33,
+        },
+        {
+          name: "BetB2B",
+          value: 176.74183322422192,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1408.3706541017639,
+        },
+        {
+          name: "EGT New Platform",
+          value: 349.65,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1944.5149840524489,
+        },
+        {
+          name: "MrSlotty",
+          value: 44.385827753244904,
+        },
+        {
+          name: "BtoBet",
+          value: 8.494531227687768,
+        },
+        {
+          name: "Skywind360",
+          value: 0.049034114213745,
+        },
+        {
+          name: "Crystalbet",
+          value: 0,
+        },
+        {
+          name: "Ondiss",
+          value: 32.290846014951455,
+        },
+        {
+          name: "ORYX",
+          value: 463.8375968736573,
+        },
+        {
+          name: "Leopard",
+          value: 41.48124520680696,
+        },
+        {
+          name: "BlueOcean",
+          value: 1.1735001420696367,
+        },
+        {
+          name: "Digitain",
+          value: 18.07285624949275,
+        },
+        {
+          name: "BetConstruct",
+          value: 2.8496462959173843,
+        },
+        {
+          name: "TGLab",
+          value: 63.80846479134808,
+        },
+        {
+          name: "Slotegrator",
+          value: 175.92367444906094,
+        },
+        {
+          name: "Pariplay",
+          value: 19.994717227972433,
+        },
+        {
+          name: "Virtualsoft",
+          value: 33.13364876475562,
+        },
+        {
+          name: "Optimus",
+          value: 47.47570200504714,
+        },
+      ],
+      total: 9458.74581898032,
+      period: "2026-04-02T02:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: 138.0902167178591,
+        },
+        {
+          name: "BetB2B",
+          value: 287.71776300392827,
+        },
+        {
+          name: "EGT New Platform",
+          value: 219.68,
+        },
+        {
+          name: "BtoBet",
+          value: 2.123632806921942,
+        },
+        {
+          name: "BetConstruct",
+          value: 25.716060405026415,
+        },
+        {
+          name: "Evoplay",
+          value: 844.9066276916203,
+        },
+        {
+          name: "MrSlotty",
+          value: 167.03095350461024,
+        },
+        {
+          name: "Optimus",
+          value: 91.31465143336582,
+        },
+        {
+          name: "Ondiss",
+          value: 36.21896560579596,
+        },
+        {
+          name: "ORYX",
+          value: 660.1727195585864,
+        },
+        {
+          name: "TGLab",
+          value: 103.77210417349741,
+        },
+        {
+          name: "Betmexico",
+          value: 0.16702720308277272,
+        },
+        {
+          name: "Everymatrix",
+          value: 23.77309758271694,
+        },
+        {
+          name: "Pariplay",
+          value: 2.0286647026648597,
+        },
+        {
+          name: "Reevo",
+          value: 366.95000000000005,
+        },
+        {
+          name: "Virtualsoft",
+          value: 41.93510871117531,
+        },
+        {
+          name: "Skywind360",
+          value: 0.39227291370996,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3918.3199999999997,
+        },
+        {
+          name: "BlueOcean",
+          value: 6.470417853827189,
+        },
+        {
+          name: "Slotegrator",
+          value: 211.54835116641465,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1557.1888782092544,
+        },
+        {
+          name: "Digitain",
+          value: 16.17251729999348,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1946.549793690532,
+        },
+        {
+          name: "Admiralbet",
+          value: 0.3,
+        },
+        {
+          name: "Intralot",
+          value: 915.7392467829177,
+        },
+      ],
+      total: 11584.279071017501,
+      period: "2026-04-02T02:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Everymatrix",
+          value: 30.36071754528802,
+        },
+        {
+          name: "Evoplay",
+          value: 1348.188912799194,
+        },
+        {
+          name: "BetB2B",
+          value: 251.68485774092798,
+        },
+        {
+          name: "MrSlotty",
+          value: 157.69446266670369,
+        },
+        {
+          name: "BlueOcean",
+          value: 1.912446532611367,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1761.5297364262412,
+        },
+        {
+          name: "Leopard",
+          value: 138.87446880413322,
+        },
+        {
+          name: "Ondiss",
+          value: 54.13279374306772,
+        },
+        {
+          name: "Skywind360",
+          value: 11.964323868153778,
+        },
+        {
+          name: "Optimus",
+          value: 110.01795039939795,
+        },
+        {
+          name: "TGLab",
+          value: 59.13466613886892,
+        },
+        {
+          name: "BetConstruct",
+          value: 380.9897201016423,
+        },
+        {
+          name: "Efbet",
+          value: 2.9,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6997.94,
+        },
+        {
+          name: "Virtualsoft",
+          value: 71.83321463604058,
+        },
+        {
+          name: "Dench",
+          value: 42.15,
+        },
+        {
+          name: "Reevo",
+          value: 328.2,
+        },
+        {
+          name: "Slotegrator",
+          value: 233.13442423696404,
+        },
+        {
+          name: "Pariplay",
+          value: 4.77478399529656,
+        },
+        {
+          name: "Intralot",
+          value: 709.5007399435876,
+        },
+        {
+          name: "ORYX",
+          value: 689.153729435281,
+        },
+        {
+          name: "Betmexico",
+          value: 1.2944608238914885,
+        },
+        {
+          name: "EGT New Platform",
+          value: 295.63,
+        },
+        {
+          name: "BtoBet",
+          value: 0,
+        },
+        {
+          name: "Digitain",
+          value: 37.69150043349617,
+        },
+        {
+          name: "Crystalbet",
+          value: 35.59666260328048,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2333.6162702144175,
+        },
+      ],
+      total: 16089.900843088486,
+      period: "2026-04-02T02:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Calimaco Apuesta",
+          value: 1836.3205141993783,
+        },
+        {
+          name: "Everymatrix",
+          value: 51.13384007627456,
+        },
+        {
+          name: "Asvla",
+          value: 44.4314348702307,
+        },
+        {
+          name: "ORYX",
+          value: 1194.994983138326,
+        },
+        {
+          name: "Efbet",
+          value: 3.9499999999999997,
+        },
+        {
+          name: "Slotegrator",
+          value: 244.84908072491893,
+        },
+        {
+          name: "Optimus",
+          value: 80.10751594181482,
+        },
+        {
+          name: "BtoBet",
+          value: 40.300758949541404,
+        },
+        {
+          name: "Digitain",
+          value: 54.97264919304681,
+        },
+        {
+          name: "Reevo",
+          value: 190.10000000000002,
+        },
+        {
+          name: "Intralot",
+          value: 891.5387612689327,
+        },
+        {
+          name: "Pariplay",
+          value: 8.728206184148323,
+        },
+        {
+          name: "Betmexico",
+          value: 0.5344870498648727,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4761.21,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2195.6714929621894,
+        },
+        {
+          name: "TGLab",
+          value: 52.41040659062697,
+        },
+        {
+          name: "Dench",
+          value: 92.8,
+        },
+        {
+          name: "Virtualsoft",
+          value: 65.49865610128312,
+        },
+        {
+          name: "Skywind360",
+          value: 11.899598837391634,
+        },
+        {
+          name: "BlueOcean",
+          value: 66.7,
+        },
+        {
+          name: "BetConstruct",
+          value: 79.02308868454264,
+        },
+        {
+          name: "Ondiss",
+          value: 21.11818198903175,
+        },
+        {
+          name: "Newton",
+          value: 4.41307027923705,
+        },
+        {
+          name: "Leopard",
+          value: 111.13866394855303,
+        },
+        {
+          name: "MrSlotty",
+          value: 1273.1653733999171,
+        },
+        {
+          name: "BetB2B",
+          value: 152.5723905713674,
+        },
+        {
+          name: "EGT New Platform",
+          value: 108.41,
+        },
+        {
+          name: "Evoplay",
+          value: 606.2261066027086,
+        },
+        {
+          name: "Crystalbet",
+          value: 13.08473560236359,
+        },
+      ],
+      total: 14257.303997165689,
+      period: "2026-04-02T02:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Pariplay",
+          value: 3.1914359346800842,
+        },
+        {
+          name: "Dench",
+          value: 235.20000000000002,
+        },
+        {
+          name: "Slotegrator",
+          value: 121.88649253265518,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2181.9119381311384,
+        },
+        {
+          name: "Optimus",
+          value: 135.02990179444885,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2555.745185532783,
+        },
+        {
+          name: "Newton",
+          value: 4.020797365527089,
+        },
+        {
+          name: "Asvla",
+          value: 36.70422880584275,
+        },
+        {
+          name: "Efbet",
+          value: 0,
+        },
+        {
+          name: "BlueOcean",
+          value: 1.51,
+        },
+        {
+          name: "BetB2B",
+          value: 155.9660887465929,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "Leopard",
+          value: 161.21946830958325,
+        },
+        {
+          name: "Easit",
+          value: 0,
+        },
+        {
+          name: "BetConstruct",
+          value: 913.670991555541,
+        },
+        {
+          name: "Evoplay",
+          value: 751.2156634403987,
+        },
+        {
+          name: "Virtualsoft",
+          value: 159.34900429102584,
+        },
+        {
+          name: "EGT New Platform",
+          value: 66.52,
+        },
+        {
+          name: "Digitain",
+          value: 8.555882832164516,
+        },
+        {
+          name: "BtoBet",
+          value: 90.73703811393753,
+        },
+        {
+          name: "Intralot",
+          value: 662.9453589987737,
+        },
+        {
+          name: "TGLab",
+          value: 40.66799617840371,
+        },
+        {
+          name: "Ondiss",
+          value: 28.083488085325204,
+        },
+        {
+          name: "Skywind360",
+          value: 0.31381833096796796,
+        },
+        {
+          name: "ORYX",
+          value: 3441.8032271160905,
+        },
+        {
+          name: "Reevo",
+          value: 249.45,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6846.34,
+        },
+        {
+          name: "MrSlotty",
+          value: 78.91799446258332,
+        },
+      ],
+      total: 18930.956000558464,
+      period: "2026-04-02T03:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 268.81919162377847,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1793.7319807626393,
+        },
+        {
+          name: "Optimus",
+          value: 56.1346367115435,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1582.4885511585294,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4596.9,
+        },
+        {
+          name: "BlueOcean",
+          value: 0,
+        },
+        {
+          name: "Evoplay",
+          value: 612.6114964210718,
+        },
+        {
+          name: "Intralot",
+          value: 606.9245254290871,
+        },
+        {
+          name: "TGLab",
+          value: 38.61127433334089,
+        },
+        {
+          name: "Digitain",
+          value: 19.86951722454676,
+        },
+        {
+          name: "Leopard",
+          value: 77.4479859962481,
+        },
+        {
+          name: "Dench",
+          value: 278.54,
+        },
+        {
+          name: "Gaming1",
+          value: 10.799999999999999,
+        },
+        {
+          name: "MrSlotty",
+          value: 227.3992726666237,
+        },
+        {
+          name: "Slotegrator",
+          value: 155.94411118415135,
+        },
+        {
+          name: "Betmexico",
+          value: 0.20043264369932726,
+        },
+        {
+          name: "Reevo",
+          value: 9.8,
+        },
+        {
+          name: "Pariplay",
+          value: 1.3389023140688543,
+        },
+        {
+          name: "BtoBet",
+          value: 5.7917258370598415,
+        },
+        {
+          name: "EGT New Platform",
+          value: 53.9,
+        },
+        {
+          name: "BetConstruct",
+          value: 201.81088538853425,
+        },
+        {
+          name: "BetB2B",
+          value: 175.7937915699331,
+        },
+        {
+          name: "Asvla",
+          value: 14.501390047501381,
+        },
+        {
+          name: "ORYX",
+          value: 2402.083334116427,
+        },
+        {
+          name: "Ondiss",
+          value: 96.38856666396134,
+        },
+      ],
+      total: 13287.831572092746,
+      period: "2026-04-02T03:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetConstruct",
+          value: 106.13467680831738,
+        },
+        {
+          name: "Optimus",
+          value: 90.42401814926905,
+        },
+        {
+          name: "ORYX",
+          value: 1823.5245219941278,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1656.8703891648727,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1701.9497378988633,
+        },
+        {
+          name: "Virtualsoft",
+          value: 279.6245216732147,
+        },
+        {
+          name: "Everymatrix",
+          value: 2.570411340469171,
+        },
+        {
+          name: "Ondiss",
+          value: 83.52607242196109,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "Pariplay",
+          value: 0.19791850757705948,
+        },
+        {
+          name: "EGT New Platform",
+          value: 108.99,
+        },
+        {
+          name: "TGLab",
+          value: 48.140439168000334,
+        },
+        {
+          name: "Reevo",
+          value: 21.596551819281093,
+        },
+        {
+          name: "Slotegrator",
+          value: 97.98414103064015,
+        },
+        {
+          name: "Leopard",
+          value: 78.48953214237235,
+        },
+        {
+          name: "Comtrade",
+          value: 2.7459103959697195,
+        },
+        {
+          name: "Digitain",
+          value: 10.443263432465153,
+        },
+        {
+          name: "Betmexico",
+          value: 2.405191724391927,
+        },
+        {
+          name: "Asvla",
+          value: 13.612761350096768,
+        },
+        {
+          name: "MrSlotty",
+          value: 623.2588494280737,
+        },
+        {
+          name: "BetB2B",
+          value: 173.04936654380222,
+        },
+        {
+          name: "Baby Leopard",
+          value: 9250.97,
+        },
+        {
+          name: "Intralot",
+          value: 779.2793837712246,
+        },
+        {
+          name: "Dench",
+          value: 315.4,
+        },
+        {
+          name: "Evoplay",
+          value: 1397.1360608253176,
+        },
+      ],
+      total: 18668.323719590306,
+      period: "2026-04-02T03:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Ondiss",
+          value: 50.11889914681268,
+        },
+        {
+          name: "Intralot",
+          value: 834.4367978516063,
+        },
+        {
+          name: "MrSlotty",
+          value: 536.7537566110059,
+        },
+        {
+          name: "TGLab",
+          value: 11.812533044383695,
+        },
+        {
+          name: "BlueOcean",
+          value: 28.634712572827958,
+        },
+        {
+          name: "Pariplay",
+          value: 4.7780843152777095,
+        },
+        {
+          name: "Reevo",
+          value: 66.09703469826752,
+        },
+        {
+          name: "Virtualsoft",
+          value: 425.5943835236004,
+        },
+        {
+          name: "Dench",
+          value: 18.65,
+        },
+        {
+          name: "BetB2B",
+          value: 230.0435061199638,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1990.8789934083748,
+        },
+        {
+          name: "Comtrade",
+          value: 3.2166378924216716,
+        },
+        {
+          name: "Slotegrator",
+          value: 24.073326786765634,
+        },
+        {
+          name: "BetConstruct",
+          value: 60.588274048710744,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2145.33,
+        },
+        {
+          name: "Leopard",
+          value: 69.43228643937718,
+        },
+        {
+          name: "Everymatrix",
+          value: 2.3425794262003126,
+        },
+        {
+          name: "EGT New Platform",
+          value: 170.26,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2160.8916422392713,
+        },
+        {
+          name: "Optimus",
+          value: 73.47229797529391,
+        },
+        {
+          name: "Betmexico",
+          value: 0.08351360154138636,
+        },
+        {
+          name: "Evoplay",
+          value: 1508.3933260753563,
+        },
+        {
+          name: "Digitain",
+          value: 24.092132906550304,
+        },
+        {
+          name: "ORYX",
+          value: 2088.8226379672383,
+        },
+        {
+          name: "Asvla",
+          value: 11.217327470136503,
+        },
+      ],
+      total: 12540.014684120984,
+      period: "2026-04-02T03:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 31.986164591967167,
+        },
+        {
+          name: "Everymatrix",
+          value: 3.13818330967968,
+        },
+        {
+          name: "EGT New Platform",
+          value: 192.84,
+        },
+        {
+          name: "BetB2B",
+          value: 134.60403780444253,
+        },
+        {
+          name: "ORYX",
+          value: 1447.1875811307982,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1720.2604837596205,
+        },
+        {
+          name: "Leopard",
+          value: 91.39876679908608,
+        },
+        {
+          name: "BtoBet",
+          value: 15.203280322282085,
+        },
+        {
+          name: "Leris",
+          value: 9.6,
+        },
+        {
+          name: "Pariplay",
+          value: 61.4822996084163,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1987.4593761455294,
+        },
+        {
+          name: "MrSlotty",
+          value: 262.26016150107745,
+        },
+        {
+          name: "Ondiss",
+          value: 14.18731111388851,
+        },
+        {
+          name: "BlueOcean",
+          value: 339.0345134136837,
+        },
+        {
+          name: "TGLab",
+          value: 35.66236721302249,
+        },
+        {
+          name: "Optimus",
+          value: 80.57757239731035,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2914.02,
+        },
+        {
+          name: "Digitain",
+          value: 7.6133143488474975,
+        },
+        {
+          name: "Reevo",
+          value: 82.12257490897501,
+        },
+        {
+          name: "Evoplay",
+          value: 845.1562696478848,
+        },
+        {
+          name: "Intralot",
+          value: 749.0126960000027,
+        },
+        {
+          name: "BetConstruct",
+          value: 24.693383603500923,
+        },
+      ],
+      total: 11049.500337620015,
+      period: "2026-04-02T03:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Dench",
+          value: 35.55,
+        },
+        {
+          name: "MrSlotty",
+          value: 130.81324831531865,
+        },
+        {
+          name: "Intralot",
+          value: 987.0207798479262,
+        },
+        {
+          name: "Ondiss",
+          value: 24.956143909955692,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1954.8899491236648,
+        },
+        {
+          name: "Skywind360",
+          value: 0.06864775989924299,
+        },
+        {
+          name: "BetConstruct",
+          value: 44.41719712458891,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1432.07,
+        },
+        {
+          name: "Optimus",
+          value: 99.80535540842168,
+        },
+        {
+          name: "Digitain",
+          value: 6.207731230988728,
+        },
+        {
+          name: "Virtualsoft",
+          value: 208.13431532694096,
+        },
+        {
+          name: "Leris",
+          value: 14.4,
+        },
+        {
+          name: "Evoplay",
+          value: 967.4973208108154,
+        },
+        {
+          name: "BetB2B",
+          value: 164.14546740077498,
+        },
+        {
+          name: "Everymatrix",
+          value: 5.884093705649399,
+        },
+        {
+          name: "TGLab",
+          value: 43.88612411862379,
+        },
+        {
+          name: "ORYX",
+          value: 1407.21632798698,
+        },
+        {
+          name: "Reevo",
+          value: 63.90543916760425,
+        },
+        {
+          name: "EGT New Platform",
+          value: 153.69,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1893.5831251731277,
+        },
+        {
+          name: "Pariplay",
+          value: 28.203387329730976,
+        },
+        {
+          name: "BlueOcean",
+          value: 249.50407332575276,
+        },
+        {
+          name: "Asvla",
+          value: 4.732913714437617,
+        },
+        {
+          name: "Leopard",
+          value: 80.1594695500538,
+        },
+      ],
+      total: 10000.741110331255,
+      period: "2026-04-02T03:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Intralot",
+          value: 736.6692721602379,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.49034114213744995,
+        },
+        {
+          name: "EGT New Platform",
+          value: 234.86,
+        },
+        {
+          name: "Evoplay",
+          value: 1478.4622946678792,
+        },
+        {
+          name: "TGLab",
+          value: 135.74677224879687,
+        },
+        {
+          name: "Ondiss",
+          value: 9.416467747258746,
+        },
+        {
+          name: "BlueOcean",
+          value: 3.844325960604492,
+        },
+        {
+          name: "Reevo",
+          value: 0.8,
+        },
+        {
+          name: "Crystalbet",
+          value: 1.5454412128775896,
+        },
+        {
+          name: "BetB2B",
+          value: 207.01525008207673,
+        },
+        {
+          name: "MrSlotty",
+          value: 254.67782322558227,
+        },
+        {
+          name: "ORYX",
+          value: 880.5793294204167,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2011.5939722252613,
+        },
+        {
+          name: "Digitain",
+          value: 13.273212516082808,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1376.0152039873558,
+        },
+        {
+          name: "Optimus",
+          value: 128.48127317499288,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1361.12,
+        },
+        {
+          name: "BetConstruct",
+          value: 42.90448768899912,
+        },
+        {
+          name: "Virtualsoft",
+          value: 106.60124076558733,
+        },
+        {
+          name: "Slotegrator",
+          value: 0.5333430390808142,
+        },
+        {
+          name: "Dench",
+          value: 0.8,
+        },
+        {
+          name: "Pariplay",
+          value: 12.39464653701335,
+        },
+        {
+          name: "Leopard",
+          value: 57.36667942121069,
+        },
+      ],
+      total: 9055.191377223451,
+      period: "2026-04-02T03:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Intralot",
+          value: 926.9836064791607,
+        },
+        {
+          name: "MrSlotty",
+          value: 133.74988800603234,
+        },
+        {
+          name: "EGT New Platform",
+          value: 308.92,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.25757353547959827,
+        },
+        {
+          name: "Easit",
+          value: 2.8519450984065733,
+        },
+        {
+          name: "Betmexico",
+          value: 0.985460498188359,
+        },
+        {
+          name: "BetConstruct",
+          value: 82.751597856771,
+        },
+        {
+          name: "Efbet",
+          value: 3.8,
+        },
+        {
+          name: "ORYX",
+          value: 871.6694783762068,
+        },
+        {
+          name: "Evoplay",
+          value: 1411.7013854058819,
+        },
+        {
+          name: "Digitain",
+          value: 16.353690208821806,
+        },
+        {
+          name: "universal-casinotech",
+          value: 1.0907750326462702,
+        },
+        {
+          name: "TGLab",
+          value: 83.54923793437123,
+        },
+        {
+          name: "Ondiss",
+          value: 1.5752548438898275,
+        },
+        {
+          name: "BetB2B",
+          value: 169.27043693149358,
+        },
+        {
+          name: "Virtualsoft",
+          value: 32.53793873778881,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2437.23053558346,
+        },
+        {
+          name: "Pariplay",
+          value: 3.809931270858395,
+        },
+        {
+          name: "Slotegrator",
+          value: 0.48088306802368486,
+        },
+        {
+          name: "Leopard",
+          value: 49.37077171509749,
+        },
+        {
+          name: "Optimus",
+          value: 151.558571158478,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1245.7160080451279,
+        },
+        {
+          name: "Reevo",
+          value: 0,
+        },
+        {
+          name: "BlueOcean",
+          value: 3.3120346737515627,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2070.7200000000003,
+        },
+      ],
+      total: 10010.247004459936,
+      period: "2026-04-02T03:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: 180.59816418272206,
+        },
+        {
+          name: "Intralot",
+          value: 919.6601396085817,
+        },
+        {
+          name: "Digitain",
+          value: 15.44889239784638,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2423.416946481639,
+        },
+        {
+          name: "BtoBet",
+          value: 22.684259528484382,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1053.0892774537742,
+        },
+        {
+          name: "Pariplay",
+          value: 11.083436424315332,
+        },
+        {
+          name: "universal-casinotech",
+          value: 1.5734188524012571,
+        },
+        {
+          name: "Virtualsoft",
+          value: 70.92912732253453,
+        },
+        {
+          name: "ORYX",
+          value: 1523.2973642881125,
+        },
+        {
+          name: "Crystalbet",
+          value: 19.511195312579567,
+        },
+        {
+          name: "Ondiss",
+          value: 5.008759440031248,
+        },
+        {
+          name: "Skywind360",
+          value: 11.768187411298799,
+        },
+        {
+          name: "EGT New Platform",
+          value: 357.58,
+        },
+        {
+          name: "BetB2B",
+          value: 230.14652984950757,
+        },
+        {
+          name: "Evoplay",
+          value: 918.1,
+        },
+        {
+          name: "MrSlotty",
+          value: 294.8086657311271,
+        },
+        {
+          name: "BlueOcean",
+          value: 9.182312957947657,
+        },
+        {
+          name: "BetConstruct",
+          value: 44.22011878262827,
+        },
+        {
+          name: "Reevo",
+          value: 0.8333074656957334,
+        },
+        {
+          name: "Betmexico",
+          value: 0.643054731868675,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1890.8200000000002,
+        },
+        {
+          name: "Leopard",
+          value: 72.97997568769597,
+        },
+        {
+          name: "TGLab",
+          value: 101.34849069945228,
+        },
+      ],
+      total: 10178.731624610244,
+      period: "2026-04-02T03:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "TGLab",
+          value: 96.04108397780917,
+        },
+        {
+          name: "universal-casinotech",
+          value: 0.5936518982986339,
+        },
+        {
+          name: "Evoplay",
+          value: 1095.782708027294,
+        },
+        {
+          name: "ORYX",
+          value: 1103.7998212986602,
+        },
+        {
+          name: "EGT New Platform",
+          value: 296.23,
+        },
+        {
+          name: "Betmexico",
+          value: 0.45932480847762497,
+        },
+        {
+          name: "Efbet",
+          value: 4.2,
+        },
+        {
+          name: "Virtualsoft",
+          value: 31.7253383792244,
+        },
+        {
+          name: "Easit",
+          value: 2,
+        },
+        {
+          name: "Reevo",
+          value: 0,
+        },
+        {
+          name: "BlueOcean",
+          value: 2.95,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1094.941544537902,
+        },
+        {
+          name: "Optimus",
+          value: 87.62841922974309,
+        },
+        {
+          name: "Pariplay",
+          value: 22.23156191662674,
+        },
+        {
+          name: "MrSlotty",
+          value: 197.17412232825632,
+        },
+        {
+          name: "Ondiss",
+          value: 6.924609925843201,
+        },
+        {
+          name: "Leopard",
+          value: 62.562040245108506,
+        },
+        {
+          name: "BetConstruct",
+          value: 17.870211818323035,
+        },
+        {
+          name: "Intralot",
+          value: 970.0867203344203,
+        },
+        {
+          name: "BtoBet",
+          value: 101.83784596830222,
+        },
+        {
+          name: "Skywind360",
+          value: 0.6864775989924299,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1860.99,
+        },
+        {
+          name: "BetB2B",
+          value: 144.8812609201832,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2356.6234701316353,
+        },
+      ],
+      total: 9558.2202133451,
+      period: "2026-04-02T03:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "MrSlotty",
+          value: 190.58632449461098,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2125.969731405723,
+        },
+        {
+          name: "Intralot",
+          value: 1105.3081818060914,
+        },
+        {
+          name: "Leopard",
+          value: 46.24860725806938,
+        },
+        {
+          name: "EGT New Platform",
+          value: 313.24,
+        },
+        {
+          name: "Efbet",
+          value: 18.6,
+        },
+        {
+          name: "BtoBet",
+          value: 144.79314592649604,
+        },
+        {
+          name: "ORYX",
+          value: 780.114287461389,
+        },
+        {
+          name: "Slotegrator",
+          value: 9.884662668049081,
+        },
+        {
+          name: "Crystalbet",
+          value: 14.729986560239524,
+        },
+        {
+          name: "Ondiss",
+          value: 0.1252189860007812,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3098.11,
+        },
+        {
+          name: "Evoplay",
+          value: 1589.6942114457936,
+        },
+        {
+          name: "BetB2B",
+          value: 196.92966699324248,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1429.7774480558905,
+        },
+        {
+          name: "BetConstruct",
+          value: 19.14323137855529,
+        },
+        {
+          name: "TopSport",
+          value: 14.8,
+        },
+        {
+          name: "Easit",
+          value: 32.7,
+        },
+        {
+          name: "Virtualsoft",
+          value: 47.460482006797456,
+        },
+        {
+          name: "Pariplay",
+          value: 21.84223604113826,
+        },
+        {
+          name: "Betmexico",
+          value: 0.709865613101784,
+        },
+        {
+          name: "TGLab",
+          value: 65.04124570852576,
+        },
+        {
+          name: "Digitain",
+          value: 0.726270118804531,
+        },
+        {
+          name: "BlueOcean",
+          value: 3.43,
+        },
+        {
+          name: "Reevo",
+          value: 129.2,
+        },
+        {
+          name: "Comtrade",
+          value: 12.827324278315691,
+        },
+        {
+          name: "Optimus",
+          value: 97.0666580598241,
+        },
+      ],
+      total: 11509.058786266658,
+      period: "2026-04-02T03:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "TopSport",
+          value: 0.6,
+        },
+        {
+          name: "Skywind360",
+          value: 0,
+        },
+        {
+          name: "Optimus",
+          value: 76.59446243232202,
+        },
+        {
+          name: "Easit",
+          value: 35.4,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1676.286259611035,
+        },
+        {
+          name: "BetConstruct",
+          value: 18.418835310808063,
+        },
+        {
+          name: "Pariplay",
+          value: 38.190052628448335,
+        },
+        {
+          name: "Betmexico",
+          value: 0.6514060920228135,
+        },
+        {
+          name: "Virtualsoft",
+          value: 62.295383904147485,
+        },
+        {
+          name: "EGT New Platform",
+          value: 214.97,
+        },
+        {
+          name: "TGLab",
+          value: 87.85364057814809,
+        },
+        {
+          name: "Leris",
+          value: 15.6,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1572.3899999999999,
+        },
+        {
+          name: "Digitain",
+          value: 3.4310002164214053,
+        },
+        {
+          name: "Reevo",
+          value: 108.93764293101115,
+        },
+        {
+          name: "Dench",
+          value: 0.2,
+        },
+        {
+          name: "ORYX",
+          value: 1268.1152546679775,
+        },
+        {
+          name: "Slotegrator",
+          value: 20.03025823277008,
+        },
+        {
+          name: "Crystalbet",
+          value: 27.81794183179661,
+        },
+        {
+          name: "BetB2B",
+          value: 204.18711541461857,
+        },
+        {
+          name: "MrSlotty",
+          value: 46.224834667709224,
+        },
+        {
+          name: "Efbet",
+          value: 2.1,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2133.9929956363317,
+        },
+        {
+          name: "Intralot",
+          value: 1034.2300700951355,
+        },
+        {
+          name: "BtoBet",
+          value: 32.819779743339105,
+        },
+        {
+          name: "Evoplay",
+          value: 651.6242183145396,
+        },
+        {
+          name: "Leopard",
+          value: 55.766013491181226,
+        },
+        {
+          name: "Goldrush",
+          value: 165.4,
+        },
+      ],
+      total: 9554.127165799764,
+      period: "2026-04-02T03:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Calimaco Apuesta",
+          value: 1838.348952399961,
+        },
+        {
+          name: "TopSport",
+          value: 17.55,
+        },
+        {
+          name: "Intralot",
+          value: 844.4687922044186,
+        },
+        {
+          name: "Leopard",
+          value: 117.54874961270505,
+        },
+        {
+          name: "MrSlotty",
+          value: 66.22969578217376,
+        },
+        {
+          name: "Baby Leopard",
+          value: 1531.25,
+        },
+        {
+          name: "BtoBet",
+          value: 3.1613170193951636,
+        },
+        {
+          name: "Evoplay",
+          value: 685.0130619697463,
+        },
+        {
+          name: "BetB2B",
+          value: 213.9176143663836,
+        },
+        {
+          name: "Optimus",
+          value: 123.20427096671953,
+        },
+        {
+          name: "Easit",
+          value: 33.75,
+        },
+        {
+          name: "BetConstruct",
+          value: 25.455064762970427,
+        },
+        {
+          name: "Digitain",
+          value: 0.26295987060164056,
+        },
+        {
+          name: "Dench",
+          value: 2.8,
+        },
+        {
+          name: "Efbet",
+          value: 5.85,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1932.1069141649232,
+        },
+        {
+          name: "Skywind360",
+          value: 1.3180369900654656,
+        },
+        {
+          name: "EGT New Platform",
+          value: 87.67,
+        },
+        {
+          name: "TGLab",
+          value: 55.791832610490665,
+        },
+        {
+          name: "Crystalbet",
+          value: 4.36587142637919,
+        },
+        {
+          name: "Virtualsoft",
+          value: 73.59490951728132,
+        },
+        {
+          name: "Betmexico",
+          value: 0.5678924904814272,
+        },
+        {
+          name: "Pariplay",
+          value: 22.362635660465912,
+        },
+        {
+          name: "BlueOcean",
+          value: 114,
+        },
+        {
+          name: "Slotegrator",
+          value: 0.11657771346028724,
+        },
+        {
+          name: "Reevo",
+          value: 93.20428890356774,
+        },
+        {
+          name: "ORYX",
+          value: 2101.1674808311127,
+        },
+      ],
+      total: 9995.076919263303,
+      period: "2026-04-02T04:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetConstruct",
+          value: 34.65382953502524,
+        },
+        {
+          name: "Easit",
+          value: 21.95,
+        },
+        {
+          name: "universal-casinotech",
+          value: 0.6515691566692322,
+        },
+        {
+          name: "Intralot",
+          value: 663.0789539913883,
+        },
+        {
+          name: "MrSlotty",
+          value: 189.55539832572464,
+        },
+        {
+          name: "BtoBet",
+          value: 5.695197073108845,
+        },
+        {
+          name: "Evoplay",
+          value: 595.5436095323364,
+        },
+        {
+          name: "Leopard",
+          value: 63.17558761859739,
+        },
+        {
+          name: "Optimus",
+          value: 88.9025196222704,
+        },
+        {
+          name: "BlueOcean",
+          value: 385.9819190258542,
+        },
+        {
+          name: "Digitain",
+          value: 0,
+        },
+        {
+          name: "EGT New Platform",
+          value: 157.64000000000001,
+        },
+        {
+          name: "Crystalbet",
+          value: 18.931654857750473,
+        },
+        {
+          name: "Reevo",
+          value: 387.6849561293012,
+        },
+        {
+          name: "Avento",
+          value: 1.3239210837711148,
+        },
+        {
+          name: "Asvla",
+          value: 1.8223327635181574,
+        },
+        {
+          name: "Pariplay",
+          value: 17.31591858837531,
+        },
+        {
+          name: "Betmexico",
+          value: 0.21713536400760453,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2030.9016713979872,
+        },
+        {
+          name: "Efbet",
+          value: 1,
+        },
+        {
+          name: "ORYX",
+          value: 1696.8778946653256,
+        },
+        {
+          name: "TGLab",
+          value: 156.3327735473253,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1874.8652336830537,
+        },
+        {
+          name: "Slotegrator",
+          value: 0.014572214182535905,
+        },
+        {
+          name: "Virtualsoft",
+          value: 37.34175833957251,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2298.02,
+        },
+        {
+          name: "TopSport",
+          value: 11.129999999999999,
+        },
+        {
+          name: "Skywind360",
+          value: 43.93456633551552,
+        },
+        {
+          name: "BetB2B",
+          value: 140.4735354346109,
+        },
+      ],
+      total: 10925.016508285273,
+      period: "2026-04-02T04:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Pariplay",
+          value: 2.375022090924714,
+        },
+        {
+          name: "MrSlotty",
+          value: 82.20713887895985,
+        },
+        {
+          name: "Leopard",
+          value: 236.64373756585587,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2111.5131518541016,
+        },
+        {
+          name: "Digitain",
+          value: 6.9395176719206475,
+        },
+        {
+          name: "TGLab",
+          value: 157.5035710664326,
+        },
+        {
+          name: "ORYX",
+          value: 1235.985422447087,
+        },
+        {
+          name: "TopSport",
+          value: 40.58,
+        },
+        {
+          name: "EGT New Platform",
+          value: 172.86,
+        },
+        {
+          name: "Asvla",
+          value: 10.760134444660217,
+        },
+        {
+          name: "Efbet",
+          value: 25.24,
+        },
+        {
+          name: "Skywind360",
+          value: 76.18920666531697,
+        },
+        {
+          name: "Goldrush",
+          value: 3.7,
+        },
+        {
+          name: "universal-casinotech",
+          value: 0.2413219098774934,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2934.5,
+        },
+        {
+          name: "Optimus",
+          value: 102.90278005200265,
+        },
+        {
+          name: "Avento",
+          value: 0.34323879949621494,
+        },
+        {
+          name: "WeAreCasino",
+          value: 0,
+        },
+        {
+          name: "Easit",
+          value: 31.75,
+        },
+        {
+          name: "Intralot",
+          value: 605.5737316148736,
+        },
+        {
+          name: "BetConstruct",
+          value: 10.972469849700582,
+        },
+        {
+          name: "Betmexico",
+          value: 17.62136992523252,
+        },
+        {
+          name: "Gaming1",
+          value: 5.9399999999999995,
+        },
+        {
+          name: "Crystalbet",
+          value: 10.657105030468378,
+        },
+        {
+          name: "BtoBet",
+          value: 5.164288871378359,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1768.165906761319,
+        },
+        {
+          name: "Evoplay",
+          value: 927.2395621985507,
+        },
+        {
+          name: "Virtualsoft",
+          value: 34.30851611824154,
+        },
+        {
+          name: "Reevo",
+          value: 382.4883801586828,
+        },
+        {
+          name: "BlueOcean",
+          value: 276.8416117781396,
+        },
+        {
+          name: "BetB2B",
+          value: 277.6371447482826,
+        },
+      ],
+      total: 11554.844330501506,
+      period: "2026-04-02T04:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Reevo",
+          value: 128.94323556351395,
+        },
+        {
+          name: "Evoplay",
+          value: 352.4459228084485,
+        },
+        {
+          name: "Easit",
+          value: 4.65,
+        },
+        {
+          name: "Virtualsoft",
+          value: 10.18639222600796,
+        },
+        {
+          name: "BetConstruct",
+          value: 5.965614675565365,
+        },
+        {
+          name: "Asvla",
+          value: 0.7083272225688951,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2308.8302462208303,
+        },
+        {
+          name: "Skywind360",
+          value: 42.051656349707706,
+        },
+        {
+          name: "Optimus",
+          value: 99.08047887442069,
+        },
+        {
+          name: "BlueOcean",
+          value: 220.41634267609223,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1527.104718181188,
+        },
+        {
+          name: "Ondiss",
+          value: 0.07513139160046872,
+        },
+        {
+          name: "TopSport",
+          value: 26.1,
+        },
+        {
+          name: "Efbet",
+          value: 40.4,
+        },
+        {
+          name: "Slotegrator",
+          value: 2.760594445301529,
+        },
+        {
+          name: "EGT New Platform",
+          value: 319.9,
+        },
+        {
+          name: "TGLab",
+          value: 122.68204934440537,
+        },
+        {
+          name: "Digitain",
+          value: 14.064583944694789,
+        },
+        {
+          name: "Betmexico",
+          value: 13.061527281072827,
+        },
+        {
+          name: "Crystalbet",
+          value: 7.920386215997646,
+        },
+        {
+          name: "Leopard",
+          value: 167.94869756720325,
+        },
+        {
+          name: "Everymatrix",
+          value: 0,
+        },
+        {
+          name: "BetB2B",
+          value: 261.18244614446155,
+        },
+        {
+          name: "ORYX",
+          value: 822.1338426474509,
+        },
+        {
+          name: "MrSlotty",
+          value: 112.9717638704474,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4111.45,
+        },
+        {
+          name: "BtoBet",
+          value: 4.199001231868386,
+        },
+        {
+          name: "Intralot",
+          value: 734.1613859876892,
+        },
+        {
+          name: "Pariplay",
+          value: 0,
+        },
+      ],
+      total: 11461.394344870536,
+      period: "2026-04-02T04:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Asvla",
+          value: 2.530659986087053,
+        },
+        {
+          name: "Leopard",
+          value: 100.64156110293476,
+        },
+        {
+          name: "Easit",
+          value: 0.2,
+        },
+        {
+          name: "Comtrade",
+          value: 42.757747594385634,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3118.91,
+        },
+        {
+          name: "TGLab",
+          value: 100.96845107693991,
+        },
+        {
+          name: "Evoplay",
+          value: 258.92453051012006,
+        },
+        {
+          name: "BetConstruct",
+          value: 0.8255984595648497,
+        },
+        {
+          name: "TopSport",
+          value: 67.75999999999999,
+        },
+        {
+          name: "Virtualsoft",
+          value: 8.466782021174293,
+        },
+        {
+          name: "BetB2B",
+          value: 206.31552947631275,
+        },
+        {
+          name: "BtoBet",
+          value: 6.1778408928638315,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2740.886885066672,
+        },
+        {
+          name: "BlueOcean",
+          value: 180.48174517075213,
+        },
+        {
+          name: "Reevo",
+          value: 284.3407255075764,
+        },
+        {
+          name: "EGT New Platform",
+          value: 319.79,
+        },
+        {
+          name: "Betmexico",
+          value: 17.788397128315296,
+        },
+        {
+          name: "Optimus",
+          value: 190.05124690087138,
+        },
+        {
+          name: "Pariplay",
+          value: 12.49360579080188,
+        },
+        {
+          name: "ORYX",
+          value: 697.2579424426144,
+        },
+        {
+          name: "Skywind360",
+          value: 2.275182899517768,
+        },
+        {
+          name: "Digitain",
+          value: 7.186915806391973,
+        },
+        {
+          name: "Intralot",
+          value: 619.7991243469747,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1908.7752911124567,
+        },
+        {
+          name: "MrSlotty",
+          value: 414.1681841927532,
+        },
+        {
+          name: "Slotegrator",
+          value: 27.577722236591605,
+        },
+        {
+          name: "Efbet",
+          value: 41.8,
+        },
+      ],
+      total: 11379.151669722673,
+      period: "2026-04-02T04:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BlueOcean",
+          value: 10.429975897458718,
+        },
+        {
+          name: "BetConstruct",
+          value: 0.958759501430148,
+        },
+        {
+          name: "TopSport",
+          value: 17.75,
+        },
+        {
+          name: "Slotegrator",
+          value: 120.97247976930967,
+        },
+        {
+          name: "MrSlotty",
+          value: 267.2782399593914,
+        },
+        {
+          name: "Leopard",
+          value: 178.71051641670587,
+        },
+        {
+          name: "Virtualsoft",
+          value: 16.735913778679866,
+        },
+        {
+          name: "Evoplay",
+          value: 184.81527822592815,
+        },
+        {
+          name: "Efbet",
+          value: 3.4,
+        },
+        {
+          name: "Betmexico",
+          value: 15.0658537180661,
+        },
+        {
+          name: "BtoBet",
+          value: 1.10042790904137,
+        },
+        {
+          name: "TGLab",
+          value: 159.24035840226344,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1611.6414716138806,
+        },
+        {
+          name: "Intralot",
+          value: 766.5405469041882,
+        },
+        {
+          name: "Pariplay",
+          value: 10.037987370315118,
+        },
+        {
+          name: "ORYX",
+          value: 1471.312020533045,
+        },
+        {
+          name: "Easit",
+          value: 4,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2508.78,
+        },
+        {
+          name: "Asvla",
+          value: 57.6385179019471,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2537.685080399881,
+        },
+        {
+          name: "EGT New Platform",
+          value: 422.53,
+        },
+        {
+          name: "Crystalbet",
+          value: 6.745206960371979,
+        },
+        {
+          name: "Reevo",
+          value: 17.919999999999998,
+        },
+        {
+          name: "Comtrade",
+          value: 44.817180391362925,
+        },
+        {
+          name: "BetB2B",
+          value: 526.2033472942694,
+        },
+        {
+          name: "Skywind360",
+          value: 3.020501435566692,
+        },
+        {
+          name: "Digitain",
+          value: 12.152196365231452,
+        },
+        {
+          name: "Optimus",
+          value: 125.48033380385571,
+        },
+      ],
+      total: 11102.96219455219,
+      period: "2026-04-02T04:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Pariplay",
+          value: 7.272859074054969,
+        },
+        {
+          name: "TopSport",
+          value: 244.20000000000002,
+        },
+        {
+          name: "Digitain",
+          value: 1.8802258219820653,
+        },
+        {
+          name: "Optimus",
+          value: 94.85244475630576,
+        },
+        {
+          name: "Skywind360",
+          value: 0.039227291370995995,
+        },
+        {
+          name: "Everymatrix",
+          value: 4.51113850766454,
+        },
+        {
+          name: "Asvla",
+          value: 1.5390018744905996,
+        },
+        {
+          name: "Betmexico",
+          value: 0.20043264369932726,
+        },
+        {
+          name: "Crystalbet",
+          value: 9.192155547428163,
+        },
+        {
+          name: "BetConstruct",
+          value: 3.914934630839771,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1856.4930084916955,
+        },
+        {
+          name: "Leopard",
+          value: 67.0448944417289,
+        },
+        {
+          name: "Reevo",
+          value: 1.5,
+        },
+        {
+          name: "ORYX",
+          value: 423.97486326224225,
+        },
+        {
+          name: "Virtualsoft",
+          value: 61.70299870018778,
+        },
+        {
+          name: "BetB2B",
+          value: 276.54754186426686,
+        },
+        {
+          name: "TGLab",
+          value: 71.24334208514446,
+        },
+        {
+          name: "Easit",
+          value: 5.15,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4781.52,
+        },
+        {
+          name: "Avento",
+          value: 15.024052595091467,
+        },
+        {
+          name: "Evoplay",
+          value: 181.15196841533358,
+        },
+        {
+          name: "Intralot",
+          value: 674.5472716345607,
+        },
+        {
+          name: "Goldrush",
+          value: 2.4,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2323.1994650175952,
+        },
+        {
+          name: "EGT New Platform",
+          value: 205.01,
+        },
+        {
+          name: "MrSlotty",
+          value: 195.27658704865036,
+        },
+        {
+          name: "BlueOcean",
+          value: 30.061642980789934,
+        },
+        {
+          name: "Slotegrator",
+          value: 81.35890317725018,
+        },
+      ],
+      total: 11620.808959862374,
+      period: "2026-04-02T04:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Avento",
+          value: 0.5884093705649399,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "EGT New Platform",
+          value: 367.43,
+        },
+        {
+          name: "TGLab",
+          value: 222.9584749005272,
+        },
+        {
+          name: "BtoBet",
+          value: 23.166903348239366,
+        },
+        {
+          name: "Optimus",
+          value: 121.8188414136801,
+        },
+        {
+          name: "Intralot",
+          value: 1124.4907359916947,
+        },
+        {
+          name: "Reevo",
+          value: 11,
+        },
+        {
+          name: "Pariplay",
+          value: 0.8906332840967677,
+        },
+        {
+          name: "Everymatrix",
+          value: 8.237731187909159,
+        },
+        {
+          name: "BetB2B",
+          value: 207.3153844047728,
+        },
+        {
+          name: "Betmexico",
+          value: 1.6452179503653113,
+        },
+        {
+          name: "ORYX",
+          value: 942.318876675829,
+        },
+        {
+          name: "TopSport",
+          value: 90.6,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2307.0654027517726,
+        },
+        {
+          name: "Slotegrator",
+          value: 130.79577890669614,
+        },
+        {
+          name: "BetConstruct",
+          value: 17.976740651815273,
+        },
+        {
+          name: "Leopard",
+          value: 119.16673341214752,
+        },
+        {
+          name: "Baby Leopard",
+          value: 12064.86,
+        },
+        {
+          name: "Crystalbet",
+          value: 3.541636112844476,
+        },
+        {
+          name: "Easit",
+          value: 3.3000000000000003,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1826.0848602200128,
+        },
+        {
+          name: "MrSlotty",
+          value: 148.6346371844292,
+        },
+        {
+          name: "Virtualsoft",
+          value: 140.64523589815414,
+        },
+        {
+          name: "Evoplay",
+          value: 350.9862736834075,
+        },
+        {
+          name: "Efbet",
+          value: 32.4,
+        },
+        {
+          name: "BlueOcean",
+          value: 69.91624492619334,
+        },
+      ],
+      total: 20337.834752275154,
+      period: "2026-04-02T04:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Everymatrix",
+          value: 13.043074380856169,
+        },
+        {
+          name: "Optimus",
+          value: 172.76801322670465,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2129.355443787832,
+        },
+        {
+          name: "Easit",
+          value: 10.9,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.09659007580484934,
+        },
+        {
+          name: "ORYX",
+          value: 1239.7523172275353,
+        },
+        {
+          name: "EGT New Platform",
+          value: 474.96,
+        },
+        {
+          name: "Slotegrator",
+          value: 81.57154191977125,
+        },
+        {
+          name: "Goldrush",
+          value: 6.4,
+        },
+        {
+          name: "BtoBet",
+          value: 36.19828648162401,
+        },
+        {
+          name: "BetConstruct",
+          value: 5.912350258819246,
+        },
+        {
+          name: "MrSlotty",
+          value: 145.96222113499655,
+        },
+        {
+          name: "Evoplay",
+          value: 592.1654606755793,
+        },
+        {
+          name: "Reevo",
+          value: 75.07517943682127,
+        },
+        {
+          name: "TopSport",
+          value: 46.4,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1849.5770996777255,
+        },
+        {
+          name: "Skywind360",
+          value: 0.039227291370995995,
+        },
+        {
+          name: "Efbet",
+          value: 86.1,
+        },
+        {
+          name: "BlueOcean",
+          value: 21.396597857691244,
+        },
+        {
+          name: "Virtualsoft",
+          value: 158.54378678689505,
+        },
+        {
+          name: "Leopard",
+          value: 104.06802526536259,
+        },
+        {
+          name: "Intralot",
+          value: 833.5214101965262,
+        },
+        {
+          name: "Pariplay",
+          value: 2.5160390275733686,
+        },
+        {
+          name: "TGLab",
+          value: 100.34962696626958,
+        },
+        {
+          name: "Comtrade",
+          value: 0.049034114213745,
+        },
+        {
+          name: "Baby Leopard",
+          value: 8982.369999999999,
+        },
+        {
+          name: "Betmexico",
+          value: 1.3946771457411522,
+        },
+        {
+          name: "BetB2B",
+          value: 225.1568709392037,
+        },
+      ],
+      total: 17395.642873874916,
+      period: "2026-04-02T04:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Efbet",
+          value: 132,
+        },
+        {
+          name: "Virtualsoft",
+          value: 141.30560086210187,
+        },
+        {
+          name: "Pariplay",
+          value: 7.575330877511952,
+        },
+        {
+          name: "Baby Leopard",
+          value: 11460.49,
+        },
+        {
+          name: "EGT New Platform",
+          value: 441.35,
+        },
+        {
+          name: "ORYX",
+          value: 3597.6978530219653,
+        },
+        {
+          name: "TopSport",
+          value: 57.35,
+        },
+        {
+          name: "Easit",
+          value: 8.05,
+        },
+        {
+          name: "BetB2B",
+          value: 201.99479834939967,
+        },
+        {
+          name: "Crystalbet",
+          value: 17.981852445669453,
+        },
+        {
+          name: "Skywind360",
+          value: 0,
+        },
+        {
+          name: "universal-casinotech",
+          value: 55.745361181700986,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2231.4616145567347,
+        },
+        {
+          name: "Leopard",
+          value: 128.7113534400512,
+        },
+        {
+          name: "TGLab",
+          value: 109.29488755106186,
+        },
+        {
+          name: "BtoBet",
+          value: 3.1371848284074146,
+        },
+        {
+          name: "Everymatrix",
+          value: 20.10398682763545,
+        },
+        {
+          name: "Reevo",
+          value: 230.38378757397496,
+        },
+        {
+          name: "Slotegrator",
+          value: 47.128166671014256,
+        },
+        {
+          name: "MrSlotty",
+          value: 167.0601939648721,
+        },
+        {
+          name: "Evoplay",
+          value: 609.740762444763,
+        },
+        {
+          name: "Betmexico",
+          value: 0.5010816092483181,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1771.6219234618932,
+        },
+        {
+          name: "Optimus",
+          value: 186.21657581656584,
+        },
+        {
+          name: "BetConstruct",
+          value: 9.907181514778195,
+        },
+        {
+          name: "Intralot",
+          value: 928.4086498440187,
+        },
+      ],
+      total: 22565.21814684337,
+      period: "2026-04-02T04:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Reevo",
+          value: 637.4763333420285,
+        },
+        {
+          name: "Easit",
+          value: 5.1,
+        },
+        {
+          name: "BetB2B",
+          value: 154.34745550567345,
+        },
+        {
+          name: "Everymatrix",
+          value: 20.39819151291792,
+        },
+        {
+          name: "BetConstruct",
+          value: 12.615581298942569,
+        },
+        {
+          name: "Intralot",
+          value: 819.2959582361108,
+        },
+        {
+          name: "Comtrade",
+          value: 16.93638304942752,
+        },
+        {
+          name: "Evoplay",
+          value: 355.98726711839555,
+        },
+        {
+          name: "TGLab",
+          value: 157.0358781537197,
+        },
+        {
+          name: "Virtualsoft",
+          value: 94.86312284383715,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2051.9413553520617,
+        },
+        {
+          name: "universal-casinotech",
+          value: 84.70399036700019,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "MrSlotty",
+          value: 112.7676035519836,
+        },
+        {
+          name: "ORYX",
+          value: 1547.1423677316664,
+        },
+        {
+          name: "EGT New Platform",
+          value: 523.54,
+        },
+        {
+          name: "Slotegrator",
+          value: 109.56531500294378,
+        },
+        {
+          name: "Leopard",
+          value: 129.67373218314466,
+        },
+        {
+          name: "Avento",
+          value: 0,
+        },
+        {
+          name: "Baby Leopard",
+          value: 11684.24,
+        },
+        {
+          name: "TopSport",
+          value: 47.5,
+        },
+        {
+          name: "Efbet",
+          value: 90,
+        },
+        {
+          name: "Optimus",
+          value: 211.87176236124216,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1624.0697998811588,
+        },
+        {
+          name: "Pariplay",
+          value: 18.958428519652447,
+        },
+      ],
+      total: 20510.030526011906,
+      period: "2026-04-02T04:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Baby Leopard",
+          value: 15340.17,
+        },
+        {
+          name: "Intralot",
+          value: 1014.0156817203066,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "Virtualsoft",
+          value: 120.10630193352412,
+        },
+        {
+          name: "Reevo",
+          value: 663.615366394959,
+        },
+        {
+          name: "Comtrade",
+          value: 5.462400323411193,
+        },
+        {
+          name: "Optimus",
+          value: 179.21520861102738,
+        },
+        {
+          name: "Everymatrix",
+          value: 11.47398272601633,
+        },
+        {
+          name: "TopSport",
+          value: 47.9,
+        },
+        {
+          name: "universal-casinotech",
+          value: 43.72753006980181,
+        },
+        {
+          name: "TGLab",
+          value: 124.86336408053899,
+        },
+        {
+          name: "BtoBet",
+          value: 7.770565498055288,
+        },
+        {
+          name: "Pariplay",
+          value: 24.405531594175073,
+        },
+        {
+          name: "Easit",
+          value: 20.7,
+        },
+        {
+          name: "Gaming1",
+          value: 0,
+        },
+        {
+          name: "EGT New Platform",
+          value: 412.73,
+        },
+        {
+          name: "Leopard",
+          value: 94.79801716672206,
+        },
+        {
+          name: "Skywind360",
+          value: 11.415141788959836,
+        },
+        {
+          name: "Slotegrator",
+          value: 143.5022305261349,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1976.6838388071483,
+        },
+        {
+          name: "Digitain",
+          value: 0.569015709284046,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2657.373323762783,
+        },
+        {
+          name: "BetB2B",
+          value: 247.44845764642596,
+        },
+        {
+          name: "Evoplay",
+          value: 246.38478295011495,
+        },
+        {
+          name: "Admiralbet",
+          value: 0.6,
+        },
+        {
+          name: "BetConstruct",
+          value: 10.519722307358569,
+        },
+        {
+          name: "MrSlotty",
+          value: 180.10789966440277,
+        },
+        {
+          name: "Efbet",
+          value: 133.79999999999998,
+        },
+        {
+          name: "ORYX",
+          value: 775.2442406895351,
+        },
+      ],
+      total: 24494.602603970685,
+      period: "2026-04-02T04:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Crystalbet",
+          value: 5.373627883943119,
+        },
+        {
+          name: "BlueOcean",
+          value: 1.12,
+        },
+        {
+          name: "Comtrade",
+          value: 15.475166445857921,
+        },
+        {
+          name: "TopSport",
+          value: 43.55,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Virtualsoft",
+          value: 116.59898062994311,
+        },
+        {
+          name: "Efbet",
+          value: 86.35,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2190.888061787335,
+        },
+        {
+          name: "TGLab",
+          value: 35.30236262827024,
+        },
+        {
+          name: "BtoBet",
+          value: 29.815321965364312,
+        },
+        {
+          name: "universal-casinotech",
+          value: 36.19828648162402,
+        },
+        {
+          name: "Optimus",
+          value: 68.03696096095891,
+        },
+        {
+          name: "EGT New Platform",
+          value: 264.51,
+        },
+        {
+          name: "Everymatrix",
+          value: 17.84841757380318,
+        },
+        {
+          name: "Pariplay",
+          value: 4.833729667062466,
+        },
+        {
+          name: "Digitain",
+          value: 1.410169366486549,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2622.9649147287946,
+        },
+        {
+          name: "Slotegrator",
+          value: 61.19405486312882,
+        },
+        {
+          name: "Evoplay",
+          value: 190.4622372759246,
+        },
+        {
+          name: "Leopard",
+          value: 101.6039398460282,
+        },
+        {
+          name: "Intralot",
+          value: 1079.7295741985797,
+        },
+        {
+          name: "Easit",
+          value: 11.1,
+        },
+        {
+          name: "Baby Leopard",
+          value: 7419.200000000001,
+        },
+        {
+          name: "Skywind360",
+          value: 18.368179184468875,
+        },
+        {
+          name: "Gaming1",
+          value: 0.1,
+        },
+        {
+          name: "ORYX",
+          value: 1058.2239457562987,
+        },
+        {
+          name: "MrSlotty",
+          value: 248.7652053767226,
+        },
+        {
+          name: "BetB2B",
+          value: 175.4978481287221,
+        },
+        {
+          name: "Betmexico",
+          value: 0.15867584292863407,
+        },
+        {
+          name: "Reevo",
+          value: 816.5029,
+        },
+        {
+          name: "BetConstruct",
+          value: 2.4767953786945487,
+        },
+      ],
+      total: 16723.65935597094,
+      period: "2026-04-02T05:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: 28.517582960509557,
+        },
+        {
+          name: "Everymatrix",
+          value: 15.494780091543419,
+        },
+        {
+          name: "Comtrade",
+          value: 5.531048083310435,
+        },
+        {
+          name: "Slotegrator",
+          value: 61.51092141510205,
+        },
+        {
+          name: "BetConstruct",
+          value: 20.613329280748182,
+        },
+        {
+          name: "Efbet",
+          value: 634.25,
+        },
+        {
+          name: "Evoplay",
+          value: 58.598275884102286,
+        },
+        {
+          name: "Crystalbet",
+          value: 8.268110488895104,
+        },
+        {
+          name: "TGLab",
+          value: 37.02349759085098,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1202.88,
+        },
+        {
+          name: "ORYX",
+          value: 677.5033101537143,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2586.54,
+        },
+        {
+          name: "Digitain",
+          value: 0,
+        },
+        {
+          name: "BetB2B",
+          value: 130.24987447448632,
+        },
+        {
+          name: "Intralot",
+          value: 804.6005828343647,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2542.4038344793858,
+        },
+        {
+          name: "BtoBet",
+          value: 11.776509202021678,
+        },
+        {
+          name: "Optimus",
+          value: 108.21194401775728,
+        },
+        {
+          name: "Reevo",
+          value: 452.85,
+        },
+        {
+          name: "Pariplay",
+          value: 21.11236050109378,
+        },
+        {
+          name: "universal-casinotech",
+          value: 34.17118243865307,
+        },
+        {
+          name: "Easit",
+          value: 2.9,
+        },
+        {
+          name: "BlueOcean",
+          value: 11.517281499761083,
+        },
+        {
+          name: "Virtualsoft",
+          value: 104.16606647995383,
+        },
+        {
+          name: "MrSlotty",
+          value: 435.6017995988339,
+        },
+        {
+          name: "Skywind360",
+          value: 1.0983641583878878,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2011.300338268138,
+        },
+        {
+          name: "TopSport",
+          value: 98.05,
+        },
+      ],
+      total: 12106.740993901614,
+      period: "2026-04-02T05:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: 137.34307435175572,
+        },
+        {
+          name: "Skywind360",
+          value: 10.012766122446727,
+        },
+        {
+          name: "Everymatrix",
+          value: 7.842641624196689,
+        },
+        {
+          name: "Virtualsoft",
+          value: 60.62499228138315,
+        },
+        {
+          name: "Comtrade",
+          value: 2.0594327969772896,
+        },
+        {
+          name: "Reevo",
+          value: 567.95,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2851.4043092757106,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.41211765676735723,
+        },
+        {
+          name: "BetB2B",
+          value: 153.55474710625725,
+        },
+        {
+          name: "Goldrush",
+          value: 34.45,
+        },
+        {
+          name: "Asvla",
+          value: 0.09659007580484934,
+        },
+        {
+          name: "Evoplay",
+          value: 55.28838832318791,
+        },
+        {
+          name: "MrSlotty",
+          value: 151.86670057255515,
+        },
+        {
+          name: "universal-casinotech",
+          value: 53.71825713873004,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3489.1,
+        },
+        {
+          name: "ORYX",
+          value: 363.13072327748574,
+        },
+        {
+          name: "BetConstruct",
+          value: 94.88256877069968,
+        },
+        {
+          name: "TopSport",
+          value: 120.13,
+        },
+        {
+          name: "Intralot",
+          value: 877.9601824724439,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1786.1648338210337,
+        },
+        {
+          name: "Optimus",
+          value: 52.938252814173985,
+        },
+        {
+          name: "EGT New Platform",
+          value: 441.11,
+        },
+        {
+          name: "TGLab",
+          value: 52.00031441147441,
+        },
+        {
+          name: "BtoBet",
+          value: 11.583451674119685,
+        },
+        {
+          name: "Pariplay",
+          value: 21.624259699195814,
+        },
+        {
+          name: "Slotegrator",
+          value: 119.86206151922482,
+        },
+        {
+          name: "Efbet",
+          value: 68.35,
+        },
+      ],
+      total: 11585.460665785624,
+      period: "2026-04-02T05:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "iSOFTBET",
+          value: 2240.9041543956387,
+        },
+        {
+          name: "Evoplay",
+          value: 95.28,
+        },
+        {
+          name: "Skywind360",
+          value: 12.04277845089577,
+        },
+        {
+          name: "MrSlotty",
+          value: 110.4380325587681,
+        },
+        {
+          name: "ORYX",
+          value: 373.3457315288538,
+        },
+        {
+          name: "EGT New Platform",
+          value: 552.1,
+        },
+        {
+          name: "Slotegrator",
+          value: 28.588131236141564,
+        },
+        {
+          name: "Reevo",
+          value: 209.65,
+        },
+        {
+          name: "Comtrade",
+          value: 7.714046848106362,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2753.509074908359,
+        },
+        {
+          name: "Goldrush",
+          value: 3.15,
+        },
+        {
+          name: "Everymatrix",
+          value: 9.610686385894018,
+        },
+        {
+          name: "Virtualsoft",
+          value: 110.17748389255527,
+        },
+        {
+          name: "universal-casinotech",
+          value: 9.84593392300173,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2828.92,
+        },
+        {
+          name: "TGLab",
+          value: 26.355466078514425,
+        },
+        {
+          name: "TopSport",
+          value: 151.05,
+        },
+        {
+          name: "Leopard",
+          value: 32.869316145860154,
+        },
+        {
+          name: "Intralot",
+          value: 772.2656466589626,
+        },
+        {
+          name: "Asvla",
+          value: 0.07083272225688952,
+        },
+        {
+          name: "Pariplay",
+          value: 17.90516483941232,
+        },
+        {
+          name: "BetB2B",
+          value: 171.48378533324572,
+        },
+        {
+          name: "Efbet",
+          value: 79.2,
+        },
+        {
+          name: "BetConstruct",
+          value: 79.83537103992097,
+        },
+        {
+          name: "Optimus",
+          value: 98.54362492261792,
+        },
+        {
+          name: "BtoBet",
+          value: 0.4826438197549868,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.032196691934949784,
+        },
+        {
+          name: "Easit",
+          value: 14.75,
+        },
+      ],
+      total: 10790.120102380695,
+      period: "2026-04-02T05:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: 51.96597814570168,
+        },
+        {
+          name: "TGLab",
+          value: 34.654354375716196,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1638.5241187300667,
+        },
+        {
+          name: "Crystalbet",
+          value: 1.5776379048125393,
+        },
+        {
+          name: "BetB2B",
+          value: 144.74293396730295,
+        },
+        {
+          name: "Goldrush",
+          value: 9.3,
+        },
+        {
+          name: "Optimus",
+          value: 126.27200783416396,
+        },
+        {
+          name: "MrSlotty",
+          value: 348.89117696172764,
+        },
+        {
+          name: "Betmexico",
+          value: 0.13362176246621818,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2630.6728545318424,
+        },
+        {
+          name: "Efbet",
+          value: 81,
+        },
+        {
+          name: "TopSport",
+          value: 359.26,
+        },
+        {
+          name: "ORYX",
+          value: 460.71055584159774,
+        },
+        {
+          name: "Skywind360",
+          value: 8.257344833594658,
+        },
+        {
+          name: "Reevo",
+          value: 517.6972473154725,
+        },
+        {
+          name: "Intralot",
+          value: 1351.3653039040598,
+        },
+        {
+          name: "Virtualsoft",
+          value: 300.36392009301903,
+        },
+        {
+          name: "Pariplay",
+          value: 79.72973866897807,
+        },
+        {
+          name: "EGT New Platform",
+          value: 668.23,
+        },
+        {
+          name: "Asvla",
+          value: 3.2840625773648773,
+        },
+        {
+          name: "Everymatrix",
+          value: 14.710234264123498,
+        },
+        {
+          name: "BetConstruct",
+          value: 10.652883349223867,
+        },
+        {
+          name: "BtoBet",
+          value: 18.31633295970175,
+        },
+        {
+          name: "Avento",
+          value: 0,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2538.76,
+        },
+        {
+          name: "Evoplay",
+          value: 120.39,
+        },
+        {
+          name: "Comtrade",
+          value: 29.18510478002102,
+        },
+        {
+          name: "Easit",
+          value: 35.425936582675035,
+        },
+        {
+          name: "Slotegrator",
+          value: 261.6705106373367,
+        },
+        {
+          name: "WeAreCasino",
+          value: 0.1851794368212741,
+        },
+      ],
+      total: 11845.929039457791,
+      period: "2026-04-02T05:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Intralot",
+          value: 914.4527764836668,
+        },
+        {
+          name: "BetB2B",
+          value: 10.724639591609568,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2204.8900000000003,
+        },
+        {
+          name: "Slotegrator",
+          value: 54.616509795452835,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2895.8199038002986,
+        },
+        {
+          name: "TGLab",
+          value: 11.861368448923999,
+        },
+        {
+          name: "Evoplay",
+          value: 87.03769948974724,
+        },
+        {
+          name: "WeAreCasino",
+          value: 8.842318108215839,
+        },
+        {
+          name: "Asvla",
+          value: 2.060588283836786,
+        },
+        {
+          name: "Optimus",
+          value: 123.41208539967545,
+        },
+        {
+          name: "Dench",
+          value: 0,
+        },
+        {
+          name: "EGT New Platform",
+          value: 932.91,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1590.7296827716746,
+        },
+        {
+          name: "TopSport",
+          value: 273.02,
+        },
+        {
+          name: "Pariplay",
+          value: 55.46913572981563,
+        },
+        {
+          name: "Everymatrix",
+          value: 11.37591449758884,
+        },
+        {
+          name: "Reevo",
+          value: 799.4921431033705,
+        },
+        {
+          name: "Leopard",
+          value: 53.46768482194262,
+        },
+        {
+          name: "Virtualsoft",
+          value: 63.29315001908167,
+        },
+        {
+          name: "Skywind360",
+          value: 17.75034934537569,
+        },
+        {
+          name: "ORYX",
+          value: 481.1990953243028,
+        },
+        {
+          name: "Easit",
+          value: 29.799999999999997,
+        },
+        {
+          name: "Avento",
+          value: 1.4710234264123498,
+        },
+        {
+          name: "BtoBet",
+          value: 29.21201719067058,
+        },
+        {
+          name: "Efbet",
+          value: 71.4,
+        },
+        {
+          name: "MrSlotty",
+          value: 224.4709021152488,
+        },
+        {
+          name: "BetConstruct",
+          value: 13.422633020022072,
+        },
+        {
+          name: "Crystalbet",
+          value: 9.272647277265536,
+        },
+        {
+          name: "Comtrade",
+          value: 55.88908338082655,
+        },
+      ],
+      total: 11027.363351425025,
+      period: "2026-04-02T05:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Skywind360",
+          value: 12.493892301662225,
+        },
+        {
+          name: "Virtualsoft",
+          value: 688.8793593676083,
+        },
+        {
+          name: "Reevo",
+          value: 2058.55,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2788.39,
+        },
+        {
+          name: "Everymatrix",
+          value: 25.218078381545908,
+        },
+        {
+          name: "Comtrade",
+          value: 27.05898558771304,
+        },
+        {
+          name: "ORYX",
+          value: 428.3991110067152,
+        },
+        {
+          name: "MrSlotty",
+          value: 181.67294715272064,
+        },
+        {
+          name: "Asvla",
+          value: 0,
+        },
+        {
+          name: "TopSport",
+          value: 212.38,
+        },
+        {
+          name: "Pariplay",
+          value: 46.64939223591292,
+        },
+        {
+          name: "Intralot",
+          value: 680.3620535436008,
+        },
+        {
+          name: "Slotegrator",
+          value: 89.08829392450795,
+        },
+        {
+          name: "Optimus",
+          value: 285.79927290396336,
+        },
+        {
+          name: "BtoBet",
+          value: 7.143128532373805,
+        },
+        {
+          name: "TGLab",
+          value: 10.374392990164722,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2998.7445434695364,
+        },
+        {
+          name: "Evoplay",
+          value: 138.10771737010907,
+        },
+        {
+          name: "BetConstruct",
+          value: 26.605576164686607,
+        },
+        {
+          name: "universal-casinotech",
+          value: 26.931525142328265,
+        },
+        {
+          name: "Crystalbet",
+          value: 9.691204272419885,
+        },
+        {
+          name: "Efbet",
+          value: 51.45,
+        },
+        {
+          name: "Easit",
+          value: 12.5,
+        },
+        {
+          name: "Leopard",
+          value: 96.48527244381651,
+        },
+        {
+          name: "WeAreCasino",
+          value: 0.13888457761595557,
+        },
+        {
+          name: "EGT New Platform",
+          value: 861.63,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1849.8206228096517,
+        },
+      ],
+      total: 13614.564254178653,
+      period: "2026-04-02T05:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Easit",
+          value: 1,
+        },
+        {
+          name: "BetB2B",
+          value: 0.6347033717145363,
+        },
+        {
+          name: "Comtrade",
+          value: 4.685699954265472,
+        },
+        {
+          name: "Pariplay",
+          value: 34.180526258558174,
+        },
+        {
+          name: "Intralot",
+          value: 1425.4140395326717,
+        },
+        {
+          name: "Slotegrator",
+          value: 80.92,
+        },
+        {
+          name: "universal-casinotech",
+          value: 23.022110202312874,
+        },
+        {
+          name: "Reevo",
+          value: 4734.6,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "TopSport",
+          value: 381.27,
+        },
+        {
+          name: "ORYX",
+          value: 722.5157026139672,
+        },
+        {
+          name: "Leopard",
+          value: 56.42656651021966,
+        },
+        {
+          name: "Evoplay",
+          value: 155.27818228542372,
+        },
+        {
+          name: "BtoBet",
+          value: 19.06443088032198,
+        },
+        {
+          name: "Virtualsoft",
+          value: 177.76895078049208,
+        },
+        {
+          name: "TGLab",
+          value: 214.66979474536924,
+        },
+        {
+          name: "Crystalbet",
+          value: 7.212058993428752,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3264.13,
+        },
+        {
+          name: "BetConstruct",
+          value: 14.860772272167294,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1005.91,
+        },
+        {
+          name: "Skywind360",
+          value: 0.049034114213745,
+        },
+        {
+          name: "Optimus",
+          value: 154.21315314135532,
+        },
+        {
+          name: "MrSlotty",
+          value: 89.19388534541048,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1907.5976989399908,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3070.4686958324187,
+        },
+        {
+          name: "Efbet",
+          value: 57.15,
+        },
+        {
+          name: "Asvla",
+          value: 8.113566367607344,
+        },
+        {
+          name: "Everymatrix",
+          value: 15.909802894109692,
+        },
+      ],
+      total: 17626.259375036017,
+      period: "2026-04-02T05:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "universal-casinotech",
+          value: 20.56062672156244,
+        },
+        {
+          name: "Digitain",
+          value: 0.2504379720015624,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2928.0316528642393,
+        },
+        {
+          name: "Comtrade",
+          value: 7.257048903634259,
+        },
+        {
+          name: "TGLab",
+          value: 178.09207674468107,
+        },
+        {
+          name: "Everymatrix",
+          value: 19.88473487667586,
+        },
+        {
+          name: "Leopard",
+          value: 43.49754000274825,
+        },
+        {
+          name: "Optimus",
+          value: 86.21330190056712,
+        },
+        {
+          name: "Pariplay",
+          value: 12.721212074515499,
+        },
+        {
+          name: "Asvla",
+          value: 14.391921294922552,
+        },
+        {
+          name: "Slotegrator",
+          value: 19.61372993951697,
+        },
+        {
+          name: "ORYX",
+          value: 437.1108905005911,
+        },
+        {
+          name: "TopSport",
+          value: 450.47,
+        },
+        {
+          name: "BetConstruct",
+          value: 11.425217392042596,
+        },
+        {
+          name: "Efbet",
+          value: 123.3,
+        },
+        {
+          name: "Evoplay",
+          value: 162.96981181996745,
+        },
+        {
+          name: "EGT New Platform",
+          value: 638.45,
+        },
+        {
+          name: "BtoBet",
+          value: 12.066095493874672,
+        },
+        {
+          name: "Virtualsoft",
+          value: 177.36167503757636,
+        },
+        {
+          name: "Baby Leopard",
+          value: 2916.0699999999997,
+        },
+        {
+          name: "Reevo",
+          value: 2135.5,
+        },
+        {
+          name: "Easit",
+          value: 0.9,
+        },
+        {
+          name: "Intralot",
+          value: 1135.93595636912,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1921.6358416183414,
+        },
+        {
+          name: "MrSlotty",
+          value: 68.31775068186008,
+        },
+      ],
+      total: 13522.027522208438,
+      period: "2026-04-02T05:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Baby Leopard",
+          value: 3947.5299999999997,
+        },
+        {
+          name: "Avento",
+          value: 13.478497315074225,
+        },
+        {
+          name: "MrSlotty",
+          value: 105.20062266403217,
+        },
+        {
+          name: "SoftSwiss",
+          value: 2.2,
+        },
+        {
+          name: "Everymatrix",
+          value: 14.186797484456559,
+        },
+        {
+          name: "EGT New Platform",
+          value: 635.86,
+        },
+        {
+          name: "Easit",
+          value: 2.75,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3035.518356313115,
+        },
+        {
+          name: "BtoBet",
+          value: 12.06609549387467,
+        },
+        {
+          name: "Intralot",
+          value: 1297.157898660048,
+        },
+        {
+          name: "Comtrade",
+          value: 3.8933086685713527,
+        },
+        {
+          name: "Skywind360",
+          value: 0.29420468528246996,
+        },
+        {
+          name: "Asvla",
+          value: 150.18146953057325,
+        },
+        {
+          name: "Reevo",
+          value: 2332.2632997054043,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.22537684354464846,
+        },
+        {
+          name: "universal-casinotech",
+          value: 38.143341075236606,
+        },
+        {
+          name: "Evoplay",
+          value: 147.04226907189627,
+        },
+        {
+          name: "TopSport",
+          value: 112.82,
+        },
+        {
+          name: "Leopard",
+          value: 28.802090815151583,
+        },
+        {
+          name: "Pariplay",
+          value: 16.315085664312,
+        },
+        {
+          name: "Optimus",
+          value: 80.18173538215622,
+        },
+        {
+          name: "TGLab",
+          value: 18.077865008932783,
+        },
+        {
+          name: "ORYX",
+          value: 200.67911745230265,
+        },
+        {
+          name: "BetConstruct",
+          value: 36.539389887837864,
+        },
+        {
+          name: "Efbet",
+          value: 144.45,
+        },
+        {
+          name: "Virtualsoft",
+          value: 207.6735023101161,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2013.8547777958402,
+        },
+      ],
+      total: 14597.385101827758,
+      period: "2026-04-02T05:45:00.000Z",
     },
     {
       items: [
         {
           name: "Slotegrator",
-          value: 24.31163921383282,
+          value: 1.9162983800464142,
         },
         {
-          name: "Leopard",
-          value: -0.5548926397796492,
-        },
-        {
-          name: "MrSlotty",
-          value: 13.460404765255698,
-        },
-        {
-          name: "BlueOcean",
-          value: 199.5159710909425,
-        },
-        {
-          name: "BetB2B",
-          value: 19.388149564475924,
+          name: "SoftSwiss",
+          value: 3.2,
         },
         {
           name: "Intralot",
-          value: 104.29827557418719,
-        },
-        {
-          name: "Everymatrix",
-          value: 3.760801859404569,
-        },
-        {
-          name: "Baby Leopard",
-          value: 292.28,
-        },
-        {
-          name: "iSOFTBET",
-          value: 84.57380990823324,
+          value: 1675.4964437630101,
         },
         {
           name: "EGT New Platform",
-          value: -123.15,
+          value: 975.76,
         },
         {
-          name: "Evoplay",
-          value: -117.2869528685325,
+          name: "Gaming1",
+          value: 10.120000000000001,
         },
         {
-          name: "Efbet",
-          value: 14.8,
+          name: "Virtualsoft",
+          value: 256.72140755611287,
         },
         {
-          name: "Skywind360",
-          value: 0.9343119441944545,
+          name: "Comtrade",
+          value: 0.27459103959697195,
+        },
+        {
+          name: "Asvla",
+          value: 130.47709406638398,
         },
         {
           name: "Newton",
-          value: 12.081281547304343,
+          value: 3.0205014355666915,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5304.81,
+        },
+        {
+          name: "Optimus",
+          value: 198.96994964856262,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2165.4545756389475,
+        },
+        {
+          name: "Efbet",
+          value: 71.55,
+        },
+        {
+          name: "TopSport",
+          value: 72.74000000000001,
+        },
+        {
+          name: "Leopard",
+          value: 87.69274274470563,
+        },
+        {
+          name: "universal-casinotech",
+          value: 58.20684466245141,
+        },
+        {
+          name: "Everymatrix",
+          value: 13.337279066138638,
+        },
+        {
+          name: "TGLab",
+          value: 17.315281384188026,
+        },
+        {
+          name: "ORYX",
+          value: 360.78273189468507,
+        },
+        {
+          name: "Betmexico",
+          value: 0.6848115326393681,
+        },
+        {
+          name: "BetB2B",
+          value: 0.13362176246621818,
+        },
+        {
+          name: "Crystalbet",
+          value: 63.169909576371474,
+        },
+        {
+          name: "Easit",
+          value: 14.4429389369387,
+        },
+        {
+          name: "Avento",
+          value: 3.9619564284705957,
+        },
+        {
+          name: "Evoplay",
+          value: 127.58430079219754,
+        },
+        {
+          name: "Goldrush",
+          value: 0.15,
+        },
+        {
+          name: "BetConstruct",
+          value: 75.70226495916489,
+        },
+        {
+          name: "BtoBet",
+          value: 17.505491342513373,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2998.2701376717546,
+        },
+        {
+          name: "Pariplay",
+          value: 28.11927196401073,
+        },
+        {
+          name: "Reevo",
+          value: 2078.0366,
+        },
+        {
+          name: "MrSlotty",
+          value: 31.869858757312674,
+        },
+      ],
+      total: 16847.476905004238,
+      period: "2026-04-02T05:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Slotegrator",
+          value: 21.970952841054565,
+        },
+        {
+          name: "universal-casinotech",
+          value: 61.24750072690783,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4953.27,
+        },
+        {
+          name: "Newton",
+          value: 1.2650801467146209,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2106.847097181236,
+        },
+        {
+          name: "EGT New Platform",
+          value: 962.6,
+        },
+        {
+          name: "Reevo",
+          value: 1039.05,
+        },
+        {
+          name: "Intralot",
+          value: 1101.3101134685135,
+        },
+        {
+          name: "Pariplay",
+          value: 23.906081733964072,
+        },
+        {
+          name: "Gaming1",
+          value: 52.92,
+        },
+        {
+          name: "Everymatrix",
+          value: 8.8261405584741,
+        },
+        {
+          name: "MrSlotty",
+          value: 16.542552397065894,
+        },
+        {
+          name: "Crystalbet",
+          value: 50.03365926691196,
+        },
+        {
+          name: "BetConstruct",
+          value: 65.86382710528648,
+        },
+        {
+          name: "Skywind360",
+          value: 2.3340238365742616,
+        },
+        {
+          name: "Comtrade",
+          value: 2.902819561453704,
+        },
+        {
+          name: "Efbet",
+          value: 52.8,
+        },
+        {
+          name: "Easit",
+          value: 6.198587787387741,
+        },
+        {
+          name: "ORYX",
+          value: 344.14838681574986,
+        },
+        {
+          name: "BtoBet",
+          value: 5.791725837059842,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2889.622354594442,
+        },
+        {
+          name: "Digitain",
+          value: 8.251931177451482,
+        },
+        {
+          name: "TGLab",
+          value: 6.594031802801139,
+        },
+        {
+          name: "Admiralbet",
+          value: 0,
+        },
+        {
+          name: "Virtualsoft",
+          value: 278.34066170915924,
+        },
+        {
+          name: "Optimus",
+          value: 231.4904344248182,
+        },
+        {
+          name: "Leopard",
+          value: 151.94203826690858,
+        },
+        {
+          name: "Asvla",
+          value: 5.85979793216086,
+        },
+        {
+          name: "Evoplay",
+          value: 123.77199111629386,
+        },
+        {
+          name: "TopSport",
+          value: 76.16,
+        },
+      ],
+      total: 14651.86179028839,
+      period: "2026-04-02T05:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "MrSlotty",
+          value: 109.20801038011709,
+        },
+        {
+          name: "Slotegrator",
+          value: 17.39737437035656,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2266.003508506913,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1208.3087192743403,
+        },
+        {
+          name: "Gaming1",
+          value: 21.54,
+        },
+        {
+          name: "Avento",
+          value: 0.5884093705649399,
+        },
+        {
+          name: "Leris",
+          value: 1.2,
+        },
+        {
+          name: "Newton",
+          value: 0.22555692538322697,
+        },
+        {
+          name: "Efbet",
+          value: 86.25,
+        },
+        {
+          name: "universal-casinotech",
+          value: 65.15691566692323,
+        },
+        {
+          name: "TopSport",
+          value: 136.8,
+        },
+        {
+          name: "TGLab",
+          value: 26.521381234965457,
+        },
+        {
+          name: "Evoplay",
+          value: 124.74650106878666,
+        },
+        {
+          name: "Skywind360",
+          value: 3.9129223142568508,
+        },
+        {
+          name: "Virtualsoft",
+          value: 300.04335687906564,
+        },
+        {
+          name: "Crystalbet",
+          value: 10.49612157079363,
+        },
+        {
+          name: "Leopard",
+          value: 41.92656184885534,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5007.19,
+        },
+        {
+          name: "BetConstruct",
+          value: 17.579979172740185,
+        },
+        {
+          name: "Pariplay",
+          value: 32.64418384349125,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2085.719918263048,
+        },
+        {
+          name: "Optimus",
+          value: 121.5714432792088,
+        },
+        {
+          name: "Reevo",
+          value: 1046.34,
+        },
+        {
+          name: "Easit",
+          value: 73.7174207283438,
+        },
+        {
+          name: "ORYX",
+          value: 310.3383935708857,
+        },
+        {
+          name: "Intralot",
+          value: 857.0811490997667,
+        },
+        {
+          name: "Everymatrix",
+          value: 10.19909575645896,
+        },
+        {
+          name: "Asvla",
+          value: 40.98638883319107,
+        },
+        {
+          name: "Comtrade",
+          value: 2.814558155868963,
+        },
+      ],
+      total: 14026.507870114325,
+      period: "2026-04-02T06:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "TopSport",
+          value: 347.29999999999995,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1035.2057640763555,
+        },
+        {
+          name: "Slotegrator",
+          value: 116.67876595719287,
+        },
+        {
+          name: "Leopard",
+          value: 35.679758953454396,
+        },
+        {
+          name: "Reevo",
+          value: 1589.12,
+        },
+        {
+          name: "ORYX",
+          value: 287.58897220184934,
+        },
+        {
+          name: "Virtualsoft",
+          value: 211.37275737650018,
+        },
+        {
+          name: "Easit",
+          value: 179.9596829133752,
+        },
+        {
+          name: "MrSlotty",
+          value: 72.57893707837617,
+        },
+        {
+          name: "TGLab",
+          value: 10.99422697086859,
+        },
+        {
+          name: "Crystalbet",
+          value: 78.27015809386292,
+        },
+        {
+          name: "Intralot",
+          value: 788.9353329596404,
+        },
+        {
+          name: "Skywind360",
+          value: 6.1979120366173674,
+        },
+        {
+          name: "Pariplay",
+          value: 48.85767741033507,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2857.402844686159,
+        },
+        {
+          name: "Optimus",
+          value: 128.62229011164152,
+        },
+        {
+          name: "Evoplay",
+          value: 98.71393831257309,
+        },
+        {
+          name: "Efbet",
+          value: 81.6,
+        },
+        {
+          name: "Peppermill",
+          value: 70.4,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5050.54,
+        },
+        {
+          name: "Comtrade",
+          value: 7.800346889122554,
+        },
+        {
+          name: "universal-casinotech",
+          value: 55.60056803577449,
+        },
+        {
+          name: "Everymatrix",
+          value: 3.490806434518267,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1725.985236422602,
+        },
+      ],
+      total: 14888.89597692082,
+      period: "2026-04-02T06:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Skywind360",
+          value: 12.082005742266768,
+        },
+        {
+          name: "Slotegrator",
+          value: 444.05108510987935,
+        },
+        {
+          name: "MrSlotty",
+          value: 141.5386240158793,
+        },
+        {
+          name: "Peppermill",
+          value: 178,
+        },
+        {
+          name: "Virtualsoft",
+          value: 246.10794792653328,
+        },
+        {
+          name: "Pariplay",
+          value: 24.208142536531078,
+        },
+        {
+          name: "Crystalbet",
+          value: 31.649348172055635,
+        },
+        {
+          name: "Evoplay",
+          value: 208.60915003402337,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5554.7,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2037.0498936606193,
+        },
+        {
+          name: "Intralot",
+          value: 911.2514446236079,
+        },
+        {
+          name: "Easit",
+          value: 23.4,
+        },
+        {
+          name: "Leopard",
+          value: 32.32256626867853,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2419.3896945923457,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1379.52,
+        },
+        {
+          name: "ORYX",
+          value: 245.02629243018416,
+        },
+        {
+          name: "TopSport",
+          value: 286.4,
+        },
+        {
+          name: "TGLab",
+          value: 21.277836196182747,
+        },
+        {
+          name: "Comtrade",
+          value: 9.98334565391848,
+        },
+        {
+          name: "Optimus",
+          value: 227.50732445982987,
+        },
+        {
+          name: "Efbet",
+          value: 48.6,
+        },
+        {
+          name: "Reevo",
+          value: 2147.68,
+        },
+        {
+          name: "universal-casinotech",
+          value: 30.551353790490666,
+        },
+        {
+          name: "BetB2B",
+          value: 0.20214757924294752,
+        },
+      ],
+      total: 16661.108202792268,
+      period: "2026-04-02T06:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "ORYX",
+          value: 301.4550364222642,
+        },
+        {
+          name: "Comtrade",
+          value: 14.131631716401309,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1416.37,
+        },
+        {
+          name: "Evoplay",
+          value: 91.29070001137335,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2018.9716107284548,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3157.37,
+        },
+        {
+          name: "universal-casinotech",
+          value: 39.81811512978641,
+        },
+        {
+          name: "Leopard",
+          value: 104.02596758250246,
+        },
+        {
+          name: "Easit",
+          value: 0.25,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2406.4864026364357,
+        },
+        {
+          name: "Skywind360",
+          value: 4.550365799035536,
+        },
+        {
+          name: "Reevo",
+          value: 1288.64,
+        },
+        {
+          name: "BlueOcean",
+          value: 1.7151608131927734,
+        },
+        {
+          name: "MrSlotty",
+          value: 237.29907877450853,
+        },
+        {
+          name: "Peppermill",
+          value: 72,
+        },
+        {
+          name: "Efbet",
+          value: 78.6,
+        },
+        {
+          name: "BetB2B",
+          value: 62.075417267756166,
+        },
+        {
+          name: "TopSport",
+          value: 179.05,
+        },
+        {
+          name: "TGLab",
+          value: 59.35692983902031,
+        },
+        {
+          name: "Slotegrator",
+          value: 219.94560962292425,
+        },
+        {
+          name: "Everymatrix",
+          value: 34.91813116414205,
+        },
+        {
+          name: "Crystalbet",
+          value: 48.68139820564407,
+        },
+        {
+          name: "Optimus",
+          value: 160.3387309508653,
+        },
+        {
+          name: "Newton",
+          value: 9.855856956962743,
+        },
+        {
+          name: "Pariplay",
+          value: 41.360867856451975,
+        },
+        {
+          name: "Intralot",
+          value: 866.6925666239777,
+        },
+        {
+          name: "Virtualsoft",
+          value: 147.94775467479005,
+        },
+      ],
+      total: 13063.19733277649,
+      period: "2026-04-02T06:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Gaming1",
+          value: 11.82,
+        },
+        {
+          name: "universal-casinotech",
+          value: 80.07060969735232,
+        },
+        {
+          name: "Leopard",
+          value: 51.05307902950249,
+        },
+        {
+          name: "BtoBet",
+          value: 0.5067760107427361,
+        },
+        {
+          name: "Virtualsoft",
+          value: 233.82904809228293,
+        },
+        {
+          name: "Everymatrix",
+          value: 56.487299574234235,
+        },
+        {
+          name: "Slotegrator",
+          value: 16.049729952598536,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1816.5124868984908,
+        },
+        {
+          name: "BetB2B",
+          value: 46.071838653585736,
+        },
+        {
+          name: "Newton",
+          value: 6.080230162504379,
+        },
+        {
+          name: "ORYX",
+          value: 281.4849683546657,
+        },
+        {
+          name: "Easit",
+          value: 53.21,
+        },
+        {
+          name: "Reevo",
+          value: 627.26,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Peppermill",
+          value: 2.8,
+        },
+        {
+          name: "Comtrade",
+          value: 16.024348525051863,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2396.0317798668566,
+        },
+        {
+          name: "TGLab",
+          value: 31.057439002843758,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1742.74,
+        },
+        {
+          name: "Efbet",
+          value: 2.1,
+        },
+        {
+          name: "TopSport",
+          value: 327.29999999999995,
+        },
+        {
+          name: "Skywind360",
+          value: 3.4520016406476475,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.12117814320698923,
+        },
+        {
+          name: "Crystalbet",
+          value: 43.75530433959675,
+        },
+        {
+          name: "Intralot",
+          value: 721.0591807860878,
+        },
+        {
+          name: "Evoplay",
+          value: 260.1245879655772,
+        },
+        {
+          name: "Optimus",
+          value: 267.06628616179466,
+        },
+        {
+          name: "MrSlotty",
+          value: 116.53680496336082,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4272.99,
+        },
+        {
+          name: "Pariplay",
+          value: 66.4249915759189,
+        },
+      ],
+      total: 13550.019969396903,
+      period: "2026-04-02T06:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetB2B",
+          value: 39.61283403428712,
+        },
+        {
+          name: "Reevo",
+          value: 1037.88,
+        },
+        {
+          name: "Leopard",
+          value: 92.598647751272,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1943.42,
+        },
+        {
+          name: "Efbet",
+          value: 7.2,
+        },
+        {
+          name: "Evoplay",
+          value: 213.8553250825178,
+        },
+        {
+          name: "Skywind360",
+          value: 9.59107274020852,
+        },
+        {
+          name: "Slotegrator",
+          value: 12.028986109707082,
+        },
+        {
+          name: "Everymatrix",
+          value: 67.64136215969721,
+        },
+        {
+          name: "Gaming1",
+          value: 5.3,
+        },
+        {
+          name: "Peppermill",
+          value: 0.24,
+        },
+        {
+          name: "Crystalbet",
+          value: 71.02590240849922,
+        },
+        {
+          name: "Optimus",
+          value: 147.04355520437636,
+        },
+        {
+          name: "Easit",
+          value: 9.574207283437962,
+        },
+        {
+          name: "TopSport",
+          value: 277.2,
+        },
+        {
+          name: "Intralot",
+          value: 680.9163594867707,
+        },
+        {
+          name: "ORYX",
+          value: 373.48767356332985,
+        },
+        {
+          name: "Pariplay",
+          value: 24.195537551295523,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2439.890550906962,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2172.1556687032794,
+        },
+        {
+          name: "TGLab",
+          value: 4.495361597428046,
+        },
+        {
+          name: "MrSlotty",
+          value: 111.65678201196542,
+        },
+        {
+          name: "BlueOcean",
+          value: 104.54,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3292.4500000000003,
+        },
+        {
+          name: "Comtrade",
+          value: 21.035634997696604,
+        },
+        {
+          name: "Virtualsoft",
+          value: 318.47046062377706,
+        },
+        {
+          name: "universal-casinotech",
+          value: 48.79529017722917,
+        },
+      ],
+      total: 13526.301212393737,
+      period: "2026-04-02T06:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "ORYX",
+          value: 265.2911474852525,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1823.25,
+        },
+        {
+          name: "TGLab",
+          value: 14.876015536892808,
+        },
+        {
+          name: "Easit",
+          value: 5.503710364171898,
+        },
+        {
+          name: "Skywind360",
+          value: 59.331278198631445,
+        },
+        {
+          name: "Asvla",
+          value: 2.5757353547959823,
+        },
+        {
+          name: "Optimus",
+          value: 65.44670249304414,
+        },
+        {
+          name: "BlueOcean",
+          value: 13.719999999999999,
+        },
+        {
+          name: "Slotegrator",
+          value: 30.150654007103828,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2510.104830401496,
+        },
+        {
+          name: "Crystalbet",
+          value: 13.780184148158506,
+        },
+        {
+          name: "Reevo",
+          value: 724.06,
+        },
+        {
+          name: "Leopard",
+          value: 143.3523750380642,
+        },
+        {
+          name: "Virtualsoft",
+          value: 270.37232854828227,
+        },
+        {
+          name: "MrSlotty",
+          value: 127.35290501687759,
+        },
+        {
+          name: "Intralot",
+          value: 651.4735075033384,
+        },
+        {
+          name: "Efbet",
+          value: 10.69,
+        },
+        {
+          name: "Evoplay",
+          value: 200.2431047930071,
+        },
+        {
+          name: "Comtrade",
+          value: 35.74783062638865,
+        },
+        {
+          name: "BetB2B",
+          value: 108.8456984996794,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1810.309665775362,
+        },
+        {
+          name: "universal-casinotech",
+          value: 21.139799305268422,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3545.5600000000004,
+        },
+        {
+          name: "Everymatrix",
+          value: 82.3773118790916,
+        },
+        {
+          name: "TopSport",
+          value: 250.8,
+        },
+        {
+          name: "Pariplay",
+          value: 24.640854193343905,
+        },
+      ],
+      total: 12810.995639168252,
+      period: "2026-04-02T06:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Crystalbet",
+          value: 12.975266849784761,
+        },
+        {
+          name: "ORYX",
+          value: 322.0711025292085,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "Intralot",
+          value: 655.9019341103751,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3109.6070471853996,
+        },
+        {
+          name: "universal-casinotech",
+          value: 25.194007391210313,
+        },
+        {
+          name: "Admiralbet",
+          value: 2.6,
+        },
+        {
+          name: "Baby Leopard",
+          value: 7708.29,
+        },
+        {
+          name: "Optimus",
+          value: 184.85588607697355,
+        },
+        {
+          name: "Reevo",
+          value: 390.72,
+        },
+        {
+          name: "BetB2B",
+          value: 317.3590209095537,
+        },
+        {
+          name: "Skywind360",
+          value: 27.75330864497967,
+        },
+        {
+          name: "Pariplay",
+          value: 22.0060640612243,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2359.9861835632,
+        },
+        {
+          name: "Asvla",
+          value: 9.143860509525737,
+        },
+        {
+          name: "Easit",
+          value: 8.1,
+        },
+        {
+          name: "TopSport",
+          value: 232.76999999999998,
+        },
+        {
+          name: "Virtualsoft",
+          value: 244.1844720880635,
+        },
+        {
+          name: "EGT New Platform",
+          value: 2066.58,
+        },
+        {
+          name: "BtoBet",
+          value: 12.066095493874672,
+        },
+        {
+          name: "MrSlotty",
+          value: 378.99642049397033,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.8280086684378907,
+        },
+        {
+          name: "Everymatrix",
+          value: 10.591368670168919,
+        },
+        {
+          name: "Comtrade",
+          value: 34.05125027459307,
+        },
+        {
+          name: "TGLab",
+          value: 72.08857024064974,
+        },
+        {
+          name: "Efbet",
+          value: 1.3,
+        },
+        {
+          name: "Leopard",
+          value: 100.3496313042586,
+        },
+        {
+          name: "Evoplay",
+          value: 246.8801917250441,
+        },
+        {
+          name: "Slotegrator",
+          value: 144.19202189166936,
+        },
+        {
+          name: "SoftSwiss",
+          value: 1.9,
+        },
+      ],
+      total: 18703.341712682166,
+      period: "2026-04-02T06:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Intralot",
+          value: 604.4332262149608,
+        },
+        {
+          name: "TGLab",
+          value: 11.232143044270074,
+        },
+        {
+          name: "BtoBet",
+          value: 14.479314592649605,
+        },
+        {
+          name: "Leopard",
+          value: 108.74632398821534,
+        },
+        {
+          name: "BlueOcean",
+          value: 0.7803371286873253,
+        },
+        {
+          name: "SoftSwiss",
+          value: 1.4,
+        },
+        {
+          name: "Comtrade",
+          value: 48.38882527069211,
+        },
+        {
+          name: "TopSport",
+          value: 348.95,
+        },
+        {
+          name: "Reevo",
+          value: 564.4,
+        },
+        {
+          name: "BetB2B",
+          value: 216.57338718815856,
+        },
+        {
+          name: "ORYX",
+          value: 240.415548294869,
+        },
+        {
+          name: "Admiralbet",
+          value: 0,
+        },
+        {
+          name: "Easit",
+          value: 6.125936582675037,
+        },
+        {
+          name: "Skywind360",
+          value: 25.968466887599348,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3658.9399999999996,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3183.2561716766095,
+        },
+        {
+          name: "Pariplay",
+          value: 24.999581488327326,
+        },
+        {
+          name: "Gaming1",
+          value: 8.02,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1662.0067682932859,
+        },
+        {
+          name: "Evoplay",
+          value: 205.78542131710066,
+        },
+        {
+          name: "Asvla",
+          value: 9.143860509525737,
+        },
+        {
+          name: "Optimus",
+          value: 118.71894278875442,
+        },
+        {
+          name: "universal-casinotech",
+          value: 32.361268114571864,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1106.71,
+        },
+        {
+          name: "Efbet",
+          value: 1.3,
+        },
+        {
+          name: "MrSlotty",
+          value: 154.74956748521788,
+        },
+        {
+          name: "Virtualsoft",
+          value: 209.8900624988309,
+        },
+        {
+          name: "Slotegrator",
+          value: 23.083102656532237,
+        },
+        {
+          name: "Crystalbet",
+          value: 9.337040661135436,
+        },
+      ],
+      total: 12600.195296682668,
+      period: "2026-04-02T06:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Crystalbet",
+          value: 39.77579321643696,
+        },
+        {
+          name: "TopSport",
+          value: 608.45,
+        },
+        {
+          name: "Virtualsoft",
+          value: 250.06170080375043,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1752.7,
+        },
+        {
+          name: "Leopard",
+          value: 142.79820321684844,
+        },
+        {
+          name: "Pariplay",
+          value: 19.592505840879966,
+        },
+        {
+          name: "Optimus",
+          value: 141.46472727204798,
+        },
+        {
+          name: "Comtrade",
+          value: 10.067684330366122,
+        },
+        {
+          name: "BetB2B",
+          value: 170.6861912990703,
+        },
+        {
+          name: "TGLab",
+          value: 27.295590835040343,
+        },
+        {
+          name: "Admiralbet",
+          value: 34.2,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3220.5541013129023,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3818.54,
+        },
+        {
+          name: "Asvla",
+          value: 0,
+        },
+        {
+          name: "Evoplay",
+          value: 289.963642129813,
+        },
+        {
+          name: "Gaming1",
+          value: 0.6,
+        },
+        {
+          name: "universal-casinotech",
+          value: 25.53234070885856,
+        },
+        {
+          name: "Efbet",
+          value: 6,
+        },
+        {
+          name: "Skywind360",
+          value: 25.85078501348636,
+        },
+        {
+          name: "Reevo",
+          value: 380.1,
+        },
+        {
+          name: "Slotegrator",
+          value: 61.29703176272394,
+        },
+        {
+          name: "Intralot",
+          value: 462.9709729242576,
+        },
+        {
+          name: "MrSlotty",
+          value: 156.5360548964435,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2042.2684781038718,
+        },
+        {
+          name: "BtoBet",
+          value: 9.12196819336925,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "Easit",
+          value: 4.45,
+        },
+        {
+          name: "BlueOcean",
+          value: 15.616294236158552,
+        },
+        {
+          name: "ORYX",
+          value: 336.6600348950772,
+        },
+      ],
+      total: 14053.154100991404,
+      period: "2026-04-02T06:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetB2B",
+          value: 124.40656240748912,
+        },
+        {
+          name: "Slotegrator",
+          value: 21.423767155591058,
+        },
+        {
+          name: "ORYX",
+          value: 329.1527635087207,
+        },
+        {
+          name: "TGLab",
+          value: 13.646365094365136,
+        },
+        {
+          name: "MrSlotty",
+          value: 59.95033056065096,
+        },
+        {
+          name: "Admiralbet",
+          value: 95.85,
+        },
+        {
+          name: "Pariplay",
+          value: 26.32655132802672,
+        },
+        {
+          name: "BlueOcean",
+          value: 74.09060148118562,
+        },
+        {
+          name: "Reevo",
+          value: 655.5799999999999,
+        },
+        {
+          name: "Efbet",
+          value: 10.1,
+        },
+        {
+          name: "Evoplay",
+          value: 313.42716903502264,
+        },
+        {
+          name: "Easit",
+          value: 2.52,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1865.98,
+        },
+        {
+          name: "Skywind360",
+          value: 27.772922290665164,
+        },
+        {
+          name: "Optimus",
+          value: 114.15939517044791,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3540.8342212626603,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6062.2699999999995,
+        },
+        {
+          name: "Virtualsoft",
+          value: 176.80490613351287,
+        },
+        {
+          name: "Intralot",
+          value: 479.445214698703,
+        },
+        {
+          name: "Leopard",
+          value: 93.64761584143041,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1693.6258382263584,
+        },
+        {
+          name: "Crystalbet",
+          value: 37.19683819244748,
+        },
+        {
+          name: "Comtrade",
+          value: 20.941489498406213,
+        },
+        {
+          name: "BtoBet",
+          value: 34.36423996655506,
+        },
+        {
+          name: "universal-casinotech",
+          value: 36.48787277347701,
+        },
+        {
+          name: "TopSport",
+          value: 326.49,
+        },
+        {
+          name: "Betmexico",
+          value: 3.6161389467420295,
+        },
+      ],
+      total: 16240.110803572457,
+      period: "2026-04-02T06:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BtoBet",
+          value: 8.301473699785774,
+        },
+        {
+          name: "BetB2B",
+          value: 364.96792057528535,
+        },
+        {
+          name: "Optimus",
+          value: 335.2541599847811,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2718.1406417604194,
+        },
+        {
+          name: "Evoplay",
+          value: 494.03539841145584,
+        },
+        {
+          name: "Comtrade",
+          value: 17.975906270758916,
+        },
+        {
+          name: "universal-casinotech",
+          value: 32.36126811457187,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1876.75,
+        },
+        {
+          name: "BlueOcean",
+          value: 69.62451374972535,
+        },
+        {
+          name: "MrSlotty",
+          value: 51.01233870646245,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4252.27,
+        },
+        {
+          name: "Efbet",
+          value: 19,
+        },
+        {
+          name: "Easit",
+          value: 5.99,
+        },
+        {
+          name: "Leopard",
+          value: 49.79382252504345,
+        },
+        {
+          name: "Betmexico",
+          value: 0.11691904215794091,
+        },
+        {
+          name: "TopSport",
+          value: 350.95,
+        },
+        {
+          name: "Admiralbet",
+          value: 84,
+        },
+        {
+          name: "Crystalbet",
+          value: 42.35474824042644,
+        },
+        {
+          name: "Pariplay",
+          value: 41.50338434031128,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.8762765933417629,
+        },
+        {
+          name: "Skywind360",
+          value: 29.09684337443628,
+        },
+        {
+          name: "ORYX",
+          value: 191.02791097482805,
+        },
+        {
+          name: "Gaming1",
+          value: 25.57,
+        },
+        {
+          name: "Reevo",
+          value: 1099.65,
+        },
+        {
+          name: "Intralot",
+          value: 661.579721296492,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1668.1782901717156,
+        },
+        {
+          name: "Virtualsoft",
+          value: 158.70750403022285,
+        },
+        {
+          name: "Slotegrator",
+          value: 70.8296095387385,
+        },
+        {
+          name: "TGLab",
+          value: 12.84245920424012,
+        },
+      ],
+      total: 14732.7611106052,
+      period: "2026-04-02T06:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "EGT New Platform",
+          value: 1200.75,
+        },
+        {
+          name: "Comtrade",
+          value: 22.579228913145297,
+        },
+        {
+          name: "Slotegrator",
+          value: 121.29472401816936,
+        },
+        {
+          name: "Crystalbet",
+          value: 0.17708180564222378,
+        },
+        {
+          name: "Easit",
+          value: 3.314841456687592,
+        },
+        {
+          name: "Leopard",
+          value: 48.26490205401067,
+        },
+        {
+          name: "Betmexico",
+          value: 0.18372992339105,
+        },
+        {
+          name: "BlueOcean",
+          value: 47.86608046335438,
+        },
+        {
+          name: "Efbet",
+          value: 8.6,
+        },
+        {
+          name: "Skywind360",
+          value: 49.5185712621768,
+        },
+        {
+          name: "BetB2B",
+          value: 330.6115799649971,
+        },
+        {
+          name: "ORYX",
+          value: 169.17482544104308,
+        },
+        {
+          name: "Gaming1",
+          value: 7.72,
+        },
+        {
+          name: "universal-casinotech",
+          value: 34.75035502235905,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1587.6578933439278,
+        },
+        {
+          name: "TopSport",
+          value: 208.70000000000002,
+        },
+        {
+          name: "TGLab",
+          value: 11.52014671207187,
+        },
+        {
+          name: "Pariplay",
+          value: 14.633599653978836,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5338.88,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3237.563989997845,
+        },
+        {
+          name: "Intralot",
+          value: 590.0371287700744,
+        },
+        {
+          name: "Reevo",
+          value: 1260.1785276042172,
+        },
+        {
+          name: "Evoplay",
+          value: 895.078494287691,
+        },
+        {
+          name: "Virtualsoft",
+          value: 174.9995706553171,
+        },
+        {
+          name: "MrSlotty",
+          value: 63.69125444010123,
+        },
+        {
+          name: "Optimus",
+          value: 118.04849384433713,
+        },
+      ],
+      total: 15545.79501963454,
+      period: "2026-04-02T07:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BetConstruct",
+          value: 3.462187088497757,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5213.69,
+        },
+        {
+          name: "Avento",
+          value: 16.916769403742023,
+        },
+        {
+          name: "Intralot",
+          value: 320.2894984893774,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3608.540547349687,
+        },
+        {
+          name: "TGLab",
+          value: 13.226255396332515,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1693.3484622304525,
+        },
+        {
+          name: "Asvla",
+          value: 4.636323638632769,
+        },
+        {
+          name: "Pariplay",
+          value: 33.114240298986765,
+        },
+        {
+          name: "MrSlotty",
+          value: 69.33945598880018,
+        },
+        {
+          name: "Betmexico",
+          value: 0.43427072801520905,
+        },
+        {
+          name: "Virtualsoft",
+          value: 173.31041726821627,
+        },
+        {
+          name: "Crystalbet",
+          value: 15.299868007488136,
+        },
+        {
+          name: "Evoplay",
+          value: 1265.3288744097974,
+        },
+        {
+          name: "Efbet",
+          value: 11.4,
+        },
+        {
+          name: "Slotegrator",
+          value: 120.51495039423278,
+        },
+        {
+          name: "BetB2B",
+          value: 433.5229281702481,
+        },
+        {
+          name: "Gaming1",
+          value: 76.2,
+        },
+        {
+          name: "Easit",
+          value: 0.325936582675037,
+        },
+        {
+          name: "Comtrade",
+          value: 3.9815700741560938,
+        },
+        {
+          name: "Optimus",
+          value: 67.08695212458902,
+        },
+        {
+          name: "Leopard",
+          value: 39.39567893321369,
+        },
+        {
+          name: "Reevo",
+          value: 833.7776139494064,
+        },
+        {
+          name: "ORYX",
+          value: 185.37257278112588,
+        },
+        {
+          name: "TopSport",
+          value: 29.05,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1326.33,
+        },
+        {
+          name: "Skywind360",
+          value: 83.37368507991489,
+        },
+        {
+          name: "universal-casinotech",
+          value: 16.50641863562055,
+        },
+      ],
+      total: 15657.775477023208,
+      period: "2026-04-02T07:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Slotegrator",
+          value: 218.8161696780845,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3331.2902390499266,
+        },
+        {
+          name: "ORYX",
+          value: 217.19964533180752,
+        },
+        {
+          name: "Leopard",
+          value: 12.231363768262277,
+        },
+        {
+          name: "Virtualsoft",
+          value: 163.79335804605608,
+        },
+        {
+          name: "Crystalbet",
+          value: 18.809307428397663,
+        },
+        {
+          name: "Baby Leopard",
+          value: 3924.46,
+        },
+        {
+          name: "Reevo",
+          value: 1388.3091658483456,
+        },
+        {
+          name: "Asvla",
+          value: 5.280257477331764,
+        },
+        {
+          name: "Evoplay",
+          value: 1127.7601896071405,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1577.292299781262,
+        },
+        {
+          name: "Comtrade",
+          value: 2.9420468528247,
+        },
+        {
+          name: "Pariplay",
+          value: 12.308057189948386,
+        },
+        {
+          name: "TGLab",
+          value: 15.677417047297807,
+        },
+        {
+          name: "Avento",
+          value: 6.17829839093187,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1380.12,
+        },
+        {
+          name: "MrSlotty",
+          value: 60.75976236616853,
+        },
+        {
+          name: "Skywind360",
+          value: 36.2499399559374,
+        },
+        {
+          name: "Efbet",
+          value: 13.5,
+        },
+        {
+          name: "BlueOcean",
+          value: 16.040546592853662,
+        },
+        {
+          name: "Intralot",
+          value: 199.92738042896664,
+        },
+        {
+          name: "TopSport",
+          value: 42.4,
+        },
+        {
+          name: "BetB2B",
+          value: 686.8850726328861,
+        },
+        {
+          name: "Admiralbet",
+          value: 1.05,
+        },
+        {
+          name: "BtoBet",
+          value: 13.51402695313963,
+        },
+        {
+          name: "Optimus",
+          value: 54.65519586740498,
+        },
+        {
+          name: "Goldrush",
+          value: 8,
+        },
+        {
+          name: "SoftSwiss",
+          value: 30.419728726937688,
+        },
+        {
+          name: "universal-casinotech",
+          value: 47.057772426111214,
+        },
+      ],
+      total: 14612.927241448024,
+      period: "2026-04-02T07:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "EGT New Platform",
+          value: 1032.3,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4670.46,
+        },
+        {
+          name: "Asvla",
+          value: 7.791599448257847,
+        },
+        {
+          name: "MrSlotty",
+          value: 155.62010830072174,
+        },
+        {
+          name: "BetConstruct",
+          value: 0,
+        },
+        {
+          name: "Pariplay",
+          value: 2.375022090924714,
+        },
+        {
+          name: "SoftSwiss",
+          value: 2.322255649162963,
+        },
+        {
+          name: "Goldrush",
+          value: 13.7,
+        },
+        {
+          name: "Slotegrator",
+          value: 262.91823356469916,
+        },
+        {
+          name: "Comtrade",
+          value: 0.9649913677265015,
+        },
+        {
+          name: "Easit",
+          value: 51.49931373008217,
+        },
+        {
+          name: "Reevo",
+          value: 1185.9508545025044,
+        },
+        {
+          name: "Skywind360",
+          value: 21.771146710902777,
+        },
+        {
+          name: "BlueOcean",
+          value: 26.09956176261997,
+        },
+        {
+          name: "Crystalbet",
+          value: 48.272500218070206,
+        },
+        {
+          name: "TopSport",
+          value: 46.75,
+        },
+        {
+          name: "Evoplay",
+          value: 522.3686641997302,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "ORYX",
+          value: 108.85188869875125,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2879.7439224394066,
+        },
+        {
+          name: "Admiralbet",
+          value: 9.2,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1511.1817319526106,
+        },
+        {
+          name: "TGLab",
+          value: 14.688187057891636,
+        },
+        {
+          name: "Leopard",
+          value: 14.977483060893977,
+        },
+        {
+          name: "universal-casinotech",
+          value: 10.642296225597459,
+        },
+        {
+          name: "Optimus",
+          value: 45.10067991412243,
+        },
+        {
+          name: "Intralot",
+          value: 414.96336493009704,
+        },
+        {
+          name: "BetB2B",
+          value: 527.4191546290587,
+        },
+        {
+          name: "Virtualsoft",
+          value: 147.44382267527686,
+        },
+        {
+          name: "Efbet",
+          value: 16.3,
+        },
+      ],
+      total: 13751.676783129109,
+      period: "2026-04-02T07:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "EGT New Platform",
+          value: 1156.76,
+        },
+        {
+          name: "Optimus",
+          value: 74.26891996829157,
+        },
+        {
+          name: "Pariplay",
+          value: 5.061765831283297,
+        },
+        {
+          name: "Asvla",
+          value: 5.795404548290961,
+        },
+        {
+          name: "Intralot",
+          value: 542.702443701676,
+        },
+        {
+          name: "Reevo",
+          value: 1234.8598011624506,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4945.71,
+        },
+        {
+          name: "Slotegrator",
+          value: 145.61296158453464,
+        },
+        {
+          name: "Betmexico",
+          value: 0.033405440616554545,
+        },
+        {
+          name: "Virtualsoft",
+          value: 150.98436492956756,
+        },
+        {
+          name: "MrSlotty",
+          value: 110.6156322737209,
+        },
+        {
+          name: "ORYX",
+          value: 224.41707499871956,
+        },
+        {
+          name: "Comtrade",
+          value: 0.1255273323871872,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1477.0736936615463,
+        },
+        {
+          name: "Easit",
+          value: 10.55,
+        },
+        {
+          name: "TopSport",
+          value: 33.05,
+        },
+        {
+          name: "BlueOcean",
+          value: 49.71892158859235,
+        },
+        {
+          name: "universal-casinotech",
+          value: 25.049214245283817,
+        },
+        {
+          name: "Crystalbet",
+          value: 21.224059323518894,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3022.0116396735384,
+        },
+        {
+          name: "BetB2B",
+          value: 619.4926264475987,
+        },
+        {
+          name: "Skywind360",
+          value: 18.848713503763577,
+        },
+        {
+          name: "Efbet",
+          value: 4.75,
+        },
+        {
+          name: "TGLab",
+          value: 5.159022223232186,
+        },
+        {
+          name: "Evoplay",
+          value: 838.4300000000001,
+        },
+        {
+          name: "BetConstruct",
+          value: 2.876278504290444,
+        },
+        {
+          name: "Leopard",
+          value: 18.703298966032122,
+        },
+      ],
+      total: 14743.884769908937,
+      period: "2026-04-02T07:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 267.20510254012584,
+        },
+        {
+          name: "Leopard",
+          value: 23.502822774775815,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1966.3471418215254,
+        },
+        {
+          name: "MrSlotty",
+          value: 151.70136354400245,
+        },
+        {
+          name: "Optimus",
+          value: 217.36400094650557,
+        },
+        {
+          name: "TGLab",
+          value: 7.638358146047653,
+        },
+        {
+          name: "Reevo",
+          value: 759.29,
+        },
+        {
+          name: "BetB2B",
+          value: 379.15621827733077,
+        },
+        {
+          name: "SoftSwiss",
+          value: 3.569683514760636,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4073.03,
+        },
+        {
+          name: "Evoplay",
+          value: 500.86,
+        },
+        {
+          name: "ORYX",
+          value: 121.32678307457502,
+        },
+        {
+          name: "BetConstruct",
+          value: 0.3462187088497757,
+        },
+        {
+          name: "Pariplay",
+          value: 0.9104251348544736,
+        },
+        {
+          name: "Slotegrator",
+          value: 262.84969993334397,
+        },
+        {
+          name: "Crystalbet",
+          value: 18.809307428397663,
+        },
+        {
+          name: "BlueOcean",
+          value: 32.07215615453376,
+        },
+        {
+          name: "Skywind360",
+          value: 217.6526261719713,
+        },
+        {
+          name: "Avento",
+          value: 11.485750913427628,
+        },
+        {
+          name: "Admiralbet",
+          value: 21.6,
+        },
+        {
+          name: "universal-casinotech",
+          value: 20.85021301341543,
+        },
+        {
+          name: "Intralot",
+          value: 6124.565951140003,
+        },
+        {
+          name: "Easit",
+          value: 0.4074207283437962,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2772.7616809234164,
+        },
+        {
+          name: "Betmexico",
+          value: 0.050108160924831814,
+        },
+        {
+          name: "TopSport",
+          value: 58.45,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1646.19,
+        },
+        {
+          name: "Asvla",
+          value: 8.306746519217043,
+        },
+      ],
+      total: 19668.29977957035,
+      period: "2026-04-02T07:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Evoplay",
+          value: 1092.4661630686223,
+        },
+        {
+          name: "SoftSwiss",
+          value: 0,
+        },
+        {
+          name: "Gaming1",
+          value: 12.92,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1078.29,
+        },
+        {
+          name: "Reevo",
+          value: 928.0699999999999,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5595.47,
+        },
+        {
+          name: "Virtualsoft",
+          value: 89.63421455151176,
+        },
+        {
+          name: "Pariplay",
+          value: 1.399667077289462,
+        },
+        {
+          name: "Avento",
+          value: 0,
+        },
+        {
+          name: "Skywind360",
+          value: 175.14985597149712,
+        },
+        {
+          name: "BetB2B",
+          value: 580.8986258079493,
+        },
+        {
+          name: "Asvla",
+          value: 2.060588283836786,
+        },
+        {
+          name: "TopSport",
+          value: 61.05,
+        },
+        {
+          name: "Optimus",
+          value: 269.76292582753206,
+        },
+        {
+          name: "MrSlotty",
+          value: 162.58444389065528,
+        },
+        {
+          name: "Intralot",
+          value: 237.42551567078527,
+        },
+        {
+          name: "universal-casinotech",
+          value: 20.995006159341926,
+        },
+        {
+          name: "ORYX",
+          value: 65.09258817562318,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2360.2876361307435,
+        },
+        {
+          name: "Leopard",
+          value: 16.202103826527033,
+        },
+        {
+          name: "Easit",
+          value: 35.15,
+        },
+        {
+          name: "TGLab",
+          value: 8.552456743853357,
+        },
+        {
+          name: "Slotegrator",
+          value: 107.97820089986425,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1609.5170376845058,
+        },
+        {
+          name: "BlueOcean",
+          value: 11.504015421137353,
+        },
+        {
+          name: "Crystalbet",
+          value: 97.26620633548329,
+        },
+        {
+          name: "Admiralbet",
+          value: 10.35,
+        },
+      ],
+      total: 14630.07725152676,
+      period: "2026-04-02T07:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "TGLab",
+          value: 10.768832796067183,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6253.360000000001,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2638.265366892581,
+        },
+        {
+          name: "Slotegrator",
+          value: 67.45304727454231,
+        },
+        {
+          name: "Asvla",
+          value: 0.12878676773979914,
+        },
+        {
+          name: "universal-casinotech",
+          value: 19.40228155415047,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1337.9,
+        },
+        {
+          name: "ORYX",
+          value: 159.62251461248044,
+        },
+        {
+          name: "BetB2B",
+          value: 568.719563556038,
+        },
+        {
+          name: "Reevo",
+          value: 791.84,
+        },
+        {
+          name: "Optimus",
+          value: 77.42819414549038,
+        },
+        {
+          name: "Gaming1",
+          value: 20.759999999999998,
+        },
+        {
+          name: "Easit",
+          value: 67.9,
+        },
+        {
+          name: "Leopard",
+          value: 45.558366462894384,
+        },
+        {
+          name: "TopSport",
+          value: 124.68,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "Virtualsoft",
+          value: 230.9514098816731,
+        },
+        {
+          name: "Dench",
+          value: 4.55,
+        },
+        {
+          name: "Admiralbet",
+          value: 3.5999999999999996,
+        },
+        {
+          name: "BlueOcean",
+          value: 2.357101461083418,
+        },
+        {
+          name: "MrSlotty",
+          value: 186.46036332990698,
+        },
+        {
+          name: "Skywind360",
+          value: 75.00258110134435,
+        },
+        {
+          name: "BtoBet",
+          value: 16.30129501222468,
+        },
+        {
+          name: "Intralot",
+          value: 278.2165200824172,
+        },
+        {
+          name: "Evoplay",
+          value: 922.65,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2340.165614282294,
+        },
+        {
+          name: "Crystalbet",
+          value: 72.8933105407263,
+        },
+        {
+          name: "Efbet",
+          value: 2.2,
+        },
+      ],
+      total: 16319.135149753654,
+      period: "2026-04-02T07:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 216.92477773637168,
+        },
+        {
+          name: "Easit",
+          value: 20.05,
+        },
+        {
+          name: "Gaming1",
+          value: 1,
+        },
+        {
+          name: "Crystalbet",
+          value: 54.71827794344715,
+        },
+        {
+          name: "Intralot",
+          value: 178.92822677504063,
+        },
+        {
+          name: "TGLab",
+          value: 70.54837671284014,
+        },
+        {
+          name: "Dench",
+          value: 2.5,
+        },
+        {
+          name: "BlueOcean",
+          value: 5.852860679634883,
+        },
+        {
+          name: "Pariplay",
+          value: 4.255247912906779,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2751.377071951441,
+        },
+        {
+          name: "BtoBet",
+          value: 194.6019881252107,
+        },
+        {
+          name: "Efbet",
+          value: 13.899999999999999,
+        },
+        {
+          name: "Evoplay",
+          value: 1522.8453375618628,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1225.99,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5107.54,
+        },
+        {
+          name: "Slotegrator",
+          value: 235.7205193907658,
+        },
+        {
+          name: "MrSlotty",
+          value: 128.01290674888614,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2772.1192371135317,
+        },
+        {
+          name: "Admiralbet",
+          value: 184,
+        },
+        {
+          name: "Skywind360",
+          value: 138.1977475000189,
+        },
+        {
+          name: "Leopard",
+          value: 32.181549332029874,
+        },
+        {
+          name: "ORYX",
+          value: 201.95063785311856,
+        },
+        {
+          name: "BetB2B",
+          value: 569.3225487618703,
+        },
+        {
+          name: "TopSport",
+          value: 39.22,
+        },
+        {
+          name: "Optimus",
+          value: 343.8883548778303,
+        },
+        {
+          name: "Reevo",
+          value: 714.1499844794174,
+        },
+      ],
+      total: 16729.795651456225,
+      period: "2026-04-02T07:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Evoplay",
+          value: 878.7117877510084,
+        },
+        {
+          name: "Virtualsoft",
+          value: 238.41380351412533,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1639.2218076552113,
+        },
+        {
+          name: "Reevo",
+          value: 991.41,
+        },
+        {
+          name: "Optimus",
+          value: 195.79830556464023,
+        },
+        {
+          name: "BtoBet",
+          value: 264.9231926635123,
+        },
+        {
+          name: "TopSport",
+          value: 12.75,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5001.12,
+        },
+        {
+          name: "BlueOcean",
+          value: 7.469821058836114,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2497.808581167147,
+        },
+        {
+          name: "Admiralbet",
+          value: 448,
+        },
+        {
+          name: "BetB2B",
+          value: 373.6565001610949,
+        },
+        {
+          name: "Gaming1",
+          value: 11.34,
+        },
+        {
+          name: "Slotegrator",
+          value: 78.64904117079288,
+        },
+        {
+          name: "Leopard",
+          value: 13.990364504353392,
+        },
+        {
+          name: "Pariplay",
+          value: 5.222618110196838,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1195.93,
+        },
+        {
+          name: "Intralot",
+          value: 174.62102525389486,
+        },
+        {
+          name: "Crystalbet",
+          value: 108.679933626423,
+        },
+        {
+          name: "Easit",
+          value: 315.4,
+        },
+        {
+          name: "Efbet",
+          value: 9,
+        },
+        {
+          name: "Skywind360",
+          value: 484.09419598661884,
+        },
+        {
+          name: "TGLab",
+          value: 36.87699137723006,
+        },
+        {
+          name: "MrSlotty",
+          value: 32.4843005710399,
+        },
+        {
+          name: "ORYX",
+          value: 173.7448599571032,
+        },
+      ],
+      total: 15189.317130093228,
+      period: "2026-04-02T07:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leopard",
+          value: 41.08046022896341,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1544.0936552867377,
+        },
+        {
+          name: "MrSlotty",
+          value: 318.6507164245752,
+        },
+        {
+          name: "Skywind360",
+          value: 30.607094092219626,
+        },
+        {
+          name: "TopSport",
+          value: 52.95,
+        },
+        {
+          name: "Easit",
+          value: 371.9462185031389,
+        },
+        {
+          name: "Slotegrator",
+          value: 497.32110032023917,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6617.87,
+        },
+        {
+          name: "TGLab",
+          value: 14.450270984490151,
+        },
+        {
+          name: "Reevo",
+          value: 1172.4862948592054,
+        },
+        {
+          name: "Virtualsoft",
+          value: 94.99408797657057,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1007.72,
+        },
+        {
+          name: "Admiralbet",
+          value: 40,
+        },
+        {
+          name: "Gaming1",
+          value: 5.92,
+        },
+        {
+          name: "Crystalbet",
+          value: 135.7831088972637,
+        },
+        {
+          name: "Pariplay",
+          value: 5.5813019136730775,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.9613645685497998,
+        },
+        {
+          name: "Intralot",
+          value: 282.75874983131075,
+        },
+        {
+          name: "Evoplay",
+          value: 1006.51,
+        },
+        {
+          name: "BetB2B",
+          value: 464.25142632853095,
+        },
+        {
+          name: "Optimus",
+          value: 300.63821300955334,
+        },
+        {
+          name: "Comtrade",
+          value: 0,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2926.9905785133333,
+        },
+        {
+          name: "BtoBet",
+          value: 40.300758949541404,
+        },
+        {
+          name: "Efbet",
+          value: 6.4,
+        },
+        {
+          name: "ORYX",
+          value: 131.91675403289437,
+        },
+      ],
+      total: 17113.18215472079,
+      period: "2026-04-02T07:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Virtualsoft",
+          value: 205.13631904492502,
+        },
+        {
+          name: "Crystalbet",
+          value: 122.60500288828877,
+        },
+        {
+          name: "Gaming1",
+          value: 10.4,
+        },
+        {
+          name: "BlueOcean",
+          value: 6.217826009569911,
+        },
+        {
+          name: "MrSlotty",
+          value: 795.3561007875355,
+        },
+        {
+          name: "Optimus",
+          value: 144.5547299715948,
+        },
+        {
+          name: "Leopard",
+          value: 71.39910160842422,
+        },
+        {
+          name: "Easit",
+          value: 36,
+        },
+        {
+          name: "TopSport",
+          value: 28.84,
+        },
+        {
+          name: "Pariplay",
+          value: 3.9385783007834836,
+        },
+        {
+          name: "Comtrade",
+          value: 0,
+        },
+        {
+          name: "Evoplay",
+          value: 787.9380396566924,
+        },
+        {
+          name: "Everymatrix",
+          value: 4.507956252413735,
+        },
+        {
+          name: "BetB2B",
+          value: 697.9226468421857,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2683.346650491778,
+        },
+        {
+          name: "Reevo",
+          value: 792.63,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1520.42,
+        },
+        {
+          name: "Slotegrator",
+          value: 181,
+        },
+        {
+          name: "ORYX",
+          value: 140.11953562349314,
+        },
+        {
+          name: "BetConstruct",
+          value: 2.8762785042904437,
+        },
+        {
+          name: "SoftSwiss",
+          value: 0,
+        },
+        {
+          name: "BtoBet",
+          value: 76.20897649549266,
+        },
+        {
+          name: "Efbet",
+          value: 1.4000000000000001,
+        },
+        {
+          name: "TGLab",
+          value: 18.136956635642655,
+        },
+        {
+          name: "Baby Leopard",
+          value: 7096.78,
+        },
+        {
+          name: "Avento",
+          value: 10.042186590974975,
+        },
+        {
+          name: "Intralot",
+          value: 284.2802483583094,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1832.8635200700214,
+        },
+      ],
+      total: 17554.920654132417,
+      period: "2026-04-02T07:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Crystalbet",
+          value: 12.749890006240115,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6060.83,
+        },
+        {
+          name: "Slotegrator",
+          value: 95.92446532611366,
+        },
+        {
+          name: "BetB2B",
+          value: 437.49225377761604,
+        },
+        {
+          name: "Pariplay",
+          value: 42.396231915350825,
+        },
+        {
+          name: "TGLab",
+          value: 8.014015104049996,
+        },
+        {
+          name: "TopSport",
+          value: 16,
+        },
+        {
+          name: "Virtualsoft",
+          value: 99.77882253235826,
+        },
+        {
+          name: "Comtrade",
+          value: 4.501331684821791,
+        },
+        {
+          name: "ORYX",
+          value: 228.00812939497303,
+        },
+        {
+          name: "Avento",
+          value: 17.887644865174174,
+        },
+        {
+          name: "Intralot",
+          value: 185.36305225263976,
+        },
+        {
+          name: "Optimus",
+          value: 86.490387811175,
+        },
+        {
+          name: "Leopard",
+          value: 28.735293318844327,
+        },
+        {
+          name: "MrSlotty",
+          value: 199.55868315620398,
+        },
+        {
+          name: "BtoBet",
+          value: 49.10900866006991,
+        },
+        {
+          name: "Reevo",
+          value: 973.0835000000001,
+        },
+        {
+          name: "BlueOcean",
+          value: 52.60570691376027,
+        },
+        {
+          name: "Everymatrix",
+          value: 6.541681678032076,
+        },
+        {
+          name: "Easit",
+          value: 2.7,
+        },
+        {
+          name: "Skywind360",
+          value: 123.56596781863739,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1577.09,
+        },
+        {
+          name: "Gaming1",
+          value: 2.4,
+        },
+        {
+          name: "Evoplay",
+          value: 1049.104356465089,
+        },
+        {
+          name: "BetConstruct",
+          value: 3.036071754528802,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2441.361114540364,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1490.6755834433934,
+        },
+      ],
+      total: 15295.003192419435,
+      period: "2026-04-02T08:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Calimaco Apuesta",
+          value: 2635.300706619853,
+        },
+        {
+          name: "Virtualsoft",
+          value: 132.61160037346158,
+        },
+        {
+          name: "ORYX",
+          value: 109.98922406014087,
+        },
+        {
+          name: "Efbet",
+          value: 0.1,
+        },
+        {
+          name: "Baby Leopard",
+          value: 7196.57,
+        },
+        {
+          name: "TopSport",
+          value: 32.42,
+        },
+        {
+          name: "Slotegrator",
+          value: 155.15,
+        },
+        {
+          name: "BtoBet",
+          value: 18.68796870091309,
+        },
+        {
+          name: "Gaming1",
+          value: 40.75,
+        },
+        {
+          name: "iSOFTBET",
+          value: 5138.537335498006,
+        },
+        {
+          name: "Intralot",
+          value: 167.1174398353796,
+        },
+        {
+          name: "Admiralbet",
+          value: 5.616286774366914,
+        },
+        {
+          name: "BlueOcean",
+          value: 37.1727092110405,
+        },
+        {
+          name: "Easit",
+          value: 44.1,
+        },
+        {
+          name: "Reevo",
+          value: 789.3499999999999,
+        },
+        {
+          name: "EGT New Platform",
+          value: 837.6899999999999,
+        },
+        {
+          name: "Optimus",
+          value: 305.48721644519134,
+        },
+        {
+          name: "MrSlotty",
+          value: 223.2225999263031,
+        },
+        {
+          name: "SoftSwiss",
+          value: 0.8,
+        },
+        {
+          name: "BetConstruct",
+          value: 0,
+        },
+        {
+          name: "TGLab",
+          value: 5.384416398033592,
+        },
+        {
+          name: "Leopard",
+          value: 12.345166910119087,
+        },
+        {
+          name: "Everymatrix",
+          value: 18.335416664105672,
+        },
+        {
+          name: "BetB2B",
+          value: 654.1176515858231,
+        },
+        {
+          name: "Betmexico",
+          value: 0.33405440616554544,
+        },
+        {
+          name: "Skywind360",
+          value: 157.0366541809397,
+        },
+        {
+          name: "Avento",
+          value: 18.672190692594093,
+        },
+        {
+          name: "Pariplay",
+          value: 83.03346869010817,
+        },
+        {
+          name: "Evoplay",
+          value: 1410.2922030453,
+        },
+        {
+          name: "Comtrade",
+          value: 11.454369080330832,
+        },
+        {
+          name: "Dench",
+          value: 0,
+        },
+        {
+          name: "Crystalbet",
+          value: 14.198741143312853,
+        },
+      ],
+      total: 20255.877420241486,
+      period: "2026-04-02T08:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Baby Leopard",
+          value: 4892.32,
+        },
+        {
+          name: "Gaming1",
+          value: 8.6,
+        },
+        {
+          name: "TopSport",
+          value: 32.8,
+        },
+        {
+          name: "Crystalbet",
+          value: 25.7090585100574,
+        },
+        {
+          name: "MrSlotty",
+          value: 142.75464201268062,
+        },
+        {
+          name: "Pariplay",
+          value: 143.859773638185,
+        },
+        {
+          name: "Evoplay",
+          value: 1759.6599777907347,
+        },
+        {
+          name: "Admiralbet",
+          value: 76.50429486953244,
+        },
+        {
+          name: "BetB2B",
+          value: 481.5474496584828,
+        },
+        {
+          name: "Avento",
+          value: 1.4121824893558559,
+        },
+        {
+          name: "Efbet",
+          value: 4.2,
+        },
+        {
+          name: "Reevo",
+          value: 369.1529485920532,
+        },
+        {
+          name: "Newton",
+          value: 1.716193997481075,
+        },
+        {
+          name: "Easit",
+          value: 42.05,
+        },
+        {
+          name: "Virtualsoft",
+          value: 101.8171643937057,
+        },
+        {
+          name: "Skywind360",
+          value: 172.0607067760312,
+        },
+        {
+          name: "Digitain",
+          value: 0,
+        },
+        {
+          name: "Slotegrator",
+          value: 52.196713690798184,
+        },
+        {
+          name: "BtoBet",
+          value: 9.382595856036945,
+        },
+        {
+          name: "Optimus",
+          value: 305.26455812416714,
+        },
+        {
+          name: "Comtrade",
+          value: 30.430571281050142,
+        },
+        {
+          name: "Everymatrix",
+          value: 10.729124615635836,
+        },
+        {
+          name: "ORYX",
+          value: 87.38140542323173,
+        },
+        {
+          name: "BlueOcean",
+          value: 48.85936018726426,
+        },
+        {
+          name: "Leopard",
+          value: 16.691952132780255,
+        },
+        {
+          name: "TGLab",
+          value: 49.007394607644216,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1866.7150872626657,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2934.9644902274563,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1125.05,
+        },
+        {
+          name: "Betmexico",
+          value: 0.2672435249324363,
+        },
+        {
+          name: "Intralot",
+          value: 106.04721034113318,
+        },
+      ],
+      total: 14899.152100003095,
+      period: "2026-04-02T08:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Slotegrator",
+          value: 148.64929015024575,
+        },
+        {
+          name: "Virtualsoft",
+          value: 120.98677972440294,
+        },
+        {
+          name: "Pariplay",
+          value: 124.62833859911164,
+        },
+        {
+          name: "Reevo",
+          value: 350.7957730194459,
+        },
+        {
+          name: "Easit",
+          value: 17.88739137394498,
+        },
+        {
+          name: "Betmexico",
+          value: 0.4175680077069318,
+        },
+        {
+          name: "Efbet",
+          value: 0.25,
+        },
+        {
+          name: "TGLab",
+          value: 16.443577132048436,
+        },
+        {
+          name: "BtoBet",
+          value: 29.894958195623886,
+        },
+        {
+          name: "Admiralbet",
+          value: 26.44760499201874,
+        },
+        {
+          name: "BlueOcean",
+          value: 54.088675312321385,
+        },
+        {
+          name: "Comtrade",
+          value: 7.319812569827853,
+        },
+        {
+          name: "BetConstruct",
+          value: 1.7044613358758185,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2703.5973509653777,
+        },
+        {
+          name: "ORYX",
+          value: 134.63548454052722,
+        },
+        {
+          name: "Leopard",
+          value: 17.933890767826302,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1696.845018450206,
+        },
+        {
+          name: "MrSlotty",
+          value: 133.74102948878343,
+        },
+        {
+          name: "Everymatrix",
+          value: 15.914423318617871,
+        },
+        {
+          name: "TopSport",
+          value: 31.42,
+        },
+        {
+          name: "Gaming1",
+          value: 5.22,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1084.6640937056493,
+        },
+        {
+          name: "Optimus",
+          value: 220.53564503042796,
+        },
+        {
+          name: "Crystalbet",
+          value: 6.825698690209354,
+        },
+        {
+          name: "Evoplay",
+          value: 1099.38,
+        },
+        {
+          name: "BetB2B",
+          value: 606.2683762845057,
+        },
+        {
+          name: "Skywind360",
+          value: 0.205943279697729,
+        },
+        {
+          name: "Intralot",
+          value: 172.1643617785946,
+        },
+        {
+          name: "Newton",
+          value: 13.190176723497403,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5751.09,
+        },
+      ],
+      total: 14593.145723436495,
+      period: "2026-04-02T08:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "MrSlotty",
+          value: 105.43719502550684,
+        },
+        {
+          name: "Asvla",
+          value: 4.749012060405093,
+        },
+        {
+          name: "Efbet",
+          value: 4,
+        },
+        {
+          name: "BetB2B",
+          value: 367.8262363217152,
+        },
+        {
+          name: "Reevo",
+          value: 529.37,
+        },
+        {
+          name: "BtoBet",
+          value: 5.5600568035774485,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1641.0473670970446,
+        },
+        {
+          name: "Leopard",
+          value: 29.259777363923533,
+        },
+        {
+          name: "BetConstruct",
+          value: 2.3662238102584534,
+        },
+        {
+          name: "Optimus",
+          value: 33.341846582700384,
+        },
+        {
+          name: "Intralot",
+          value: 117.41515462009053,
+        },
+        {
+          name: "BlueOcean",
+          value: 42.44076158378326,
+        },
+        {
+          name: "Admiralbet",
+          value: 39.63969291320077,
+        },
+        {
+          name: "Easit",
+          value: 22.776440114070535,
+        },
+        {
+          name: "TopSport",
+          value: 50.900000000000006,
+        },
+        {
+          name: "Newton",
+          value: 9.70875461432151,
+        },
+        {
+          name: "Everymatrix",
+          value: 23.05581081148105,
+        },
+        {
+          name: "Pariplay",
+          value: 95.02126409381333,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "Gaming1",
+          value: 10.879999999999999,
+        },
+        {
+          name: "Evoplay",
+          value: 2050.5840687509535,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5372.21,
+        },
+        {
+          name: "Slotegrator",
+          value: 305.14216498230184,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1365.0139868276356,
+        },
+        {
+          name: "Virtualsoft",
+          value: 239.91124778409886,
+        },
+        {
+          name: "TGLab",
+          value: 3.3558688248209365,
+        },
+        {
+          name: "Goldrush",
+          value: 62,
+        },
+        {
+          name: "Skywind360",
+          value: 9.100731598071071,
+        },
+        {
+          name: "Crystalbet",
+          value: 12.952729165430297,
+        },
+        {
+          name: "ORYX",
+          value: 125.1871710522514,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2886.0830427348196,
+        },
+      ],
+      total: 15566.336605536275,
+      period: "2026-04-02T08:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Leris",
+          value: 157.2,
+        },
+        {
+          name: "Evoplay",
+          value: 1205.4572638627887,
+        },
+        {
+          name: "Virtualsoft",
+          value: 93.84902538236494,
+        },
+        {
+          name: "TopSport",
+          value: 364.95,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2136.8908382211916,
+        },
+        {
+          name: "Leopard",
+          value: 24.190589588606095,
+        },
+        {
+          name: "MrSlotty",
+          value: 52.62270331942519,
+        },
+        {
+          name: "Goldrush",
+          value: 86.2,
+        },
+        {
+          name: "BetB2B",
+          value: 546.3136918042328,
+        },
+        {
+          name: "Pariplay",
+          value: 202.31991365910827,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1090.54227291371,
+        },
+        {
+          name: "Optimus",
+          value: 74.78103410664721,
+        },
+        {
+          name: "Easit",
+          value: 24.241829424339958,
+        },
+        {
+          name: "BlueOcean",
+          value: 15.67302122400293,
+        },
+        {
+          name: "Crystalbet",
+          value: 10.109761267574232,
+        },
+        {
+          name: "ORYX",
+          value: 89.63643598881521,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4495.4,
+        },
+        {
+          name: "Skywind360",
+          value: 1.7652281116948196,
+        },
+        {
+          name: "Newton",
+          value: 1.0787505127023898,
+        },
+        {
+          name: "Admiralbet",
+          value: 42.6327223326943,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2384.6602582409987,
+        },
+        {
+          name: "Slotegrator",
+          value: 10.914588422719394,
+        },
+        {
+          name: "Comtrade",
+          value: 0,
+        },
+        {
+          name: "Gaming1",
+          value: 25.2,
+        },
+        {
+          name: "Intralot",
+          value: 156.9370066018846,
+        },
+        {
+          name: "Reevo",
+          value: 615.24,
+        },
+        {
+          name: "Asvla",
+          value: 9.127762163558263,
+        },
+        {
+          name: "TGLab",
+          value: 0.7513139160046872,
+        },
+        {
+          name: "Everymatrix",
+          value: 33.181673667874755,
+        },
+        {
+          name: "BetConstruct",
+          value: 2.9183426993187593,
+        },
+      ],
+      total: 13954.786027432257,
+      period: "2026-04-02T08:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Everymatrix",
+          value: 29.91024105273217,
+        },
+        {
+          name: "Goldrush",
+          value: 28.400000000000002,
+        },
+        {
+          name: "ORYX",
+          value: 152.17575398976678,
+        },
+        {
+          name: "Easit",
+          value: 49.29796022626754,
+        },
+        {
+          name: "Leopard",
+          value: 27.894139661641823,
+        },
+        {
+          name: "Evoplay",
+          value: 2121.7940010361576,
+        },
+        {
+          name: "Pariplay",
+          value: 172.28091034412637,
+        },
+        {
+          name: "Gaming1",
+          value: 27.4,
+        },
+        {
+          name: "TopSport",
+          value: 93.05,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 3095.577483813465,
+        },
+        {
+          name: "Intralot",
+          value: 111.80663891162561,
+        },
+        {
+          name: "Slotegrator",
+          value: 15.00211853315743,
+        },
+        {
+          name: "BetConstruct",
+          value: 3.602795180256233,
+        },
+        {
+          name: "Asvla",
+          value: 2.7109614609227717,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6425.28,
+        },
+        {
+          name: "Virtualsoft",
+          value: 208.62396923448424,
+        },
+        {
+          name: "Crystalbet",
+          value: 22.891847965749292,
+        },
+        {
+          name: "Comtrade",
+          value: 0.264784216754223,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1587.1502175736036,
+        },
+        {
+          name: "BetB2B",
+          value: 356.6372982033935,
+        },
+        {
+          name: "Reevo",
+          value: 584.89,
+        },
+        {
+          name: "Leris",
+          value: 169.2,
+        },
+        {
+          name: "MrSlotty",
+          value: 45.84468461490425,
+        },
+        {
+          name: "Admiralbet",
+          value: 186.61389236646428,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1155.4,
+        },
+        {
+          name: "Optimus",
+          value: 44.130879226994836,
+        },
+      ],
+      total: 16717.83057761247,
+      period: "2026-04-02T08:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "MrSlotty",
+          value: 95.28557183478182,
+        },
+        {
+          name: "Optimus",
+          value: 43.51733185350595,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2213.8186813827306,
+        },
+        {
+          name: "Reevo",
+          value: 494.4851502958998,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1296.5030160859098,
+        },
+        {
+          name: "Everymatrix",
+          value: 63.40347973157289,
+        },
+        {
+          name: "Easit",
+          value: 39.467643139642725,
+        },
+        {
+          name: "Gaming1",
+          value: 9.8,
+        },
+        {
+          name: "Crystalbet",
+          value: 22.02253728350565,
+        },
+        {
+          name: "Asvla",
+          value: 11.236645485297473,
+        },
+        {
+          name: "Slotegrator",
+          value: 39.639673896346515,
+        },
+        {
+          name: "Leris",
+          value: 2.5,
+        },
+        {
+          name: "BetConstruct",
+          value: 0.79896625119179,
+        },
+        {
+          name: "Admiralbet",
+          value: 24.011766418137924,
+        },
+        {
+          name: "ORYX",
+          value: 117.21530589141199,
+        },
+        {
+          name: "TopSport",
+          value: 24.560000000000002,
+        },
+        {
+          name: "Leopard",
+          value: 32.25082080968184,
+        },
+        {
+          name: "TGLab",
+          value: 3.6,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4451.89,
+        },
+        {
+          name: "Evoplay",
+          value: 1651.3678735093436,
+        },
+        {
+          name: "Intralot",
+          value: 109.0555716563045,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1780.1728894305288,
+        },
+        {
+          name: "BlueOcean",
+          value: 63.794290914854564,
+        },
+        {
+          name: "BetB2B",
+          value: 181.05289934851353,
+        },
+        {
+          name: "Goldrush",
+          value: 12.8,
+        },
+        {
+          name: "Pariplay",
+          value: 79.54611935906736,
+        },
+        {
+          name: "Virtualsoft",
+          value: 153.50640352133203,
+        },
+      ],
+      total: 13017.302638099562,
+      period: "2026-04-02T08:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Calimaco Apuesta",
+          value: 2343.31737714953,
+        },
+        {
+          name: "Leopard",
+          value: 22.780420222119545,
+        },
+        {
+          name: "Slotegrator",
+          value: 47.4461289472015,
+        },
+        {
+          name: "BetB2B",
+          value: 283.3792620752846,
+        },
+        {
+          name: "Optimus",
+          value: 72.83401078835789,
+        },
+        {
+          name: "Skywind360",
+          value: 56.565754156976226,
+        },
+        {
+          name: "Pariplay",
+          value: 105.37657219021831,
+        },
+        {
+          name: "SoftSwiss",
+          value: 5.354525272140953,
+        },
+        {
+          name: "Easit",
+          value: 0.6599999999999999,
+        },
+        {
+          name: "Everymatrix",
+          value: 116.7979334858643,
+        },
+        {
+          name: "Virtualsoft",
+          value: 82.46982384019391,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1150.3163652678163,
+        },
+        {
+          name: "MrSlotty",
+          value: 35.87569225181429,
+        },
+        {
+          name: "Evoplay",
+          value: 1017.4795932694293,
+        },
+        {
+          name: "Comtrade",
+          value: 0.6472503076214339,
+        },
+        {
+          name: "TGLab",
+          value: 0.8,
+        },
+        {
+          name: "Gaming1",
+          value: 17.24,
+        },
+        {
+          name: "BlueOcean",
+          value: 1.0634871128881345,
+        },
+        {
+          name: "Asvla",
+          value: 12.869017766399427,
+        },
+        {
+          name: "Intralot",
+          value: 120.08210650969141,
+        },
+        {
+          name: "ORYX",
+          value: 131.48814093632632,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1947.7402646915984,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "Crystalbet",
+          value: 27.962826945503885,
+        },
+        {
+          name: "Baby Leopard",
+          value: 10557.89,
+        },
+        {
+          name: "Admiralbet",
+          value: 19.55,
+        },
+        {
+          name: "TopSport",
+          value: 15.52,
+        },
+        {
+          name: "Digitain",
+          value: 0.1878284790011718,
+        },
+        {
+          name: "Reevo",
+          value: 402.458486902517,
+        },
+      ],
+      total: 18596.152868568493,
+      period: "2026-04-02T08:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Baby Leopard",
+          value: 6027.39,
+        },
+        {
+          name: "Asvla",
+          value: 6.481194086505391,
+        },
+        {
+          name: "Admiralbet",
+          value: 6.300000000000001,
+        },
+        {
+          name: "Easit",
+          value: 7.740993838532129,
+        },
+        {
+          name: "BlueOcean",
+          value: 11.154459633384727,
+        },
+        {
+          name: "Optimus",
+          value: 112.24205962829515,
+        },
+        {
+          name: "Comtrade",
+          value: 22.83028357791967,
+        },
+        {
+          name: "Leopard",
+          value: 11.179921696759147,
+        },
+        {
+          name: "BetB2B",
+          value: 275.06726404685725,
+        },
+        {
+          name: "Reevo",
+          value: 335.8,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Intralot",
+          value: 110.96795923576782,
+        },
+        {
+          name: "Gaming1",
+          value: 2.8,
+        },
+        {
+          name: "ORYX",
+          value: 147.65921972584925,
+        },
+        {
+          name: "Virtualsoft",
+          value: 294.4518456801541,
+        },
+        {
+          name: "Slotegrator",
+          value: 34.58311648554018,
+        },
+        {
+          name: "EGT New Platform",
+          value: 2658.96,
+        },
+        {
+          name: "TopSport",
+          value: 20.59,
+        },
+        {
+          name: "Efbet",
+          value: 3.21,
+        },
+        {
+          name: "BtoBet",
+          value: 1.0497503079670965,
+        },
+        {
+          name: "SoftSwiss",
+          value: 0.480534319294701,
+        },
+        {
+          name: "Everymatrix",
+          value: 33.27077063602569,
+        },
+        {
+          name: "Evoplay",
+          value: 2180.703483465103,
+        },
+        {
+          name: "Crystalbet",
+          value: 20.60588283836786,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1194.7991868499737,
+        },
+        {
+          name: "BetConstruct",
+          value: 1.278346001906864,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 2028.367737063675,
+        },
+        {
+          name: "MrSlotty",
+          value: 47.814220138301806,
+        },
+        {
+          name: "Skywind360",
+          value: 41.696649362800194,
+        },
+        {
+          name: "Pariplay",
+          value: 79.23604661098292,
+        },
+      ],
+      total: 15718.710925229963,
+      period: "2026-04-02T08:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Intralot",
+          value: 106.7752791945174,
+        },
+        {
+          name: "Everymatrix",
+          value: 11.798427566865195,
+        },
+        {
+          name: "Slotegrator",
+          value: 115.61832016816456,
+        },
+        {
+          name: "Baby Leopard",
+          value: 7315.03,
+        },
+        {
+          name: "Reevo",
+          value: 277.46000000000004,
+        },
+        {
+          name: "Skywind360",
+          value: 2.45170571068725,
+        },
+        {
+          name: "Gaming1",
+          value: 0.2,
+        },
+        {
+          name: "MrSlotty",
+          value: 92.14008632364036,
+        },
+        {
+          name: "EGT New Platform",
+          value: 2386.29,
+        },
+        {
+          name: "Evoplay",
+          value: 1309.6686928531974,
+        },
+        {
+          name: "Easit",
+          value: 13.9,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1274.8377604721468,
+        },
+        {
+          name: "ORYX",
+          value: 173.93367354735406,
+        },
+        {
+          name: "Comtrade",
+          value: 67.21596376420163,
+        },
+        {
+          name: "Crystalbet",
+          value: 12.511634485921485,
+        },
+        {
+          name: "TopSport",
+          value: 10.3,
+        },
+        {
+          name: "BlueOcean",
+          value: 5.000580922601689,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1888.277693145084,
+        },
+        {
+          name: "BetB2B",
+          value: 623.7627896226181,
+        },
+        {
+          name: "Asvla",
+          value: 0.9369237353070385,
+        },
+        {
+          name: "Leopard",
+          value: 25.358308783310747,
+        },
+        {
+          name: "Virtualsoft",
+          value: 137.2101263654193,
+        },
+        {
+          name: "Efbet",
+          value: 3.17,
+        },
+        {
+          name: "Pariplay",
+          value: 29.679466043696966,
+        },
+        {
+          name: "BtoBet",
+          value: 2.1839632843913153,
+        },
+        {
+          name: "Optimus",
+          value: 50.48653730156316,
+        },
+      ],
+      total: 15936.197933290689,
+      period: "2026-04-02T08:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Slotegrator",
+          value: 30.470842973024876,
+        },
+        {
+          name: "Asvla",
+          value: 3.1552758096250786,
+        },
+        {
+          name: "Efbet",
+          value: 7.5,
+        },
+        {
+          name: "SoftSwiss",
+          value: 53.93752563511949,
+        },
+        {
+          name: "Admiralbet",
+          value: 13.350000000000001,
+        },
+        {
+          name: "Optimus",
+          value: 23.198523069376087,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1367.0059852865948,
+        },
+        {
+          name: "Everymatrix",
+          value: 22.912757327001287,
+        },
+        {
+          name: "Easit",
+          value: 12.1,
+        },
+        {
+          name: "Intralot",
+          value: 118.92963057386444,
+        },
+        {
+          name: "Baby Leopard",
+          value: 7926.969999999999,
+        },
+        {
+          name: "ORYX",
+          value: 195.05906230599288,
+        },
+        {
+          name: "Reevo",
+          value: 297.2,
+        },
+        {
+          name: "TopSport",
+          value: 31.53,
+        },
+        {
+          name: "Leopard",
+          value: 44.90276140654537,
+        },
+        {
+          name: "iSOFTBET",
+          value: 997.8903525964969,
+        },
+        {
+          name: "BlueOcean",
+          value: 5.027195486944335,
+        },
+        {
+          name: "Pariplay",
+          value: 10.994373095905654,
+        },
+        {
+          name: "Skywind360",
+          value: 7.884685565570195,
+        },
+        {
+          name: "BetConstruct",
+          value: 0.319586500476716,
+        },
+        {
+          name: "Virtualsoft",
+          value: 234.5795722602906,
+        },
+        {
+          name: "Gaming1",
+          value: 14.9,
+        },
+        {
+          name: "Comtrade",
+          value: 40.337423716795186,
+        },
+        {
+          name: "Crystalbet",
+          value: 60.09512549658376,
+        },
+        {
+          name: "Evoplay",
+          value: 564.2499301723512,
+        },
+        {
+          name: "BetB2B",
+          value: 355.73553372031995,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1403.0177846269162,
+        },
+        {
+          name: "MrSlotty",
+          value: 89.02052004450901,
+        },
+      ],
+      total: 13932.274447670303,
+      period: "2026-04-02T08:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: 62.59172802124506,
+        },
+        {
+          name: "TopSport",
+          value: 18.4,
+        },
+        {
+          name: "Efbet",
+          value: 17,
+        },
+        {
+          name: "Skywind360",
+          value: 5.070127409701232,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1219.4546560038339,
+        },
+        {
+          name: "Virtualsoft",
+          value: 234.9961728728131,
+        },
+        {
+          name: "Slotegrator",
+          value: 132.60180497841193,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1066.0600044340622,
+        },
+        {
+          name: "Comtrade",
+          value: 104.66822020066007,
+        },
+        {
+          name: "BetConstruct",
+          value: 1.278346001906864,
+        },
+        {
+          name: "Leopard",
+          value: 27.708591060788326,
+        },
+        {
+          name: "MrSlotty",
+          value: 64.91817899843463,
+        },
+        {
+          name: "Reevo",
+          value: 244.16,
+        },
+        {
+          name: "Easit",
+          value: 7.4648414566875925,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6004.58,
+        },
+        {
+          name: "SoftSwiss",
+          value: 13.21959719202565,
+        },
+        {
+          name: "Admiralbet",
+          value: 51,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1236.9381257690536,
+        },
+        {
+          name: "Evoplay",
+          value: 294.5977357599641,
+        },
+        {
+          name: "Crystalbet",
+          value: 87.04375664613673,
+        },
+        {
+          name: "Pariplay",
+          value: 6.344159256629523,
+        },
+        {
+          name: "ORYX",
+          value: 132.58661909307767,
+        },
+        {
+          name: "BetB2B",
+          value: 418.53094792586387,
+        },
+        {
+          name: "Intralot",
+          value: 191.92597637020484,
+        },
+        {
+          name: "Asvla",
+          value: 3.300160923332353,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.5690916548398397,
+        },
+      ],
+      total: 11648.008842029672,
+      period: "2026-04-02T09:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Pariplay",
+          value: 1.2307417403752163,
+        },
+        {
+          name: "SoftSwiss",
+          value: 50.140323830407084,
+        },
+        {
+          name: "BetB2B",
+          value: 507.70751678710064,
+        },
+        {
+          name: "ORYX",
+          value: 470.43925401129064,
+        },
+        {
+          name: "MrSlotty",
+          value: 19.73410518095711,
+        },
+        {
+          name: "Virtualsoft",
+          value: 202.4042616667055,
+        },
+        {
+          name: "BlueOcean",
+          value: 0,
+        },
+        {
+          name: "Evoplay",
+          value: 423.3681539777489,
+        },
+        {
+          name: "Efbet",
+          value: 3.6,
+        },
+        {
+          name: "Asvla",
+          value: 56.988144724861115,
+        },
+        {
+          name: "Comtrade",
+          value: 22.64591530847599,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1396.3946937924002,
+        },
+        {
+          name: "Optimus",
+          value: 42.997795771116174,
+        },
+        {
+          name: "Easit",
+          value: 19.65,
+        },
+        {
+          name: "Reevo",
+          value: 675.6091891292195,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1099.70836872562,
+        },
+        {
+          name: "Leopard",
+          value: 16.97151202473285,
+        },
+        {
+          name: "Skywind360",
+          value: 5.178002460971471,
+        },
+        {
+          name: "BetConstruct",
+          value: 6.437105503337012,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1513.461748704532,
+        },
+        {
+          name: "Intralot",
+          value: 147.40173680133773,
+        },
+        {
+          name: "Crystalbet",
+          value: 48.10507742000847,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "TopSport",
+          value: 81.88,
+        },
+        {
+          name: "Avento",
+          value: 9.02227701532908,
+        },
+        {
+          name: "Baby Leopard",
+          value: 7051.87,
+        },
+        {
+          name: "Slotegrator",
+          value: 13.74984960935063,
+        },
+        {
+          name: "Everymatrix",
+          value: 1.1683687911223504,
+        },
+      ],
+      total: 13887.864142977,
+      period: "2026-04-02T09:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "SoftSwiss",
+          value: 18.452517860916515,
+        },
+        {
+          name: "Avento",
+          value: 13.062688026541666,
+        },
+        {
+          name: "Easit",
+          value: 17.99,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1506.612387994962,
+        },
+        {
+          name: "Evoplay",
+          value: 304.8499315651102,
+        },
+        {
+          name: "Reevo",
+          value: 637.738884577616,
+        },
+        {
+          name: "Peppermill",
+          value: 3.6,
+        },
+        {
+          name: "ORYX",
+          value: 103.70881383249147,
+        },
+        {
+          name: "Everymatrix",
+          value: 13.332645731760849,
+        },
+        {
+          name: "Asvla",
+          value: 0.7147665609558851,
+        },
+        {
+          name: "Gaming1",
+          value: 13.4,
+        },
+        {
+          name: "BetConstruct",
+          value: 3.540620852698688,
+        },
+        {
+          name: "Admiralbet",
+          value: 13.4,
+        },
+        {
+          name: "Optimus",
+          value: 101.23531662566593,
+        },
+        {
+          name: "MrSlotty",
+          value: 123.62157104944016,
+        },
+        {
+          name: "Leris",
+          value: 28.4,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1319.2408658905647,
+        },
+        {
+          name: "Virtualsoft",
+          value: 156.29518103842452,
+        },
+        {
+          name: "BlueOcean",
+          value: 3.548608579019531,
+        },
+        {
+          name: "Crystalbet",
+          value: 33.60690704170058,
+        },
+        {
+          name: "Slotegrator",
+          value: 56.3611108553298,
+        },
+        {
+          name: "Comtrade",
+          value: 1.6475462375818317,
+        },
+        {
+          name: "BetB2B",
+          value: 509.5098472454303,
+        },
+        {
+          name: "TopSport",
+          value: 536.79,
+        },
+        {
+          name: "Skywind360",
+          value: 15.847825713882383,
+        },
+        {
+          name: "Intralot",
+          value: 128.02853458891036,
+        },
+        {
+          name: "Leopard",
+          value: 6.011774667653182,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5414.27,
+        },
+        {
+          name: "iSOFTBET",
+          value: 2320.0195377029604,
+        },
+      ],
+      total: 13404.837884239618,
+      period: "2026-04-02T09:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Easit",
+          value: 26.5,
+        },
+        {
+          name: "Asvla",
+          value: 28.645396814524823,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1250.6884471742,
+        },
+        {
+          name: "Intralot",
+          value: 173.55968725701288,
+        },
+        {
+          name: "ORYX",
+          value: 74.38282912051508,
+        },
+        {
+          name: "Optimus",
+          value: 57.59428570492431,
+        },
+        {
+          name: "Avento",
+          value: 1.6671598832673298,
+        },
+        {
+          name: "Admiralbet",
+          value: 113.4,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1278.6708867309417,
+        },
+        {
+          name: "Slotegrator",
+          value: 69.06300926541364,
+        },
+        {
+          name: "Virtualsoft",
+          value: 43.999121136442724,
+        },
+        {
+          name: "Leris",
+          value: 116.4,
+        },
+        {
+          name: "Evoplay",
+          value: 329.1024779137313,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5981.15,
+        },
+        {
+          name: "MrSlotty",
+          value: 65.11862250246202,
+        },
+        {
+          name: "Comtrade",
+          value: 2.0594327969772896,
+        },
+        {
+          name: "TopSport",
+          value: 5.9,
+        },
+        {
+          name: "EGT New Platform",
+          value: 2531.333921083771,
+        },
+        {
+          name: "BetConstruct",
+          value: 20.723838546363783,
+        },
+        {
+          name: "Reevo",
+          value: 1098.831940783967,
+        },
+        {
+          name: "BtoBet",
+          value: 0.8446266845712269,
+        },
+        {
+          name: "Skywind360",
+          value: 5.295684335084459,
+        },
+        {
+          name: "BetB2B",
+          value: 435.82727598996837,
+        },
+        {
+          name: "Everymatrix",
+          value: 119.43212687432799,
+        },
+        {
+          name: "Leopard",
+          value: 8.906332840967677,
+        },
+        {
+          name: "Crystalbet",
+          value: 75.90048156745061,
+        },
+        {
+          name: "BlueOcean",
+          value: 5.322912868529297,
+        },
+        {
+          name: "Gaming1",
+          value: 22.799999999999997,
+        },
+        {
+          name: "Pariplay",
+          value: 1.4349091799336813,
+        },
+      ],
+      total: 13944.555407055348,
+      period: "2026-04-02T09:15:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Evoplay",
+          value: 488.4714854838779,
+        },
+        {
+          name: "Easit",
+          value: 3.55,
+        },
+        {
+          name: "TGLab",
+          value: 2.2539417480140616,
+        },
+        {
+          name: "Reevo",
+          value: 1619.1269776055215,
+        },
+        {
+          name: "Intralot",
+          value: 204.49929795399672,
+        },
+        {
+          name: "Pariplay",
+          value: 0.5937555227311784,
+        },
+        {
+          name: "MrSlotty",
+          value: 86.29214316211457,
+        },
+        {
+          name: "BetConstruct",
+          value: 0.5060119590881337,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 974.1964622579783,
+        },
+        {
+          name: "TopSport",
+          value: 6,
+        },
+        {
+          name: "Virtualsoft",
+          value: 37.33064446001499,
+        },
+        {
+          name: "Optimus",
+          value: 42.58464088654906,
+        },
+        {
+          name: "BtoBet",
+          value: 43.075960913132576,
+        },
+        {
+          name: "Everymatrix",
+          value: 56.802318957191204,
+        },
+        {
+          name: "Efbet",
+          value: 164.04999999999998,
+        },
+        {
+          name: "Gaming1",
+          value: 58.1,
+        },
+        {
+          name: "BlueOcean",
+          value: 0,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6757.92,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1824.3616481700612,
+        },
+        {
+          name: "ORYX",
+          value: 22.993845855337607,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1397.646550876223,
+        },
+        {
+          name: "Leopard",
+          value: 2.5828365238806263,
+        },
+        {
+          name: "Admiralbet",
+          value: 65.44,
+        },
+        {
+          name: "Slotegrator",
+          value: 31.39886849289483,
+        },
+        {
+          name: "BetB2B",
+          value: 596.0776696410519,
+        },
+        {
+          name: "Asvla",
+          value: 8.85409028211119,
+        },
+        {
+          name: "Crystalbet",
+          value: 81.3610405196181,
+        },
+        {
+          name: "Avento",
+          value: 169.12062128777504,
+        },
+        {
+          name: "Comtrade",
+          value: 15.739950662612143,
+        },
+        {
+          name: "Skywind360",
+          value: 22.75182899517768,
+        },
+        {
+          name: "Leris",
+          value: 42.84,
+        },
+      ],
+      total: 14826.522592216954,
+      period: "2026-04-02T09:20:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Goldrush",
+          value: 123.44999999999999,
+        },
+        {
+          name: "Efbet",
+          value: 5.05,
+        },
+        {
+          name: "Virtualsoft",
+          value: 38.30680729595381,
+        },
+        {
+          name: "Gaming1",
+          value: 34.13,
+        },
+        {
+          name: "ORYX",
+          value: 3.736441416311751,
+        },
+        {
+          name: "BlueOcean",
+          value: 9.01346579070961,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1038.472616211128,
+        },
+        {
+          name: "Leopard",
+          value: 2.3502822774775813,
+        },
+        {
+          name: "Comtrade",
+          value: 12.611574175775212,
+        },
+        {
+          name: "Newton",
+          value: 1.0297163984886448,
+        },
+        {
+          name: "Crystalbet",
+          value: 54.60558952167483,
+        },
+        {
+          name: "Skywind360",
+          value: 6.3744348477868495,
+        },
+        {
+          name: "Everymatrix",
+          value: 147.03354275135712,
+        },
+        {
+          name: "Admiralbet",
+          value: 0,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1861.3986652482859,
+        },
+        {
+          name: "Slotegrator",
+          value: 93.42150527283692,
+        },
+        {
+          name: "Reevo",
+          value: 1240.4190850871487,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5253.93,
+        },
+        {
+          name: "TopSport",
+          value: 5.45,
+        },
+        {
+          name: "Easit",
+          value: 6.5,
+        },
+        {
+          name: "BetB2B",
+          value: 469.65552837456255,
+        },
+        {
+          name: "Avento",
+          value: 33.89237974454054,
+        },
+        {
+          name: "TGLab",
+          value: 18.156752970113274,
+        },
+        {
+          name: "Leris",
+          value: 82.16,
+        },
+        {
+          name: "MrSlotty",
+          value: 33.448582837669534,
+        },
+        {
+          name: "Intralot",
+          value: 193.0843480294898,
+        },
+        {
+          name: "BtoBet",
+          value: 111.91303570568758,
+        },
+        {
+          name: "Optimus",
+          value: 48.757224341608605,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1645.5257402303446,
+        },
+        {
+          name: "Evoplay",
+          value: 336.47514177719756,
+        },
+        {
+          name: "Asvla",
+          value: 103.45441052538064,
+        },
+      ],
+      total: 13013.80687083153,
+      period: "2026-04-02T09:25:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Skywind360",
+          value: 17.75034934537569,
+        },
+        {
+          name: "Intralot",
+          value: 123.44919511984614,
+        },
+        {
+          name: "Leopard",
+          value: 0.17317869412992706,
+        },
+        {
+          name: "Newton",
+          value: 53.496218607195786,
+        },
+        {
+          name: "ORYX",
+          value: 8.528376666152852,
+        },
+        {
+          name: "Efbet",
+          value: 143.05,
+        },
+        {
+          name: "BetConstruct",
+          value: 22.699973753079433,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1071.5453188111348,
+        },
+        {
+          name: "MrSlotty",
+          value: 50.98753615651058,
+        },
+        {
+          name: "Crystalbet",
+          value: 12.215424920119947,
+        },
+        {
+          name: "Everymatrix",
+          value: 96.06133733810015,
+        },
+        {
+          name: "Slotegrator",
+          value: 102.75337627699002,
+        },
+        {
+          name: "Goldrush",
+          value: 75.8,
+        },
+        {
+          name: "BetB2B",
+          value: 469.9345132036068,
+        },
+        {
+          name: "Gaming1",
+          value: 99.53999999999999,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "Evoplay",
+          value: 315.7878141413572,
+        },
+        {
+          name: "Avento",
+          value: 23.340238365742618,
+        },
+        {
+          name: "BtoBet",
+          value: 31.504575334506768,
+        },
+        {
+          name: "BlueOcean",
+          value: 17.836785249985684,
+        },
+        {
+          name: "Optimus",
+          value: 22.624559397402614,
+        },
+        {
+          name: "Asvla",
+          value: 10.467144548052174,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1306.9949815266793,
+        },
+        {
+          name: "Leris",
+          value: 90.4,
+        },
+        {
+          name: "Admiralbet",
+          value: 64.80000000000001,
+        },
+        {
+          name: "Virtualsoft",
+          value: 20.678663052478612,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1200.3309576589563,
+        },
+        {
+          name: "Reevo",
+          value: 948.4981473499444,
+        },
+        {
+          name: "TopSport",
+          value: 1.2,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4312.37,
+        },
+        {
+          name: "Comtrade",
+          value: 0.09414549929039039,
+        },
+      ],
+      total: 10714.912811016638,
+      period: "2026-04-02T09:30:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BtoBet",
+          value: 223.01764301328555,
+        },
+        {
+          name: "Skywind360",
+          value: 37.35418820803094,
+        },
+        {
+          name: "BetB2B",
+          value: 444.13764919843885,
+        },
+        {
+          name: "MrSlotty",
+          value: 97.39024552046253,
+        },
+        {
+          name: "Leopard",
+          value: 3.188961953335371,
+        },
+        {
+          name: "Newton",
+          value: 15.494780091543419,
+        },
+        {
+          name: "TopSport",
+          value: 22.6,
+        },
+        {
+          name: "Everymatrix",
+          value: 108.96740874433017,
+        },
+        {
+          name: "ORYX",
+          value: 69.89111502918026,
+        },
+        {
+          name: "Efbet",
+          value: 111.95,
+        },
+        {
+          name: "Virtualsoft",
+          value: 80.36087771380838,
+        },
+        {
+          name: "Admiralbet",
+          value: 6.15,
+        },
+        {
+          name: "Reevo",
+          value: 669.7216343321197,
+        },
+        {
+          name: "BetConstruct",
+          value: 89.8731240199665,
+        },
+        {
+          name: "Avento",
+          value: 1.608318946210836,
+        },
+        {
+          name: "TGLab",
+          value: 1.7029782096106243,
+        },
+        {
+          name: "BlueOcean",
+          value: 12.396472636041562,
+        },
+        {
+          name: "Intralot",
+          value: 154.98750930225057,
+        },
+        {
+          name: "Comtrade",
+          value: 0.745318536048924,
+        },
+        {
+          name: "EGT New Platform",
+          value: 786.9262375642921,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1495.5968165530817,
+        },
+        {
+          name: "Gaming1",
+          value: 125.72,
+        },
+        {
+          name: "Crystalbet",
+          value: 13.35518781461717,
+        },
+        {
+          name: "Leris",
+          value: 115.6,
+        },
+        {
+          name: "Evoplay",
+          value: 85.46963513186924,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5441.89,
+        },
+        {
+          name: "Asvla",
+          value: 0.4829503790242467,
+        },
+        {
+          name: "iSOFTBET",
+          value: 945.2406707087356,
+        },
+        {
+          name: "Slotegrator",
+          value: 37.44919942114259,
+        },
+        {
+          name: "Optimus",
+          value: 47.723100139518465,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+      ],
+      total: 11246.992023166946,
+      period: "2026-04-02T09:35:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Optimus",
+          value: 24.789293074026702,
+        },
+        {
+          name: "Skywind360",
+          value: 18.485861058581865,
+        },
+        {
+          name: "ORYX",
+          value: 180.12067790820984,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1393.196345132323,
+        },
+        {
+          name: "Crystalbet",
+          value: 92.86813821716915,
+        },
+        {
+          name: "Evoplay",
+          value: 55.38221509091822,
+        },
+        {
+          name: "Leris",
+          value: 49.6,
+        },
+        {
+          name: "Asvla",
+          value: 0.38636030321939735,
+        },
+        {
+          name: "Intralot",
+          value: 125.8514310055627,
+        },
+        {
+          name: "Everymatrix",
+          value: 49.254468572969785,
+        },
+        {
+          name: "Comtrade",
+          value: 2.9420468528246997,
+        },
+        {
+          name: "Baby Leopard",
+          value: 4571.11,
+        },
+        {
+          name: "TGLab",
+          value: 4.032051349225155,
+        },
+        {
+          name: "MrSlotty",
+          value: 20.994223057653276,
+        },
+        {
+          name: "Slotegrator",
+          value: 38.618381985747305,
+        },
+        {
+          name: "Efbet",
+          value: 24,
+        },
+        {
+          name: "Easit",
+          value: 0,
+        },
+        {
+          name: "Goldrush",
+          value: 0,
+        },
+        {
+          name: "Leopard",
+          value: 1.6946772211285719,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1550.4895660430145,
+        },
+        {
+          name: "EGT New Platform",
+          value: 860.6047866730073,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "Reevo",
+          value: 1782.3029804692098,
+        },
+        {
+          name: "BetConstruct",
+          value: 64.01424148019203,
+        },
+        {
+          name: "BtoBet",
+          value: 38.008200805705215,
+        },
+        {
+          name: "BetB2B",
+          value: 339.7450928205153,
+        },
+        {
+          name: "Avento",
+          value: 2.7459103959697195,
+        },
+        {
+          name: "Virtualsoft",
+          value: 24.817846466117693,
+        },
+        {
+          name: "TopSport",
+          value: 46.8,
+        },
+        {
+          name: "BlueOcean",
+          value: 8.605375804122364,
+        },
+        {
+          name: "Gaming1",
+          value: 207.28,
+        },
+      ],
+      total: 11578.740171787413,
+      period: "2026-04-02T09:40:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "ORYX",
+          value: 70.8416080664113,
+        },
+        {
+          name: "BetConstruct",
+          value: 51.465367873121366,
+        },
+        {
+          name: "TGLab",
+          value: 4.482839698827966,
+        },
+        {
+          name: "Crystalbet",
+          value: 79.6868125390007,
+        },
+        {
+          name: "Leris",
+          value: 251,
+        },
+        {
+          name: "Slotegrator",
+          value: 57.14350750356869,
+        },
+        {
+          name: "Gaming1",
+          value: 32.3,
+        },
+        {
+          name: "Baby Leopard",
+          value: 9043.99,
+        },
+        {
+          name: "iSOFTBET",
+          value: 974.9098994555412,
+        },
+        {
+          name: "Efbet",
+          value: 100.94999999999999,
+        },
+        {
+          name: "BlueOcean",
+          value: 13.366425647640234,
+        },
+        {
+          name: "Everymatrix",
+          value: 25.890012304857358,
+        },
+        {
+          name: "Intralot",
+          value: 133.51829919282903,
+        },
+        {
+          name: "EGT New Platform",
+          value: 994.9516539170463,
+        },
+        {
+          name: "MrSlotty",
+          value: 41.56885726987433,
+        },
+        {
+          name: "Asvla",
+          value: 6.439338386989957,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1186.1972382624738,
+        },
+        {
+          name: "Easit",
+          value: 24.67435114955096,
+        },
+        {
+          name: "Reevo",
+          value: 1639.8288166352381,
+        },
+        {
+          name: "BtoBet",
+          value: 91.25588022017413,
+        },
+        {
+          name: "Avento",
+          value: 5.491820791939439,
+        },
+        {
+          name: "BetB2B",
+          value: 508.8612982704217,
+        },
+        {
+          name: "TopSport",
+          value: 22.560000000000002,
+        },
+        {
+          name: "Leopard",
+          value: 0.2325542464030449,
+        },
+        {
+          name: "Optimus",
+          value: 80.35491407628615,
+        },
+        {
+          name: "Virtualsoft",
+          value: 30.911347272931337,
+        },
+        {
+          name: "Admiralbet",
+          value: 3.403810166282978,
+        },
+        {
+          name: "Evoplay",
+          value: 206.99124428294843,
+        },
+        {
+          name: "Skywind360",
+          value: 22.506658424108952,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+      ],
+      total: 15705.774555654467,
+      period: "2026-04-02T09:45:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Intralot",
+          value: 139.3371033155946,
+        },
+        {
+          name: "Optimus",
+          value: 109.58500366407311,
+        },
+        {
+          name: "Easit",
+          value: 0,
+        },
+        {
+          name: "Evoplay",
+          value: 767.0770012100763,
+        },
+        {
+          name: "Baby Leopard",
+          value: 10308.83,
+        },
+        {
+          name: "Skywind360",
+          value: 78.60168508463323,
+        },
+        {
+          name: "Leopard",
+          value: 8.708414333390618,
+        },
+        {
+          name: "TGLab",
+          value: 0,
+        },
+        {
+          name: "Asvla",
+          value: 9.723400964354834,
+        },
+        {
+          name: "BetB2B",
+          value: 453.2396867438081,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1535.5607982576864,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1170.0702194794214,
+        },
+        {
+          name: "Comtrade",
+          value: 0.8433867644764139,
+        },
+        {
+          name: "Pariplay",
+          value: 3.185449210382913,
+        },
+        {
+          name: "Crystalbet",
+          value: 112.94599530780383,
+        },
+        {
+          name: "Gaming1",
+          value: 30.439999999999998,
+        },
+        {
+          name: "Slotegrator",
+          value: 10.960086240808701,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1298.507037848048,
+        },
+        {
+          name: "Virtualsoft",
+          value: 92.45081238885902,
+        },
+        {
+          name: "BlueOcean",
+          value: 8.063208612099928,
+        },
+        {
+          name: "TopSport",
+          value: 11.3,
+        },
+        {
+          name: "Everymatrix",
+          value: 29.74227701532908,
+        },
+        {
+          name: "Reevo",
+          value: 1143.120951426487,
+        },
+        {
+          name: "ORYX",
+          value: 97.46745613605877,
+        },
+        {
+          name: "Efbet",
+          value: 127.05,
+        },
+        {
+          name: "Admiralbet",
+          value: 0.34038101662829784,
+        },
+        {
+          name: "BetConstruct",
+          value: 53.50097682432468,
+        },
+        {
+          name: "BtoBet",
+          value: 17.399309702167276,
+        },
+        {
+          name: "MrSlotty",
+          value: 29.265524373966183,
+        },
+      ],
+      total: 17647.316165920478,
+      period: "2026-04-02T09:50:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "MrSlotty",
+          value: 93.53045861812299,
+        },
+        {
+          name: "BtoBet",
+          value: 46.15281526407062,
+        },
+        {
+          name: "Intralot",
+          value: 182.83959128103226,
+        },
+        {
+          name: "Asvla",
+          value: 21.481632858998495,
+        },
+        {
+          name: "Slotegrator",
+          value: 8.892514610327375,
+        },
+        {
+          name: "Evoplay",
+          value: 1352.9785900100453,
+        },
+        {
+          name: "Virtualsoft",
+          value: 45.21634337017407,
+        },
+        {
+          name: "BlueOcean",
+          value: 6.505782394869141,
+        },
+        {
+          name: "Gaming1",
+          value: 71.24,
+        },
+        {
+          name: "BetConstruct",
+          value: 14.434656938198339,
+        },
+        {
+          name: "Admiralbet",
+          value: 2.9026671163980846,
+        },
+        {
+          name: "Dench",
+          value: 8.9,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1384.8795930904066,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5250.23,
+        },
+        {
+          name: "Peppermill",
+          value: 0,
+        },
+        {
+          name: "Comtrade",
+          value: 7.54144676607398,
+        },
+        {
+          name: "Skywind360",
+          value: 126.94932169938579,
+        },
+        {
+          name: "Reevo",
+          value: 984.3369446641126,
+        },
+        {
+          name: "Optimus",
+          value: 44.68010308552118,
+        },
+        {
+          name: "Betmexico",
+          value: 0.38416256709037727,
+        },
+        {
+          name: "ORYX",
+          value: 129.844267867618,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1663.4501281859662,
+        },
+        {
+          name: "iSOFTBET",
+          value: 781.5297687767588,
+        },
+        {
+          name: "Crystalbet",
+          value: 91.32591667348505,
+        },
+        {
+          name: "Everymatrix",
+          value: 127.41819971615615,
+        },
+        {
+          name: "TopSport",
+          value: 3.6,
+        },
+        {
+          name: "BetB2B",
+          value: 343.8169926343087,
+        },
+        {
+          name: "Leopard",
+          value: 39.11364505991638,
+        },
+        {
+          name: "Efbet",
+          value: 110.5,
+        },
+        {
+          name: "TGLab",
+          value: 6.242821359818984,
+        },
+        {
+          name: "Easit",
+          value: 0,
+        },
+      ],
+      total: 12950.918364608855,
+      period: "2026-04-02T09:55:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "BlueOcean",
+          value: 12.083012211561503,
+        },
+        {
+          name: "Pariplay",
+          value: 0,
+        },
+        {
+          name: "TGLab",
+          value: 10.831442289067574,
+        },
+        {
+          name: "Easit",
+          value: 15.95,
+        },
+        {
+          name: "iSOFTBET",
+          value: 1254.083685495723,
+        },
+        {
+          name: "MrSlotty",
+          value: 67.33491030800923,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6608.95,
+        },
+        {
+          name: "Asvla",
+          value: 12.170349551411018,
+        },
+        {
+          name: "Dench",
+          value: 11.8,
+        },
+        {
+          name: "ORYX",
+          value: 83.10379220420326,
+        },
+        {
+          name: "Comtrade",
+          value: 12.615496904912312,
+        },
+        {
+          name: "SoftSwiss",
+          value: 0.1,
+        },
+        {
+          name: "Optimus",
+          value: 28.054948449048183,
+        },
+        {
+          name: "BetConstruct",
+          value: 8.202720178902377,
+        },
+        {
+          name: "Betmexico",
+          value: 0.46767616863176364,
+        },
+        {
+          name: "BtoBet",
+          value: 20.814014726933806,
+        },
+        {
+          name: "Efbet",
+          value: 37.08,
+        },
+        {
+          name: "Slotegrator",
+          value: 33.58980585771115,
+        },
+        {
+          name: "Everymatrix",
+          value: 77.37045622338964,
+        },
+        {
+          name: "Crystalbet",
+          value: 45.56475842634093,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1138.4930086134002,
+        },
+        {
+          name: "Reevo",
+          value: 908.2336604792906,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1527.675477400423,
+        },
+        {
+          name: "Skywind360",
+          value: 37.48167690498667,
+        },
+        {
+          name: "Intralot",
+          value: 158.55251641998237,
+        },
+        {
+          name: "Evoplay",
+          value: 1574.483090106146,
+        },
+        {
+          name: "BetB2B",
+          value: 277.1024795337692,
+        },
+        {
+          name: "Gaming1",
+          value: 40,
+        },
+        {
+          name: "TopSport",
+          value: 1.35,
+        },
+        {
+          name: "Leopard",
+          value: 0.19791850757705948,
+        },
+        {
+          name: "Virtualsoft",
+          value: 0.4947962689426487,
+        },
+      ],
+      total: 14004.231693230364,
+      period: "2026-04-02T10:00:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Calimaco Apuesta",
+          value: 1443.0954238463387,
+        },
+        {
+          name: "BtoBet",
+          value: 21.23632806921942,
+        },
+        {
+          name: "Leopard",
+          value: 1.8826998033267786,
+        },
+        {
+          name: "Slotegrator",
+          value: 7.629775844845134,
+        },
+        {
+          name: "MrSlotty",
+          value: 35.65784382367653,
+        },
+        {
+          name: "Everymatrix",
+          value: 14.32,
+        },
+        {
+          name: "Pariplay",
+          value: 2.002971851983195,
+        },
+        {
+          name: "Virtualsoft",
+          value: 0.3216175748127217,
+        },
+        {
+          name: "Skywind360",
+          value: 350.7900530851317,
+        },
+        {
+          name: "Crystalbet",
+          value: 30.52246395433239,
+        },
+        {
+          name: "EGT New Platform",
+          value: 818.5542046616908,
+        },
+        {
+          name: "BetConstruct",
+          value: 5.114472666235778,
+        },
+        {
+          name: "Optimus",
+          value: 47.64888069917707,
+        },
+        {
+          name: "Reevo",
+          value: 1753.9288726982043,
+        },
+        {
+          name: "TGLab",
+          value: 7.137482202044529,
+        },
+        {
+          name: "Efbet",
+          value: 22.4,
+        },
+        {
+          name: "ORYX",
+          value: 158.3073094423907,
+        },
+        {
+          name: "BlueOcean",
+          value: 10.820529096617951,
+        },
+        {
+          name: "Avento",
+          value: 1.6083189462108358,
+        },
+        {
+          name: "iSOFTBET",
+          value: 770.7004136728359,
+        },
+        {
+          name: "BetB2B",
+          value: 288.23520853058574,
+        },
+        {
+          name: "Evoplay",
+          value: 583.5697194146637,
+        },
+        {
+          name: "Easit",
+          value: 20.89,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6001.57,
+        },
+        {
+          name: "Asvla",
+          value: 15.274110653940175,
+        },
+        {
+          name: "Comtrade",
+          value: 0.39227291370996,
+        },
+        {
+          name: "Intralot",
+          value: 120.4575816557826,
+        },
+      ],
+      total: 12534.068555107757,
+      period: "2026-04-02T10:05:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "Newton",
+          value: 0.970875461432151,
+        },
+        {
+          name: "Evoplay",
+          value: 198.74003338265283,
+        },
+        {
+          name: "Dench",
+          value: 0.2,
+        },
+        {
+          name: "Optimus",
+          value: 22.265832102419193,
+        },
+        {
+          name: "BetB2B",
+          value: 228.9008914577187,
+        },
+        {
+          name: "Betmexico",
+          value: 0,
+        },
+        {
+          name: "Reevo",
+          value: 1560.0614521615314,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1218.2184734550945,
+        },
+        {
+          name: "Asvla",
+          value: 34.444021032009275,
+        },
+        {
+          name: "MrSlotty",
+          value: 50.9108586176936,
+        },
+        {
+          name: "Easit",
+          value: 38.4126512047127,
+        },
+        {
+          name: "ORYX",
+          value: 84.63039807946114,
+        },
+        {
+          name: "Admiralbet",
+          value: 2.961314844666191,
+        },
+        {
+          name: "iSOFTBET",
+          value: 984.8006290530124,
+        },
+        {
+          name: "Everymatrix",
+          value: 0.5884093705649399,
+        },
+        {
+          name: "Crystalbet",
+          value: 32.23532796527172,
+        },
+        {
+          name: "Skywind360",
+          value: 204.17805158603414,
+        },
+        {
+          name: "BetConstruct",
+          value: 0.2839468572310144,
+        },
+        {
+          name: "Baby Leopard",
+          value: 5712.88,
+        },
+        {
+          name: "Intralot",
+          value: 235.00972098156745,
+        },
+        {
+          name: "Virtualsoft",
+          value: 4.700564554955163,
+        },
+        {
+          name: "EGT New Platform",
+          value: 1033.06,
+        },
+        {
+          name: "Comtrade",
+          value: 6.08023016250438,
+        },
+        {
+          name: "TopSport",
+          value: 14.1,
+        },
+        {
+          name: "Avento",
+          value: 9.806822842749,
+        },
+        {
+          name: "BtoBet",
+          value: 32.19234277765762,
+        },
+        {
+          name: "BlueOcean",
+          value: 35.604795006537564,
+        },
+        {
+          name: "TGLab",
+          value: 8.702719527054294,
+        },
+        {
+          name: "Slotegrator",
+          value: 20.00003503727888,
+        },
+        {
+          name: "Leopard",
+          value: 0,
+        },
+        {
+          name: "Efbet",
+          value: 0.6,
+        },
+      ],
+      total: 11775.54039752181,
+      period: "2026-04-02T10:10:00.000Z",
+    },
+    {
+      items: [
+        {
+          name: "EGT New Platform",
+          value: 1559.1299999999999,
+        },
+        {
+          name: "Crystalbet",
+          value: 23.22669356187277,
+        },
+        {
+          name: "Gaming1",
+          value: 295.5,
+        },
+        {
+          name: "BetB2B",
+          value: 354.40847247178704,
+        },
+        {
+          name: "Admiralbet",
+          value: 0.2042286099769787,
+        },
+        {
+          name: "iSOFTBET",
+          value: 748.1388702269854,
+        },
+        {
+          name: "Everymatrix",
+          value: 3.5051063733670516,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 1065.7319674458302,
+        },
+        {
+          name: "MrSlotty",
+          value: 60.552609680430876,
+        },
+        {
+          name: "ORYX",
+          value: 51.163843003556494,
+        },
+        {
+          name: "Evoplay",
+          value: 488.2365078182895,
+        },
+        {
+          name: "WeAreCasino",
+          value: 4.166537328478667,
+        },
+        {
+          name: "Easit",
+          value: 40.25,
+        },
+        {
+          name: "BtoBet",
+          value: 14.141463918821115,
+        },
+        {
+          name: "Asvla",
+          value: 36.70422880584275,
+        },
+        {
+          name: "Reevo",
+          value: 1389.2401548871924,
+        },
+        {
+          name: "TGLab",
+          value: 12.885033659480385,
+        },
+        {
+          name: "Intralot",
+          value: 144.49458720752273,
+        },
+        {
+          name: "Slotegrator",
+          value: 17.24768561515508,
+        },
+        {
+          name: "BlueOcean",
+          value: 12.296890747098027,
+        },
+        {
+          name: "Baby Leopard",
+          value: 7164.47,
+        },
+        {
+          name: "Betmexico",
+          value: 1.010514578650775,
+        },
+        {
+          name: "Efbet",
+          value: 54.8,
+        },
+        {
+          name: "BetConstruct",
+          value: 0,
+        },
+        {
+          name: "Avento",
+          value: 5.599695843209679,
+        },
+        {
+          name: "Newton",
+          value: 3.2656720066354166,
+        },
+        {
+          name: "Optimus",
+          value: 50.76609719351576,
         },
         {
           name: "TopSport",
@@ -7605,665 +19382,913 @@ export const reportsExample = {
         },
         {
           name: "Comtrade",
-          value: -0.7105481592403224,
+          value: 3.4520016406476475,
         },
         {
-          name: "TGLab",
-          value: 1.1383510522153344,
+          name: "SoftSwiss",
+          value: 0.39,
         },
         {
-          name: "Asvla",
-          value: 35.721720791548,
-        },
-        {
-          name: "Ondiss",
-          value: -6.539463491449792,
-        },
-        {
-          name: "Admiralbet",
-          value: -9.06268383652012,
-        },
-        {
-          name: "Crystalbet",
-          value: 8.716480228638599,
-        },
-        {
-          name: "Betmexico",
-          value: 0.10722274084370931,
-        },
-        {
-          name: "ORYX",
-          value: -17.67821526101085,
-        },
-        {
-          name: "Optimus",
-          value: -4.883055230060914,
-        },
-        {
-          name: "Gaming1",
-          value: 61.00000000000001,
-        },
-        {
-          name: "Peppermill",
-          value: 3.3,
-        },
-        {
-          name: "BtoBet",
-          value: -1.8427030826369537,
-        },
-        {
-          name: "Reevo",
-          value: 47.64,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 182.05361538576378,
-        },
-        {
-          name: "Virtualsoft",
-          value: 0.639174273338254,
-        },
-        {
-          name: "Pariplay",
-          value: -5.760172550909938,
+          name: "Skywind360",
+          value: 339.496515899422,
         },
       ],
-      total: 837.1125228200374,
-      period: "2026-03-26T08:30:00.000Z",
+      total: 13959.335378523769,
+      period: "2026-04-02T10:15:00.000Z",
     },
     {
       items: [
         {
+          name: "Asvla",
+          value: 13.587003996548809,
+        },
+        {
           name: "Crystalbet",
-          value: 0.6656221265505836,
-        },
-        {
-          name: "Skywind360",
-          value: 0.6869940766135695,
-        },
-        {
-          name: "Intralot",
-          value: 20.748058288641246,
-        },
-        {
-          name: "Reevo",
-          value: 93.55000000000001,
-        },
-        {
-          name: "Easit",
-          value: 35.95,
-        },
-        {
-          name: "Ondiss",
-          value: 8.82827571345722,
-        },
-        {
-          name: "Avento",
-          value: -2.355408262675095,
-        },
-        {
-          name: "Virtualsoft",
-          value: 35.282433239878216,
-        },
-        {
-          name: "Optimus",
-          value: 4.966289126027862,
-        },
-        {
-          name: "ORYX",
-          value: 48.73632170428197,
-        },
-        {
-          name: "Admiralbet",
-          value: 22.00647944214858,
-        },
-        {
-          name: "iSOFTBET",
-          value: 226.37929897141015,
+          value: 62.44226433864161,
         },
         {
           name: "Leopard",
-          value: 0.6053374252141629,
-        },
-        {
-          name: "Pariplay",
-          value: -20.212758940751,
-        },
-        {
-          name: "TopSport",
-          value: 7.15,
+          value: 74.2194403413973,
         },
         {
           name: "TGLab",
-          value: 3.306062098455173,
+          value: 17.180044879307182,
         },
         {
-          name: "BtoBet",
-          value: -0.3685406165273907,
+          name: "EGT New Platform",
+          value: 1343.56,
         },
         {
-          name: "Calimaco Apuesta",
-          value: 37.412545831256814,
-        },
-        {
-          name: "MrSlotty",
-          value: 37.58335590436785,
-        },
-        {
-          name: "Newton",
-          value: 12.886046037051669,
+          name: "Gaming1",
+          value: 304,
         },
         {
           name: "BlueOcean",
-          value: 171.693255404551,
+          value: 35.088674925829004,
+        },
+        {
+          name: "Intralot",
+          value: 103.08425983536577,
+        },
+        {
+          name: "BtoBet",
+          value: 29.42920690956032,
+        },
+        {
+          name: "WeAreCasino",
+          value: 122.12583858363027,
+        },
+        {
+          name: "Reevo",
+          value: 1625.5803289361381,
+        },
+        {
+          name: "Baby Leopard",
+          value: 8129.67,
+        },
+        {
+          name: "Avento",
+          value: 166.0628539254059,
+        },
+        {
+          name: "Calimaco Apuesta",
+          value: 877.6145479555046,
         },
         {
           name: "Efbet",
-          value: 0.5,
+          value: 7.4,
         },
         {
-          name: "Comtrade",
-          value: 18.73530988936149,
-        },
-        {
-          name: "Evoplay",
-          value: 63.5267845083631,
-        },
-        {
-          name: "Asvla",
-          value: -25.32216747148864,
-        },
-        {
-          name: "BetB2B",
-          value: -9.837805385253567,
-        },
-        {
-          name: "Slotegrator",
-          value: -71.3668723954659,
-        },
-        {
-          name: "EGT New Platform",
-          value: 152.54999999999998,
-        },
-        {
-          name: "Peppermill",
-          value: 0.7000000000000001,
-        },
-        {
-          name: "Everymatrix",
-          value: 0.741725653217481,
-        },
-        {
-          name: "Baby Leopard",
-          value: -20.730000000000018,
-        },
-        {
-          name: "Gaming1",
-          value: 7.9,
-        },
-      ],
-      total: 862.8966423686865,
-      period: "2026-03-26T08:35:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Easit",
-          value: -37.26248580885528,
-        },
-        {
-          name: "BetB2B",
-          value: -21.89034796706476,
-        },
-        {
-          name: "Pariplay",
-          value: 0.0313448775406755,
-        },
-        {
-          name: "Intralot",
-          value: 91.1607931997627,
+          name: "BetConstruct",
+          value: 21.59872099055139,
         },
         {
           name: "iSOFTBET",
-          value: 78.39373602118636,
+          value: 692.1883349394767,
+        },
+        {
+          name: "Everymatrix",
+          value: 2.3367375822447007,
+        },
+        {
+          name: "Pariplay",
+          value: 0.048264381975498684,
+        },
+        {
+          name: "BetB2B",
+          value: 410.1158803566462,
+        },
+        {
+          name: "Slotegrator",
+          value: 162.78378599254904,
+        },
+        {
+          name: "Evoplay",
+          value: 252.45378310799347,
         },
         {
           name: "Newton",
-          value: 1.962840218895913,
-        },
-        {
-          name: "Leopard",
-          value: -1.3266978569277068,
-        },
-        {
-          name: "Ondiss",
-          value: 3.5240442148368327,
-        },
-        {
-          name: "ORYX",
-          value: -31.357146650879688,
-        },
-        {
-          name: "MrSlotty",
-          value: 13.103317991225438,
-        },
-        {
-          name: "BtoBet",
-          value: -1.4741624661095631,
-        },
-        {
-          name: "EGT New Platform",
-          value: -332.0874319562208,
-        },
-        {
-          name: "Comtrade",
-          value: 2.777418909737717,
-        },
-        {
-          name: "Admiralbet",
-          value: 6.131836377069264,
-        },
-        {
-          name: "Asvla",
-          value: 27.531399005801774,
-        },
-        {
-          name: "Gaming1",
-          value: 7.199999999999999,
-        },
-        {
-          name: "Slotegrator",
-          value: -21.673824171527386,
-        },
-        {
-          name: "Skywind360",
-          value: -12.146055274527908,
-        },
-        {
-          name: "Avento",
-          value: 5.495952612908557,
-        },
-        {
-          name: "Reevo",
-          value: 62.95,
-        },
-        {
-          name: "BetConstruct",
-          value: -2.9977336110378845,
+          value: 1.3141142609283658,
         },
         {
           name: "Optimus",
-          value: 3.0821763900487795,
-        },
-        {
-          name: "Baby Leopard",
-          value: -1528.6899999999998,
+          value: 32.01331860058937,
         },
         {
           name: "TopSport",
-          value: -0.8,
-        },
-        {
-          name: "Evoplay",
-          value: 18.27582433706805,
+          value: 15.01,
         },
         {
           name: "Virtualsoft",
-          value: 13.315163049837773,
+          value: 19.79185075770595,
         },
         {
-          name: "Calimaco Apuesta",
-          value: -46.764421499028195,
+          name: "MrSlotty",
+          value: 104.25747372804307,
         },
         {
-          name: "Crystalbet",
-          value: -41.633079201152,
+          name: "Easit",
+          value: 39.8,
+        },
+        {
+          name: "ORYX",
+          value: 59.736744324490694,
+        },
+        {
+          name: "Skywind360",
+          value: 454.6796115520775,
         },
       ],
-      total: -1745.1675392574111,
-      period: "2026-03-26T08:40:00.000Z",
+      total: 15179.173085202601,
+      period: "2026-04-02T10:20:00.000Z",
     },
     {
       items: [
         {
-          name: "Ondiss",
-          value: 8.101668658851688,
-        },
-        {
-          name: "Crystalbet",
-          value: -20.745222944159867,
-        },
-        {
-          name: "Virtualsoft",
-          value: -53.06966674130398,
-        },
-        {
-          name: "TopSport",
-          value: 1.4000000000000004,
-        },
-        {
           name: "Easit",
-          value: -10.75,
-        },
-        {
-          name: "Baby Leopard",
-          value: 225.05000000000007,
-        },
-        {
-          name: "Intralot",
-          value: 50.813032368185524,
-        },
-        {
-          name: "Admiralbet",
-          value: 5.1,
-        },
-        {
-          name: "Evoplay",
-          value: 11.158855244647398,
-        },
-        {
-          name: "BlueOcean",
-          value: -0.20095284288771875,
-        },
-        {
-          name: "Slotegrator",
-          value: -471.65685242922024,
-        },
-        {
-          name: "BetB2B",
-          value: 52.72736242318881,
-        },
-        {
-          name: "BetConstruct",
-          value: -3.047355879544199,
-        },
-        {
-          name: "iSOFTBET",
-          value: 133.91439163186965,
-        },
-        {
-          name: "BtoBet",
-          value: -8.795836047787057,
-        },
-        {
-          name: "Optimus",
-          value: 5.506048330177157,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -86.13087197555765,
+          value: 32.1,
         },
         {
           name: "TGLab",
-          value: 1.405505878837944,
-        },
-        {
-          name: "Leopard",
-          value: -4.489585903671708,
-        },
-        {
-          name: "ORYX",
-          value: -5.969191698613308,
-        },
-        {
-          name: "Asvla",
-          value: 21.030489569824404,
-        },
-        {
-          name: "Pariplay",
-          value: -0.10088957086902717,
-        },
-        {
-          name: "Comtrade",
-          value: 14.752707085221681,
-        },
-        {
-          name: "Skywind360",
-          value: -102.85282747014584,
-        },
-        {
-          name: "MrSlotty",
-          value: 54.32552383544424,
-        },
-        {
-          name: "EGT New Platform",
-          value: 576.79,
-        },
-        {
-          name: "Reevo",
-          value: -43.45,
-        },
-      ],
-      total: 350.8163315224879,
-      period: "2026-03-26T08:45:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Leopard",
-          value: 3.1124432613094877,
-        },
-        {
-          name: "Crystalbet",
-          value: 6.58331979450268,
-        },
-        {
-          name: "EGT New Platform",
-          value: 59.95000000000002,
-        },
-        {
-          name: "Evoplay",
-          value: 0.2999999999999994,
-        },
-        {
-          name: "Comtrade",
-          value: 14.269848391373287,
-        },
-        {
-          name: "Reevo",
-          value: -10.59,
-        },
-        {
-          name: "Slotegrator",
-          value: 21.60651728642542,
-        },
-        {
-          name: "ORYX",
-          value: 6.071467394988883,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: 231.74125617016742,
-        },
-        {
-          name: "Virtualsoft",
-          value: 40.16666040223143,
-        },
-        {
-          name: "Betmexico",
-          value: 3.299161256729517,
-        },
-        {
-          name: "Everymatrix",
-          value: 1.4525017619829756,
+          value: 15.545937111996986,
         },
         {
           name: "Optimus",
-          value: 4.507241578573788,
-        },
-        {
-          name: "iSOFTBET",
-          value: -175.96126937785215,
-        },
-        {
-          name: "Intralot",
-          value: 28.410503156718047,
-        },
-        {
-          name: "BlueOcean",
-          value: -13.109217809557656,
-        },
-        {
-          name: "Easit",
-          value: -1.7999999999999994,
-        },
-        {
-          name: "Ondiss",
-          value: -2.9548686887291664,
-        },
-        {
-          name: "BtoBet",
-          value: 13.292031569421226,
-        },
-        {
-          name: "Skywind360",
-          value: 50.05242558184578,
-        },
-        {
-          name: "Baby Leopard",
-          value: -1160.54,
-        },
-        {
-          name: "MrSlotty",
-          value: 37.71398477775371,
-        },
-        {
-          name: "BetConstruct",
-          value: 0.9203568104063682,
-        },
-        {
-          name: "Asvla",
-          value: 38.13063896382631,
-        },
-        {
-          name: "BetB2B",
-          value: 69.32636167467099,
-        },
-        {
-          name: "TopSport",
-          value: -1.9200000000000004,
-        },
-      ],
-      total: -735.9686360432116,
-      period: "2026-03-26T08:50:00.000Z",
-    },
-    {
-      items: [
-        {
-          name: "Avento",
-          value: 20.217254254627903,
-        },
-        {
-          name: "BlueOcean",
-          value: -1.6489953872256922,
-        },
-        {
-          name: "Reevo",
-          value: 97,
-        },
-        {
-          name: "Baby Leopard",
-          value: -425.63,
-        },
-        {
-          name: "Leopard",
-          value: -0.15890107411871768,
-        },
-        {
-          name: "Asvla",
-          value: 13.534316573195206,
-        },
-        {
-          name: "Crystalbet",
-          value: 12.884542592514874,
-        },
-        {
-          name: "Virtualsoft",
-          value: 13.266978569277068,
-        },
-        {
-          name: "Pariplay",
-          value: 3.627125160454225,
-        },
-        {
-          name: "Easit",
-          value: 9.26250527099661,
-        },
-        {
-          name: "BetB2B",
-          value: 3.122748744052429,
-        },
-        {
-          name: "Skywind360",
-          value: 87.90776204347236,
-        },
-        {
-          name: "EGT New Platform",
-          value: 301.16,
-        },
-        {
-          name: "Calimaco Apuesta",
-          value: -39.285246307584266,
-        },
-        {
-          name: "MrSlotty",
-          value: 34.02484661379812,
-        },
-        {
-          name: "Betmexico",
-          value: 29.69245131056566,
-        },
-        {
-          name: "iSOFTBET",
-          value: 21.023134566489148,
-        },
-        {
-          name: "BtoBet",
-          value: 36.10715266991023,
-        },
-        {
-          name: "Slotegrator",
-          value: 28.36107495903271,
+          value: 19.32179430221043,
         },
         {
           name: "Evoplay",
-          value: -3.2,
+          value: 279.5995951514002,
+        },
+        {
+          name: "Everymatrix",
+          value: 16.298988372988983,
+        },
+        {
+          name: "Gaming1",
+          value: 280.2,
+        },
+        {
+          name: "Efbet",
+          value: 0.6,
+        },
+        {
+          name: "WeAreCasino",
+          value: 47.68370498147808,
+        },
+        {
+          name: "ORYX",
+          value: 140.2272868884536,
+        },
+        {
+          name: "Intralot",
+          value: 153.42642707373653,
+        },
+        {
+          name: "Virtualsoft",
+          value: 13.718226556434935,
+        },
+        {
+          name: "Asvla",
+          value: 2.8333088902755805,
+        },
+        {
+          name: "Pariplay",
+          value: 1.0859485944487204,
         },
         {
           name: "Comtrade",
-          value: -4.74025912863363,
+          value: 2.74394903140117,
+        },
+        {
+          name: "BetB2B",
+          value: 313.95718018046546,
+        },
+        {
+          name: "Crystalbet",
+          value: 65.63939584778211,
+        },
+        {
+          name: "Newton",
+          value: 0.09806822842749,
+        },
+        {
+          name: "Avento",
+          value: 33.78403120533367,
+        },
+        {
+          name: "TopSport",
+          value: 62.1,
+        },
+        {
+          name: "Reevo",
+          value: 1028.9374632552149,
+        },
+        {
+          name: "BtoBet",
+          value: 24.711363571455326,
         },
         {
           name: "Peppermill",
-          value: 5.25,
+          value: 0,
         },
         {
-          name: "ORYX",
-          value: -3.325466288030679,
+          name: "MrSlotty",
+          value: 39.04459858430131,
         },
         {
-          name: "Everymatrix",
-          value: 1.3889652733649327,
+          name: "BetConstruct",
+          value: 16.72502685828147,
         },
         {
-          name: "Optimus",
-          value: -3.9296487853486077,
+          name: "Calimaco Apuesta",
+          value: 1307.5137609477542,
         },
         {
-          name: "Intralot",
-          value: -43.07984676107459,
+          name: "EGT New Platform",
+          value: 1644.92,
         },
         {
-          name: "Ondiss",
-          value: 11.286629581539273,
+          name: "Leopard",
+          value: 82.87837504789366,
         },
         {
-          name: "TopSport",
-          value: 16.55,
+          name: "iSOFTBET",
+          value: 571.4120319477853,
+        },
+        {
+          name: "Baby Leopard",
+          value: 6564.83,
+        },
+        {
+          name: "Slotegrator",
+          value: 104.64078510794539,
+        },
+        {
+          name: "Skywind360",
+          value: 180.22390611033546,
+        },
+        {
+          name: "BlueOcean",
+          value: 93.25569074971175,
+        },
+        {
+          name: "universal-casinotech",
+          value: 0.5453875163231352,
         },
       ],
-      total: 220.6691244512746,
-      period: "2026-03-26T08:55:00.000Z",
+      total: 13140.602232113835,
+      period: "2026-04-02T10:25:00.000Z",
+    },
+    {
+      period: "2026-04-02T10:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T10:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T10:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T10:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T10:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T10:55:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:00:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:05:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:10:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:15:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:20:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:25:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T11:55:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:00:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:05:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:10:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:15:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:20:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:25:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T12:55:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:00:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:05:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:10:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:15:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:20:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:25:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T13:55:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:00:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:05:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:10:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:15:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:20:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:25:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T14:55:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:00:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:05:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:10:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:15:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:20:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:25:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T15:55:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:00:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:05:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:10:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:15:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:20:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:25:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T16:55:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:00:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:05:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:10:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:15:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:20:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:25:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T17:55:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:00:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:05:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:10:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:15:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:20:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:25:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T18:55:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:00:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:05:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:10:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:15:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:20:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:25:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T19:55:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:00:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:05:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:10:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:15:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:20:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:25:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:30:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:35:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:40:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:45:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:50:00.000Z",
+      total: 0,
+      items: [],
+    },
+    {
+      period: "2026-04-02T20:55:00.000Z",
+      total: 0,
+      items: [],
     },
   ],
 };

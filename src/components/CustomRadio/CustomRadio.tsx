@@ -3,6 +3,7 @@ import "./CustomRadio.css";
 interface Option {
   label: string;
   value: string;
+  disabled?: boolean;
 }
 
 interface CustomRadioProps {
@@ -40,7 +41,11 @@ const CustomRadio = ({
               />
 
               <label className="customCheckBoxWrapper" htmlFor={id}>
-                <div className="customCheckBox">
+                <div
+                  className={
+                    "customCheckBox" + `${option.disabled ? " disabled" : ""}`
+                  }
+                >
                   <div className="inner">{option.label}</div>
                 </div>
               </label>

@@ -28,8 +28,8 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
         value={timeRange}
         options={[
           { label: "Day", value: "day" },
-          { label: "Week", value: "week" },
-          { label: "Month", value: "month" },
+          { label: "Week", value: "week", disabled: true },
+          { label: "Month", value: "month", disabled: true },
         ]}
         onChange={(value) => setTimeRange(value)}
       />
@@ -41,7 +41,6 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
         options={[
           { label: "Platform", value: "platform" },
           { label: "Endpoint", value: "endpoint" },
-          { label: "Period", value: "period" },
         ]}
         onChange={(value) => setGroupBy(value)}
       />
@@ -72,7 +71,7 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
         value={aggregation}
         options={[
           { label: "Period", value: "period" },
-          { label: "Cumulative", value: "cumulative" },
+          { label: "Cumulative", value: "cumulative", disabled: true },
         ]}
         onChange={(value) => setAggregation(value)}
       />

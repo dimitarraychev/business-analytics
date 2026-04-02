@@ -1,0 +1,47 @@
+.expand-arrow {
+  cursor: pointer;
+  height: 1.2rem;
+  aspect-ratio: 1/1;
+  user-select: none;
+}
+
+.period-item-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.period-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--element-padding);
+  margin: 0.2rem 0;
+  border-radius: var(--border-radius);
+  color: var(--text-primary);
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.period-item.active {
+  background: var(--active-bg);
+  color: var(--accent);
+
+  box-shadow:
+    0 0 8px rgba(10, 132, 255, 0.25),
+    inset 0 0 6px rgba(10, 132, 255, 0.15);
+}
+
+.period-item:not(.active):hover {
+  background: var(--hover-bg);
+  color: var(--text-primary);
+  transform: var(--transform);
+  transition: var(--transition);
+}
+
+.period-item-value {
+  margin-left: auto;
+}

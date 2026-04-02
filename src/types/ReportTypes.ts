@@ -4,22 +4,24 @@ export interface GroupTotals {
 
 export interface PeriodItem {
   name: string;
-  value: number; 
+  value: number;
 }
 
 export interface PeriodReport {
-  period: string; 
+  period: string;
   total: number;
-  items: PeriodItem[]; 
+  items: PeriodItem[];
 }
 
 export interface AccountingReport {
+  key: string;
+  label: string;
   start: string;
   end: string;
   groupBy: "endpoint" | "platform";
   metric: "totalBet" | "totalWin" | "totalLost" | "numberOfGames";
   mode: "period" | "cumulative";
-  total: number; 
-  groups: GroupTotals; 
-  periods: PeriodReport[]; 
+  total: number;
+  groups: GroupTotals;
+  periods: PeriodReport[];
 }

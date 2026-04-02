@@ -90,49 +90,6 @@ img#logo.selector-logo {
   );
 }
 
-.side-menu .items-list-header {
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.75rem;
-  padding: var(--element-padding);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-secondary);
-  border-bottom: var(--sidebar-border);
-}
-
-.side-menu ul li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: var(--element-padding);
-  margin: 0.2rem 0;
-  border-radius: var(--border-radius);
-  color: var(--text-primary);
-  transition:
-    background 0.2s ease,
-    color 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.side-menu ul li.active {
-  background: var(--active-bg);
-  color: var(--accent);
-  cursor: pointer;
-
-  box-shadow:
-    0 0 8px rgba(10, 132, 255, 0.25),
-    inset 0 0 6px rgba(10, 132, 255, 0.15);
-}
-
-.side-menu ul li:not(.active):not(.items-list-header):hover {
-  background: var(--hover-bg);
-  color: var(--text-primary);
-  transform: var(--transform);
-  transition: var(--transition);
-  cursor: pointer;
-}
-
 .side-menu .logo-wrapper {
   display: flex;
   align-items: center;

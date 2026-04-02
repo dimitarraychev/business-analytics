@@ -1,0 +1,10 @@
+.items-list-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  padding: var(--element-padding);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+  border-bottom: var(--sidebar-border);
+}

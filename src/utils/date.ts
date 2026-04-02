@@ -1,4 +1,5 @@
 import type { TimeRangeType } from "../types/ConfigTypes";
+import type { AccountingReport } from "../types/ReportTypes";
 
 export const formatDate = (isoString: string) => {
   const d = new Date(isoString);
@@ -53,68 +54,147 @@ export const getDefaultRange = () => {
   };
 };
 
-export interface Period {
-  key: string;
-  label: string;
-  start: string;
-  end: string;
-}
-
 export const generatePeriods = (
   currentStart: Date,
-  currentEnd: Date,
   timeRange: TimeRangeType,
   count = 10,
-): Period[] => {
-  const periods: Period[] = [];
+): AccountingReport[] => {
+  const periods: AccountingReport[] = [];
+
   let start = new Date(currentStart);
-  let end = new Date(currentEnd);
 
   for (let i = 0; i < count; i++) {
-    let label = "";
-    let key = "";
+    let periodStart: Date;
+    let periodEnd: Date;
 
     if (timeRange === "day") {
-      label = start.toISOString().split("T")[0];
-      key = label;
-
-      end = new Date(start.getTime() - 24 * 60 * 60 * 1000);
-      start = new Date(end.getTime());
+      periodStart = new Date(start);
+      periodStart.setHours(0, 0, 0, 0);
+      periodEnd = new Date(start);
+      periodEnd.setHours(23, 59, 59, 999);
+      // move start back one day for next iteration
+      start.setDate(start.getDate() - 1);
     } else if (timeRange === "week") {
-      const firstDayOfYear = new Date(start.getFullYear(), 0, 1);
+      // set start to beginning of week (Monday)
+      const day = start.getDay(); // Sunday=0, Monday=1...
+      const diffToMonday = day === 0 ? 6 : day - 1;
+      periodStart = new Date(start);
+      periodStart.setDate(start.getDate() - diffToMonday);
+      periodStart.setHours(0, 0, 0, 0);
 
-      const weekNumber = Math.ceil(
-        ((start.getTime() - firstDayOfYear.getTime()) / (1000 * 60 * 60 * 24) +
-          firstDayOfYear.getDay() +
-          1) /
-          7,
-      );
+      periodEnd = new Date(periodStart);
+      periodEnd.setDate(periodStart.getDate() + 6);
+      periodEnd.setHours(23, 59, 59, 999);
 
-      label = `Week ${weekNumber} ${start.getFullYear()}`;
-      key = `${start.getFullYear()}-W${weekNumber}`;
-
-      start = new Date(start.getTime() - 7 * 24 * 60 * 60 * 1000);
-      end = new Date(end.getTime() - 7 * 24 * 60 * 60 * 1000);
+      // move start back one week
+      start.setDate(periodStart.getDate() - 1);
     } else if (timeRange === "month") {
-      label = `${start.toLocaleString("default", { month: "short" })} ${start.getFullYear()}`;
-      key = `${start.getFullYear()}-${(start.getMonth() + 1).toString().padStart(2, "0")}`;
-
+      periodStart = new Date(
+        start.getFullYear(),
+        start.getMonth(),
+        1,
+        0,
+        0,
+        0,
+        0,
+      );
+      periodEnd = new Date(
+        start.getFullYear(),
+        start.getMonth() + 1,
+        0,
+        23,
+        59,
+        59,
+        999,
+      );
+      // move start back one month
       start = new Date(start.getFullYear(), start.getMonth() - 1, 1);
-      end = new Date(start.getFullYear(), start.getMonth() + 1, 0);
     } else {
-      label = start.toISOString().split("T")[0];
-      key = label;
-      end = new Date(start.getTime() - 24 * 60 * 60 * 1000);
-      start = new Date(end.getTime());
+      periodStart = new Date(start);
+      periodStart.setHours(0, 0, 0, 0);
+      periodEnd = new Date(start);
+      periodEnd.setHours(23, 59, 59, 999);
+      start.setDate(start.getDate() - 1);
     }
 
     periods.push({
-  key,
-  label,
-  start: start.toISOString(),
-  end: end.toISOString(),
-});
+      key: getPeriodKey(periodStart, timeRange),
+      label: getPeriodLabel(periodStart, timeRange),
+      start: periodStart.toISOString(),
+      end: periodEnd.toISOString(),
+      groupBy: "platform",
+      metric: "totalWin",
+      mode: "period",
+      total: 0,
+      groups: {},
+      periods: [],
+    });
   }
 
-  return periods;
+  return periods.slice(1);
+};
+
+export const getPeriodKey = (start: Date, timeRange: TimeRangeType): string => {
+  const pad = (n: number) => n.toString().padStart(2, "0");
+
+  const bgStart = new Date(start.getTime() + 3 * 60 * 60 * 1000);
+
+  if (timeRange === "day") {
+    const day = pad(bgStart.getDate());
+    const month = pad(bgStart.getMonth() + 1);
+    const year = bgStart.getFullYear();
+    return `${year}-${month}-${day}`;
+  }
+
+  if (timeRange === "week") {
+    const weekStart = new Date(bgStart);
+    const weekEnd = new Date(bgStart.getTime() + 6 * 24 * 60 * 60 * 1000);
+
+    const wsDay = pad(weekStart.getDate());
+    const wsMonth = pad(weekStart.getMonth() + 1);
+
+    return `${weekStart.getFullYear()}-${wsMonth}-${wsDay}`;
+  }
+
+  if (timeRange === "month") {
+    const month = pad(bgStart.getMonth() + 1);
+    return `${bgStart.getFullYear()}-${month}`;
+  }
+
+  return bgStart.toISOString().split("T")[0];
+};
+
+export const getPeriodLabel = (
+  start: Date,
+  timeRange: TimeRangeType,
+): string => {
+  const pad = (n: number) => n.toString().padStart(2, "0");
+  const shortYear = (d: Date) => d.getFullYear().toString().slice(-2);
+
+  if (timeRange === "day") {
+    const day = pad(start.getDate());
+    const month = start.toLocaleString("default", { month: "long" });
+    return `${day} ${month} ${shortYear(start)}`;
+  }
+
+  if (timeRange === "week") {
+    const weekStart = new Date(start);
+    const weekEnd = new Date(start.getTime() + 6 * 24 * 60 * 60 * 1000);
+
+    const startDay = pad(weekStart.getDate());
+    const startMonth = weekStart.toLocaleString("default", { month: "short" });
+
+    const endDay = pad(weekEnd.getDate());
+    const endMonth = weekEnd.toLocaleString("default", { month: "short" });
+
+    const year = shortYear(weekEnd);
+    return `${startDay} ${startMonth} - ${endDay} ${endMonth} ${year}`;
+  }
+
+  if (timeRange === "month") {
+    const month = start.toLocaleString("default", { month: "long" });
+    return `${month} ${shortYear(start)}`;
+  }
+
+  return start.toISOString();
 };

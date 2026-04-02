@@ -1,11 +1,14 @@
-import { useConfig } from "../../context/ConfigContext";
+import "./ItemsList.css";
 import { useReportContext } from "../../context/ReportContext";
 import { getColor } from "../../utils/colors";
-import { metricLabels } from "../../utils/metricLabels";
+import type { AccountingReport } from "../../types/ReportTypes";
 
-const ItemsList = () => {
-  const { data, selectedGroups, setSelectedGroups } = useReportContext();
-  const { groupBy, metric } = useConfig();
+interface ItemsListProps {
+  data: AccountingReport;
+}
+
+const ItemsList = ({ data }: ItemsListProps) => {
+  const { selectedGroups, setSelectedGroups } = useReportContext();
 
   const groupTotals = data.groups;
 
@@ -26,21 +29,7 @@ const ItemsList = () => {
 
   return (
     <ul>
-      <li className="items-list-header">
-        <span>{groupBy}</span>
-        <span>{metricLabels[metric]}</span>
-      </li>
-
-      <li
-        className={`items-list-item ${selectedGroups.length === 0 ? "active" : ""}`}
-        onClick={() => setSelectedGroups([])}
-      >
-        <span>All</span>
-        <span>{data.total.toFixed(2)}</span>
-      </li>
-
-      {sortedGroups.map((report, index) => {
-        const isCurrent = index === 0;
+      {sortedGroups.map((report) => {
         const isSelected = selectedGroups.includes(report.groupName);
 
         return (
@@ -49,11 +38,9 @@ const ItemsList = () => {
             className={`items-list-item ${isSelected ? "active" : ""}`}
             onClick={() => toggleGroup(report.groupName)}
             style={{
-              color: isCurrent
-                ? "var(--orange)"
-                : isSelected
-                  ? getColor(report.groupName)
-                  : "var(--text-primary)",
+              color: isSelected
+                ? getColor(report.groupName)
+                : "var(--text-primary)",
             }}
           >
             <span>{report.groupName}</span>

@@ -1,0 +1,71 @@
+import { useState } from "react";
+import "./PeriodItem.css";
+import downArrow from "../../assets/down-arrow.svg";
+import upArrow from "../../assets/up-arrow.svg";
+import { useReportContext } from "../../context/ReportContext";
+import type { AccountingReport } from "../../types/ReportTypes";
+import { getColor } from "../../utils/colors";
+import ItemsList from "../ItemsList/ItemsList";
+
+interface PeriodItemProps {
+  period: AccountingReport;
+}
+
+const PeriodItem = ({ period }: PeriodItemProps) => {
+  const { data, selectedPeriods, setSelectedPeriods, loadingPeriods } =
+    useReportContext();
+  const [isExpanded, setIsExpanded] = useState(false);
+  const isSelected =
+    selectedPeriods.includes(period.key) || data.key === period.key;
+  const isLoading = loadingPeriods.includes(period.key);
+
+  const toggleGroup = (period: AccountingReport) => {
+    setSelectedPeriods((prev) => {
+      const alreadySelected = prev.includes(period.key);
+
+      if (alreadySelected) {
+        return prev.filter((g) => g !== period.key);
+      }
+
+      return [...prev, period.key];
+    });
+  };
+
+  return (
+    <li className="period-item-wrapper">
+      <div
+        key={period.key}
+        className={`period-item ${isSelected ? "active" : ""}`}
+        onClick={() => toggleGroup(period)}
+        style={{
+          color: isSelected ? getColor(period.key) : "var(--text-primary)",
+        }}
+      >
+        <div className="period-item-header">
+          <img
+            src={isExpanded ? upArrow : downArrow}
+            alt="Expand"
+            className="expand-arrow"
+            title="Expand"
+            onClick={(e) => {
+              e.stopPropagation();
+              setIsExpanded((prev) => !prev);
+            }}
+          />
+          <p className="period-item-label">{period.label}</p>
+          <p className="period-item-value">
+            {isLoading
+              ? "Loading..."
+              : period.total !== null
+                ? period.total.toFixed(2)
+                : ""}
+          </p>
+        </div>
+      </div>
+
+      {isExpanded && <ItemsList data={period} />}
+    </li>
+  );
+};
+
+export default PeriodItem;

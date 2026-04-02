@@ -1,0 +1,31 @@
+.items-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--element-padding);
+  margin: 0.2rem 0;
+  margin-left: 1rem;
+  border-radius: var(--border-radius);
+  color: var(--text-primary);
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.items-list-item.active {
+  background: var(--active-bg);
+  color: var(--accent);
+
+  box-shadow:
+    0 0 8px rgba(10, 132, 255, 0.25),
+    inset 0 0 6px rgba(10, 132, 255, 0.15);
+}
+
+.items-list-item:not(.active):hover {
+  background: var(--hover-bg);
+  color: var(--text-primary);
+  transform: var(--transform);
+  transition: var(--transition);
+}

@@ -76,3 +76,8 @@
   transform: var(--transform);
   transition: var(--transition);
 }
+
+.customCheckBoxHolder .disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
