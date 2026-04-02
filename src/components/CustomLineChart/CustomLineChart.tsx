@@ -15,16 +15,16 @@ import { useHoverClickTooltip } from "../../hooks/useHoverClickTooltip";
 import type { PeriodReport } from "../../types/ReportTypes";
 
 const CustomLineChart = () => {
-  const { data, selectedGroups, previousPeriods } = useReportContext();
+  const { data, previousPeriods } = useReportContext();
   const { tooltipTrigger, handleChartClick } = useHoverClickTooltip();
 
-  const groupColors = useMemo(() => {
-    const map: Record<string, string> = {};
-    selectedGroups.forEach((group) => {
-      map[group] = getColor(group);
-    });
-    return map;
-  }, [selectedGroups]);
+  // const groupColors = useMemo(() => {
+  //   const map: Record<string, string> = {};
+  //   selectedGroups.forEach((group) => {
+  //     map[group] = getColor(group);
+  //   });
+  //   return map;
+  // }, [selectedGroups]);
 
   const chartData = useMemo(() => {
     return data.periods.map((bucket: PeriodReport, index: number) => {
