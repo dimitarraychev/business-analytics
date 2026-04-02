@@ -45,8 +45,11 @@ export const parsePeriodToHours = (period: string): number => {
 export const getDefaultRange = () => {
   const now = new Date();
 
+  const end = new Date(now);
+  end.setHours(23, 59, 59);
+
   const start = new Date(now);
-  start.setHours(0, 0, 0, 0);
+  start.setHours(0, 0, 0);
 
   return {
     start: start.toISOString(),
