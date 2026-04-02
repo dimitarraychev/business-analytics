@@ -10,7 +10,6 @@ import type { AccountingReport } from "../types/ReportTypes";
 import { getDefaultRange } from "../utils/date";
 import { useConfig } from "./ConfigContext";
 // import { reportsExample } from "./reportsExample";
-// import { reportsExampleCopy } from "./reportsExampleCopy";
 import { fetchReport } from "../api/report";
 
 interface ReportContextType {
@@ -113,64 +112,70 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   useEffect(() => {
     const prevSelected = prevSelectedRef.current;
 
-    const addedKey = selectedPeriods.find((key) => !prevSelected.includes(key));
+    // periods that were added
+    const addedKeys = selectedPeriods.filter(
+      (key) => !prevSelected.includes(key),
+    );
+
+    // periods that were removed
+    const removedKeys = prevSelected.filter(
+      (key) => !selectedPeriods.includes(key),
+    );
 
     prevSelectedRef.current = selectedPeriods;
 
-    if (!addedKey) return;
+    // handle removed periods first
+    if (removedKeys.length > 0) {
+      setPreviousPeriods((prev) =>
+        prev.filter((report) => !removedKeys.includes(report.key)),
+      );
+    }
 
-    let startUTC: Date;
-    let endUTC: Date;
+    // handle added periods
+    if (addedKeys.length > 0) {
+      addedKeys.forEach(async (addedKey) => {
+        let startUTC: Date;
+        let endUTC: Date;
 
-    if (timeRange === "day") {
-      // key format: YYYY-MM-DD (BG date)
-      const [year, month, day] = addedKey.split("-").map(Number);
+        if (timeRange === "day") {
+          const [year, month, day] = addedKey.split("-").map(Number);
+          startUTC = new Date(Date.UTC(year, month - 1, day, -3, 0, 0, 0));
+          endUTC = new Date(Date.UTC(year, month - 1, day, 20, 59, 59, 999));
+        } else if (timeRange === "month") {
+          const [year, month] = addedKey.split("-").map(Number);
+          startUTC = new Date(Date.UTC(year, month - 1, 1, -3, 0, 0, 0));
+          const lastDay = new Date(year, month, 0).getDate();
+          endUTC = new Date(
+            Date.UTC(year, month - 1, lastDay, 20, 59, 59, 999),
+          );
+        } else if (timeRange === "week") {
+          const [year, month, day] = addedKey.split("-").map(Number);
+          startUTC = new Date(Date.UTC(year, month - 1, day, -3, 0, 0, 0));
+          const weekEnd = new Date(startUTC);
+          weekEnd.setUTCDate(startUTC.getUTCDate() + 6);
+          weekEnd.setUTCHours(20, 59, 59, 999);
+          endUTC = weekEnd;
+        } else return;
 
-      // BG 00:00 -> UTC (subtract 3h)
-      startUTC = new Date(Date.UTC(year, month - 1, day, -3, 0, 0, 0));
-      endUTC = new Date(Date.UTC(year, month - 1, day, 20, 59, 59, 999));
-    } else if (timeRange === "month") {
-      const [year, month] = addedKey.split("-").map(Number);
+        try {
+          // return setPreviousPeriods((prev) => [...prev, reportsExample]);
 
-      startUTC = new Date(Date.UTC(year, month - 1, 1, -3, 0, 0, 0));
+          const report = await fetchReport(
+            startUTC.toISOString(),
+            endUTC.toISOString(),
+            timeRange,
+            groupBy,
+            metric,
+            aggregation,
+          );
+          setPreviousPeriods((prev) => [...prev, report]);
+        } catch (err) {
+          console.error("Failed to fetch period", err);
+        }
+      });
+    }
 
-      const lastDay = new Date(year, month, 0).getDate();
-
-      endUTC = new Date(Date.UTC(year, month - 1, lastDay, 20, 59, 59, 999));
-    } else if (timeRange === "week") {
-      const [year, month, day] = addedKey.split("-").map(Number);
-
-      startUTC = new Date(Date.UTC(year, month - 1, day, -3, 0, 0, 0));
-
-      const weekEnd = new Date(startUTC);
-      weekEnd.setUTCDate(startUTC.getUTCDate() + 6);
-      weekEnd.setUTCHours(20, 59, 59, 999);
-
-      endUTC = weekEnd;
-    } else return;
-
-    const load = async () => {
-      setLoadingPeriods((prev) => [...prev, addedKey]);
-
-      try {
-        const report = await fetchReport(
-          startUTC.toISOString(),
-          endUTC.toISOString(),
-          timeRange,
-          groupBy,
-          metric,
-          aggregation,
-        );
-
-        setPreviousPeriods((prev) => [...prev, report]);
-      } catch (err) {
-        console.error("Failed to fetch period", err);
-      } finally {
-        setLoadingPeriods((prev) => prev.filter((k) => k !== addedKey));
-      }
-    };
-
-    load();
+    console.log(selectedPeriods);
   }, [selectedPeriods]);
 
   const contextValue: ReportContextType = {

@@ -12,13 +12,10 @@ import { useMemo } from "react";
 import { getColor } from "../../utils/colors";
 import CustomTooltip from "./CustomTooltip";
 import { useHoverClickTooltip } from "../../hooks/useHoverClickTooltip";
-import { useConfig } from "../../context/ConfigContext";
 import type { PeriodReport } from "../../types/ReportTypes";
 
 const CustomLineChart = () => {
-  const { data, selectedGroups, previousPeriods, selectedPeriods } =
-    useReportContext();
-  const { metric, groupBy } = useConfig();
+  const { data, selectedGroups, previousPeriods } = useReportContext();
   const { tooltipTrigger, handleChartClick } = useHoverClickTooltip();
 
   const groupColors = useMemo(() => {
@@ -30,52 +27,23 @@ const CustomLineChart = () => {
   }, [selectedGroups]);
 
   const chartData = useMemo(() => {
-    if (groupBy !== "period") {
-      return data.periods.map((bucket: PeriodReport) => {
-        const groupValues: Record<string, number> = {};
-
-        bucket.items.forEach((item) => {
-          if (
-            selectedGroups.length === 0 ||
-            selectedGroups.includes(item.name)
-          ) {
-            groupValues[item.name] = item.value ?? 0;
-          }
-        });
-
-        return {
-          period: new Date(bucket.period),
-          total: bucket.total ?? 0,
-          ...groupValues,
-        };
-      });
-    }
-
     return data.periods.map((bucket: PeriodReport, index: number) => {
       const row: Record<string, any> = {
         period: new Date(bucket.period),
         current: bucket.total ?? 0,
       };
 
-      selectedPeriods.forEach((periodKey: any) => {
-        const prevReport = previousPeriods[periodKey];
-        const prevBucket = prevReport?.periods[index];
+      previousPeriods.forEach((prevReport) => {
+        const prevBucket = prevReport.periods[index];
 
         if (prevBucket) {
-          row[periodKey] = prevBucket.total ?? 0;
+          row[prevReport.key] = prevBucket.total ?? 0;
         }
       });
 
       return row;
     });
-  }, [
-    data.periods,
-    selectedGroups,
-    previousPeriods,
-    selectedPeriods,
-    groupBy,
-    metric,
-  ]);
+  }, [data.periods, previousPeriods]);
 
   return (
     <LineChart
@@ -107,55 +75,26 @@ const CustomLineChart = () => {
       />
       <Tooltip content={<CustomTooltip />} trigger={tooltipTrigger} />
 
-      {groupBy !== "period" && (
-        <>
-          <Line
-            type="monotone"
-            dataKey="total"
-            stroke="var(--orange)"
-            strokeWidth={2.5}
-            dot={false}
-            filter="url(#glow)"
-          />
+      <Line
+        type="monotone"
+        dataKey="current"
+        stroke="var(--orange)"
+        strokeWidth={3}
+        dot={false}
+        filter="url(#glow)"
+      />
 
-          {selectedGroups.map((group) => (
-            <Line
-              key={group}
-              type="monotone"
-              dataKey={group}
-              stroke={groupColors[group]}
-              strokeWidth={2.5}
-              dot={false}
-              filter="url(#glow)"
-            />
-          ))}
-        </>
-      )}
-
-      {groupBy === "period" && (
-        <>
-          <Line
-            type="monotone"
-            dataKey="current"
-            stroke="var(--orange)"
-            strokeWidth={3}
-            dot={false}
-            filter="url(#glow)"
-          />
-
-          {selectedPeriods.map((periodKey) => (
-            <Line
-              key={periodKey}
-              type="monotone"
-              dataKey={periodKey}
-              stroke={getColor(periodKey)}
-              strokeWidth={2.5}
-              dot={false}
-              filter="url(#glow)"
-            />
-          ))}
-        </>
-      )}
+      {previousPeriods.map((prevReport) => (
+        <Line
+          key={prevReport.key}
+          type="monotone"
+          dataKey={prevReport.key}
+          stroke={getColor(prevReport.key)}
+          strokeWidth={2.5}
+          dot={false}
+          filter="url(#glow)"
+        />
+      ))}
 
       <defs>
         <filter id="glow">

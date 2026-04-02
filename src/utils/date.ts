@@ -57,18 +57,6 @@ export const getDefaultRange = () => {
   };
 };
 
-// export const getDefaultRange = () => {
-//   const now = new Date();
-
-//   const start = new Date(now);
-//   start.setHours(0, 0, 0, 0);
-
-//   return {
-//     start: start.toISOString(),
-//     end: now.toISOString(),
-//   };
-// };
-
 export const generatePeriods = (
   currentStart: Date,
   timeRange: TimeRangeType,

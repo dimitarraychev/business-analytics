@@ -25,6 +25,8 @@ const ItemsList = ({ data }: ItemsListProps) => {
         ? prev.filter((g) => g !== groupName)
         : [...prev, groupName],
     );
+
+    console.log(selectedGroups);
   };
 
   return (

@@ -1,4 +1,6 @@
-export const reportsExample = {
+import type { AccountingReport } from "../types/ReportTypes";
+
+export const reportsExample: AccountingReport = {
   label: "02 April 26",
   key: "02 April 26",
   start: "2026-04-01T21:00:00.000Z",
