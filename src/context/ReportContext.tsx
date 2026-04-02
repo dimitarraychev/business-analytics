@@ -23,7 +23,7 @@ interface ReportContextType {
   timePeriodEnd: string;
   setTimePeriodEnd: React.Dispatch<React.SetStateAction<string>>;
   previousPeriods: AccountingReport[];
-  // loadingPeriods: string[];
+  loadingPeriods: string[];
   selectedPeriods: string[];
   setSelectedPeriods: React.Dispatch<React.SetStateAction<string[]>>;
 }
@@ -59,7 +59,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     [],
   );
   const [selectedPeriods, setSelectedPeriods] = useState<string[]>([]);
-  // const [loadingPeriods, setLoadingPeriods] = useState<string[]>([]);
+  const [loadingPeriods] = useState<string[]>([]);
 
   const defaultRange = getDefaultRange();
   const [timePeriodStart, setTimePeriodStart] = useState(defaultRange.start);
@@ -187,7 +187,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     timePeriodEnd,
     setTimePeriodEnd,
     previousPeriods,
-    // loadingPeriods,
+    loadingPeriods,
     selectedPeriods,
     setSelectedPeriods,
   };
