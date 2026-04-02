@@ -9,7 +9,7 @@ import {
 import type { AccountingReport } from "../types/ReportTypes";
 import { getDefaultRange } from "../utils/date";
 import { useConfig } from "./ConfigContext";
-import { reportsExample } from "./reportsExample";
+// import { reportsExample } from "./reportsExample";
 // import { reportsExampleCopy } from "./reportsExampleCopy";
 import { fetchReport } from "../api/report";
 

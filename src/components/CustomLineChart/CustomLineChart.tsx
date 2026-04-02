@@ -57,7 +57,7 @@ const CustomLineChart = () => {
         current: bucket.total ?? 0,
       };
 
-      selectedPeriods.forEach((periodKey) => {
+      selectedPeriods.forEach((periodKey: any) => {
         const prevReport = previousPeriods[periodKey];
         const prevBucket = prevReport?.periods[index];
 

@@ -148,7 +148,7 @@ export const getPeriodKey = (start: Date, timeRange: TimeRangeType): string => {
 
   if (timeRange === "week") {
     const weekStart = new Date(bgStart);
-    const weekEnd = new Date(bgStart.getTime() + 6 * 24 * 60 * 60 * 1000);
+    // const weekEnd = new Date(bgStart.getTime() + 6 * 24 * 60 * 60 * 1000);
 
     const wsDay = pad(weekStart.getDate());
     const wsMonth = pad(weekStart.getMonth() + 1);
