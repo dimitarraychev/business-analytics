@@ -12,14 +12,24 @@ interface PeriodItemProps {
 }
 
 const PeriodItem = ({ period }: PeriodItemProps) => {
-  const { data, selectedPeriods, setSelectedPeriods, loadingPeriods } =
-    useReportContext();
+  const {
+    data,
+    selectedPeriods,
+    setSelectedPeriods,
+    loadingPeriods,
+    previousPeriods,
+  } = useReportContext();
   const [isExpanded, setIsExpanded] = useState(false);
-  const isSelected =
-    selectedPeriods.includes(period.key) || data.key === period.key;
+  const isCurrent = data.key === period.key;
+  const isSelected = selectedPeriods.includes(period.key) || isCurrent;
   const isLoading = loadingPeriods.includes(period.key);
+  const actualPeriod = isCurrent
+    ? data
+    : previousPeriods.find((p) => p.key === period.key);
 
   const toggleGroup = (period: AccountingReport) => {
+    if (isCurrent) return;
+
     setSelectedPeriods((prev) => {
       const alreadySelected = prev.includes(period.key);
 
@@ -56,14 +66,14 @@ const PeriodItem = ({ period }: PeriodItemProps) => {
           <p className="period-item-value">
             {isLoading
               ? "Loading..."
-              : period.total !== null
-                ? period.total.toFixed(2)
-                : ""}
+              : actualPeriod
+                ? actualPeriod.total.toFixed(2)
+                : "-"}
           </p>
         </div>
       </div>
 
-      {isExpanded && <ItemsList data={period} />}
+      {isExpanded && <ItemsList data={actualPeriod || period} />}
     </li>
   );
 };

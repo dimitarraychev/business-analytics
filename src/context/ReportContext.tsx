@@ -9,8 +9,8 @@ import {
 import type { AccountingReport } from "../types/ReportTypes";
 import { getDefaultRange } from "../utils/date";
 import { useConfig } from "./ConfigContext";
-// import { reportsExample } from "./reportsExample";
 import { fetchReport } from "../api/report";
+// import { reportsExample } from "./reportsExample";
 
 interface ReportContextType {
   data: AccountingReport;
@@ -91,6 +91,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   };
 
   useEffect(() => {
+    setSelectedPeriods(() => []);
     // return setData(reportsExample as unknown as AccountingReport);
     const loadReport = async () => {
       const report = await getReportData();
@@ -107,7 +108,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     );
 
     return () => clearInterval(interval);
-  }, [timePeriodStart, timePeriodEnd, groupBy, metric, aggregation]);
+  }, [timePeriodStart, timePeriodEnd, groupBy, metric, aggregation, timeRange]);
 
   useEffect(() => {
     const prevSelected = prevSelectedRef.current;
@@ -158,7 +159,15 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
         } else return;
 
         try {
-          // return setPreviousPeriods((prev) => [...prev, reportsExample]);
+          // return setPreviousPeriods((prev) => [
+          //   ...prev,
+          //   {
+          //     ...reportsExample,
+          //     key: "2026-04-05",
+          //     label: "05 April 26",
+          //     total: 3165289.23537679,
+          //   },
+          // ]);
 
           const report = await fetchReport(
             startUTC.toISOString(),
