@@ -91,8 +91,10 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   };
 
   useEffect(() => {
-    setSelectedPeriods(() => []);
     // return setData(reportsExample as unknown as AccountingReport);
+
+    setSelectedPeriods(() => []);
+
     const loadReport = async () => {
       const report = await getReportData();
       setData(report);

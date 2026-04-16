@@ -71,7 +71,7 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
         value={aggregation}
         options={[
           { label: "Period", value: "period" },
-          { label: "Cumulative", value: "cumulative", disabled: true },
+          { label: "Cumulative", value: "cumulative" },
         ]}
         onChange={(value) => setAggregation(value)}
       />

@@ -1,4 +1,4 @@
-import { useReportContext } from "../../context/ReportContext";
+// import { useReportContext } from "../../context/ReportContext";
 import { formatDate } from "../../utils/date";
 import "./CustomTooltip.css";
 
@@ -9,12 +9,12 @@ interface TooltipProps {
 }
 
 const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
-  const { selectedGroups, data } = useReportContext();
+  // const { selectedGroups, data } = useReportContext();
 
   if (active && payload && payload.length && label) {
-    const periodReport = data.periods.find(
-      (r) => new Date(r.period).getTime() === new Date(label).getTime(),
-    );
+    // const periodReport = data.periods.find(
+    //   (r) => new Date(r.period).getTime() === new Date(label).getTime(),
+    // );
 
     return (
       <div className="custom-tooltip">
@@ -28,22 +28,22 @@ const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
             className="payload-value"
             style={{ color: p.stroke }}
           >
-            {p.dataKey}: {p.value}
+            {p.dataKey}: {p.value.toFixed(2)}
           </p>
         ))}
 
-        {selectedGroups.length === 1 && periodReport && (
+        {/* {selectedGroups.length === 1 && periodReport && (
           <div className="groups-wrapper">
             {periodReport.items
               .filter((item) => item.name === selectedGroups[0])
               .map((item) => (
                 <p key={item.name}>
                   <span className="group-name">{item.name}:</span>
-                  <span className="group-value">{item.value}</span>
+                  <span className="group-value">{item.value.toFixed(2)}</span>
                 </p>
               ))}
           </div>
-        )}
+        )} */}
       </div>
     );
   }

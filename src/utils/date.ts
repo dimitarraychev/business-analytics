@@ -20,7 +20,13 @@ export const shortFormatDate = (isoString: string) => {
   const hours = String(d.getHours()).padStart(2, "0");
   const minutes = String(d.getMinutes()).padStart(2, "0");
 
-  return `${day}.${month} ${hours}:${minutes}`;
+  if (
+    (hours === "00" && minutes === "00") ||
+    (hours === "23" && minutes === "55")
+  )
+    return `${day}.${month} ${hours}:${minutes}`;
+
+  return `${hours}:${minutes}`;
 };
 
 export const parsePeriodToHours = (period: string): number => {
