@@ -15,16 +15,8 @@ import { useHoverClickTooltip } from "../../hooks/useHoverClickTooltip";
 import type { PeriodReport } from "../../types/ReportTypes";
 
 const CustomLineChart = () => {
-  const { data, previousPeriods } = useReportContext();
+  const { data, previousPeriods, selectedGroups } = useReportContext();
   const { tooltipTrigger, handleChartClick } = useHoverClickTooltip();
-
-  // const groupColors = useMemo(() => {
-  //   const map: Record<string, string> = {};
-  //   selectedGroups.forEach((group) => {
-  //     map[group] = getColor(group);
-  //   });
-  //   return map;
-  // }, [selectedGroups]);
 
   const chartData = useMemo(() => {
     return data.periods.map((bucket: PeriodReport, index: number) => {
@@ -33,9 +25,31 @@ const CustomLineChart = () => {
         current: bucket.total ?? 0,
       };
 
+      selectedGroups.forEach((qualifiedName) => {
+        const [reportKey, ...nameParts] = qualifiedName.split("_");
+        const actualGroupName = nameParts.join("_");
+
+        let groupValue = 0;
+
+        if (reportKey === data.key) {
+          const item = bucket.items.find((i) => i.name === actualGroupName);
+          groupValue = item ? item.value : 0;
+        } else {
+          const targetPrevReport = previousPeriods.find(
+            (p) => p.key === reportKey,
+          );
+          const prevBucket = targetPrevReport?.periods[index];
+          const item = prevBucket?.items.find(
+            (i) => i.name === actualGroupName,
+          );
+          groupValue = item ? item.value : 0;
+        }
+
+        row[qualifiedName] = groupValue;
+      });
+
       previousPeriods.forEach((prevReport) => {
         const prevBucket = prevReport.periods[index];
-
         if (prevBucket) {
           row[prevReport.key] = prevBucket.total ?? 0;
         }
@@ -43,7 +57,7 @@ const CustomLineChart = () => {
 
       return row;
     });
-  }, [data.periods, previousPeriods]);
+  }, [data, previousPeriods, selectedGroups]);
 
   return (
     <LineChart
@@ -83,6 +97,18 @@ const CustomLineChart = () => {
         dot={false}
         filter="url(#glow)"
       />
+
+      {selectedGroups.map((groupName) => (
+        <Line
+          key={groupName}
+          type="monotone"
+          dataKey={groupName}
+          stroke={getColor(groupName)}
+          strokeWidth={2}
+          strokeDasharray="5 5"
+          dot={false}
+        />
+      ))}
 
       {previousPeriods.map((prevReport) => (
         <Line

@@ -91,9 +91,9 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   };
 
   useEffect(() => {
-    // return setData(reportsExample as unknown as AccountingReport);
-
     setSelectedPeriods(() => []);
+
+    // return setData(reportsExample as unknown as AccountingReport);
 
     const loadReport = async () => {
       const report = await getReportData();
@@ -165,8 +165,8 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
           //   ...prev,
           //   {
           //     ...reportsExample,
-          //     key: "2026-04-05",
-          //     label: "05 April 26",
+          //     key: "2026-04-15",
+          //     label: "15 April 26",
           //     total: 3165289.23537679,
           //   },
           // ]);
