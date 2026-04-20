@@ -156,7 +156,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
           const [year, month, day] = addedKey.split("-").map(Number);
           startUTC = new Date(Date.UTC(year, month - 1, day, -3, 0, 0, 0));
           const weekEnd = new Date(startUTC);
-          weekEnd.setUTCDate(startUTC.getUTCDate() + 6);
+          weekEnd.setUTCDate(startUTC.getUTCDate() + 7);
           weekEnd.setUTCHours(20, 59, 59, 999);
           endUTC = weekEnd;
         } else return;
