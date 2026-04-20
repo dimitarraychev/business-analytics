@@ -1,11 +1,9 @@
+import { useState } from "react";
 import "./SideMenu.css";
 import logo from "../../assets/logo.svg";
 import menuLogo from "../../assets/menu.svg";
 import prevIcon from "../../assets/prev-icon.svg";
-// import ItemsList from "../ItemsList/ItemsList";
 import ConfigurationForm from "../ConfigurationForm/ConfigurationForm";
-import { useState } from "react";
-// import { useConfig } from "../../context/ConfigContext";
 import PeriodItemsList from "../PeriodsItemsList/PeriodsItemsList";
 
 interface SideMenuProps {
@@ -15,7 +13,6 @@ interface SideMenuProps {
 
 const SideMenu = ({ isCollapsed, onCollapseToggle }: SideMenuProps) => {
   const [isConfigOpen, setIsConfigOpen] = useState(true);
-  // const { groupBy } = useConfig();
 
   return (
     <div className={`side-menu ${isCollapsed ? "collapsed" : ""}`}>

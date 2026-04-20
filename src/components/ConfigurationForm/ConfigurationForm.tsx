@@ -28,8 +28,8 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
         value={timeRange}
         options={[
           { label: "Day", value: "day" },
-          { label: "Week", value: "week", disabled: true },
-          { label: "Month", value: "month", disabled: true },
+          { label: "Week", value: "week" },
+          { label: "Month", value: "month" },
         ]}
         onChange={(value) => setTimeRange(value)}
       />

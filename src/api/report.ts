@@ -7,6 +7,9 @@ import type {
 import type { AccountingReport } from "../types/ReportTypes";
 import { getPeriodKey, getPeriodLabel } from "../utils/date";
 
+const BASE_URL = "/api/accounting-report";
+const DAILY_BASE_URL = "/api/accounting-report/daily";
+
 export const fetchReport = async (
   start: string,
   end: string,
@@ -15,8 +18,11 @@ export const fetchReport = async (
   metric: MetricType,
   aggregation: AggregationMode,
 ) => {
+  const isDay = timeRange === "day";
+  const url = isDay ? BASE_URL : DAILY_BASE_URL;
   const params = new URLSearchParams();
 
+  if (!isDay) params.append("interval", timeRange);
   if (start) params.append("start", start);
   if (end) params.append("end", end);
 
@@ -24,8 +30,7 @@ export const fetchReport = async (
   params.append("metric", metric);
   params.append("mode", aggregation);
 
-  const BASE_URL = "/api/accounting-report";
-  const res = await fetch(`${BASE_URL}?${params.toString()}`);
+  const res = await fetch(`${url}?${params.toString()}`);
   if (!res.ok) throw new Error(`Failed to fetch report: ${res.status}`);
 
   const reportData: AccountingReport = await res.json();
