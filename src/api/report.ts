@@ -18,11 +18,9 @@ export const fetchReport = async (
   metric: MetricType,
   aggregation: AggregationMode,
 ) => {
-  const isDay = timeRange === "day";
-  const url = isDay ? BASE_URL : DAILY_BASE_URL;
+  const url = timeRange === "day" ? BASE_URL : DAILY_BASE_URL;
   const params = new URLSearchParams();
 
-  if (!isDay) params.append("interval", timeRange);
   if (start) params.append("start", start);
   if (end) params.append("end", end);
 
