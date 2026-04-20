@@ -10,7 +10,7 @@ import type { AccountingReport } from "../types/ReportTypes";
 import { getDefaultRange } from "../utils/date";
 import { useConfig } from "./ConfigContext";
 import { fetchReport } from "../api/report";
-import { reportsExample } from "./reportsExample";
+// import { reportsExample } from "./reportsExample";
 
 interface ReportContextType {
   data: AccountingReport;
