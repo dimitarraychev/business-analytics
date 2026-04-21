@@ -109,40 +109,27 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     };
 
     loadReport();
-
-    const interval = setInterval(
-      () => {
-        loadReport();
-      },
-      5 * 60 * 1000,
-    );
-
-    return () => clearInterval(interval);
   }, [timePeriodStart, timePeriodEnd, groupBy, metric, aggregation, timeRange]);
 
   useEffect(() => {
     const prevSelected = prevSelectedRef.current;
 
-    // periods that were added
     const addedKeys = selectedPeriods.filter(
       (key) => !prevSelected.includes(key),
     );
 
-    // periods that were removed
     const removedKeys = prevSelected.filter(
       (key) => !selectedPeriods.includes(key),
     );
 
     prevSelectedRef.current = selectedPeriods;
 
-    // handle removed periods first
     if (removedKeys.length > 0) {
       setPreviousPeriods((prev) =>
         prev.filter((report) => !removedKeys.includes(report.key)),
       );
     }
 
-    // handle added periods
     if (addedKeys.length > 0) {
       addedKeys.forEach(async (addedKey) => {
         let startUTC: Date;
@@ -194,12 +181,6 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
       });
     }
   }, [selectedPeriods]);
-
-  useEffect(() => {
-    const newRange = getDefaultRange(timeRange);
-    setTimePeriodStart(newRange.start);
-    setTimePeriodEnd(newRange.end);
-  }, [timeRange]);
 
   const contextValue: ReportContextType = {
     data,
