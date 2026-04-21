@@ -81,6 +81,13 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
         aggregation,
       );
 
+      if (timeRange !== "day" && reportData.periods.length > 0) {
+        return {
+          ...reportData,
+          periods: reportData.periods.slice(1),
+        };
+      }
+
       return reportData;
     } catch (err: any) {
       setError(err.message || "Failed to load report");
