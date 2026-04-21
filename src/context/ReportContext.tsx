@@ -188,6 +188,12 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     }
   }, [selectedPeriods]);
 
+  useEffect(() => {
+    const newRange = getDefaultRange(timeRange);
+    setTimePeriodStart(newRange.start);
+    setTimePeriodEnd(newRange.end);
+  }, [timeRange]);
+
   const contextValue: ReportContextType = {
     data,
     loading,

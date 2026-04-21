@@ -48,14 +48,30 @@ export const parsePeriodToHours = (period: string): number => {
   }
 };
 
-export const getDefaultRange = () => {
+export const getDefaultRange = (timeRange: TimeRangeType = "week") => {
   const now = new Date();
-
-  const end = new Date(now);
-  end.setHours(23, 59, 59, 59);
-
   const start = new Date(now);
-  start.setHours(0, 0, 0, 0);
+  const end = new Date(now);
+
+  if (timeRange === "day") {
+    start.setHours(0, 0, 0, 0);
+    end.setHours(23, 59, 59, 999);
+  } else if (timeRange === "week") {
+    const day = now.getDay();
+    const diff = now.getDate() - day + (day === 0 ? -6 : 1);
+    start.setDate(diff);
+    start.setHours(0, 0, 0, 0);
+
+    end.setDate(start.getDate() + 6);
+    end.setHours(23, 59, 59, 999);
+  } else if (timeRange === "month") {
+    start.setDate(1);
+    start.setHours(0, 0, 0, 0);
+
+    end.setMonth(now.getMonth() + 1);
+    end.setDate(0); 
+    end.setHours(23, 59, 59, 999);
+  }
 
   return {
     start: start.toISOString(),
