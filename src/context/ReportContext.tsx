@@ -5,12 +5,12 @@ import {
   useContext,
   type ReactNode,
   useRef,
+  useCallback,
 } from "react";
 import type { AccountingReport } from "../types/ReportTypes";
 import { getDefaultRange } from "../utils/date";
 import { useConfig } from "./ConfigContext";
 import { fetchReport } from "../api/report";
-// import { reportsExample } from "./reportsExample";
 
 interface ReportContextType {
   data: AccountingReport;
@@ -34,23 +34,25 @@ interface ReportContextProviderProps {
 
 const ReportContext = createContext<ReportContextType | undefined>(undefined);
 
-const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
-  const emptyReport: AccountingReport = {
-    key: "",
-    label: "",
-    start: "2026-04-02T20:59:59.999Z",
-    end: "2026-04-02T20:59:59.999Z",
-    groupBy: "endpoint",
-    metric: "totalBet",
-    mode: "period",
-    total: 0,
-    groups: {},
-    periods: [],
-  };
-  const [data, setData] = useState<AccountingReport>(emptyReport);
+const emptyReport: AccountingReport = {
+  key: "",
+  label: "",
+  start: new Date().toISOString(),
+  end: new Date().toISOString(),
+  groupBy: "endpoint",
+  metric: "totalBet",
+  mode: "period",
+  total: 0,
+  groups: {},
+  periods: [],
+};
 
+export const ReportContextProvider = ({
+  children,
+}: ReportContextProviderProps) => {
   const { metric, groupBy, aggregation, timeRange } = useConfig();
 
+  const [data, setData] = useState<AccountingReport>(emptyReport);
   const [selectedGroups, setSelectedGroups] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -61,145 +63,127 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   const [selectedPeriods, setSelectedPeriods] = useState<string[]>([]);
   const [loadingPeriods] = useState<string[]>([]);
 
-  const defaultRange = getDefaultRange();
-  const [timePeriodStart, setTimePeriodStart] = useState(defaultRange.start);
-  const [timePeriodEnd, setTimePeriodEnd] = useState(defaultRange.end);
+  const [timePeriodStart, setTimePeriodStart] = useState("");
+  const [timePeriodEnd, setTimePeriodEnd] = useState("");
 
   const prevSelectedRef = useRef<string[]>([]);
 
-  const getReportData = async () => {
-    setLoading(true);
-    setError(null);
+  // Memoized fetch function to prevent stale closures in intervals
+  const loadMainReport = useCallback(
+    async (start: string, end: string) => {
+      setLoading(true);
+      setError(null);
+      try {
+        const reportData = await fetchReport(
+          start,
+          end,
+          timeRange,
+          groupBy,
+          metric,
+          aggregation,
+        );
 
-    try {
-      const reportData = await fetchReport(
-        timePeriodStart,
-        timePeriodEnd,
-        timeRange,
-        groupBy,
-        metric,
-        aggregation,
-      );
-
-      if (timeRange !== "day" && reportData.periods.length > 0) {
-        return {
-          ...reportData,
-          periods: reportData.periods.slice(1),
-        };
+        // Remove the UTC "bleed" day for BG timezone if not in day mode
+        if (timeRange !== "day" && reportData.periods.length > 0) {
+          setData({
+            ...reportData,
+            periods: reportData.periods.slice(1),
+          });
+        } else {
+          setData(reportData);
+        }
+      } catch (err: any) {
+        setError(err.message || "Failed to load report");
+      } finally {
+        setLoading(false);
       }
+    },
+    [timeRange, groupBy, metric, aggregation],
+  );
 
-      return reportData;
-    } catch (err: any) {
-      setError(err.message || "Failed to load report");
-      return emptyReport;
-    } finally {
-      setLoading(false);
-    }
-  };
-
+  // Handle TimeRange changes and Main Fetching
   useEffect(() => {
-    setSelectedPeriods(() => []);
-    setSelectedGroups(() => []);
+    const newRange = getDefaultRange(timeRange);
+    setTimePeriodStart(newRange.start);
+    setTimePeriodEnd(newRange.end);
 
-    // return setData(reportsExample as unknown as AccountingReport);
+    // Reset selections on range change
+    setSelectedPeriods([]);
+    setSelectedGroups([]);
 
-    const loadReport = async () => {
-      const report = await getReportData();
-      setData(report);
-    };
-
-    loadReport();
+    loadMainReport(newRange.start, newRange.end);
 
     const interval = setInterval(
       () => {
-        loadReport();
+        loadMainReport(newRange.start, newRange.end);
       },
       5 * 60 * 1000,
     );
 
     return () => clearInterval(interval);
-  }, [timePeriodStart, timePeriodEnd, groupBy, metric, aggregation, timeRange]);
+  }, [timeRange, groupBy, metric, aggregation, loadMainReport]);
 
+  // Handle Comparison Periods (Comparison checkbox/selection)
   useEffect(() => {
     const prevSelected = prevSelectedRef.current;
-
-    // periods that were added
     const addedKeys = selectedPeriods.filter(
       (key) => !prevSelected.includes(key),
     );
-
-    // periods that were removed
     const removedKeys = prevSelected.filter(
       (key) => !selectedPeriods.includes(key),
     );
-
     prevSelectedRef.current = selectedPeriods;
 
-    // handle removed periods first
     if (removedKeys.length > 0) {
       setPreviousPeriods((prev) =>
-        prev.filter((report) => !removedKeys.includes(report.key)),
+        prev.filter((r) => !removedKeys.includes(r.key)),
       );
     }
 
-    // handle added periods
     if (addedKeys.length > 0) {
-      addedKeys.forEach(async (addedKey) => {
-        let startUTC: Date;
-        let endUTC: Date;
+      const fetchAdded = async () => {
+        const fetchPromises = addedKeys.map((addedKey) => {
+          let start: Date;
+          let end: Date;
 
-        if (timeRange === "day") {
-          const [year, month, day] = addedKey.split("-").map(Number);
-          startUTC = new Date(Date.UTC(year, month - 1, day, -3, 0, 0, 0));
-          endUTC = new Date(Date.UTC(year, month - 1, day, 20, 59, 59, 999));
-        } else if (timeRange === "month") {
-          const [year, month] = addedKey.split("-").map(Number);
-          startUTC = new Date(Date.UTC(year, month - 1, 1, -3, 0, 0, 0));
-          const lastDay = new Date(year, month, 0).getDate();
-          endUTC = new Date(
-            Date.UTC(year, month - 1, lastDay, 20, 59, 59, 999),
-          );
-        } else if (timeRange === "week") {
-          const [year, month, day] = addedKey.split("-").map(Number);
-          startUTC = new Date(Date.UTC(year, month - 1, day, -3, 0, 0, 0));
-          const weekEnd = new Date(startUTC);
-          weekEnd.setUTCDate(startUTC.getUTCDate() + 7);
-          weekEnd.setUTCHours(20, 59, 59, 999);
-          endUTC = weekEnd;
-        } else return;
+          // Use Local time constructors to handle BG -> UTC conversion properly
+          if (timeRange === "day") {
+            const [y, m, d] = addedKey.split("-").map(Number);
+            start = new Date(y, m - 1, d, 0, 0, 0, 0);
+            end = new Date(y, m - 1, d, 23, 59, 59, 999);
+          } else if (timeRange === "month") {
+            const [y, m] = addedKey.split("-").map(Number);
+            start = new Date(y, m - 1, 1, 0, 0, 0, 0);
+            end = new Date(y, m, 0, 23, 59, 59, 999);
+          } else {
+            const [y, m, d] = addedKey.split("-").map(Number);
+            start = new Date(y, m - 1, d, 0, 0, 0, 0);
+            end = new Date(start);
+            end.setDate(start.getDate() + 6);
+            end.setHours(23, 59, 59, 999);
+          }
 
-        try {
-          // return setPreviousPeriods((prev) => [
-          //   ...prev,
-          //   {
-          //     ...reportsExample,
-          //     key: "2026-04-15",
-          //     label: "15 April 26",
-          //     total: 3165289.23537679,
-          //   },
-          // ]);
-
-          const report = await fetchReport(
-            startUTC.toISOString(),
-            endUTC.toISOString(),
+          return fetchReport(
+            start.toISOString(),
+            end.toISOString(),
             timeRange,
             groupBy,
             metric,
             aggregation,
           );
-          setPreviousPeriods((prev) => [...prev, report]);
-        } catch (err) {
-          console.error("Failed to fetch period", err);
-        }
-      });
-    }
-  }, [selectedPeriods]);
+        });
 
-  useEffect(() => {
-    const newRange = getDefaultRange(timeRange);
-    setTimePeriodStart(newRange.start);
-    setTimePeriodEnd(newRange.end);
-  }, [timeRange]);
+        try {
+          const results = await Promise.all(fetchPromises);
+          setPreviousPeriods((prev) => [...prev, ...results]);
+        } catch (err) {
+          console.error("Failed to fetch comparison periods", err);
+        }
+      };
+
+      fetchAdded();
+    }
+  }, [selectedPeriods, timeRange, groupBy, metric, aggregation]);
 
   const contextValue: ReportContextType = {
     data,
@@ -226,11 +210,10 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
 
 export const useReportContext = () => {
   const context = useContext(ReportContext);
-  if (!context) {
+  if (!context)
     throw new Error(
       "useReportContext must be used within a ReportContextProvider",
     );
-  }
   return context;
 };
 
