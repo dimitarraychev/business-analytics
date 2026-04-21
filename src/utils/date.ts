@@ -13,12 +13,17 @@ export const formatDate = (isoString: string) => {
   return `${hours}:${minutes} ${day}.${month}.${year}`;
 };
 
-export const shortFormatDate = (isoString: string) => {
+export const shortFormatDate = (
+  isoString: string,
+  timeRange: TimeRangeType,
+) => {
   const d = new Date(isoString);
   const day = String(d.getDate()).padStart(2, "0");
   const month = String(d.getMonth() + 1).padStart(2, "0");
   const hours = String(d.getHours()).padStart(2, "0");
   const minutes = String(d.getMinutes()).padStart(2, "0");
+
+  if (timeRange !== "day") return `${day}.${month}`;
 
   if (
     (hours === "00" && minutes === "00") ||
@@ -48,7 +53,7 @@ export const parsePeriodToHours = (period: string): number => {
   }
 };
 
-export const getDefaultRange = (timeRange: TimeRangeType = "week") => {
+export const getDefaultRange = (timeRange: TimeRangeType = "day") => {
   const now = new Date();
   const start = new Date(now);
   const end = new Date(now);

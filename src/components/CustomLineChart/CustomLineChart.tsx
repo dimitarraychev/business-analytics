@@ -13,10 +13,12 @@ import { getColor } from "../../utils/colors";
 import CustomTooltip from "./CustomTooltip";
 import { useHoverClickTooltip } from "../../hooks/useHoverClickTooltip";
 import type { PeriodReport } from "../../types/ReportTypes";
+import { useConfig } from "../../context/ConfigContext";
 
 const CustomLineChart = () => {
   const { data, previousPeriods, selectedGroups } = useReportContext();
   const { tooltipTrigger, handleChartClick } = useHoverClickTooltip();
+  const { timeRange } = useConfig();
 
   const chartData = useMemo(() => {
     return data.periods.map((bucket: PeriodReport, index: number) => {
@@ -80,7 +82,7 @@ const CustomLineChart = () => {
         textAnchor="end"
         dy={5}
         dx={-5}
-        tickFormatter={(time) => shortFormatDate(time)}
+        tickFormatter={(time) => shortFormatDate(time, timeRange)}
         tick={{ fill: "var(--text-secondary)", fontSize: 12 }}
       />
       <YAxis
