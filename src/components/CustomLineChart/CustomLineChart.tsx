@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import {
   LineChart,
   Line,
@@ -8,7 +9,6 @@ import {
 } from "recharts";
 import { useReportContext } from "../../context/ReportContext";
 import { shortFormatDate } from "../../utils/date";
-import { useMemo } from "react";
 import { getColor } from "../../utils/colors";
 import CustomTooltip from "./CustomTooltip";
 import { useHoverClickTooltip } from "../../hooks/useHoverClickTooltip";
@@ -96,7 +96,7 @@ const CustomLineChart = () => {
         dataKey="current"
         stroke="var(--orange)"
         strokeWidth={3}
-        dot={false}
+        dot={timeRange === "day" ? false : true}
         filter="url(#glow)"
       />
 
@@ -108,7 +108,8 @@ const CustomLineChart = () => {
           stroke={getColor(groupName)}
           strokeWidth={2}
           strokeDasharray="5 5"
-          dot={false}
+          filter="url(#glow)"
+          dot={timeRange === "day" ? false : true}
         />
       ))}
 
@@ -119,7 +120,7 @@ const CustomLineChart = () => {
           dataKey={prevReport.key}
           stroke={getColor(prevReport.key)}
           strokeWidth={2.5}
-          dot={false}
+          dot={timeRange === "day" ? false : true}
           filter="url(#glow)"
         />
       ))}
