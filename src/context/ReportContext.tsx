@@ -97,13 +97,21 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     }
   };
 
-  useEffect(() => {
+  const clearSelection = () => {
     setSelectedPeriods(() => []);
     setSelectedGroups(() => []);
+  };
+
+  useEffect(() => {
+    clearSelection();
 
     const newRange = getDefaultRange(timeRange);
     setTimePeriodStart(newRange.start);
     setTimePeriodEnd(newRange.end);
+  }, [timeRange]);
+
+  useEffect(() => {
+    clearSelection();
 
     // return setData(reportsExample as unknown as AccountingReport);
 
@@ -113,9 +121,11 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     };
 
     loadReport();
-  }, [timePeriodStart, timePeriodEnd, groupBy, metric, aggregation, timeRange]);
+  }, [timePeriodStart, timePeriodEnd, groupBy, metric, aggregation]);
 
   useEffect(() => {
+    if (selectedPeriods.length === 0) return;
+
     const prevSelected = prevSelectedRef.current;
 
     const addedKeys = selectedPeriods.filter(
