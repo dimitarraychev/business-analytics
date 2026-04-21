@@ -69,7 +69,7 @@ export const getDefaultRange = (timeRange: TimeRangeType = "week") => {
     start.setHours(0, 0, 0, 0);
 
     end.setMonth(now.getMonth() + 1);
-    end.setDate(0); 
+    end.setDate(0);
     end.setHours(23, 59, 59, 999);
   }
 
@@ -85,68 +85,59 @@ export const generatePeriods = (
   count = 10,
 ): AccountingReport[] => {
   const periods: AccountingReport[] = [];
-
-  let start = new Date(currentStart);
+  let anchor = new Date(currentStart);
 
   for (let i = 0; i < count; i++) {
-    let periodStart: Date;
-    let periodEnd: Date;
+    let pStart: Date;
+    let pEnd: Date;
 
     if (timeRange === "day") {
-      periodStart = new Date(start);
-      periodStart.setHours(0, 0, 0, 0);
-      periodEnd = new Date(start);
-      periodEnd.setHours(23, 59, 59, 999);
-      // move start back one day for next iteration
-      start.setDate(start.getDate() - 1);
+      pStart = new Date(anchor);
+      pStart.setHours(0, 0, 0, 0);
+      pEnd = new Date(anchor);
+      pEnd.setHours(23, 59, 59, 999);
+
+      anchor.setDate(anchor.getDate() - 1);
     } else if (timeRange === "week") {
-      // set start to beginning of week (Monday)
-      const day = start.getDay(); // Sunday=0, Monday=1...
+      const day = anchor.getDay();
       const diffToMonday = day === 0 ? 6 : day - 1;
-      periodStart = new Date(start);
-      periodStart.setDate(start.getDate() - diffToMonday);
-      periodStart.setHours(0, 0, 0, 0);
 
-      periodEnd = new Date(periodStart);
-      periodEnd.setDate(periodStart.getDate() + 6);
-      periodEnd.setHours(23, 59, 59, 999);
+      pStart = new Date(anchor);
+      pStart.setDate(anchor.getDate() - diffToMonday);
+      pStart.setHours(0, 0, 0, 0);
 
-      // move start back one week
-      start.setDate(periodStart.getDate() - 1);
+      pEnd = new Date(pStart);
+      pEnd.setDate(pStart.getDate() + 6);
+      pEnd.setHours(23, 59, 59, 999);
+
+      anchor = new Date(pStart);
+      anchor.setDate(anchor.getDate() - 7);
     } else if (timeRange === "month") {
-      periodStart = new Date(
-        start.getFullYear(),
-        start.getMonth(),
-        1,
-        0,
-        0,
-        0,
-        0,
-      );
-      periodEnd = new Date(
-        start.getFullYear(),
-        start.getMonth() + 1,
+      pStart = new Date(anchor.getFullYear(), anchor.getMonth(), 1, 0, 0, 0, 0);
+      pEnd = new Date(
+        anchor.getFullYear(),
+        anchor.getMonth() + 1,
         0,
         23,
         59,
         59,
         999,
       );
-      // move start back one month
-      start = new Date(start.getFullYear(), start.getMonth() - 1, 1);
+
+      anchor = new Date(anchor.getFullYear(), anchor.getMonth() - 1, 1);
     } else {
-      periodStart = new Date(start);
-      periodStart.setHours(0, 0, 0, 0);
-      periodEnd = new Date(start);
-      periodEnd.setHours(23, 59, 59, 999);
-      start.setDate(start.getDate() - 1);
+      pStart = new Date(anchor);
+      pStart.setHours(0, 0, 0, 0);
+      pEnd = new Date(anchor);
+      pEnd.setHours(23, 59, 59, 999);
+      anchor.setDate(anchor.getDate() - 1);
     }
 
     periods.push({
-      key: getPeriodKey(periodStart, timeRange),
-      label: getPeriodLabel(periodStart, timeRange),
-      start: periodStart.toISOString(),
-      end: periodEnd.toISOString(),
+      key: getPeriodKey(pStart, timeRange),
+      label: getPeriodLabel(pStart, timeRange),
+      start: pStart.toISOString(),
+      end: pEnd.toISOString(),
       groupBy: "platform",
       metric: "totalWin",
       mode: "period",
