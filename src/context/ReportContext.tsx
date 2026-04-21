@@ -101,6 +101,10 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     setSelectedPeriods(() => []);
     setSelectedGroups(() => []);
 
+    const newRange = getDefaultRange(timeRange);
+    setTimePeriodStart(newRange.start);
+    setTimePeriodEnd(newRange.end);
+
     // return setData(reportsExample as unknown as AccountingReport);
 
     const loadReport = async () => {
