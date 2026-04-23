@@ -44,7 +44,11 @@ const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
               style={{ color: p.stroke }}
             >
               {isCurrentPeriod ? data.label : foundPeriod?.label || p.dataKey}:{" "}
-              {p.value.toFixed(2) + " €"}
+              {"€" +
+                new Intl.NumberFormat("en", {
+                  notation: "compact",
+                  maximumFractionDigits: 1,
+                }).format(p.value)}
             </p>
           );
         })}

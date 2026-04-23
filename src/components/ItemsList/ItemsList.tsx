@@ -45,7 +45,13 @@ const ItemsList = ({ data }: ItemsListProps) => {
             title={report.groupName}
           >
             <span className="list-item-name">{report.groupName}</span>
-            <span>{report.value.toFixed(2)} €</span>
+            <span>
+              €
+              {new Intl.NumberFormat("en", {
+                notation: "compact",
+                maximumFractionDigits: 1,
+              }).format(report.value)}
+            </span>
           </li>
         );
       })}

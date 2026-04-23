@@ -69,7 +69,10 @@ const PeriodItem = ({ period, onClick }: PeriodItemProps) => {
             {isLoading
               ? "Loading..."
               : actualPeriod
-                ? actualPeriod.total.toFixed(2) + " €"
+                ? "€" + new Intl.NumberFormat("en", {
+                    notation: "compact",
+                    maximumFractionDigits: 1,
+                  }).format(actualPeriod.total)
                 : "-"}
           </p>
         </div>
