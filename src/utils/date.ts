@@ -219,3 +219,19 @@ export const getPeriodLabel = (
 
   return start.toISOString();
 };
+
+export const getLabelFromKey = (
+  key: string,
+  timeRange: TimeRangeType
+): string => {
+  if (!key) return "";
+
+  const parts = key.split("-");
+  const year = parseInt(parts[0], 10);
+  const month = parseInt(parts[1], 10) - 1; 
+  const day = parts[2] ? parseInt(parts[2], 10) : 1;
+
+  const date = new Date(year, month, day, 12, 0, 0);
+
+  return getPeriodLabel(date, timeRange);
+};

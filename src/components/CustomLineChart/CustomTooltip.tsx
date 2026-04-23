@@ -1,7 +1,6 @@
-// import { useReportContext } from "../../context/ReportContext";
 import { useConfig } from "../../context/ConfigContext";
 import { useReportContext } from "../../context/ReportContext";
-import { formatDate } from "../../utils/date";
+import { formatDate, getLabelFromKey } from "../../utils/date";
 import { metricLabels } from "../../utils/metricLabels";
 import "./CustomTooltip.css";
 
@@ -16,10 +15,6 @@ const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
   const { metric } = useConfig();
 
   if (active && payload && payload.length && label) {
-    // const periodReport = data.periods.find(
-    //   (r) => new Date(r.period).getTime() === new Date(label).getTime(),
-    // );
-
     return (
       <div className="custom-tooltip">
         <p>
@@ -35,7 +30,9 @@ const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
           const foundPeriod = previousPeriods.find(
             (period) => period.key === p.dataKey,
           );
-          console.log(p.dataKey);
+
+          const periodKey = p.dataKey.split("_")[0];
+          const groupKey = p.dataKey.split("_")[1];
 
           return (
             <p
@@ -43,7 +40,11 @@ const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
               className="payload-value"
               style={{ color: p.stroke }}
             >
-              {isCurrentPeriod ? data.label : foundPeriod?.label || p.dataKey}:{" "}
+              {isCurrentPeriod
+                ? data.label
+                : foundPeriod?.label ||
+                  getLabelFromKey(periodKey, "day") + " " + groupKey}
+              :{" "}
               {"€" +
                 new Intl.NumberFormat("en", {
                   notation: "compact",
@@ -52,19 +53,6 @@ const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
             </p>
           );
         })}
-
-        {/* {selectedGroups.length === 1 && periodReport && (
-          <div className="groups-wrapper">
-            {periodReport.items
-              .filter((item) => item.name === selectedGroups[0])
-              .map((item) => (
-                <p key={item.name}>
-                  <span className="group-name">{item.name}:</span>
-                  <span className="group-value">{item.value.toFixed(2)}</span>
-                </p>
-              ))}
-          </div>
-        )} */}
       </div>
     );
   }
