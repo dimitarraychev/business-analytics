@@ -1,4 +1,5 @@
 // import { useReportContext } from "../../context/ReportContext";
+import { useReportContext } from "../../context/ReportContext";
 import { formatDate } from "../../utils/date";
 import "./CustomTooltip.css";
 
@@ -9,7 +10,7 @@ interface TooltipProps {
 }
 
 const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
-  // const { selectedGroups, data } = useReportContext();
+  const { data, previousPeriods } = useReportContext();
 
   if (active && payload && payload.length && label) {
     // const periodReport = data.periods.find(
@@ -22,15 +23,24 @@ const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
           <span className="time-label">Time: </span>
           {formatDate(label)}
         </p>
-        {payload.map((p) => (
-          <p
-            key={p.dataKey}
-            className="payload-value"
-            style={{ color: p.stroke }}
-          >
-            {p.dataKey}: {p.value.toFixed(2)}
-          </p>
-        ))}
+        {payload.map((p) => {
+          const isCurrentPeriod = p.dataKey === "current";
+          const foundPeriod = previousPeriods.find(
+            (period) => period.key === p.dataKey,
+          );
+          console.log(p.dataKey);
+
+          return (
+            <p
+              key={p.dataKey}
+              className="payload-value"
+              style={{ color: p.stroke }}
+            >
+              {isCurrentPeriod ? data.label : foundPeriod?.label || p.dataKey}:{" "}
+              {p.value.toFixed(2) + " €"}
+            </p>
+          );
+        })}
 
         {/* {selectedGroups.length === 1 && periodReport && (
           <div className="groups-wrapper">

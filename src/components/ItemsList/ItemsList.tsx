@@ -42,9 +42,10 @@ const ItemsList = ({ data }: ItemsListProps) => {
             style={{
               color: isSelected ? getColor(key) : "var(--text-primary)",
             }}
+            title={report.groupName}
           >
-            <span>{report.groupName}</span>
-            <span>{report.value.toFixed(2)}</span>
+            <span className="list-item-name">{report.groupName}</span>
+            <span>{report.value.toFixed(2)} €</span>
           </li>
         );
       })}

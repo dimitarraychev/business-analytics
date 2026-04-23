@@ -50,6 +50,7 @@ const PeriodItem = ({ period }: PeriodItemProps) => {
         style={{
           color: isSelected ? getColor(period.key) : "var(--text-primary)",
         }}
+        title={period.label}
       >
         <div className="period-item-header">
           <img
@@ -67,7 +68,7 @@ const PeriodItem = ({ period }: PeriodItemProps) => {
             {isLoading
               ? "Loading..."
               : actualPeriod
-                ? actualPeriod.total.toFixed(2)
+                ? actualPeriod.total.toFixed(2) + " €"
                 : "-"}
           </p>
         </div>

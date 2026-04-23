@@ -14,6 +14,7 @@ import CustomTooltip from "./CustomTooltip";
 import { useHoverClickTooltip } from "../../hooks/useHoverClickTooltip";
 import type { PeriodReport } from "../../types/ReportTypes";
 import { useConfig } from "../../context/ConfigContext";
+import { formatNumber } from "../../utils/formatNumber";
 
 const CustomLineChart = () => {
   const { data, previousPeriods, selectedGroups } = useReportContext();
@@ -87,6 +88,8 @@ const CustomLineChart = () => {
       />
       <YAxis
         tickCount={12}
+        tickFormatter={(number) => formatNumber(number)}
+
         tick={{ fill: "var(--text-secondary)", fontSize: 12 }}
       />
       <Tooltip content={<CustomTooltip />} trigger={tooltipTrigger} />
