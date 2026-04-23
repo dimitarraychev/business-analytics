@@ -1,8 +1,8 @@
 import type { AccountingReport } from "../types/ReportTypes";
 
 export const reportsExample: AccountingReport = {
-  label: "16 April 26",
-  key: "2026-04-16",
+  label: "23 April 26",
+  key: "2026-04-23",
   start: "2026-04-01T21:00:00.000Z",
   end: "2026-04-02T20:59:59.999Z",
   groupBy: "platform",

@@ -101,11 +101,11 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   const clearSelections = () => {
     setSelectedPeriods(() => []);
     setSelectedGroups(() => []);
+    setPreviousPeriods(() => []);
   };
 
   useEffect(() => {
     clearSelections();
-    setPreviousPeriods(() => []);
 
     const newRange = getDefaultRange(timeRange);
     setTimePeriodStart(newRange.start);
@@ -176,8 +176,8 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
           //   ...prev,
           //   {
           //     ...reportsExample,
-          //     key: "2026-04-15",
-          //     label: "15 April 26",
+          //     key: "2026-04-22",
+          //     label: "22 April 26",
           //     total: 3165289.23537679,
           //   },
           // ]);
