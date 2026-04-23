@@ -105,6 +105,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
 
   useEffect(() => {
     clearSelections();
+    setPreviousPeriods(() => []);
 
     const newRange = getDefaultRange(timeRange);
     setTimePeriodStart(newRange.start);
