@@ -9,9 +9,10 @@ import ItemsList from "../ItemsList/ItemsList";
 
 interface PeriodItemProps {
   period: AccountingReport;
+  onClick?: () => void;
 }
 
-const PeriodItem = ({ period }: PeriodItemProps) => {
+const PeriodItem = ({ period, onClick }: PeriodItemProps) => {
   const {
     data,
     selectedPeriods,
@@ -42,7 +43,7 @@ const PeriodItem = ({ period }: PeriodItemProps) => {
   };
 
   return (
-    <li className="period-item-wrapper">
+    <li className="period-item-wrapper" onClick={onClick}>
       <div
         key={period.key}
         className={`period-item ${isSelected ? "active" : ""}`}

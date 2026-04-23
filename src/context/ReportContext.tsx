@@ -26,6 +26,7 @@ interface ReportContextType {
   loadingPeriods: string[];
   selectedPeriods: string[];
   setSelectedPeriods: React.Dispatch<React.SetStateAction<string[]>>;
+  clearSelections: () => void;
 }
 
 interface ReportContextProviderProps {
@@ -97,13 +98,13 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     }
   };
 
-  const clearSelection = () => {
+  const clearSelections = () => {
     setSelectedPeriods(() => []);
     setSelectedGroups(() => []);
   };
 
   useEffect(() => {
-    clearSelection();
+    clearSelections();
 
     const newRange = getDefaultRange(timeRange);
     setTimePeriodStart(newRange.start);
@@ -111,7 +112,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
   }, [timeRange]);
 
   useEffect(() => {
-    clearSelection();
+    clearSelections();
 
     // return setData(reportsExample as unknown as AccountingReport);
 
@@ -210,6 +211,7 @@ const ReportContextProvider = ({ children }: ReportContextProviderProps) => {
     loadingPeriods,
     selectedPeriods,
     setSelectedPeriods,
+    clearSelections,
   };
 
   return (

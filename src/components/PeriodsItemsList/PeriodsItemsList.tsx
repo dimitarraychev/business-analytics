@@ -9,7 +9,8 @@ import PeriodItem from "../PeriodItem/PeriodItem";
 import type { AccountingReport } from "../../types/ReportTypes";
 
 const PeriodItemsList = () => {
-  const { data, timePeriodStart, timePeriodEnd } = useReportContext();
+  const { data, timePeriodStart, timePeriodEnd, clearSelections } =
+    useReportContext();
   const { metric, timeRange } = useConfig();
 
   const periods: AccountingReport[] = useMemo(() => {
@@ -28,7 +29,7 @@ const PeriodItemsList = () => {
         <span>{metricLabels[metric]}</span>
       </li>
 
-      <PeriodItem period={data} />
+      <PeriodItem period={data} onClick={clearSelections} />
 
       {periods.map((period) => {
         return <PeriodItem period={period} key={period.key} />;

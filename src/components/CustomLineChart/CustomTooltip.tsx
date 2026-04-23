@@ -1,6 +1,8 @@
 // import { useReportContext } from "../../context/ReportContext";
+import { useConfig } from "../../context/ConfigContext";
 import { useReportContext } from "../../context/ReportContext";
 import { formatDate } from "../../utils/date";
+import { metricLabels } from "../../utils/metricLabels";
 import "./CustomTooltip.css";
 
 interface TooltipProps {
@@ -11,6 +13,7 @@ interface TooltipProps {
 
 const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
   const { data, previousPeriods } = useReportContext();
+  const { metric } = useConfig();
 
   if (active && payload && payload.length && label) {
     // const periodReport = data.periods.find(
@@ -20,8 +23,12 @@ const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
     return (
       <div className="custom-tooltip">
         <p>
-          <span className="time-label">Time: </span>
+          <span className="tooltip-label">Time: </span>
           {formatDate(label)}
+        </p>
+        <p>
+          <span className="tooltip-label">Metric: </span>
+          {metricLabels[metric]}
         </p>
         {payload.map((p) => {
           const isCurrentPeriod = p.dataKey === "current";
