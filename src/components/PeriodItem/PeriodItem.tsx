@@ -9,16 +9,17 @@ import ItemsList from "../ItemsList/ItemsList";
 
 interface PeriodItemProps {
   period: AccountingReport;
-  onClick?: () => void;
+  isNow?: boolean;
 }
 
-const PeriodItem = ({ period, onClick }: PeriodItemProps) => {
+const PeriodItem = ({ period, isNow }: PeriodItemProps) => {
   const {
     data,
     selectedPeriods,
     setSelectedPeriods,
     loadingPeriods,
     previousPeriods,
+    clearSelections,
   } = useReportContext();
   const [isExpanded, setIsExpanded] = useState(false);
   const isCurrent = data.key === period.key;
@@ -43,11 +44,11 @@ const PeriodItem = ({ period, onClick }: PeriodItemProps) => {
   };
 
   return (
-    <li className="period-item-wrapper" onClick={onClick}>
+    <li className="period-item-wrapper">
       <div
         key={period.key}
         className={`period-item ${isSelected ? "active" : ""}`}
-        onClick={() => toggleGroup(period)}
+        onClick={() => (isNow ? clearSelections() : toggleGroup(period))}
         style={{
           color: isSelected ? getColor(period.key) : "var(--text-primary)",
         }}
@@ -64,12 +65,15 @@ const PeriodItem = ({ period, onClick }: PeriodItemProps) => {
               setIsExpanded((prev) => !prev);
             }}
           />
-          <p className="period-item-label">{period.label}</p>
+          <p className="period-item-label">
+            {isNow ? period.label + " (Now)" : period.label}
+          </p>
           <p className="period-item-value">
             {isLoading
               ? "Loading..."
               : actualPeriod
-                ? "€" + new Intl.NumberFormat("en", {
+                ? "€" +
+                  new Intl.NumberFormat("en", {
                     notation: "compact",
                     maximumFractionDigits: 1,
                   }).format(actualPeriod.total)
