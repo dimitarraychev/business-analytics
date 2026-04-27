@@ -1,113 +1,38 @@
 import "./TopMenu.css";
-import prevArrow from "../../assets/prev-arrow.svg";
-import nextArrow from "../../assets/next-arrow.svg";
+
 import { useReportContext } from "../../context/ReportContext";
 import { formatDate } from "../../utils/date";
 import { useConfig } from "../../context/ConfigContext";
+import { metricLabels } from "../../utils/metricLabels";
 
 const TopMenu = () => {
-  const {
-    timePeriodStart,
-    timePeriodEnd,
-    setTimePeriodStart,
-    setTimePeriodEnd,
-  } = useReportContext();
-  const { timeRange } = useConfig();
+  const { timePeriodStart, timePeriodEnd } = useReportContext();
 
-  const start = timePeriodStart ? new Date(timePeriodStart) : null;
-  const end = timePeriodEnd ? new Date(timePeriodEnd) : null;
+  const { timeRange, metric, groupBy, aggregation } = useConfig();
 
-  const getDuration = () => {
-    if (!start || !end) return 0;
-    return end.getTime() - start.getTime();
-  };
-
-  const handlePrev = () => {
-    if (!start || !end) return;
-
-    const now = new Date();
-    const isToday = end.toDateString() === now.toDateString();
-
-    let newStart: Date;
-    let newEnd: Date;
-
-    if (isToday) {
-      const duration = end.getTime() - start.getTime();
-      newStart = new Date(start.getTime() - duration);
-      newEnd = new Date(end.getTime() - duration);
-    } else {
-      switch (timeRange) {
-        case "day":
-          newEnd = new Date(start);
-          newEnd.setHours(0, 0, 0, 0);
-          newStart = new Date(newEnd);
-          newStart.setDate(newEnd.getDate() - 1);
-          break;
-        default:
-          const dur = end.getTime() - start.getTime();
-          newStart = new Date(start.getTime() - dur);
-          newEnd = new Date(end.getTime() - dur);
-      }
-    }
-
-    setTimePeriodStart(newStart.toISOString());
-    setTimePeriodEnd(newEnd.toISOString());
-  };
-
-  const handleNext = () => {
-    if (!start || !end) return;
-
-    const duration = getDuration();
-    const now = new Date();
-
-    let newStart = new Date(start.getTime() + duration);
-    let newEnd = new Date(end.getTime() + duration);
-
-    if (newEnd > now) {
-      newEnd = now;
-      newStart = new Date(now.getTime() - duration);
-    }
-
-    setTimePeriodStart(newStart.toISOString());
-    setTimePeriodEnd(newEnd.toISOString());
-  };
-
-  const disableNext = () => {
-    if (!end) return true;
-
-    const duration = getDuration();
-    const now = new Date();
-
-    return end.getTime() + duration >= now.getTime();
-  };
+  const timeRangeInfo =
+    timeRange === "day" ? "daily" : timeRange === "week" ? "weekly" : "monthly";
 
   return (
     <div className="top-menu">
-      <div className="arrow-wrapper">
-        <img
-          src={prevArrow}
-          alt="previous"
-          className="arrow prev-arrow"
-          onClick={handlePrev}
-        />
-      </div>
-
-      <div className={`arrow-wrapper ${disableNext() ? "disabled" : ""}`}>
-        <img
-          src={nextArrow}
-          alt="next"
-          className="arrow next-arrow"
-          onClick={disableNext() ? undefined : handleNext}
-        />
+      <div className="selection-info">
+        <p className="timerange-info">{timeRangeInfo}</p>
+        <p className="metric-info">{metricLabels[metric]}</p>
+        <p className="info-label">grouped by</p>
+        <p className="group-info">
+          {groupBy[0].toUpperCase() + groupBy.slice(1)}
+        </p>
+        <p className="info-label">aggregation type:</p>
+        <p className="aggregation-info">{aggregation}</p>
       </div>
 
       <div className="times-wrapper">
         <p>
-          <span className="time-label">From:</span>{" "}
+          <span className="time-label">from:</span>{" "}
           <span>{formatDate(timePeriodStart)}</span>
         </p>
         <p>
-          <span className="time-label">To:</span>{" "}
+          <span className="time-label">to:</span>{" "}
           <span>{formatDate(timePeriodEnd)}</span>
         </p>
       </div>
