@@ -1,7 +1,7 @@
 export const formatNumber = (number: number, isPrecise: boolean) => {
   const eurSign = "€";
 
-  if (!isPrecise) return eurSign + number.toFixed(2);
+  if (isPrecise) return eurSign + number.toFixed(2);
 
   const output =
     eurSign +
