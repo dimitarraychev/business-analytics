@@ -71,7 +71,14 @@ const PeriodItem = ({ period, isNow }: PeriodItemProps) => {
           <p className="period-item-label">
             {isNow ? period.label + " (Now)" : period.label}
           </p>
-          <p className="period-item-value">
+          <p
+            className="period-item-value"
+            title={
+              actualPeriod
+                ? formatNumber(actualPeriod.total, !showPreciseValues)
+                : "-"
+            }
+          >
             {isLoading
               ? "Loading..."
               : actualPeriod

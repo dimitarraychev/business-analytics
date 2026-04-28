@@ -48,7 +48,9 @@ const ItemsList = ({ data }: ItemsListProps) => {
             title={report.groupName}
           >
             <span className="list-item-name">{report.groupName}</span>
-            <span>{formatNumber(report.value, showPreciseValues)}</span>
+            <span title={formatNumber(report.value, !showPreciseValues)}>
+              {formatNumber(report.value, showPreciseValues)}
+            </span>
           </li>
         );
       })}
