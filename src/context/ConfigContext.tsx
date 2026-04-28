@@ -32,7 +32,7 @@ export const ConfigProvider = ({ children }: { children: ReactNode }) => {
   const [groupBy, setGroupBy] = useState<GroupByType>("platform");
   const [timeRange, setTimeRange] = useState<TimeRangeType>("day");
   const [aggregation, setAggregation] = useState<AggregationMode>("period");
-  const [showPreciseValues, setShowPreciseValues] = useState<boolean>(true);
+  const [showPreciseValues, setShowPreciseValues] = useState<boolean>(false);
 
   return (
     <ConfigContext.Provider
