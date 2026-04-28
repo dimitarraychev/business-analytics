@@ -18,6 +18,8 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
     setTimeRange,
     aggregation,
     setAggregation,
+    showPreciseValues,
+    setShowPreciseValues,
   } = useConfig();
 
   return (
@@ -75,6 +77,16 @@ const ConfigurationForm = ({ setIsConfigOpen }: ConfigurationFormProps) => {
         ]}
         onChange={(value) => setAggregation(value)}
       />
+
+      <label>
+        Show Precise Values:
+        <input
+          type="checkbox"
+          name="preciseValues"
+          checked={showPreciseValues}
+          onChange={() => setShowPreciseValues(!showPreciseValues)}
+        />
+      </label>
 
       <Button
         title="Next"

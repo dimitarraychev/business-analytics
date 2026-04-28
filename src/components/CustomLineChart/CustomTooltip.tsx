@@ -2,6 +2,7 @@ import { useConfig } from "../../context/ConfigContext";
 import { useReportContext } from "../../context/ReportContext";
 import { formatDate, getLabelFromKey } from "../../utils/date";
 import { metricLabels } from "../../utils/metricLabels";
+import { formatNumber } from "../../utils/number";
 import "./CustomTooltip.css";
 
 interface TooltipProps {
@@ -12,7 +13,7 @@ interface TooltipProps {
 
 const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
   const { data, previousPeriods } = useReportContext();
-  const { metric } = useConfig();
+  const { metric, showPreciseValues } = useConfig();
 
   if (active && payload && payload.length && label) {
     return (
@@ -44,12 +45,7 @@ const CustomTooltip = ({ active, payload, label }: TooltipProps) => {
                 ? data.label
                 : foundPeriod?.label ||
                   getLabelFromKey(periodKey, "day") + " " + groupKey}
-              :{" "}
-              {"€" +
-                new Intl.NumberFormat("en", {
-                  notation: "compact",
-                  maximumFractionDigits: 1,
-                }).format(p.value)}
+              : {formatNumber(p.value, showPreciseValues)}
             </p>
           );
         })}

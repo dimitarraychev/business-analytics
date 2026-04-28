@@ -2,6 +2,8 @@ import "./ItemsList.css";
 import { useReportContext } from "../../context/ReportContext";
 import { getColor } from "../../utils/colors";
 import type { AccountingReport } from "../../types/ReportTypes";
+import { formatNumber } from "../../utils/number";
+import { useConfig } from "../../context/ConfigContext";
 
 interface ItemsListProps {
   data: AccountingReport;
@@ -9,6 +11,7 @@ interface ItemsListProps {
 
 const ItemsList = ({ data }: ItemsListProps) => {
   const { selectedGroups, setSelectedGroups } = useReportContext();
+  const { showPreciseValues } = useConfig();
 
   const groupTotals = data.groups;
 
@@ -45,13 +48,7 @@ const ItemsList = ({ data }: ItemsListProps) => {
             title={report.groupName}
           >
             <span className="list-item-name">{report.groupName}</span>
-            <span>
-              €
-              {new Intl.NumberFormat("en", {
-                notation: "compact",
-                maximumFractionDigits: 1,
-              }).format(report.value)}
-            </span>
+            <span>{formatNumber(report.value, showPreciseValues)}</span>
           </li>
         );
       })}

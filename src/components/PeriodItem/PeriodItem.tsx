@@ -6,6 +6,8 @@ import { useReportContext } from "../../context/ReportContext";
 import type { AccountingReport } from "../../types/ReportTypes";
 import { getColor } from "../../utils/colors";
 import ItemsList from "../ItemsList/ItemsList";
+import { useConfig } from "../../context/ConfigContext";
+import { formatNumber } from "../../utils/number";
 
 interface PeriodItemProps {
   period: AccountingReport;
@@ -21,6 +23,7 @@ const PeriodItem = ({ period, isNow }: PeriodItemProps) => {
     previousPeriods,
     clearSelections,
   } = useReportContext();
+  const { showPreciseValues } = useConfig();
   const [isExpanded, setIsExpanded] = useState(false);
   const isCurrent = data.key === period.key;
   const isSelected = selectedPeriods.includes(period.key) || isCurrent;
@@ -72,11 +75,7 @@ const PeriodItem = ({ period, isNow }: PeriodItemProps) => {
             {isLoading
               ? "Loading..."
               : actualPeriod
-                ? "€" +
-                  new Intl.NumberFormat("en", {
-                    notation: "compact",
-                    maximumFractionDigits: 1,
-                  }).format(actualPeriod.total)
+                ? formatNumber(actualPeriod.total, showPreciseValues)
                 : "-"}
           </p>
         </div>
