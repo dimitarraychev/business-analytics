@@ -88,7 +88,7 @@ const CustomLineChart = () => {
       />
       <YAxis
         tickCount={12}
-        tickFormatter={(number) => formatNumber(number, true)}
+        tickFormatter={(number) => formatNumber(number, false)}
         tick={{ fill: "var(--text-secondary)", fontSize: 12 }}
       />
       <Tooltip content={<CustomTooltip />} trigger={tooltipTrigger} />
