@@ -1,0 +1,13 @@
+services:
+  business-analytics:
+    build: .
+    image: business-analytics:latest
+    container_name: business-analytics
+    ports:
+      - "8087:80"
+    restart: always
+
+networks:
+  default:
+    name: global-link
+    external: true

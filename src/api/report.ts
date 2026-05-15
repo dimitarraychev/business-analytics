@@ -7,8 +7,8 @@ import type {
 import type { AccountingReport } from "../types/ReportTypes";
 import { getPeriodKey, getPeriodLabel } from "../utils/date";
 
-const BASE_URL = "/api/accounting-report";
-const DAILY_BASE_URL = "/api/accounting-report/daily";
+const BASE_URL = "http://45.128.98.99:3002/accounting-report";
+const DAILY_BASE_URL = "http://45.128.98.99:3002/accounting-report/daily";
 
 export const fetchReport = async (
   start: string,
